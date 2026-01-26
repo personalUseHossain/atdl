@@ -1,0 +1,269 @@
+{
+  "nodes": [
+    {
+      "id": "drug_1",
+      "label": "broad spectrum lighting (400-1500nm+)",
+      "type": "drug",
+      "size": 35,
+      "color": "#4A90E2",
+      "total_connections": 1
+    },
+    {
+      "id": "health_2",
+      "label": "colour contrast sensitivity",
+      "type": "health_issue",
+      "size": 23,
+      "color": "#50E3C2",
+      "total_connections": 1
+    },
+    {
+      "id": "drug_3",
+      "label": "ALCAT1 knockout",
+      "type": "drug",
+      "size": 35,
+      "color": "#4A90E2",
+      "total_connections": 1
+    },
+    {
+      "id": "health_4",
+      "label": "diabetic cardiomyopathy (DCM)",
+      "type": "health_issue",
+      "size": 23,
+      "color": "#50E3C2",
+      "total_connections": 1
+    },
+    {
+      "id": "drug_5",
+      "label": "hyperglycemia",
+      "type": "drug",
+      "size": 35,
+      "color": "#4A90E2",
+      "total_connections": 1
+    },
+    {
+      "id": "health_6",
+      "label": "ALCAT1 upregulation",
+      "type": "health_issue",
+      "size": 23,
+      "color": "#50E3C2",
+      "total_connections": 1
+    },
+    {
+      "id": "drug_7",
+      "label": "Ferrostatin-1 (Fer-1)",
+      "type": "drug",
+      "size": 35,
+      "color": "#4A90E2",
+      "total_connections": 1
+    },
+    {
+      "id": "health_8",
+      "label": "Perioperative neurocognitive disorders (PND)/delayed neurocognitive recovery (dNCR)",
+      "type": "health_issue",
+      "size": 23,
+      "color": "#50E3C2",
+      "total_connections": 1
+    },
+    {
+      "id": "drug_9",
+      "label": "LED lighting (350-650nm)",
+      "type": "drug",
+      "size": 35,
+      "color": "#4A90E2",
+      "total_connections": 3
+    },
+    {
+      "id": "health_10",
+      "label": "mitochondrial respiration",
+      "type": "health_issue",
+      "size": 23,
+      "color": "#50E3C2",
+      "total_connections": 2
+    },
+    {
+      "id": "drug_11",
+      "label": "deep red/infrared light (670-900nm)",
+      "type": "drug",
+      "size": 35,
+      "color": "#4A90E2",
+      "total_connections": 1
+    },
+    {
+      "id": "health_12",
+      "label": "blood sugar regulation",
+      "type": "health_issue",
+      "size": 23,
+      "color": "#50E3C2",
+      "total_connections": 1
+    },
+    {
+      "id": "health_13",
+      "label": "serum cytokine expression",
+      "type": "health_issue",
+      "size": 23,
+      "color": "#50E3C2",
+      "total_connections": 1
+    },
+    {
+      "id": "drug_14",
+      "label": "vitisin B",
+      "type": "drug",
+      "size": 35,
+      "color": "#4A90E2",
+      "total_connections": 3
+    },
+    {
+      "id": "health_15",
+      "label": "senescence",
+      "type": "health_issue",
+      "size": 23,
+      "color": "#50E3C2",
+      "total_connections": 1
+    },
+    {
+      "id": "health_16",
+      "label": "mitochondrial ROS generation",
+      "type": "health_issue",
+      "size": 23,
+      "color": "#50E3C2",
+      "total_connections": 1
+    },
+    {
+      "id": "health_17",
+      "label": "senescence-associated phenotypes",
+      "type": "health_issue",
+      "size": 23,
+      "color": "#50E3C2",
+      "total_connections": 1
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_0",
+      "source": "drug_1",
+      "target": "health_2",
+      "label": "Strength: 4",
+      "value": 4,
+      "papers": 1,
+      "relationship": "positive",
+      "width": 8,
+      "has_full_text": false
+    },
+    {
+      "id": "edge_1",
+      "source": "drug_3",
+      "target": "health_4",
+      "label": "Strength: 3",
+      "value": 3,
+      "papers": 1,
+      "relationship": "negative",
+      "width": 6,
+      "has_full_text": false
+    },
+    {
+      "id": "edge_2",
+      "source": "drug_5",
+      "target": "health_6",
+      "label": "Strength: 3",
+      "value": 3,
+      "papers": 1,
+      "relationship": "positive",
+      "width": 6,
+      "has_full_text": false
+    },
+    {
+      "id": "edge_3",
+      "source": "drug_7",
+      "target": "health_8",
+      "label": "Strength: 3",
+      "value": 3,
+      "papers": 1,
+      "relationship": "negative",
+      "width": 6,
+      "has_full_text": false
+    },
+    {
+      "id": "edge_4",
+      "source": "drug_9",
+      "target": "health_10",
+      "label": "Strength: 3",
+      "value": 3,
+      "papers": 1,
+      "relationship": "negative",
+      "width": 6,
+      "has_full_text": false
+    },
+    {
+      "id": "edge_5",
+      "source": "drug_11",
+      "target": "health_10",
+      "label": "Strength: 3",
+      "value": 3,
+      "papers": 1,
+      "relationship": "positive",
+      "width": 6,
+      "has_full_text": false
+    },
+    {
+      "id": "edge_6",
+      "source": "drug_9",
+      "target": "health_12",
+      "label": "Strength: 3",
+      "value": 3,
+      "papers": 1,
+      "relationship": "negative",
+      "width": 6,
+      "has_full_text": false
+    },
+    {
+      "id": "edge_7",
+      "source": "drug_9",
+      "target": "health_13",
+      "label": "Strength: 3",
+      "value": 3,
+      "papers": 1,
+      "relationship": "negative",
+      "width": 6,
+      "has_full_text": false
+    },
+    {
+      "id": "edge_8",
+      "source": "drug_14",
+      "target": "health_15",
+      "label": "Strength: 2",
+      "value": 2,
+      "papers": 1,
+      "relationship": "negative",
+      "width": 4,
+      "has_full_text": false
+    },
+    {
+      "id": "edge_9",
+      "source": "drug_14",
+      "target": "health_16",
+      "label": "Strength: 2",
+      "value": 2,
+      "papers": 1,
+      "relationship": "negative",
+      "width": 4,
+      "has_full_text": false
+    },
+    {
+      "id": "edge_10",
+      "source": "drug_14",
+      "target": "health_17",
+      "label": "Strength: 2",
+      "value": 2,
+      "papers": 1,
+      "relationship": "negative",
+      "width": 4,
+      "has_full_text": false
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-01-26T19:13:31.153Z",
+    "total_connections": 11,
+    "total_drugs": 7,
+    "total_health_issues": 10
+  }
+}
