@@ -564,62 +564,62 @@ async saveConnection(userId, workerInstanceId, connection) {
   return Math.max(1, Math.min(5, finalStrength));
 }
 
-  async markPaperAsProcessed(userId, paper, connectionsFound, hasFullText) {
+async markPaperAsProcessed(userId, paper, connectionsFound, hasFullText) {
   try {
+    // Clean and validate the paper data first
+    const cleanPaper = this.cleanPaperData(paper);
+    
     // First, check if paper already exists
     const existingPaper = await ProcessedPaper.findOne({
       user: userId,
-      pmid: paper.pmid
+      pmid: cleanPaper.pmid
     });
     
     if (existingPaper) {
       // Update existing paper
+      existingPaper.title = cleanPaper.title || existingPaper.title;
+      existingPaper.journal = cleanPaper.journal || existingPaper.journal;
+      existingPaper.year = cleanPaper.year || existingPaper.year;
       existingPaper.connections_found = connectionsFound;
-      existingPaper.processed = connectionsFound > 0 || paper.processed === true;
+      existingPaper.processed = connectionsFound > 0 || cleanPaper.processed === true;
       existingPaper.has_full_text = hasFullText;
-      existingPaper.error = paper.error;
+      existingPaper.error = cleanPaper.error;
       existingPaper.processed_at = new Date();
       
-      if (paper.title) existingPaper.title = paper.title;
-      if (paper.journal) existingPaper.journal = paper.journal;
-      if (paper.year) existingPaper.year = paper.year;
-      
-      // Update paper data if provided
-      if (paper.abstract || paper.authors || paper.keywords || paper.doi || paper.pmcId || paper.meshTerms) {
+      // Update paper data with cleaned data
+      if (cleanPaper.abstract || cleanPaper.authors || cleanPaper.keywords || 
+          cleanPaper.doi || cleanPaper.pmcId || cleanPaper.meshTerms) {
         existingPaper.paper_data = {
-          abstract: paper.abstract || existingPaper.paper_data?.abstract,
-          authors: this.cleanAuthors(paper.authors) || existingPaper.paper_data?.authors,
-          keywords: paper.keywords || existingPaper.paper_data?.keywords,
-          doi: paper.doi || existingPaper.paper_data?.doi,
-          pmcId: paper.pmcId || existingPaper.paper_data?.pmcId,
-          meshTerms: paper.meshTerms || existingPaper.paper_data?.meshTerms
+          abstract: cleanPaper.abstract || existingPaper.paper_data?.abstract,
+          authors: cleanPaper.authors || existingPaper.paper_data?.authors,
+          keywords: cleanPaper.keywords || existingPaper.paper_data?.keywords,
+          doi: cleanPaper.doi || existingPaper.paper_data?.doi,
+          pmcId: cleanPaper.pmcId || existingPaper.paper_data?.pmcId,
+          meshTerms: cleanPaper.meshTerms || existingPaper.paper_data?.meshTerms
         };
       }
       
       await existingPaper.save();
       return existingPaper;
     } else {
-      // Clean authors data
-      const cleanAuthors = this.cleanAuthors(paper.authors);
-      
-      // Create new processed paper
+      // Create new processed paper with cleaned data
       const processedPaper = new ProcessedPaper({
         user: userId,
-        pmid: paper.pmid,
-        title: paper.title,
-        journal: paper.journal,
-        year: paper.year,
+        pmid: cleanPaper.pmid,
+        title: cleanPaper.title,
+        journal: cleanPaper.journal,
+        year: cleanPaper.year,
         has_full_text: hasFullText,
         connections_found: connectionsFound,
-        processed: connectionsFound > 0 || paper.processed === true,
-        error: paper.error,
+        processed: connectionsFound > 0 || cleanPaper.processed === true,
+        error: cleanPaper.error,
         paper_data: {
-          abstract: paper.abstract,
-          authors: cleanAuthors,
-          keywords: paper.keywords,
-          doi: paper.doi,
-          pmcId: paper.pmcId,
-          meshTerms: paper.meshTerms
+          abstract: cleanPaper.abstract,
+          authors: cleanPaper.authors,
+          keywords: cleanPaper.keywords,
+          doi: cleanPaper.doi,
+          pmcId: cleanPaper.pmcId,
+          meshTerms: cleanPaper.meshTerms
         }
       });
       
@@ -628,6 +628,13 @@ async saveConnection(userId, workerInstanceId, connection) {
     }
   } catch (error) {
     console.error('Error marking paper as processed:', error);
+    console.error('Problematic paper data:', {
+      pmid: paper.pmid,
+      title: paper.title,
+      titleType: typeof paper.title,
+      keywords: paper.keywords,
+      keywordsType: typeof paper.keywords
+    });
     
     // If it's a duplicate key error, that's okay - paper was already processed
     if (error.code === 11000 || error.name === 'MongoServerError') {
@@ -639,34 +646,199 @@ async saveConnection(userId, workerInstanceId, connection) {
   }
 }
 
-// Helper method to clean authors data
+// Add this new helper method to clean paper data
+cleanPaperData(paper) {
+  const cleaned = { ...paper };
+  
+  // Clean title
+  if (cleaned.title) {
+    if (typeof cleaned.title === 'object') {
+      // Handle object titles (common in PubMed XML responses)
+      if (cleaned.title._) {
+        cleaned.title = cleaned.title._;
+      } else if (cleaned.title.i) {
+        cleaned.title = cleaned.title.i;
+      } else if (cleaned.title.$ && cleaned.title.$.text) {
+        cleaned.title = cleaned.title.$.text;
+      } else {
+        // Convert object to string
+        cleaned.title = JSON.stringify(cleaned.title);
+      }
+    }
+    // Ensure title is a string
+    cleaned.title = String(cleaned.title).trim();
+  }
+  
+  // Clean authors
+  cleaned.authors = this.cleanAuthors(paper.authors);
+  
+  // Clean keywords
+  if (cleaned.keywords) {
+    if (typeof cleaned.keywords === 'string') {
+      try {
+        // Try to parse if it's a JSON string
+        cleaned.keywords = JSON.parse(cleaned.keywords);
+      } catch (e) {
+        // If it's just a string, split by commas
+        cleaned.keywords = cleaned.keywords.split(',').map(k => k.trim());
+      }
+    } else if (Array.isArray(cleaned.keywords)) {
+      // Clean each keyword
+      cleaned.keywords = cleaned.keywords.map(keyword => {
+        if (typeof keyword === 'object') {
+          // Handle PubMed XML keyword format
+          if (keyword._) {
+            return keyword._.trim();
+          } else if (keyword.i) {
+            return keyword.i.trim();
+          } else if (keyword.$ && keyword.$.text) {
+            return keyword.$.text.trim();
+          } else {
+            return JSON.stringify(keyword);
+          }
+        }
+        return String(keyword).trim();
+      }).filter(keyword => keyword && keyword.length > 0);
+    }
+  } else {
+    cleaned.keywords = [];
+  }
+  
+  // Clean journal
+  if (cleaned.journal && typeof cleaned.journal === 'object') {
+    if (cleaned.journal._) {
+      cleaned.journal = cleaned.journal._;
+    } else if (cleaned.journal.i) {
+      cleaned.journal = cleaned.journal.i;
+    }
+  }
+  
+  // Clean abstract
+  if (cleaned.abstract && typeof cleaned.abstract === 'object') {
+    if (cleaned.abstract.AbstractText) {
+      if (Array.isArray(cleaned.abstract.AbstractText)) {
+        cleaned.abstract = cleaned.abstract.AbstractText.map(text => 
+          typeof text === 'object' && text._ ? text._ : String(text)
+        ).join(' ');
+      } else if (cleaned.abstract.AbstractText._) {
+        cleaned.abstract = cleaned.abstract.AbstractText._;
+      }
+    } else if (cleaned.abstract._) {
+      cleaned.abstract = cleaned.abstract._;
+    }
+  }
+  
+  // Clean MeSH terms
+  if (cleaned.meshTerms) {
+    if (typeof cleaned.meshTerms === 'string') {
+      try {
+        cleaned.meshTerms = JSON.parse(cleaned.meshTerms);
+      } catch (e) {
+        cleaned.meshTerms = [cleaned.meshTerms];
+      }
+    }
+    
+    if (Array.isArray(cleaned.meshTerms)) {
+      cleaned.meshTerms = cleaned.meshTerms.map(term => {
+        if (typeof term === 'object') {
+          // Handle PubMed MeSH format
+          if (term.DescriptorName && term.DescriptorName._) {
+            return term.DescriptorName._;
+          } else if (term._) {
+            return term._;
+          } else if (term.i) {
+            return term.i;
+          }
+        }
+        return String(term);
+      }).filter(term => term && term.length > 0);
+    }
+  }
+  
+  // Ensure pmid is a string
+  if (cleaned.pmid) {
+    cleaned.pmid = String(cleaned.pmid);
+  }
+  
+  // Ensure year is a number
+  if (cleaned.year) {
+    const yearNum = parseInt(cleaned.year);
+    cleaned.year = isNaN(yearNum) ? null : yearNum;
+  }
+  
+  return cleaned;
+}
+
+// Update the existing cleanAuthors method to be more robust
 cleanAuthors(authors) {
   if (!authors) return [];
   
+  let authorList = [];
+  
+  // Try to parse if it's a string
   if (typeof authors === 'string') {
     try {
       authors = JSON.parse(authors);
     } catch (e) {
-      return [{ name: authors }];
+      // If it's a simple string, split by commas or semicolons
+      if (authors.includes(',') || authors.includes(';')) {
+        const separator = authors.includes(',') ? ',' : ';';
+        authorList = authors.split(separator).map(name => ({
+          name: name.trim()
+        }));
+      } else {
+        authorList = [{ name: authors.trim() }];
+      }
+      return authorList;
     }
   }
   
+  // If it's still not an array, make it one
   if (!Array.isArray(authors)) {
-    return [];
+    return [{ name: String(authors) }];
   }
   
+  // Process each author
   return authors.map(author => {
     if (typeof author === 'string') {
       return { name: author };
     }
     
-    // Handle different author object formats
-    return {
-      lastName: author.lastName || author.lastname || '',
-      foreName: author.foreName || author.forename || author.firstName || '',
-      initials: author.initials || '',
-      affiliation: author.affiliation || ''
-    };
+    // Handle different PubMed author formats
+    if (author.LastName && author.ForeName) {
+      return {
+        lastName: author.LastName,
+        foreName: author.ForeName,
+        initials: author.Initials || '',
+        affiliation: author.Affiliation || ''
+      };
+    } else if (author.lastName && author.foreName) {
+      return {
+        lastName: author.lastName,
+        foreName: author.foreName,
+        initials: author.initials || '',
+        affiliation: author.affiliation || ''
+      };
+    } else if (author.name) {
+      return {
+        name: author.name,
+        affiliation: author.affiliation || ''
+      };
+    } else if (author._) {
+      return { name: author._ };
+    } else if (author.i) {
+      return { name: author.i };
+    } else {
+      // Try to extract name from the object
+      const name = author.LastName || author.lastName || author.Name || author.name || '';
+      const foreName = author.ForeName || author.foreName || author.FirstName || '';
+      return {
+        lastName: name,
+        foreName: foreName,
+        initials: author.Initials || author.initials || '',
+        affiliation: author.Affiliation || author.affiliation || ''
+      };
+    }
   });
 }
 
