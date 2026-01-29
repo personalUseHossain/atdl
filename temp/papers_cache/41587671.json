@@ -1,0 +1,99 @@
+{
+  "pmid": "41587671",
+  "title": "Mitochondria transfer from myocytes to endothelial cells Promotes angiogenesis in skeletal muscle.",
+  "abstract": "Skeletal muscle and vascular health are closely interconnected, yet the mechanisms underlying their crosstalk remain poorly understood. This study investigates the role of mitochondria transfer from myocytes to endothelial cells. Using in vitro 2D and 3D coculture systems, combined with protein-level and functional analyses, we show that mitochondria are transferred via extracellular vesicles in a Rab7-dependent and cellular connection-independent manner. Connexin 43 (CX43) inhibition downregulating Growth-Associated Protein 43 (GAP43) but enhances mitochondria transfer, accompanied by increasing Rab7. Transferred mitochondria promote endothelial cells proliferation, migration, ATP production, and angiogenesis, which could be the key processes in preserving vascular integrity and muscle function. Our study indicated that the aging-associated decline in CX43 and mitochondrial quality exacerbates muscle atrophy by facilitating the transfer of dysfunctional mitochondria. These findings uncover a novel mechanism of muscle-vessel communication and highlight mitochondria transfer as a potential therapeutic target for aging-related muscular and vascular deterioration. New and Noteworthy. Mitochondria transfer is a way for cell communication. However, mitochondria transfer between myocyte and endothelial cell remains unknown. Here, we demonstrates that mitochondria transfer occurs between myocytes and endothelial cells. Interestingly, inhibition of CX43 leads to a decrease in GAP43 expression, while simultaneously upregulating Rab7 and enhancing mitochondria transfer from myocytes to endothelial cells. Furthermore, we reveal that Rab7-induced mechanism mediates the transfer of both functional and impaired mitochondria from myocytes to endothelial cells.",
+  "journal": "Mitochondrion",
+  "year": "2026",
+  "authors": [
+    {
+      "lastName": "Long",
+      "foreName": "Yu-Feng",
+      "initials": "YF",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Huang",
+      "foreName": "Ai-Jun",
+      "initials": "AJ",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Tang",
+      "foreName": "Shuo",
+      "initials": "S",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Xu",
+      "foreName": "Zhen",
+      "initials": "Z",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Wu",
+      "foreName": "Ming-Yue",
+      "initials": "MY",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Liu",
+      "foreName": "Kai",
+      "initials": "K",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Chen",
+      "foreName": "Ze-Cai",
+      "initials": "ZC",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Qin",
+      "foreName": "Lei",
+      "initials": "L",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Dai",
+      "foreName": "Bing-Yang",
+      "initials": "BY",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Dong",
+      "foreName": "Cheng",
+      "initials": "C",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Cheung",
+      "foreName": "Wing-Hoi",
+      "initials": "WH",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Wang",
+      "foreName": "Xin-Luan",
+      "initials": "XL",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Yang",
+      "foreName": "Da-Zhi",
+      "initials": "DZ",
+      "affiliation": ""
+    }
+  ],
+  "keywords": [
+    "Endothelial cells",
+    "Mitochondria transfer",
+    "Muscle",
+    "Myocytes",
+    "Vessel"
+  ],
+  "doi": "10.1016/j.mito.2026.102116",
+  "pmcId": null,
+  "meshTerms": [],
+  "rawXml": "<?xml version=\"1.0\" ?>\n<!DOCTYPE PubmedArticleSet PUBLIC \"-//NLM//DTD PubMedArticle, 1st January 2025//EN\" \"https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_250101.dtd\">\n<PubmedArticleSet>\n<PubmedArticle><MedlineCitation Status=\"Publisher\" Owner=\"NLM\"><PMID Version=\"1\">41587671</PMID><DateRevised><Year>2026</Year><Month>01</Month><Day>26</Day></DateRevised><Article PubModel=\"Print-Electronic\"><Journal><ISSN IssnType=\"Electronic\">1872-8278</ISSN><JournalIssue CitedMedium=\"Internet\"><PubDate><Year>2026</Year><Month>Jan</Month><Day>24</Day></PubDate></JournalIssue><Title>Mitochondrion</Title><ISOAbbreviation>Mitochondrion</ISOAbbreviation></Journal><ArticleTitle>Mitochondria transfer from myocytes to endothelial cells Promotes angiogenesis in skeletal muscle.</ArticleTitle><Pagination><StartPage>102116</StartPage><MedlinePgn>102116</MedlinePgn></Pagination><ELocationID EIdType=\"doi\" ValidYN=\"Y\">10.1016/j.mito.2026.102116</ELocationID><ELocationID EIdType=\"pii\" ValidYN=\"Y\">S1567-7249(26)00006-1</ELocationID><Abstract><AbstractText>Skeletal muscle and vascular health are closely interconnected, yet the mechanisms underlying their crosstalk remain poorly understood. This study investigates the role of mitochondria transfer from myocytes to endothelial cells. Using in vitro 2D and 3D coculture systems, combined with protein-level and functional analyses, we show that mitochondria are transferred via extracellular vesicles in a Rab7-dependent and cellular connection-independent manner. Connexin 43 (CX43) inhibition downregulating Growth-Associated Protein 43 (GAP43) but enhances mitochondria transfer, accompanied by increasing Rab7. Transferred mitochondria promote endothelial cells proliferation, migration, ATP production, and angiogenesis, which could be the key processes in preserving vascular integrity and muscle function. Our study indicated that the aging-associated decline in CX43 and mitochondrial quality exacerbates muscle atrophy by facilitating the transfer of dysfunctional mitochondria. These findings uncover a novel mechanism of muscle-vessel communication and highlight mitochondria transfer as a potential therapeutic target for aging-related muscular and vascular deterioration. New and Noteworthy. Mitochondria transfer is a way for cell communication. However, mitochondria transfer between myocyte and endothelial cell remains unknown. Here, we demonstrates that mitochondria transfer occurs between myocytes and endothelial cells. Interestingly, inhibition of CX43 leads to a decrease in GAP43 expression, while simultaneously upregulating Rab7 and enhancing mitochondria transfer from myocytes to endothelial cells. Furthermore, we reveal that Rab7-induced mechanism mediates the transfer of both functional and impaired mitochondria from myocytes to endothelial cells.</AbstractText><CopyrightInformation>Copyright &#xa9; 2026. Published by Elsevier B.V.</CopyrightInformation></Abstract><AuthorList CompleteYN=\"Y\"><Author ValidYN=\"Y\"><LastName>Long</LastName><ForeName>Yu-Feng</ForeName><Initials>YF</Initials><AffiliationInfo><Affiliation>Musculoskeletal Research Laboratory, Department of Spine Surgery, Affiliated Nanshan Hospital of Shenzhen University, Shenzhen, China; Translational Medicine R&amp;D Center, Institute of Biomedical and Health Engineering, Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, Guangdong province, China.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Huang</LastName><ForeName>Ai-Jun</ForeName><Initials>AJ</Initials><AffiliationInfo><Affiliation>Department of Orthopaedics, The Eighth Affiliated Hospital, Sun Yat-Sen University, Shenzhen, China.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Tang</LastName><ForeName>Shuo</ForeName><Initials>S</Initials><AffiliationInfo><Affiliation>Department of Orthopaedics, The Eighth Affiliated Hospital, Sun Yat-Sen University, Shenzhen, China.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Xu</LastName><ForeName>Zhen</ForeName><Initials>Z</Initials><AffiliationInfo><Affiliation>Musculoskeletal Research Laboratory, Department of Spine Surgery, Affiliated Nanshan Hospital of Shenzhen University, Shenzhen, China.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Wu</LastName><ForeName>Ming-Yue</ForeName><Initials>MY</Initials><AffiliationInfo><Affiliation>Musculoskeletal Research Laboratory, Department of Spine Surgery, Affiliated Nanshan Hospital of Shenzhen University, Shenzhen, China.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Liu</LastName><ForeName>Kai</ForeName><Initials>K</Initials><AffiliationInfo><Affiliation>Department of Emergency Medicine, The Second Affiliated Hospital of Shenzhen University, Shenzhen, China.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Chen</LastName><ForeName>Ze-Cai</ForeName><Initials>ZC</Initials><AffiliationInfo><Affiliation>Musculoskeletal Research Laboratory, Department of Spine Surgery, Affiliated Nanshan Hospital of Shenzhen University, Shenzhen, China.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Qin</LastName><ForeName>Lei</ForeName><Initials>L</Initials><AffiliationInfo><Affiliation>Musculoskeletal Research Laboratory, Department of Spine Surgery, Affiliated Nanshan Hospital of Shenzhen University, Shenzhen, China.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Dai</LastName><ForeName>Bing-Yang</ForeName><Initials>BY</Initials><AffiliationInfo><Affiliation>Department of Biomedical Engineering, Faculty of Engineering, The Hong Kong Polytechnic University, Hong Kong, China. The Hong Kong Polytechnic University Shenzhen Research Institute, Hong Kong, China.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Dong</LastName><ForeName>Cheng</ForeName><Initials>C</Initials><AffiliationInfo><Affiliation>Department of Biomedical Engineering, Faculty of Engineering, The Hong Kong Polytechnic University, Hong Kong, China. The Hong Kong Polytechnic University Shenzhen Research Institute, Hong Kong, China.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Cheung</LastName><ForeName>Wing-Hoi</ForeName><Initials>WH</Initials><AffiliationInfo><Affiliation>Musculoskeletal Research Laboratory, Department of Orthopaedics and Traumatology, The Chinese University of Hong Kong, Hong Kong, China. Electronic address: louischeung@cuhk.edu.hk.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Wang</LastName><ForeName>Xin-Luan</ForeName><Initials>XL</Initials><AffiliationInfo><Affiliation>Translational Medicine R&amp;D Center, Institute of Biomedical and Health Engineering, Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, Guangdong province, China. Electronic address: xl.wang@siat.ac.cn.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Yang</LastName><ForeName>Da-Zhi</ForeName><Initials>DZ</Initials><AffiliationInfo><Affiliation>Musculoskeletal Research Laboratory, Department of Spine Surgery, Affiliated Nanshan Hospital of Shenzhen University, Shenzhen, China. Electronic address: dazhiyang@email.szu.edu.cn.</Affiliation></AffiliationInfo></Author></AuthorList><Language>eng</Language><PublicationTypeList><PublicationType UI=\"D016428\">Journal Article</PublicationType></PublicationTypeList><ArticleDate DateType=\"Electronic\"><Year>2026</Year><Month>01</Month><Day>24</Day></ArticleDate></Article><MedlineJournalInfo><Country>Netherlands</Country><MedlineTA>Mitochondrion</MedlineTA><NlmUniqueID>100968751</NlmUniqueID><ISSNLinking>1567-7249</ISSNLinking></MedlineJournalInfo><CitationSubset>IM</CitationSubset><KeywordList Owner=\"NOTNLM\"><Keyword MajorTopicYN=\"N\">Endothelial cells</Keyword><Keyword MajorTopicYN=\"N\">Mitochondria transfer</Keyword><Keyword MajorTopicYN=\"N\">Muscle</Keyword><Keyword MajorTopicYN=\"N\">Myocytes</Keyword><Keyword MajorTopicYN=\"N\">Vessel</Keyword></KeywordList><CoiStatement>Declaration of Competing Interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.</CoiStatement></MedlineCitation><PubmedData><History><PubMedPubDate PubStatus=\"received\"><Year>2025</Year><Month>9</Month><Day>15</Day></PubMedPubDate><PubMedPubDate PubStatus=\"revised\"><Year>2025</Year><Month>12</Month><Day>13</Day></PubMedPubDate><PubMedPubDate PubStatus=\"accepted\"><Year>2026</Year><Month>1</Month><Day>22</Day></PubMedPubDate><PubMedPubDate PubStatus=\"medline\"><Year>2026</Year><Month>1</Month><Day>27</Day><Hour>0</Hour><Minute>52</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"pubmed\"><Year>2026</Year><Month>1</Month><Day>27</Day><Hour>0</Hour><Minute>52</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"entrez\"><Year>2026</Year><Month>1</Month><Day>26</Day><Hour>19</Hour><Minute>12</Minute></PubMedPubDate></History><PublicationStatus>aheadofprint</PublicationStatus><ArticleIdList><ArticleId IdType=\"pubmed\">41587671</ArticleId><ArticleId IdType=\"doi\">10.1016/j.mito.2026.102116</ArticleId><ArticleId IdType=\"pii\">S1567-7249(26)00006-1</ArticleId></ArticleIdList></PubmedData></PubmedArticle></PubmedArticleSet>",
+  "fetched_at": "2026-01-29T19:53:11.836Z"
+}

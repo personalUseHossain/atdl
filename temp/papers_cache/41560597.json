@@ -1,0 +1,86 @@
+{
+  "pmid": "41560597",
+  "title": "Seasonal decline in mitochondrial plasticity in the three-spined stickleback.",
+  "abstract": "Mitochondrial plasticity enables ectothermic animals to maintain performance under changing thermal conditions, but whether this ability declines through adulthood is unknown. We explored changes in mitochondrial plasticity in the three-spined stickleback (Gasterosteus aculeatus), a temperate fish that in many populations has a single breeding season over which it produces multiple clutches and then dies. Wild-caught fish were exposed to one of three thermal regimes: remaining at 12°C, switching to constant warm (21°C) or diel cycling (12-21°C) for three weeks at either the beginning or end of the season. We quantified both phosphorylating and non-ATP-producing (OXPHOS and LEAK) respiration in isolated muscle mitochondria and oxidative control efficiency (OxCE). Early in the breeding season, young fish responded to elevated temperatures by adjusting both their capacity for ATP production and non-ATP-production respiration, but this mitochondrial plasticity declined over the season. OxCE was unaffected by time of season or temperature treatment. Changing body condition was unrelated to mitochondrial function. Our findings indicate that mitochondrial plasticity declines across adult life, potentially limiting thermal resilience in older individuals, the first time this has been reported in an ectotherm. This highlights the need to account for age-related physiological changes in capacity when predicting species' responses to environmental change.",
+  "journal": "Biology letters",
+  "year": "2026",
+  "authors": [
+    {
+      "lastName": "Ruiz-Raya",
+      "foreName": "Francisco",
+      "initials": "F",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Monaghan",
+      "foreName": "Pat",
+      "initials": "P",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Millet",
+      "foreName": "Caroline",
+      "initials": "C",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Metcalfe",
+      "foreName": "Neil B",
+      "initials": "NB",
+      "affiliation": ""
+    }
+  ],
+  "keywords": [
+    "Gasterosteus aculeatus",
+    "acclimation",
+    "ageing",
+    "thermal tolerance"
+  ],
+  "doi": "10.1098/rsbl.2025.0620",
+  "pmcId": null,
+  "meshTerms": [
+    {
+      "descriptor": "Animals",
+      "qualifiers": []
+    },
+    {
+      "descriptor": "Smegmamorpha",
+      "qualifiers": [
+        "physiology"
+      ]
+    },
+    {
+      "descriptor": "Seasons",
+      "qualifiers": []
+    },
+    {
+      "descriptor": "Temperature",
+      "qualifiers": []
+    },
+    {
+      "descriptor": "Mitochondria, Muscle",
+      "qualifiers": [
+        "metabolism",
+        "physiology"
+      ]
+    },
+    {
+      "descriptor": "Adenosine Triphosphate",
+      "qualifiers": [
+        "metabolism"
+      ]
+    },
+    {
+      "descriptor": "Mitochondria",
+      "qualifiers": [
+        "physiology"
+      ]
+    },
+    {
+      "descriptor": "Oxidative Phosphorylation",
+      "qualifiers": []
+    }
+  ],
+  "rawXml": "<?xml version=\"1.0\" ?>\n<!DOCTYPE PubmedArticleSet PUBLIC \"-//NLM//DTD PubMedArticle, 1st January 2025//EN\" \"https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_250101.dtd\">\n<PubmedArticleSet>\n<PubmedArticle><MedlineCitation Status=\"MEDLINE\" Owner=\"NLM\" IndexingMethod=\"Automated\"><PMID Version=\"1\">41560597</PMID><DateCompleted><Year>2026</Year><Month>01</Month><Day>21</Day></DateCompleted><DateRevised><Year>2026</Year><Month>01</Month><Day>21</Day></DateRevised><Article PubModel=\"Print\"><Journal><ISSN IssnType=\"Electronic\">1744-957X</ISSN><JournalIssue CitedMedium=\"Internet\"><Volume>22</Volume><Issue>1</Issue><PubDate><Year>2026</Year><Month>Jan</Month><Day>21</Day></PubDate></JournalIssue><Title>Biology letters</Title><ISOAbbreviation>Biol Lett</ISOAbbreviation></Journal><ArticleTitle>Seasonal decline in mitochondrial plasticity in the three-spined stickleback.</ArticleTitle><ELocationID EIdType=\"pii\" ValidYN=\"Y\">20250620</ELocationID><ELocationID EIdType=\"doi\" ValidYN=\"Y\">10.1098/rsbl.2025.0620</ELocationID><Abstract><AbstractText>Mitochondrial plasticity enables ectothermic animals to maintain performance under changing thermal conditions, but whether this ability declines through adulthood is unknown. We explored changes in mitochondrial plasticity in the three-spined stickleback (Gasterosteus aculeatus), a temperate fish that in many populations has a single breeding season over which it produces multiple clutches and then dies. Wild-caught fish were exposed to one of three thermal regimes: remaining at 12&#xb0;C, switching to constant warm (21&#xb0;C) or diel cycling (12-21&#xb0;C) for three weeks at either the beginning or end of the season. We quantified both phosphorylating and non-ATP-producing (OXPHOS and LEAK) respiration in isolated muscle mitochondria and oxidative control efficiency (OxCE). Early in the breeding season, young fish responded to elevated temperatures by adjusting both their capacity for ATP production and non-ATP-production respiration, but this mitochondrial plasticity declined over the season. OxCE was unaffected by time of season or temperature treatment. Changing body condition was unrelated to mitochondrial function. Our findings indicate that mitochondrial plasticity declines across adult life, potentially limiting thermal resilience in older individuals, the first time this has been reported in an ectotherm. This highlights the need to account for age-related physiological changes in capacity when predicting species' responses to environmental change.</AbstractText><CopyrightInformation>&#xa9; 2025 The Authors.</CopyrightInformation></Abstract><AuthorList CompleteYN=\"Y\"><Author ValidYN=\"Y\"><LastName>Ruiz-Raya</LastName><ForeName>Francisco</ForeName><Initials>F</Initials><Identifier Source=\"ORCID\">0000-0002-4646-1975</Identifier><AffiliationInfo><Affiliation>School of Biodiversity, One Health and Veterinary Medicine, University of Glasgow, Glasgow, UK.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Monaghan</LastName><ForeName>Pat</ForeName><Initials>P</Initials><Identifier Source=\"ORCID\">0000-0003-2430-0326</Identifier><AffiliationInfo><Affiliation>School of Biodiversity, One Health and Veterinary Medicine, University of Glasgow, Glasgow, UK.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Millet</LastName><ForeName>Caroline</ForeName><Initials>C</Initials><AffiliationInfo><Affiliation>School of Biodiversity, One Health and Veterinary Medicine, University of Glasgow, Glasgow, UK.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Metcalfe</LastName><ForeName>Neil B</ForeName><Initials>NB</Initials><Identifier Source=\"ORCID\">0000-0002-1970-9349</Identifier><AffiliationInfo><Affiliation>School of Biodiversity, One Health and Veterinary Medicine, University of Glasgow, Glasgow, UK.</Affiliation></AffiliationInfo></Author></AuthorList><Language>eng</Language><GrantList CompleteYN=\"Y\"><Grant><Agency>ERC Advanced Grant</Agency><Country/></Grant><Grant><Agency>Marie Sk&#x142;odowska-Curie Fellowship (HORIZON-MSCA-2022-PF-01; UKRI Guarantee fund)</Agency><Country/></Grant><Grant><Agency>ERC Advanced Grant</Agency><Country/></Grant></GrantList><PublicationTypeList><PublicationType UI=\"D016428\">Journal Article</PublicationType></PublicationTypeList></Article><MedlineJournalInfo><Country>England</Country><MedlineTA>Biol Lett</MedlineTA><NlmUniqueID>101247722</NlmUniqueID><ISSNLinking>1744-9561</ISSNLinking></MedlineJournalInfo><ChemicalList><Chemical><RegistryNumber>8L70Q75FXE</RegistryNumber><NameOfSubstance UI=\"D000255\">Adenosine Triphosphate</NameOfSubstance></Chemical></ChemicalList><CitationSubset>IM</CitationSubset><MeshHeadingList><MeshHeading><DescriptorName UI=\"D000818\" MajorTopicYN=\"N\">Animals</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D023701\" MajorTopicYN=\"Y\">Smegmamorpha</DescriptorName><QualifierName UI=\"Q000502\" MajorTopicYN=\"N\">physiology</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D012621\" MajorTopicYN=\"Y\">Seasons</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D013696\" MajorTopicYN=\"N\">Temperature</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D008931\" MajorTopicYN=\"Y\">Mitochondria, Muscle</DescriptorName><QualifierName UI=\"Q000378\" MajorTopicYN=\"N\">metabolism</QualifierName><QualifierName UI=\"Q000502\" MajorTopicYN=\"N\">physiology</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D000255\" MajorTopicYN=\"N\">Adenosine Triphosphate</DescriptorName><QualifierName UI=\"Q000378\" MajorTopicYN=\"N\">metabolism</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D008928\" MajorTopicYN=\"Y\">Mitochondria</DescriptorName><QualifierName UI=\"Q000502\" MajorTopicYN=\"N\">physiology</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D010085\" MajorTopicYN=\"N\">Oxidative Phosphorylation</DescriptorName></MeshHeading></MeshHeadingList><KeywordList Owner=\"NOTNLM\"><Keyword MajorTopicYN=\"N\">Gasterosteus aculeatus</Keyword><Keyword MajorTopicYN=\"N\">acclimation</Keyword><Keyword MajorTopicYN=\"N\">ageing</Keyword><Keyword MajorTopicYN=\"N\">thermal tolerance</Keyword></KeywordList></MedlineCitation><PubmedData><History><PubMedPubDate PubStatus=\"received\"><Year>2025</Year><Month>9</Month><Day>24</Day></PubMedPubDate><PubMedPubDate PubStatus=\"revised\"><Year>2025</Year><Month>11</Month><Day>25</Day></PubMedPubDate><PubMedPubDate PubStatus=\"accepted\"><Year>2025</Year><Month>12</Month><Day>15</Day></PubMedPubDate><PubMedPubDate PubStatus=\"medline\"><Year>2026</Year><Month>1</Month><Day>21</Day><Hour>6</Hour><Minute>31</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"pubmed\"><Year>2026</Year><Month>1</Month><Day>21</Day><Hour>6</Hour><Minute>30</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"entrez\"><Year>2026</Year><Month>1</Month><Day>21</Day><Hour>4</Hour><Minute>3</Minute></PubMedPubDate></History><PublicationStatus>ppublish</PublicationStatus><ArticleIdList><ArticleId IdType=\"pubmed\">41560597</ArticleId><ArticleId IdType=\"doi\">10.1098/rsbl.2025.0620</ArticleId><ArticleId IdType=\"pii\">479543</ArticleId></ArticleIdList></PubmedData></PubmedArticle></PubmedArticleSet>",
+  "fetched_at": "2026-01-29T19:59:56.929Z"
+}

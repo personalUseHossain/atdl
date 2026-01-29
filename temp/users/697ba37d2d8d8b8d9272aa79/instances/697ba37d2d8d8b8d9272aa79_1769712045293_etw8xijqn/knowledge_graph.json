@@ -1,0 +1,61 @@
+{
+  "nodes": [
+    {
+      "id": "drug_1",
+      "label": "β3-adrenergic receptor agonist",
+      "type": "drug",
+      "size": 35,
+      "color": "#4A90E2",
+      "total_connections": 1,
+      "user_id": "697ba37d2d8d8b8d9272aa79"
+    },
+    {
+      "id": "health_2",
+      "label": "acute thermogenic metabolic crisis",
+      "type": "health_issue",
+      "size": 23,
+      "color": "#50E3C2",
+      "total_connections": 1,
+      "user_id": "697ba37d2d8d8b8d9272aa79"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_0",
+      "source": "drug_1",
+      "target": "health_2",
+      "label": "Strength: 3",
+      "value": 3,
+      "papers": 1,
+      "relationship": "positive",
+      "width": 6,
+      "has_full_text": false,
+      "user_id": "697ba37d2d8d8b8d9272aa79",
+      "session_id": "697ba37d2d8d8b8d9272aa79_1769712045293_etw8xijqn"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-01-29T18:40:51.589Z",
+    "total_connections": 1,
+    "total_drugs": 1,
+    "total_health_issues": 1,
+    "user_id": "697ba37d2d8d8b8d9272aa79",
+    "session_id": "697ba37d2d8d8b8d9272aa79_1769712045293_etw8xijqn"
+  },
+  "stats": {
+    "totalNodes": 2,
+    "totalEdges": 1,
+    "drugNodes": 1,
+    "healthNodes": 1,
+    "maxDegree": 1,
+    "avgDegree": "1.00",
+    "strengthDistribution": {
+      "1": 0,
+      "2": 0,
+      "3": 1,
+      "4": 0,
+      "5": 0
+    },
+    "density": 1
+  }
+}

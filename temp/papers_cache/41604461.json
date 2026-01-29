@@ -1,0 +1,219 @@
+{
+  "pmid": "41604461",
+  "title": "SREBP-1 increases glucose uptake to promote tumor resistance to lysosome inhibition.",
+  "abstract": "Lysosomes are critical for maintaining cellular homeostasis and nutrient availability, yet how tumor cells survive under lysosomal inhibition remains unclear. Here, we revealed that inhibiting lysosome function with chloroquine unexpectedly stimulated glucose uptake across various cancer cells. This effect was driven by sterol regulatory element-binding protein 1 (SREBP-1), a key lipogenic transcription factor, which specifically increased the expression of glucose transporters GLUT3 and GLUT6, enhancing glucose uptake and macromolecule synthesis. Elevated glucose, induced by chloroquine, stabilized SREBP cleavage-activating protein (SCAP), the activator of SREBP-1, further amplifying its activity and contributing to tumor resistance to lysosome inhibition. Disrupting this SREBP-1-glucose uptake feedforward loop by combining chloroquine with inhibitors of glucose transporters, SREBP-1, or lipogenic enzymes induced a synergistic antitumor effect in squamous cell and adenocarcinoma lung cancer patient-derived organoids and xenografts. This combination impaired mitochondrial structure and function, inducing apoptotic tumor cell death. Our study uncovers a role for SREBP-1 in regulating glucose metabolism and provides a promising therapeutic strategy that combines lysosome inhibition with glucose transporter or lipogenic enzyme inhibition for effective cancer treatment.",
+  "journal": "Science translational medicine",
+  "year": "2026",
+  "authors": [
+    {
+      "lastName": "Zhong",
+      "foreName": "Yaogang",
+      "initials": "Y",
+      "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+    },
+    {
+      "lastName": "Geng",
+      "foreName": "Feng",
+      "initials": "F",
+      "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+    },
+    {
+      "lastName": "Su",
+      "foreName": "Huali",
+      "initials": "H",
+      "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+    },
+    {
+      "lastName": "Mazik",
+      "foreName": "Logan",
+      "initials": "L",
+      "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+    },
+    {
+      "lastName": "Yin",
+      "foreName": "Xinmin",
+      "initials": "X",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Pan",
+      "foreName": "Meixia",
+      "initials": "M",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Li",
+      "foreName": "Na",
+      "initials": "N",
+      "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+    },
+    {
+      "lastName": "Chiang",
+      "foreName": "Cheng-Yao",
+      "initials": "CY",
+      "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+    },
+    {
+      "lastName": "Tonniges",
+      "foreName": "Jeffrey R",
+      "initials": "JR",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Mo",
+      "foreName": "Xiaokui",
+      "initials": "X",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Webb",
+      "foreName": "Amy",
+      "initials": "A",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Guo",
+      "foreName": "Yongchen",
+      "initials": "Y",
+      "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+    },
+    {
+      "lastName": "Poyurovsky",
+      "foreName": "Masha V",
+      "initials": "MV",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Carbone",
+      "foreName": "David P",
+      "initials": "DP",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Zhang",
+      "foreName": "Junran",
+      "initials": "J",
+      "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+    },
+    {
+      "lastName": "He",
+      "foreName": "Liqing",
+      "initials": "L",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Han",
+      "foreName": "Xianlin",
+      "initials": "X",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Zhang",
+      "foreName": "Xiang",
+      "initials": "X",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Chakravarti",
+      "foreName": "Arnab",
+      "initials": "A",
+      "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+    },
+    {
+      "lastName": "Wang",
+      "foreName": "Qi-En",
+      "initials": "QE",
+      "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+    },
+    {
+      "lastName": "Guo",
+      "foreName": "Deliang",
+      "initials": "D",
+      "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+    }
+  ],
+  "keywords": [],
+  "doi": "10.1126/scitranslmed.adx6873",
+  "pmcId": null,
+  "meshTerms": [
+    {
+      "descriptor": "Humans",
+      "qualifiers": []
+    },
+    {
+      "descriptor": "Sterol Regulatory Element Binding Protein 1",
+      "qualifiers": [
+        "metabolism"
+      ]
+    },
+    {
+      "descriptor": "Glucose",
+      "qualifiers": [
+        "metabolism"
+      ]
+    },
+    {
+      "descriptor": "Lysosomes",
+      "qualifiers": [
+        "metabolism",
+        "drug effects"
+      ]
+    },
+    {
+      "descriptor": "Animals",
+      "qualifiers": []
+    },
+    {
+      "descriptor": "Cell Line, Tumor",
+      "qualifiers": []
+    },
+    {
+      "descriptor": "Chloroquine",
+      "qualifiers": [
+        "pharmacology"
+      ]
+    },
+    {
+      "descriptor": "Mice",
+      "qualifiers": []
+    },
+    {
+      "descriptor": "Apoptosis",
+      "qualifiers": [
+        "drug effects"
+      ]
+    },
+    {
+      "descriptor": "Drug Resistance, Neoplasm",
+      "qualifiers": [
+        "drug effects"
+      ]
+    },
+    {
+      "descriptor": "Neoplasms",
+      "qualifiers": [
+        "metabolism",
+        "pathology"
+      ]
+    },
+    {
+      "descriptor": "Intracellular Signaling Peptides and Proteins",
+      "qualifiers": [
+        "metabolism"
+      ]
+    },
+    {
+      "descriptor": "Mitochondria",
+      "qualifiers": [
+        "metabolism",
+        "drug effects"
+      ]
+    },
+    {
+      "descriptor": "Membrane Proteins",
+      "qualifiers": []
+    }
+  ],
+  "rawXml": "<?xml version=\"1.0\" ?>\n<!DOCTYPE PubmedArticleSet PUBLIC \"-//NLM//DTD PubMedArticle, 1st January 2025//EN\" \"https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_250101.dtd\">\n<PubmedArticleSet>\n<PubmedArticle><MedlineCitation Status=\"MEDLINE\" Owner=\"NLM\" IndexingMethod=\"Automated\"><PMID Version=\"1\">41604461</PMID><DateCompleted><Year>2026</Year><Month>01</Month><Day>28</Day></DateCompleted><DateRevised><Year>2026</Year><Month>01</Month><Day>28</Day></DateRevised><Article PubModel=\"Print-Electronic\"><Journal><ISSN IssnType=\"Electronic\">1946-6242</ISSN><JournalIssue CitedMedium=\"Internet\"><Volume>18</Volume><Issue>834</Issue><PubDate><Year>2026</Year><Month>Jan</Month><Day>28</Day></PubDate></JournalIssue><Title>Science translational medicine</Title><ISOAbbreviation>Sci Transl Med</ISOAbbreviation></Journal><ArticleTitle>SREBP-1 increases glucose uptake to promote tumor resistance to lysosome inhibition.</ArticleTitle><Pagination><StartPage>eadx6873</StartPage><MedlinePgn>eadx6873</MedlinePgn></Pagination><ELocationID EIdType=\"doi\" ValidYN=\"Y\">10.1126/scitranslmed.adx6873</ELocationID><Abstract><AbstractText>Lysosomes are critical for maintaining cellular homeostasis and nutrient availability, yet how tumor cells survive under lysosomal inhibition remains unclear. Here, we revealed that inhibiting lysosome function with chloroquine unexpectedly stimulated glucose uptake across various cancer cells. This effect was driven by sterol regulatory element-binding protein 1 (SREBP-1), a key lipogenic transcription factor, which specifically increased the expression of glucose transporters GLUT3 and GLUT6, enhancing glucose uptake and macromolecule synthesis. Elevated glucose, induced by chloroquine, stabilized SREBP cleavage-activating protein (SCAP), the activator of SREBP-1, further amplifying its activity and contributing to tumor resistance to lysosome inhibition. Disrupting this SREBP-1-glucose uptake feedforward loop by combining chloroquine with inhibitors of glucose transporters, SREBP-1, or lipogenic enzymes induced a synergistic antitumor effect in squamous cell and adenocarcinoma lung cancer patient-derived organoids and xenografts. This combination impaired mitochondrial structure and function, inducing apoptotic tumor cell death. Our study uncovers a role for SREBP-1 in regulating glucose metabolism and provides a promising therapeutic strategy that combines lysosome inhibition with glucose transporter or lipogenic enzyme inhibition for effective cancer treatment.</AbstractText></Abstract><AuthorList CompleteYN=\"Y\"><Author ValidYN=\"Y\"><LastName>Zhong</LastName><ForeName>Yaogang</ForeName><Initials>Y</Initials><Identifier Source=\"ORCID\">0009-0001-3742-0418</Identifier><AffiliationInfo><Affiliation>Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Center for Cancer Metabolism, Comprehensive Cancer Center, Ohio State University, Columbus, OH 43210, USA.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Geng</LastName><ForeName>Feng</ForeName><Initials>F</Initials><Identifier Source=\"ORCID\">0000-0002-2985-0629</Identifier><AffiliationInfo><Affiliation>Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Center for Cancer Metabolism, Comprehensive Cancer Center, Ohio State University, Columbus, OH 43210, USA.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Su</LastName><ForeName>Huali</ForeName><Initials>H</Initials><Identifier Source=\"ORCID\">0009-0002-8353-5483</Identifier><AffiliationInfo><Affiliation>Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Center for Cancer Metabolism, Comprehensive Cancer Center, Ohio State University, Columbus, OH 43210, USA.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Mazik</LastName><ForeName>Logan</ForeName><Initials>L</Initials><Identifier Source=\"ORCID\">0009-0002-1509-5930</Identifier><AffiliationInfo><Affiliation>Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Center for Cancer Metabolism, Comprehensive Cancer Center, Ohio State University, Columbus, OH 43210, USA.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Yin</LastName><ForeName>Xinmin</ForeName><Initials>X</Initials><Identifier Source=\"ORCID\">0000-0001-5716-3458</Identifier><AffiliationInfo><Affiliation>Department of Chemistry, Center for Regulatory and Environmental Analytical Metabolomics, University of Louisville, Louisville, KY 40208, USA.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Pan</LastName><ForeName>Meixia</ForeName><Initials>M</Initials><Identifier Source=\"ORCID\">0000-0001-5697-6086</Identifier><AffiliationInfo><Affiliation>Barshop Institute for Longevity and Aging Studies, University of Texas Health Science Center at San Antonio, San Antonio, TX 78229, USA.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Li</LastName><ForeName>Na</ForeName><Initials>N</Initials><AffiliationInfo><Affiliation>Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Center for Cancer Metabolism, Comprehensive Cancer Center, Ohio State University, Columbus, OH 43210, USA.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Chiang</LastName><ForeName>Cheng-Yao</ForeName><Initials>CY</Initials><Identifier Source=\"ORCID\">0000-0002-0081-5176</Identifier><AffiliationInfo><Affiliation>Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Center for Cancer Metabolism, Comprehensive Cancer Center, Ohio State University, Columbus, OH 43210, USA.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Tonniges</LastName><ForeName>Jeffrey R</ForeName><Initials>JR</Initials><Identifier Source=\"ORCID\">0000-0001-7625-8874</Identifier><AffiliationInfo><Affiliation>Campus Microscopy and Imaging Facility (CMIF) and OSU Comprehensive Cancer Center (OSUCCC) Microscopy Shared Resource (MSR), Ohio State University, Columbus, OH 43210, USA.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Mo</LastName><ForeName>Xiaokui</ForeName><Initials>X</Initials><Identifier Source=\"ORCID\">0000-0002-9797-2687</Identifier><AffiliationInfo><Affiliation>Department of Biomedical Informatics, Center for Biostatistics, College of Medicine, Ohio State University, Columbus, OH 43210, USA.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Webb</LastName><ForeName>Amy</ForeName><Initials>A</Initials><AffiliationInfo><Affiliation>Department of Biomedical Informatics, Center for Biostatistics, College of Medicine, Ohio State University, Columbus, OH 43210, USA.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Guo</LastName><ForeName>Yongchen</ForeName><Initials>Y</Initials><AffiliationInfo><Affiliation>Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Center for Cancer Metabolism, Comprehensive Cancer Center, Ohio State University, Columbus, OH 43210, USA.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Poyurovsky</LastName><ForeName>Masha V</ForeName><Initials>MV</Initials><Identifier Source=\"ORCID\">0000-0002-3024-778X</Identifier><AffiliationInfo><Affiliation>PMV Pharmaceuticals Inc., Princeton, NJ 08540, USA.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Carbone</LastName><ForeName>David P</ForeName><Initials>DP</Initials><Identifier Source=\"ORCID\">0000-0003-3002-1921</Identifier><AffiliationInfo><Affiliation>Division of Medical Oncology, Department of Internal Medicine, Ohio State University, Columbus, OH 43210, USA.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Zhang</LastName><ForeName>Junran</ForeName><Initials>J</Initials><Identifier Source=\"ORCID\">0000-0001-5413-3675</Identifier><AffiliationInfo><Affiliation>Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Center for Cancer Metabolism, Comprehensive Cancer Center, Ohio State University, Columbus, OH 43210, USA.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>He</LastName><ForeName>Liqing</ForeName><Initials>L</Initials><Identifier Source=\"ORCID\">0000-0002-0428-814X</Identifier><AffiliationInfo><Affiliation>Department of Chemistry, Center for Regulatory and Environmental Analytical Metabolomics, University of Louisville, Louisville, KY 40208, USA.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Han</LastName><ForeName>Xianlin</ForeName><Initials>X</Initials><Identifier Source=\"ORCID\">0000-0002-8615-2413</Identifier><AffiliationInfo><Affiliation>Barshop Institute for Longevity and Aging Studies, University of Texas Health Science Center at San Antonio, San Antonio, TX 78229, USA.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Zhang</LastName><ForeName>Xiang</ForeName><Initials>X</Initials><Identifier Source=\"ORCID\">0000-0003-1102-6313</Identifier><AffiliationInfo><Affiliation>Department of Chemistry, Center for Regulatory and Environmental Analytical Metabolomics, University of Louisville, Louisville, KY 40208, USA.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Chakravarti</LastName><ForeName>Arnab</ForeName><Initials>A</Initials><AffiliationInfo><Affiliation>Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Center for Cancer Metabolism, Comprehensive Cancer Center, Ohio State University, Columbus, OH 43210, USA.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Wang</LastName><ForeName>Qi-En</ForeName><Initials>QE</Initials><Identifier Source=\"ORCID\">0000-0002-3759-2148</Identifier><AffiliationInfo><Affiliation>Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Center for Cancer Metabolism, Comprehensive Cancer Center, Ohio State University, Columbus, OH 43210, USA.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Guo</LastName><ForeName>Deliang</ForeName><Initials>D</Initials><Identifier Source=\"ORCID\">0000-0002-8359-390X</Identifier><AffiliationInfo><Affiliation>Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Center for Cancer Metabolism, Comprehensive Cancer Center, Ohio State University, Columbus, OH 43210, USA.</Affiliation></AffiliationInfo></Author></AuthorList><Language>eng</Language><PublicationTypeList><PublicationType UI=\"D016428\">Journal Article</PublicationType></PublicationTypeList><ArticleDate DateType=\"Electronic\"><Year>2026</Year><Month>01</Month><Day>28</Day></ArticleDate></Article><MedlineJournalInfo><Country>United States</Country><MedlineTA>Sci Transl Med</MedlineTA><NlmUniqueID>101505086</NlmUniqueID><ISSNLinking>1946-6234</ISSNLinking></MedlineJournalInfo><ChemicalList><Chemical><RegistryNumber>0</RegistryNumber><NameOfSubstance UI=\"D051780\">Sterol Regulatory Element Binding Protein 1</NameOfSubstance></Chemical><Chemical><RegistryNumber>IY9XDZ35W2</RegistryNumber><NameOfSubstance UI=\"D005947\">Glucose</NameOfSubstance></Chemical><Chemical><RegistryNumber>886U3H6UFF</RegistryNumber><NameOfSubstance UI=\"D002738\">Chloroquine</NameOfSubstance></Chemical><Chemical><RegistryNumber>0</RegistryNumber><NameOfSubstance UI=\"C102196\">SREBP cleavage-activating protein</NameOfSubstance></Chemical><Chemical><RegistryNumber>0</RegistryNumber><NameOfSubstance UI=\"C497387\">SREBF1 protein, human</NameOfSubstance></Chemical><Chemical><RegistryNumber>0</RegistryNumber><NameOfSubstance UI=\"D047908\">Intracellular Signaling Peptides and Proteins</NameOfSubstance></Chemical><Chemical><RegistryNumber>0</RegistryNumber><NameOfSubstance UI=\"D008565\">Membrane Proteins</NameOfSubstance></Chemical></ChemicalList><CitationSubset>IM</CitationSubset><MeshHeadingList><MeshHeading><DescriptorName UI=\"D006801\" MajorTopicYN=\"N\">Humans</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D051780\" MajorTopicYN=\"Y\">Sterol Regulatory Element Binding Protein 1</DescriptorName><QualifierName UI=\"Q000378\" MajorTopicYN=\"N\">metabolism</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D005947\" MajorTopicYN=\"Y\">Glucose</DescriptorName><QualifierName UI=\"Q000378\" MajorTopicYN=\"N\">metabolism</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D008247\" MajorTopicYN=\"Y\">Lysosomes</DescriptorName><QualifierName UI=\"Q000378\" MajorTopicYN=\"N\">metabolism</QualifierName><QualifierName UI=\"Q000187\" MajorTopicYN=\"N\">drug effects</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D000818\" MajorTopicYN=\"N\">Animals</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D045744\" MajorTopicYN=\"N\">Cell Line, Tumor</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D002738\" MajorTopicYN=\"N\">Chloroquine</DescriptorName><QualifierName UI=\"Q000494\" MajorTopicYN=\"N\">pharmacology</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D051379\" MajorTopicYN=\"N\">Mice</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D017209\" MajorTopicYN=\"N\">Apoptosis</DescriptorName><QualifierName UI=\"Q000187\" MajorTopicYN=\"N\">drug effects</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D019008\" MajorTopicYN=\"Y\">Drug Resistance, Neoplasm</DescriptorName><QualifierName UI=\"Q000187\" MajorTopicYN=\"N\">drug effects</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D009369\" MajorTopicYN=\"Y\">Neoplasms</DescriptorName><QualifierName UI=\"Q000378\" MajorTopicYN=\"N\">metabolism</QualifierName><QualifierName UI=\"Q000473\" MajorTopicYN=\"N\">pathology</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D047908\" MajorTopicYN=\"N\">Intracellular Signaling Peptides and Proteins</DescriptorName><QualifierName UI=\"Q000378\" MajorTopicYN=\"N\">metabolism</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D008928\" MajorTopicYN=\"N\">Mitochondria</DescriptorName><QualifierName UI=\"Q000378\" MajorTopicYN=\"N\">metabolism</QualifierName><QualifierName UI=\"Q000187\" MajorTopicYN=\"N\">drug effects</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D008565\" MajorTopicYN=\"N\" AutoHM=\"Y\">Membrane Proteins</DescriptorName></MeshHeading></MeshHeadingList></MedlineCitation><PubmedData><History><PubMedPubDate PubStatus=\"medline\"><Year>2026</Year><Month>1</Month><Day>28</Day><Hour>19</Hour><Minute>21</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"pubmed\"><Year>2026</Year><Month>1</Month><Day>28</Day><Hour>19</Hour><Minute>20</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"entrez\"><Year>2026</Year><Month>1</Month><Day>28</Day><Hour>14</Hour><Minute>2</Minute></PubMedPubDate></History><PublicationStatus>ppublish</PublicationStatus><ArticleIdList><ArticleId IdType=\"pubmed\">41604461</ArticleId><ArticleId IdType=\"doi\">10.1126/scitranslmed.adx6873</ArticleId></ArticleIdList></PubmedData></PubmedArticle></PubmedArticleSet>",
+  "fetched_at": "2026-01-29T18:50:43.937Z"
+}

@@ -1,0 +1,75 @@
+{
+  "pmid": "41544243",
+  "title": "Drp1-mediated mitochondrial fission protects macrophages from mtDNA/ZBP1-mediated inflammation and inhibits post-infarct cardiac remodeling.",
+  "abstract": "Ischemic heart disease is a leading cause of death worldwide, and heart failure after myocardial infarction (MI) is a growing issue in an ageing society. Macrophages play a central role in left ventricular (LV) remodeling after MI. Mitochondria consistently change their morphology, including fission and fusion; however, the role of these morphological changes, particularly in macrophages, remains unknown. This study investigated the role of dynamin-related protein 1 (Drp1), a key mediator of mitochondrial fission, in macrophages and its involvement in the mechanisms of left ventricular remodeling after myocardial infarction (MI). This study utilized genetically altered mice lacking Drp1 in Lysozyme M-positive cells (Drp1-KO) to elucidate the specific role of macrophage Drp1 in post-infarct LV remodeling. Deletion of Drp1 in macrophages exacerbated LV remodeling, underpinned by reduced ejection fraction and increased LV diameter, which resulted in a poor prognosis after MI. Histological analysis indicated increased fibrosis and sustained macrophage accumulation in the infarcted hearts of Drp1-KO mice. Blockade of Drp1 in macrophages decreased mitochondrial fission and impaired mitophagy, leading to the subsequent release of mitochondrial DNA (mtDNA) into the cytosol and the induction of inflammatory cytokines. This induction was abrogated by the autophagy inducer Tat-beclin1 or siRNA-mediated knockdown of Z-DNA Binding Protein 1 (ZBP1). Deletion of ZBP1 in bone marrow-derived cells abrogated LV remodeling induced by the Drp1 inhibitor Mdivi-1. Macrophage Drp1 plays a critical role in the pathobiology of post-infarct LV remodeling, particularly in mitochondrial quality control mechanisms. Macrophage Drp1 could be a novel therapeutic molecule to mitigate the progression of LV remodeling and consequent heart failure after MI.",
+  "journal": "Cardiovascular research",
+  "year": "2026",
+  "authors": [
+    {
+      "lastName": "Kondo",
+      "foreName": "Yuki",
+      "initials": "Y",
+      "affiliation": "The Second Department of Internal Medicine, University of Occupational and Environmental Health, Kitakyushu, Fukuoka, 807-8555, Japan."
+    },
+    {
+      "lastName": "Koga",
+      "foreName": "Jun-Ichiro",
+      "initials": "JI",
+      "affiliation": "The Second Department of Internal Medicine, University of Occupational and Environmental Health, Kitakyushu, Fukuoka, 807-8555, Japan."
+    },
+    {
+      "lastName": "Orkhonselenge",
+      "foreName": "Nasanbadrakh",
+      "initials": "N",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Wang",
+      "foreName": "Lixiang",
+      "initials": "L",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Hasuzawa",
+      "foreName": "Nao",
+      "initials": "N",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Katsuki",
+      "foreName": "Shunsuke",
+      "initials": "S",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Matoba",
+      "foreName": "Tetsuya",
+      "initials": "T",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Nishimura",
+      "foreName": "Yosuke",
+      "initials": "Y",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Nomura",
+      "foreName": "Masatoshi",
+      "initials": "M",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Kataoka",
+      "foreName": "Masaharu",
+      "initials": "M",
+      "affiliation": ""
+    }
+  ],
+  "keywords": [],
+  "doi": "10.1093/cvr/cvag006",
+  "pmcId": null,
+  "meshTerms": [],
+  "rawXml": "<?xml version=\"1.0\" ?>\n<!DOCTYPE PubmedArticleSet PUBLIC \"-//NLM//DTD PubMedArticle, 1st January 2025//EN\" \"https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_250101.dtd\">\n<PubmedArticleSet>\n<PubmedArticle><MedlineCitation Status=\"Publisher\" Owner=\"NLM\"><PMID Version=\"1\">41544243</PMID><DateRevised><Year>2026</Year><Month>01</Month><Day>16</Day></DateRevised><Article PubModel=\"Print-Electronic\"><Journal><ISSN IssnType=\"Electronic\">1755-3245</ISSN><JournalIssue CitedMedium=\"Internet\"><PubDate><Year>2026</Year><Month>Jan</Month><Day>16</Day></PubDate></JournalIssue><Title>Cardiovascular research</Title><ISOAbbreviation>Cardiovasc Res</ISOAbbreviation></Journal><ArticleTitle>Drp1-mediated mitochondrial fission protects macrophages from mtDNA/ZBP1-mediated inflammation and inhibits post-infarct cardiac remodeling.</ArticleTitle><ELocationID EIdType=\"pii\" ValidYN=\"Y\">cvag006</ELocationID><ELocationID EIdType=\"doi\" ValidYN=\"Y\">10.1093/cvr/cvag006</ELocationID><Abstract><AbstractText Label=\"AIM\" NlmCategory=\"OBJECTIVE\">Ischemic heart disease is a leading cause of death worldwide, and heart failure after myocardial infarction (MI) is a growing issue in an ageing society. Macrophages play a central role in left ventricular (LV) remodeling after MI. Mitochondria consistently change their morphology, including fission and fusion; however, the role of these morphological changes, particularly in macrophages, remains unknown. This study investigated the role of dynamin-related protein 1 (Drp1), a key mediator of mitochondrial fission, in macrophages and its involvement in the mechanisms of left ventricular remodeling after myocardial infarction (MI).</AbstractText><AbstractText Label=\"METHODS AND RESULTS\" NlmCategory=\"RESULTS\">This study utilized genetically altered mice lacking Drp1 in Lysozyme M-positive cells (Drp1-KO) to elucidate the specific role of macrophage Drp1 in post-infarct LV remodeling. Deletion of Drp1 in macrophages exacerbated LV remodeling, underpinned by reduced ejection fraction and increased LV diameter, which resulted in a poor prognosis after MI. Histological analysis indicated increased fibrosis and sustained macrophage accumulation in the infarcted hearts of Drp1-KO mice. Blockade of Drp1 in macrophages decreased mitochondrial fission and impaired mitophagy, leading to the subsequent release of mitochondrial DNA (mtDNA) into the cytosol and the induction of inflammatory cytokines. This induction was abrogated by the autophagy inducer Tat-beclin1 or siRNA-mediated knockdown of Z-DNA Binding Protein 1 (ZBP1). Deletion of ZBP1 in bone marrow-derived cells abrogated LV remodeling induced by the Drp1 inhibitor Mdivi-1.</AbstractText><AbstractText Label=\"CONCLUSION\" NlmCategory=\"CONCLUSIONS\">Macrophage Drp1 plays a critical role in the pathobiology of post-infarct LV remodeling, particularly in mitochondrial quality control mechanisms. Macrophage Drp1 could be a novel therapeutic molecule to mitigate the progression of LV remodeling and consequent heart failure after MI.</AbstractText><CopyrightInformation>&#xa9; The Author(s) 2026. Published by Oxford University Press on behalf of the European Society of Cardiology. All rights reserved. For commercial re-use, please contact reprints@oup.com for reprints and translation rights for reprints. All other permissions can be obtained through our RightsLink service via the Permissions link on the article page on our site&#x2014;for further information please contact journals.permissions@oup.com.</CopyrightInformation></Abstract><AuthorList CompleteYN=\"Y\"><Author ValidYN=\"Y\"><LastName>Kondo</LastName><ForeName>Yuki</ForeName><Initials>Y</Initials><AffiliationInfo><Affiliation>The Second Department of Internal Medicine, University of Occupational and Environmental Health, Kitakyushu, Fukuoka, 807-8555, Japan.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Department of Cardiovascular Surgery, University of Occupational and Environmental Health, School of Medicine, Kitakyushu, Fukuoka, 807-8555, Japan.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Koga</LastName><ForeName>Jun-Ichiro</ForeName><Initials>JI</Initials><Identifier Source=\"ORCID\">0000-0002-5501-2477</Identifier><AffiliationInfo><Affiliation>The Second Department of Internal Medicine, University of Occupational and Environmental Health, Kitakyushu, Fukuoka, 807-8555, Japan.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>the Department of Cardiovascular Medicine, Graduate School of Medical Sciences, Kyushu University, Fukuoka, 812-8582, Japan.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Orkhonselenge</LastName><ForeName>Nasanbadrakh</ForeName><Initials>N</Initials><AffiliationInfo><Affiliation>The Second Department of Internal Medicine, University of Occupational and Environmental Health, Kitakyushu, Fukuoka, 807-8555, Japan.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Wang</LastName><ForeName>Lixiang</ForeName><Initials>L</Initials><AffiliationInfo><Affiliation>Department of Medical Biochemistry, Kurume University School of Medicine, Kurume, 839-8502, Japan.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Hasuzawa</LastName><ForeName>Nao</ForeName><Initials>N</Initials><AffiliationInfo><Affiliation>Division of Endocrinology and Metabolism, Department of Internal Medicine, Kurume University School of Medicine, Kurume, 839-8502, Japan.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Katsuki</LastName><ForeName>Shunsuke</ForeName><Initials>S</Initials><AffiliationInfo><Affiliation>the Department of Cardiovascular Medicine, Graduate School of Medical Sciences, Kyushu University, Fukuoka, 812-8582, Japan.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Matoba</LastName><ForeName>Tetsuya</ForeName><Initials>T</Initials><AffiliationInfo><Affiliation>the Department of Cardiovascular Medicine, Graduate School of Medical Sciences, Kyushu University, Fukuoka, 812-8582, Japan.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Nishimura</LastName><ForeName>Yosuke</ForeName><Initials>Y</Initials><AffiliationInfo><Affiliation>Department of Cardiovascular Surgery, University of Occupational and Environmental Health, School of Medicine, Kitakyushu, Fukuoka, 807-8555, Japan.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Nomura</LastName><ForeName>Masatoshi</ForeName><Initials>M</Initials><Identifier Source=\"ORCID\">0000-0002-0725-3161</Identifier><AffiliationInfo><Affiliation>Division of Endocrinology and Metabolism, Department of Internal Medicine, Kurume University School of Medicine, Kurume, 839-8502, Japan.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Kataoka</LastName><ForeName>Masaharu</ForeName><Initials>M</Initials><AffiliationInfo><Affiliation>The Second Department of Internal Medicine, University of Occupational and Environmental Health, Kitakyushu, Fukuoka, 807-8555, Japan.</Affiliation></AffiliationInfo></Author></AuthorList><Language>eng</Language><PublicationTypeList><PublicationType UI=\"D016428\">Journal Article</PublicationType></PublicationTypeList><ArticleDate DateType=\"Electronic\"><Year>2026</Year><Month>01</Month><Day>16</Day></ArticleDate></Article><MedlineJournalInfo><Country>England</Country><MedlineTA>Cardiovasc Res</MedlineTA><NlmUniqueID>0077427</NlmUniqueID><ISSNLinking>0008-6363</ISSNLinking></MedlineJournalInfo><CitationSubset>IM</CitationSubset></MedlineCitation><PubmedData><History><PubMedPubDate PubStatus=\"received\"><Year>2025</Year><Month>2</Month><Day>9</Day></PubMedPubDate><PubMedPubDate PubStatus=\"revised\"><Year>2025</Year><Month>7</Month><Day>29</Day></PubMedPubDate><PubMedPubDate PubStatus=\"medline\"><Year>2026</Year><Month>1</Month><Day>16</Day><Hour>19</Hour><Minute>24</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"pubmed\"><Year>2026</Year><Month>1</Month><Day>16</Day><Hour>19</Hour><Minute>24</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"entrez\"><Year>2026</Year><Month>1</Month><Day>16</Day><Hour>16</Hour><Minute>33</Minute></PubMedPubDate></History><PublicationStatus>aheadofprint</PublicationStatus><ArticleIdList><ArticleId IdType=\"pubmed\">41544243</ArticleId><ArticleId IdType=\"doi\">10.1093/cvr/cvag006</ArticleId><ArticleId IdType=\"pii\">8427473</ArticleId></ArticleIdList></PubmedData></PubmedArticle></PubmedArticleSet>",
+  "fetched_at": "2026-01-29T20:00:42.263Z"
+}

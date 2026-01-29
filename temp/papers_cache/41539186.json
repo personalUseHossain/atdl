@@ -1,0 +1,64 @@
+{
+  "pmid": "41539186",
+  "title": "Iron oxide nanoparticles-driven mitochondrial renewal rejuvenates the aged bone marrow niche.",
+  "abstract": "",
+  "journal": "Biomaterials",
+  "year": "2026",
+  "authors": [
+    {
+      "lastName": "Sun",
+      "foreName": "Xiaoqing",
+      "initials": "X",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Wang",
+      "foreName": "Xingyou",
+      "initials": "X",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Zhang",
+      "foreName": "Meihua",
+      "initials": "M",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Liu",
+      "foreName": "Shuyao",
+      "initials": "S",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Zhu",
+      "foreName": "Yue",
+      "initials": "Y",
+      "affiliation": ""
+    },
+    {
+      "lastName": "He",
+      "foreName": "Jing",
+      "initials": "J",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Wu",
+      "foreName": "Yao",
+      "initials": "Y",
+      "affiliation": ""
+    }
+  ],
+  "keywords": [
+    "Autophagy",
+    "Fe–S cluster",
+    "Mitochondrial biogenesis",
+    "Mitochondrial transfer",
+    "Senescent macrophage polarization",
+    "Senile osteoporotic"
+  ],
+  "doi": "10.1016/j.biomaterials.2026.123989",
+  "pmcId": null,
+  "meshTerms": [],
+  "rawXml": "<?xml version=\"1.0\" ?>\n<!DOCTYPE PubmedArticleSet PUBLIC \"-//NLM//DTD PubMedArticle, 1st January 2025//EN\" \"https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_250101.dtd\">\n<PubmedArticleSet>\n<PubmedArticle><MedlineCitation Status=\"Publisher\" Owner=\"NLM\"><PMID Version=\"1\">41539186</PMID><DateRevised><Year>2026</Year><Month>01</Month><Day>15</Day></DateRevised><Article PubModel=\"Print-Electronic\"><Journal><ISSN IssnType=\"Electronic\">1878-5905</ISSN><JournalIssue CitedMedium=\"Internet\"><Volume>330</Volume><PubDate><Year>2026</Year><Month>Jan</Month><Day>12</Day></PubDate></JournalIssue><Title>Biomaterials</Title><ISOAbbreviation>Biomaterials</ISOAbbreviation></Journal><ArticleTitle>Iron oxide nanoparticles-driven mitochondrial renewal rejuvenates the aged bone marrow niche.</ArticleTitle><Pagination><StartPage>123989</StartPage><MedlinePgn>123989</MedlinePgn></Pagination><ELocationID EIdType=\"doi\" ValidYN=\"Y\">10.1016/j.biomaterials.2026.123989</ELocationID><ELocationID EIdType=\"pii\" ValidYN=\"Y\">S0142-9612(26)00013-X</ELocationID><Abstract><AbstractText>With the aging population, treating age-related osteoporosis remains challenging due to the dysfunctional bone marrow microenvironment characterized by chronic inflammation, metabolic dysregulation, and impaired mitochondrial function in senescent cells. While mitochondrial transfer from macrophages to bone marrow mesenchymal stem cells (BMSCs) offers a promising therapeutic avenue, its efficacy is limited in aged niches where donor mitochondria exhibit functional deficits and poor recipient compatibility. We engineered KGM-PEG-SPIONs, functionalized Fe<sub>3</sub>O<sub>4</sub> nanoparticles that enhance donor mitochondrial quality via autophagy activation and Fe-S cluster biogenesis, promote M2 macrophage polarization, and improve compatibility with the oxidative and inflammatory environment of senescent BMSCs. These M2-like mitochondria are transferred through connexin 43 gap junctions, restoring membrane potential, ATP production, calcium homeostasis, and osteogenic differentiation in recipient cells. In aged osteoporotic models, KGM-PEG-SPION-functionalized scaffolds remodel immune niches and promote bone formation. By integrating organelle quality control with environment-adapted mitochondrial transfer, this strategy surpasses approaches focusing solely on transfer quantity or polarization, establishing a programmable nanoplatform for organelle-based regeneration.</AbstractText><CopyrightInformation>Copyright &#xa9; 2026. Published by Elsevier Ltd.</CopyrightInformation></Abstract><AuthorList CompleteYN=\"Y\"><Author ValidYN=\"Y\"><LastName>Sun</LastName><ForeName>Xiaoqing</ForeName><Initials>X</Initials><AffiliationInfo><Affiliation>National Engineering Research Center for Biomaterials, Sichuan University, Chengdu, Sichuan, 610064, China.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Wang</LastName><ForeName>Xingyou</ForeName><Initials>X</Initials><AffiliationInfo><Affiliation>National Engineering Research Center for Biomaterials, Sichuan University, Chengdu, Sichuan, 610064, China.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Zhang</LastName><ForeName>Meihua</ForeName><Initials>M</Initials><AffiliationInfo><Affiliation>National Engineering Research Center for Biomaterials, Sichuan University, Chengdu, Sichuan, 610064, China.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Liu</LastName><ForeName>Shuyao</ForeName><Initials>S</Initials><AffiliationInfo><Affiliation>National Engineering Research Center for Biomaterials, Sichuan University, Chengdu, Sichuan, 610064, China.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Zhu</LastName><ForeName>Yue</ForeName><Initials>Y</Initials><AffiliationInfo><Affiliation>College of Pharmaceutical Sciences, Guizhou University of Traditional Chinese Medicine, Guiyang, 550025, China.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>He</LastName><ForeName>Jing</ForeName><Initials>J</Initials><AffiliationInfo><Affiliation>National Engineering Research Center for Biomaterials, Sichuan University, Chengdu, Sichuan, 610064, China. Electronic address: jinghe30@scu.edu.cn.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Wu</LastName><ForeName>Yao</ForeName><Initials>Y</Initials><AffiliationInfo><Affiliation>National Engineering Research Center for Biomaterials, Sichuan University, Chengdu, Sichuan, 610064, China. Electronic address: wuyao@scu.edu.cn.</Affiliation></AffiliationInfo></Author></AuthorList><Language>eng</Language><PublicationTypeList><PublicationType UI=\"D016428\">Journal Article</PublicationType></PublicationTypeList><ArticleDate DateType=\"Electronic\"><Year>2026</Year><Month>01</Month><Day>12</Day></ArticleDate></Article><MedlineJournalInfo><Country>Netherlands</Country><MedlineTA>Biomaterials</MedlineTA><NlmUniqueID>8100316</NlmUniqueID><ISSNLinking>0142-9612</ISSNLinking></MedlineJournalInfo><CitationSubset>IM</CitationSubset><KeywordList Owner=\"NOTNLM\"><Keyword MajorTopicYN=\"N\">Autophagy</Keyword><Keyword MajorTopicYN=\"N\">Fe&#x2013;S cluster</Keyword><Keyword MajorTopicYN=\"N\">Mitochondrial biogenesis</Keyword><Keyword MajorTopicYN=\"N\">Mitochondrial transfer</Keyword><Keyword MajorTopicYN=\"N\">Senescent macrophage polarization</Keyword><Keyword MajorTopicYN=\"N\">Senile osteoporotic</Keyword></KeywordList><CoiStatement>Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.</CoiStatement></MedlineCitation><PubmedData><History><PubMedPubDate PubStatus=\"received\"><Year>2025</Year><Month>10</Month><Day>17</Day></PubMedPubDate><PubMedPubDate PubStatus=\"revised\"><Year>2025</Year><Month>12</Month><Day>26</Day></PubMedPubDate><PubMedPubDate PubStatus=\"accepted\"><Year>2026</Year><Month>1</Month><Day>4</Day></PubMedPubDate><PubMedPubDate PubStatus=\"medline\"><Year>2026</Year><Month>1</Month><Day>16</Day><Hour>17</Hour><Minute>21</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"pubmed\"><Year>2026</Year><Month>1</Month><Day>16</Day><Hour>17</Hour><Minute>21</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"entrez\"><Year>2026</Year><Month>1</Month><Day>15</Day><Hour>18</Hour><Minute>16</Minute></PubMedPubDate></History><PublicationStatus>aheadofprint</PublicationStatus><ArticleIdList><ArticleId IdType=\"pubmed\">41539186</ArticleId><ArticleId IdType=\"doi\">10.1016/j.biomaterials.2026.123989</ArticleId><ArticleId IdType=\"pii\">S0142-9612(26)00013-X</ArticleId></ArticleIdList></PubmedData></PubmedArticle></PubmedArticleSet>",
+  "fetched_at": "2026-01-29T20:00:43.399Z"
+}

@@ -1,0 +1,124 @@
+{
+  "pmid": "41564794",
+  "title": "Consequences of iron exposure and glutathione depletion on redox balance, lipidome, and neurotransmission in C. elegans.",
+  "abstract": "Although the redox active essential trace element iron (Fe) is involved in many important biological processes, an overexposure can lead to the excessive formation of reactive oxygen and nitrogen species (RONS). Thus, total Fe accumulation, as for example observed in neurodegenerative diseases or diseases as hemochromatosis, can lead to adverse consequences, especially if the antioxidant system is weakened. This system, and especially the most abundant antioxidant in organisms, glutathione (GSH), can be impaired by excess RONS levels, which is relevant during aging and in the context of neurodegenerative diseases. In this study, we demonstrate the consequences of Fe overdosing or/and GSH depletion in Caenorhabditis elegans (C. elegans) on Fe homeostasis, mitochondrial mass, phospho- and sphingolipidome, and on the neurotransmitter levels of acetylcholine, serotonin, dopamine, and γ-aminobutyric acid. In order to investigate this, we treated L4 nematodes with Fe(III) ammonium citrate (FAC) for 24 h or/and diethyl maleate (DEM) for 2 h or 24 h. While FAC treatment alone did not affect mitochondrial mass and cardiolipin content, it increased the amount of several lipid classes and the neurotransmitter acetylcholine. Treatment with DEM alone resulted in GSH depletion by 70 % and was associated with decreased mitochondrial mass and increased Fe(II), lipid, acetylcholine, and serotonin levels. Genes involved in GSH biosynthesis, Fe homeostasis, mitochondrial stress response, lipid biosynthesis, and neurotransmitter regulation are differentially expressed after DEM treatment. In addition, we were able to determine the GSH-DEM product in the nematode using HPLC-MS/MS. Although FAC treatment increased total Fe content in the nematode fivefold, the combined treatment with DEM showed no further effects compared to treatment with FAC or DEM alone. Together, these findings highlight the consequences of an impaired intracellular redox system on mitochondria, lipidome, and neurological endpoints, and identify several pathways, metabolites, and potential compensatory as well as long lasting effects.",
+  "journal": "Redox biology",
+  "year": "2026",
+  "authors": [
+    {
+      "lastName": "Gremme",
+      "foreName": "Anna",
+      "initials": "A",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Gerisch",
+      "foreName": "Emely",
+      "initials": "E",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Wieland",
+      "foreName": "Dominik",
+      "initials": "D",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Hillebrand",
+      "foreName": "Julia",
+      "initials": "J",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Drews",
+      "foreName": "Franziska",
+      "initials": "F",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Pirritano",
+      "foreName": "Marcello",
+      "initials": "M",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Weishaupt",
+      "foreName": "Ann-Kathrin",
+      "initials": "AK",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Fuss",
+      "foreName": "Janina",
+      "initials": "J",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Schwantes",
+      "foreName": "Vera",
+      "initials": "V",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Scholz",
+      "foreName": "Johannes",
+      "initials": "J",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Michaelis",
+      "foreName": "Vivien",
+      "initials": "V",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Thiel",
+      "foreName": "Alicia",
+      "initials": "A",
+      "affiliation": ""
+    },
+    {
+      "lastName": "McColl",
+      "foreName": "Gawain",
+      "initials": "G",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Michalke",
+      "foreName": "Bernhard",
+      "initials": "B",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Simon",
+      "foreName": "Martin",
+      "initials": "M",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Hayen",
+      "foreName": "Heiko",
+      "initials": "H",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Bornhorst",
+      "foreName": "Julia",
+      "initials": "J",
+      "affiliation": ""
+    }
+  ],
+  "keywords": [
+    "C. elegans",
+    "Glutathione",
+    "Iron",
+    "Lipids",
+    "Mitochondria",
+    "Neurotransmitters"
+  ],
+  "doi": "10.1016/j.redox.2026.104023",
+  "pmcId": null,
+  "meshTerms": [],
+  "rawXml": "<?xml version=\"1.0\" ?>\n<!DOCTYPE PubmedArticleSet PUBLIC \"-//NLM//DTD PubMedArticle, 1st January 2025//EN\" \"https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_250101.dtd\">\n<PubmedArticleSet>\n<PubmedArticle><MedlineCitation Status=\"Publisher\" Owner=\"NLM\"><PMID Version=\"1\">41564794</PMID><DateRevised><Year>2026</Year><Month>01</Month><Day>21</Day></DateRevised><Article PubModel=\"Print-Electronic\"><Journal><ISSN IssnType=\"Electronic\">2213-2317</ISSN><JournalIssue CitedMedium=\"Internet\"><Volume>90</Volume><PubDate><Year>2026</Year><Month>Jan</Month><Day>12</Day></PubDate></JournalIssue><Title>Redox biology</Title><ISOAbbreviation>Redox Biol</ISOAbbreviation></Journal><ArticleTitle>Consequences of iron exposure and glutathione depletion on redox balance, lipidome, and neurotransmission in C. elegans.</ArticleTitle><Pagination><StartPage>104023</StartPage><MedlinePgn>104023</MedlinePgn></Pagination><ELocationID EIdType=\"doi\" ValidYN=\"Y\">10.1016/j.redox.2026.104023</ELocationID><ELocationID EIdType=\"pii\" ValidYN=\"Y\">S2213-2317(26)00021-2</ELocationID><Abstract><AbstractText>Although the redox active essential trace element iron (Fe) is involved in many important biological processes, an overexposure can lead to the excessive formation of reactive oxygen and nitrogen species (RONS). Thus, total Fe accumulation, as for example observed in neurodegenerative diseases or diseases as hemochromatosis, can lead to adverse consequences, especially if the antioxidant system is weakened. This system, and especially the most abundant antioxidant in organisms, glutathione (GSH), can be impaired by excess RONS levels, which is relevant during aging and in the context of neurodegenerative diseases. In this study, we demonstrate the consequences of Fe overdosing or/and GSH depletion in Caenorhabditis elegans (C. elegans) on Fe homeostasis, mitochondrial mass, phospho- and sphingolipidome, and on the neurotransmitter levels of acetylcholine, serotonin, dopamine, and &#x3b3;-aminobutyric acid. In order to investigate this, we treated L4 nematodes with Fe(III) ammonium citrate (FAC) for 24&#x202f;h or/and diethyl maleate (DEM) for 2&#x202f;h or 24&#x202f;h. While FAC treatment alone did not affect mitochondrial mass and cardiolipin content, it increased the amount of several lipid classes and the neurotransmitter acetylcholine. Treatment with DEM alone resulted in GSH depletion by 70&#x202f;% and was associated with decreased mitochondrial mass and increased Fe(II), lipid, acetylcholine, and serotonin levels. Genes involved in GSH biosynthesis, Fe homeostasis, mitochondrial stress response, lipid biosynthesis, and neurotransmitter regulation are differentially expressed after DEM treatment. In addition, we were able to determine the GSH-DEM product in the nematode using HPLC-MS/MS. Although FAC treatment increased total Fe content in the nematode fivefold, the combined treatment with DEM showed no further effects compared to treatment with FAC or DEM alone. Together, these findings highlight the consequences of an impaired intracellular redox system on mitochondria, lipidome, and neurological endpoints, and identify several pathways, metabolites, and potential compensatory as well as long lasting effects.</AbstractText><CopyrightInformation>Copyright &#xa9; 2026 The Authors. Published by Elsevier B.V. All rights reserved.</CopyrightInformation></Abstract><AuthorList CompleteYN=\"Y\"><Author ValidYN=\"Y\"><LastName>Gremme</LastName><ForeName>Anna</ForeName><Initials>A</Initials><AffiliationInfo><Affiliation>Food Chemistry with Focus on Toxicology, Faculty of Mathematics and Natural Science, University of Wuppertal, Wuppertal, 42119, Germany.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Gerisch</LastName><ForeName>Emely</ForeName><Initials>E</Initials><AffiliationInfo><Affiliation>Food Chemistry with Focus on Toxicology, Faculty of Mathematics and Natural Science, University of Wuppertal, Wuppertal, 42119, Germany.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Wieland</LastName><ForeName>Dominik</ForeName><Initials>D</Initials><AffiliationInfo><Affiliation>Institute of Inorganic and Analytical Chemistry, University of M&#xfc;nster, M&#xfc;nster, 48149, Germany.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Hillebrand</LastName><ForeName>Julia</ForeName><Initials>J</Initials><AffiliationInfo><Affiliation>Institute of Inorganic and Analytical Chemistry, University of M&#xfc;nster, M&#xfc;nster, 48149, Germany.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Drews</LastName><ForeName>Franziska</ForeName><Initials>F</Initials><AffiliationInfo><Affiliation>Molecular Cell Biology and Microbiology, Faculty of Mathematics and Natural Science, University of Wuppertal, Wuppertal, 42119, Germany.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Pirritano</LastName><ForeName>Marcello</ForeName><Initials>M</Initials><AffiliationInfo><Affiliation>Molecular Cell Biology and Microbiology, Faculty of Mathematics and Natural Science, University of Wuppertal, Wuppertal, 42119, Germany.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Weishaupt</LastName><ForeName>Ann-Kathrin</ForeName><Initials>AK</Initials><AffiliationInfo><Affiliation>Food Chemistry with Focus on Toxicology, Faculty of Mathematics and Natural Science, University of Wuppertal, Wuppertal, 42119, Germany.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Fuss</LastName><ForeName>Janina</ForeName><Initials>J</Initials><AffiliationInfo><Affiliation>Competence Centre for Genomic Analysis, CCGA, Kiel, 24118, Germany.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Schwantes</LastName><ForeName>Vera</ForeName><Initials>V</Initials><AffiliationInfo><Affiliation>Institute of Inorganic and Analytical Chemistry, University of M&#xfc;nster, M&#xfc;nster, 48149, Germany.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Scholz</LastName><ForeName>Johannes</ForeName><Initials>J</Initials><AffiliationInfo><Affiliation>Institute of Inorganic and Analytical Chemistry, University of M&#xfc;nster, M&#xfc;nster, 48149, Germany.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Michaelis</LastName><ForeName>Vivien</ForeName><Initials>V</Initials><AffiliationInfo><Affiliation>Food Chemistry with Focus on Toxicology, Faculty of Mathematics and Natural Science, University of Wuppertal, Wuppertal, 42119, Germany.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Thiel</LastName><ForeName>Alicia</ForeName><Initials>A</Initials><AffiliationInfo><Affiliation>Food Chemistry with Focus on Toxicology, Faculty of Mathematics and Natural Science, University of Wuppertal, Wuppertal, 42119, Germany.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>McColl</LastName><ForeName>Gawain</ForeName><Initials>G</Initials><AffiliationInfo><Affiliation>Florey Institute of Neuroscience and Mental Health, The University of Melbourne, Parkville, Victoria, 3052, Australia.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Michalke</LastName><ForeName>Bernhard</ForeName><Initials>B</Initials><AffiliationInfo><Affiliation>Chemconsulting, Markt Schwaben, 85570, Germany.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Simon</LastName><ForeName>Martin</ForeName><Initials>M</Initials><AffiliationInfo><Affiliation>Molecular Cell Biology and Microbiology, Faculty of Mathematics and Natural Science, University of Wuppertal, Wuppertal, 42119, Germany.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Hayen</LastName><ForeName>Heiko</ForeName><Initials>H</Initials><AffiliationInfo><Affiliation>Institute of Inorganic and Analytical Chemistry, University of M&#xfc;nster, M&#xfc;nster, 48149, Germany.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Bornhorst</LastName><ForeName>Julia</ForeName><Initials>J</Initials><AffiliationInfo><Affiliation>Food Chemistry with Focus on Toxicology, Faculty of Mathematics and Natural Science, University of Wuppertal, Wuppertal, 42119, Germany; TraceAge - DFG Research Unit on Interactions of Essential Trace Elements on Healthy and Diseased Elderly (FOR 2558), Berlin, Potsdam, Jena, Wuppertal, Germany. Electronic address: bornhorst@uni-wuppertal.de.</Affiliation></AffiliationInfo></Author></AuthorList><Language>eng</Language><PublicationTypeList><PublicationType UI=\"D016428\">Journal Article</PublicationType></PublicationTypeList><ArticleDate DateType=\"Electronic\"><Year>2026</Year><Month>01</Month><Day>12</Day></ArticleDate></Article><MedlineJournalInfo><Country>Netherlands</Country><MedlineTA>Redox Biol</MedlineTA><NlmUniqueID>101605639</NlmUniqueID><ISSNLinking>2213-2317</ISSNLinking></MedlineJournalInfo><CitationSubset>IM</CitationSubset><KeywordList Owner=\"NOTNLM\"><Keyword MajorTopicYN=\"N\">C. elegans</Keyword><Keyword MajorTopicYN=\"N\">Glutathione</Keyword><Keyword MajorTopicYN=\"N\">Iron</Keyword><Keyword MajorTopicYN=\"N\">Lipids</Keyword><Keyword MajorTopicYN=\"N\">Mitochondria</Keyword><Keyword MajorTopicYN=\"N\">Neurotransmitters</Keyword></KeywordList><CoiStatement>Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.</CoiStatement></MedlineCitation><PubmedData><History><PubMedPubDate PubStatus=\"received\"><Year>2025</Year><Month>12</Month><Day>2</Day></PubMedPubDate><PubMedPubDate PubStatus=\"revised\"><Year>2026</Year><Month>1</Month><Day>11</Day></PubMedPubDate><PubMedPubDate PubStatus=\"accepted\"><Year>2026</Year><Month>1</Month><Day>11</Day></PubMedPubDate><PubMedPubDate PubStatus=\"medline\"><Year>2026</Year><Month>1</Month><Day>22</Day><Hour>1</Hour><Minute>9</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"pubmed\"><Year>2026</Year><Month>1</Month><Day>22</Day><Hour>1</Hour><Minute>9</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"entrez\"><Year>2026</Year><Month>1</Month><Day>21</Day><Hour>18</Hour><Minute>10</Minute></PubMedPubDate></History><PublicationStatus>aheadofprint</PublicationStatus><ArticleIdList><ArticleId IdType=\"pubmed\">41564794</ArticleId><ArticleId IdType=\"doi\">10.1016/j.redox.2026.104023</ArticleId><ArticleId IdType=\"pii\">S2213-2317(26)00021-2</ArticleId></ArticleIdList></PubmedData></PubmedArticle></PubmedArticleSet>",
+  "fetched_at": "2026-01-29T19:59:51.022Z"
+}

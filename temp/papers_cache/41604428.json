@@ -1,0 +1,135 @@
+{
+  "pmid": "41604428",
+  "title": "Shorter kidney telomeres are associated with nephrosclerosis by an epigenetic signature.",
+  "abstract": "Ageing leads to a progressive loss in structural integrity and a functional decline of human organs, alongside telomere attrition and alterations in DNA methylation patterns. Their relationships in the human kidney in the context of ageing remain elusive. We analysed 200 participants from the Human Kidney Tissue Resource (HKTR) with matching information on kidney histology, renal function, blood leukocyte and kidney telomere length, as well as kidney genome-wide DNA methylation profiles. Additional 71 HKTR individuals without telomere data were used in validation analyses. Kidney telomere length showed a significant inverse association with age (β = -0.029, confidence interval = -0.043 to -0.016, P = 0.00003). Shorter kidney telomeres were strongly associated with both renal structure and function, independent of demographic and clinical confounders. Nephrosclerosis score showed a gradual increase with age categories, while kidney telomere length dropped simultaneously. Leukocyte telomere length was not related to the extent of age-related changes in kidney function or structure. Kidney DNA methylation analysis revealed that kidney CpGs, genes, pathways and chromatin patterns associated with kidney telomere length are partly independent of these associated with chronological age. Consisted of 57 CpGs, epigenetic clock of kidney telomere length showed a predictive potential for nephrosclerosis, independent of clinical cofounders, chronological and epigenetic age. Our study revealed that gradual age-related structural involution of human kidney and a decline in its filtration capacity are accompanied by shortening of telomeres in renal cells and that changes in the kidney epigenome (i.e., DNA methylation) may contribute to nephrosclerosis (at least in part) independently of chronological age.",
+  "journal": "Cardiovascular research",
+  "year": "2026",
+  "authors": [
+    {
+      "lastName": "Akinnibosun",
+      "foreName": "Olutope Arinola",
+      "initials": "OA",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Xu",
+      "foreName": "Xiaoguang",
+      "initials": "X",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Emmett",
+      "foreName": "Amber",
+      "initials": "A",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Nguyen",
+      "foreName": "Huy",
+      "initials": "H",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Hames-Fathi",
+      "foreName": "Shadi",
+      "initials": "S",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Drzal",
+      "foreName": "Maciej",
+      "initials": "M",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Eales",
+      "foreName": "James",
+      "initials": "J",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Scannali",
+      "foreName": "David",
+      "initials": "D",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Prestes",
+      "foreName": "Priscilla R",
+      "initials": "PR",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Denniff",
+      "foreName": "Matthew",
+      "initials": "M",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Bogdanski",
+      "foreName": "Pawel",
+      "initials": "P",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Zywiec",
+      "foreName": "Joanna",
+      "initials": "J",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Wystrychowski",
+      "foreName": "Wojciech",
+      "initials": "W",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Zukowska-Szczechowska",
+      "foreName": "Ewa",
+      "initials": "E",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Guzik",
+      "foreName": "Tomasz J",
+      "initials": "TJ",
+      "affiliation": "Department of Internal Medicine, Jagiellonian University Medical College, 31-0008, Kraków, Poland."
+    },
+    {
+      "lastName": "Samani",
+      "foreName": "Nilesh J",
+      "initials": "NJ",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Dormer",
+      "foreName": "John",
+      "initials": "J",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Tomaszewski",
+      "foreName": "Maciej",
+      "initials": "M",
+      "affiliation": "Division of Cardiovascular Sciences, Faculty of Medicine, Biology and Health, University of Manchester, Manchester, M13 9PL, UK."
+    },
+    {
+      "lastName": "Charchar",
+      "foreName": "Fadi J",
+      "initials": "FJ",
+      "affiliation": "Health Innovation and Transformation Centre, Federation University Australia, Ballarat, VIC 3353, Australia."
+    }
+  ],
+  "keywords": [
+    "Epigenetics",
+    "Kidney ageing",
+    "Nephrosclerosis",
+    "Renal fibrosis",
+    "Telomere"
+  ],
+  "doi": "10.1093/cvr/cvag034",
+  "pmcId": null,
+  "meshTerms": [],
+  "rawXml": "<?xml version=\"1.0\" ?>\n<!DOCTYPE PubmedArticleSet PUBLIC \"-//NLM//DTD PubMedArticle, 1st January 2025//EN\" \"https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_250101.dtd\">\n<PubmedArticleSet>\n<PubmedArticle><MedlineCitation Status=\"Publisher\" Owner=\"NLM\"><PMID Version=\"1\">41604428</PMID><DateRevised><Year>2026</Year><Month>01</Month><Day>28</Day></DateRevised><Article PubModel=\"Print-Electronic\"><Journal><ISSN IssnType=\"Electronic\">1755-3245</ISSN><JournalIssue CitedMedium=\"Internet\"><PubDate><Year>2026</Year><Month>Jan</Month><Day>28</Day></PubDate></JournalIssue><Title>Cardiovascular research</Title><ISOAbbreviation>Cardiovasc Res</ISOAbbreviation></Journal><ArticleTitle>Shorter kidney telomeres are associated with nephrosclerosis by an epigenetic signature.</ArticleTitle><ELocationID EIdType=\"pii\" ValidYN=\"Y\">cvag034</ELocationID><ELocationID EIdType=\"doi\" ValidYN=\"Y\">10.1093/cvr/cvag034</ELocationID><Abstract><AbstractText Label=\"AIMS\" NlmCategory=\"OBJECTIVE\">Ageing leads to a progressive loss in structural integrity and a functional decline of human organs, alongside telomere attrition and alterations in DNA methylation patterns. Their relationships in the human kidney in the context of ageing remain elusive.</AbstractText><AbstractText Label=\"METHODS AND RESULTS\" NlmCategory=\"RESULTS\">We analysed 200 participants from the Human Kidney Tissue Resource (HKTR) with matching information on kidney histology, renal function, blood leukocyte and kidney telomere length, as well as kidney genome-wide DNA methylation profiles. Additional 71 HKTR individuals without telomere data were used in validation analyses. Kidney telomere length showed a significant inverse association with age (&#x3b2; = -0.029, confidence interval = -0.043 to -0.016, P = 0.00003). Shorter kidney telomeres were strongly associated with both renal structure and function, independent of demographic and clinical confounders. Nephrosclerosis score showed a gradual increase with age categories, while kidney telomere length dropped simultaneously. Leukocyte telomere length was not related to the extent of age-related changes in kidney function or structure. Kidney DNA methylation analysis revealed that kidney CpGs, genes, pathways and chromatin patterns associated with kidney telomere length are partly independent of these associated with chronological age. Consisted of 57 CpGs, epigenetic clock of kidney telomere length showed a predictive potential for nephrosclerosis, independent of clinical cofounders, chronological and epigenetic age.</AbstractText><AbstractText Label=\"CONCLUSION\" NlmCategory=\"CONCLUSIONS\">Our study revealed that gradual age-related structural involution of human kidney and a decline in its filtration capacity are accompanied by shortening of telomeres in renal cells and that changes in the kidney epigenome (i.e., DNA methylation) may contribute to nephrosclerosis (at least in part) independently of chronological age.</AbstractText><CopyrightInformation>&#xa9; The Author(s) 2026. Published by Oxford University Press on behalf of the European Society of Cardiology.</CopyrightInformation></Abstract><AuthorList CompleteYN=\"Y\"><Author ValidYN=\"Y\"><LastName>Akinnibosun</LastName><ForeName>Olutope Arinola</ForeName><Initials>OA</Initials><Identifier Source=\"ORCID\">0000-0001-8113-4454</Identifier><AffiliationInfo><Affiliation>Health Innovation and Transformation Centre, Federation University Australia, Ballarat, VIC 3353, Australia.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Xu</LastName><ForeName>Xiaoguang</ForeName><Initials>X</Initials><Identifier Source=\"ORCID\">0000-0003-4568-1623</Identifier><AffiliationInfo><Affiliation>Division of Cardiovascular Sciences, Faculty of Medicine, Biology and Health, University of Manchester, Manchester, M13 9PL, UK.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Emmett</LastName><ForeName>Amber</ForeName><Initials>A</Initials><AffiliationInfo><Affiliation>Division of Cardiovascular Sciences, Faculty of Medicine, Biology and Health, University of Manchester, Manchester, M13 9PL, UK.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Nguyen</LastName><ForeName>Huy</ForeName><Initials>H</Initials><AffiliationInfo><Affiliation>Health Innovation and Transformation Centre, Federation University Australia, Ballarat, VIC 3353, Australia.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Hames-Fathi</LastName><ForeName>Shadi</ForeName><Initials>S</Initials><AffiliationInfo><Affiliation>Division of Cardiovascular Sciences, Faculty of Medicine, Biology and Health, University of Manchester, Manchester, M13 9PL, UK.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Drzal</LastName><ForeName>Maciej</ForeName><Initials>M</Initials><AffiliationInfo><Affiliation>Division of Cardiovascular Sciences, Faculty of Medicine, Biology and Health, University of Manchester, Manchester, M13 9PL, UK.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Eales</LastName><ForeName>James</ForeName><Initials>J</Initials><Identifier Source=\"ORCID\">0000-0001-6238-5952</Identifier><AffiliationInfo><Affiliation>Division of Cardiovascular Sciences, Faculty of Medicine, Biology and Health, University of Manchester, Manchester, M13 9PL, UK.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Scannali</LastName><ForeName>David</ForeName><Initials>D</Initials><Identifier Source=\"ORCID\">0000-0002-0580-4003</Identifier><AffiliationInfo><Affiliation>Division of Cardiovascular Sciences, Faculty of Medicine, Biology and Health, University of Manchester, Manchester, M13 9PL, UK.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Prestes</LastName><ForeName>Priscilla R</ForeName><Initials>PR</Initials><AffiliationInfo><Affiliation>Health Innovation and Transformation Centre, Federation University Australia, Ballarat, VIC 3353, Australia.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Denniff</LastName><ForeName>Matthew</ForeName><Initials>M</Initials><AffiliationInfo><Affiliation>Department of Cardiovascular Sciences, University of Leicester, Leicester, LE1 7RH, UK.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Bogdanski</LastName><ForeName>Pawel</ForeName><Initials>P</Initials><Identifier Source=\"ORCID\">0000-0002-0563-1624</Identifier><AffiliationInfo><Affiliation>Department of Obesity, Metabolic Disorders Treatment and Clinical Dietetics, Karol Marcinkowski University of Medical Sciences, 61-701, Poznan, Poland.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Zywiec</LastName><ForeName>Joanna</ForeName><Initials>J</Initials><Identifier Source=\"ORCID\">0000-0002-0661-8157</Identifier><AffiliationInfo><Affiliation>Department of Internal Medicine, Diabetology and Nephrology, Zabrze, Medical University of Silesia, 40-055, Katowice, Poland.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Wystrychowski</LastName><ForeName>Wojciech</ForeName><Initials>W</Initials><Identifier Source=\"ORCID\">0000-0002-2430-1225</Identifier><AffiliationInfo><Affiliation>Department of General, Vascular and Transplant Surgery, Faculty of Medical Sciences in Katowice, Medical University of Silesia, Katowice, Poland.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Zukowska-Szczechowska</LastName><ForeName>Ewa</ForeName><Initials>E</Initials><AffiliationInfo><Affiliation>Department of Health Care, Silesian Medical College, 40-752, Katowice, Poland.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Guzik</LastName><ForeName>Tomasz J</ForeName><Initials>TJ</Initials><AffiliationInfo><Affiliation>Department of Internal Medicine, Jagiellonian University Medical College, 31-0008, Krak&#xf3;w, Poland.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Centre for Cardiovascular Sciences, Queen's Medical Research Institute, University of Edinburgh, Edinburgh, EH16 4TJ, UK.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Centre for Medical Genomics OMICRON, Jagiellonian University Medical College, 31-0008, Krak&#xf3;w, Poland.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Samani</LastName><ForeName>Nilesh J</ForeName><Initials>NJ</Initials><AffiliationInfo><Affiliation>Department of Cardiovascular Sciences, University of Leicester, Leicester, LE1 7RH, UK.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Dormer</LastName><ForeName>John</ForeName><Initials>J</Initials><Identifier Source=\"ORCID\">0000-0001-7615-6149</Identifier><AffiliationInfo><Affiliation>Department of Cellular Pathology, University Hospitals of Leicester, Leicester, LE5 4PW, UK.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Tomaszewski</LastName><ForeName>Maciej</ForeName><Initials>M</Initials><Identifier Source=\"ORCID\">0000-0001-8215-6567</Identifier><AffiliationInfo><Affiliation>Division of Cardiovascular Sciences, Faculty of Medicine, Biology and Health, University of Manchester, Manchester, M13 9PL, UK.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Manchester University NHS Foundation Trust Manchester, Manchester Royal Infirmary, Manchester, M13 9WL, UK.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Signature Research Programme in Health Services and Systems Research, Duke-National University of Singapore, Singapore.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Charchar</LastName><ForeName>Fadi J</ForeName><Initials>FJ</Initials><AffiliationInfo><Affiliation>Health Innovation and Transformation Centre, Federation University Australia, Ballarat, VIC 3353, Australia.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Department of Cardiovascular Sciences, University of Leicester, Leicester, LE1 7RH, UK.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Department of Physiology, University of Melbourne, Melbourne, VIC 3052, Australia.</Affiliation></AffiliationInfo></Author></AuthorList><Language>eng</Language><PublicationTypeList><PublicationType UI=\"D016428\">Journal Article</PublicationType></PublicationTypeList><ArticleDate DateType=\"Electronic\"><Year>2026</Year><Month>01</Month><Day>28</Day></ArticleDate></Article><MedlineJournalInfo><Country>England</Country><MedlineTA>Cardiovasc Res</MedlineTA><NlmUniqueID>0077427</NlmUniqueID><ISSNLinking>0008-6363</ISSNLinking></MedlineJournalInfo><CitationSubset>IM</CitationSubset><KeywordList Owner=\"NOTNLM\"><Keyword MajorTopicYN=\"N\">Epigenetics</Keyword><Keyword MajorTopicYN=\"N\">Kidney ageing</Keyword><Keyword MajorTopicYN=\"N\">Nephrosclerosis</Keyword><Keyword MajorTopicYN=\"N\">Renal fibrosis</Keyword><Keyword MajorTopicYN=\"N\">Telomere</Keyword></KeywordList></MedlineCitation><PubmedData><History><PubMedPubDate PubStatus=\"received\"><Year>2025</Year><Month>6</Month><Day>5</Day></PubMedPubDate><PubMedPubDate PubStatus=\"revised\"><Year>2025</Year><Month>12</Month><Day>19</Day></PubMedPubDate><PubMedPubDate PubStatus=\"medline\"><Year>2026</Year><Month>1</Month><Day>28</Day><Hour>19</Hour><Minute>20</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"pubmed\"><Year>2026</Year><Month>1</Month><Day>28</Day><Hour>19</Hour><Minute>20</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"entrez\"><Year>2026</Year><Month>1</Month><Day>28</Day><Hour>13</Hour><Minute>43</Minute></PubMedPubDate></History><PublicationStatus>aheadofprint</PublicationStatus><ArticleIdList><ArticleId IdType=\"pubmed\">41604428</ArticleId><ArticleId IdType=\"doi\">10.1093/cvr/cvag034</ArticleId><ArticleId IdType=\"pii\">8443510</ArticleId></ArticleIdList></PubmedData></PubmedArticle></PubmedArticleSet>",
+  "fetched_at": "2026-01-29T21:12:04.208Z"
+}

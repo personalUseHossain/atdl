@@ -1,0 +1,46 @@
+{
+  "pmid": "41574926",
+  "title": "Improvement of age-related neurocognitive disorders by Ginkgo biloba extract: neuroprotection in focus.",
+  "abstract": "Oxidative stress and enhanced free radical production with subsequent mitochondrial dysfunction and neurodegeneration are major pathomechanisms for the ageing spectrum of neurocognitive disorders ranging from subjective cognitive decline over mild cognitive impairment to Alzheimer's disease (AD) and vascular mild cognitive impairment (MCI) and vascular dementia (VD). Due to its radical scavenging, antioxidative and mitochondrial function-improving properties standardised Ginkgo biloba extracts (GBE) target several key processes of neurodegeneration. These include mitochondrial dysfunction, impaired mitochondrial quality control, and reduced energy metabolism. GBE's benefits also include supporting neuroplasticity, the brain's ability to form new neural connections, and reducing neuroinflammation, a major driver of disease progression in neurodegenerative conditions. As a consequence, GBE improves several aspects of cognitive dysfunction within the broad spectrum of neurocognitive disorders as indicated by a large body of evidence from randomised controlled studies.",
+  "journal": "International journal of psychiatry in clinical practice",
+  "year": "2026",
+  "authors": [
+    {
+      "lastName": "Eckert",
+      "foreName": "Anne",
+      "initials": "A",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Georgescu",
+      "foreName": "Dan",
+      "initials": "D",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Seifritz",
+      "foreName": "Erich",
+      "initials": "E",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Müller",
+      "foreName": "Walter E",
+      "initials": "WE",
+      "affiliation": ""
+    }
+  ],
+  "keywords": [
+    "Alzheimer’s disease",
+    "Standardised Ginkgo biloba extract",
+    "ageing spectrum",
+    "mild cognitive impairment",
+    "neuroprotection",
+    "vascular cognitive impairment"
+  ],
+  "doi": "10.1080/13651501.2026.2617217",
+  "pmcId": null,
+  "meshTerms": [],
+  "rawXml": "<?xml version=\"1.0\" ?>\n<!DOCTYPE PubmedArticleSet PUBLIC \"-//NLM//DTD PubMedArticle, 1st January 2025//EN\" \"https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_250101.dtd\">\n<PubmedArticleSet>\n<PubmedArticle><MedlineCitation Status=\"Publisher\" Owner=\"NLM\"><PMID Version=\"1\">41574926</PMID><DateRevised><Year>2026</Year><Month>01</Month><Day>23</Day></DateRevised><Article PubModel=\"Print-Electronic\"><Journal><ISSN IssnType=\"Electronic\">1471-1788</ISSN><JournalIssue CitedMedium=\"Internet\"><PubDate><Year>2026</Year><Month>Jan</Month><Day>23</Day></PubDate></JournalIssue><Title>International journal of psychiatry in clinical practice</Title><ISOAbbreviation>Int J Psychiatry Clin Pract</ISOAbbreviation></Journal><ArticleTitle>Improvement of age-related neurocognitive disorders by Ginkgo biloba extract: neuroprotection in focus.</ArticleTitle><Pagination><StartPage>1</StartPage><EndPage>14</EndPage><MedlinePgn>1-14</MedlinePgn></Pagination><ELocationID EIdType=\"doi\" ValidYN=\"Y\">10.1080/13651501.2026.2617217</ELocationID><Abstract><AbstractText>Oxidative stress and enhanced free radical production with subsequent mitochondrial dysfunction and neurodegeneration are major pathomechanisms for the ageing spectrum of neurocognitive disorders ranging from subjective cognitive decline over mild cognitive impairment to Alzheimer's disease (AD) and vascular mild cognitive impairment (MCI) and vascular dementia (VD). Due to its radical scavenging, antioxidative and mitochondrial function-improving properties standardised Ginkgo biloba extracts (GBE) target several key processes of neurodegeneration. These include mitochondrial dysfunction, impaired mitochondrial quality control, and reduced energy metabolism. GBE's benefits also include supporting neuroplasticity, the brain's ability to form new neural connections, and reducing neuroinflammation, a major driver of disease progression in neurodegenerative conditions. As a consequence, GBE improves several aspects of cognitive dysfunction within the broad spectrum of neurocognitive disorders as indicated by a large body of evidence from randomised controlled studies.</AbstractText></Abstract><AuthorList CompleteYN=\"Y\"><Author ValidYN=\"Y\"><LastName>Eckert</LastName><ForeName>Anne</ForeName><Initials>A</Initials><AffiliationInfo><Affiliation>Neurobiology Laboratory for Mental Health and Brain Aging, Transfaculty Research Platform Molecular &amp; Cognitive Neuroscience, University of Basel, Basel, Switzerland.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Georgescu</LastName><ForeName>Dan</ForeName><Initials>D</Initials><AffiliationInfo><Affiliation>Department of Consultation-Liaison Psychiatry, Old Age Psychiatry and Neuropsychiatry, Aargau Psychiatric Services, Windisch, Switzerland.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Seifritz</LastName><ForeName>Erich</ForeName><Initials>E</Initials><AffiliationInfo><Affiliation>Department of Adult Psychiatry and Psychotherapy, Psychiatric Hospital, University of Z&#xfc;rich, Z&#xfc;rich, Switzerland.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>M&#xfc;ller</LastName><ForeName>Walter E</ForeName><Initials>WE</Initials><AffiliationInfo><Affiliation>Department of Pharmacology and Clinical Pharmacy, Goethe University, Frankfurt, Germany.</Affiliation></AffiliationInfo></Author></AuthorList><Language>eng</Language><PublicationTypeList><PublicationType UI=\"D016428\">Journal Article</PublicationType><PublicationType UI=\"D016454\">Review</PublicationType></PublicationTypeList><ArticleDate DateType=\"Electronic\"><Year>2026</Year><Month>01</Month><Day>23</Day></ArticleDate></Article><MedlineJournalInfo><Country>England</Country><MedlineTA>Int J Psychiatry Clin Pract</MedlineTA><NlmUniqueID>9709509</NlmUniqueID><ISSNLinking>1365-1501</ISSNLinking></MedlineJournalInfo><CitationSubset>IM</CitationSubset><OtherAbstract Type=\"plain-language-summary\" Language=\"eng\"><AbstractText>Neurocognitive disorders in ageing exist along a continuum, progressing from subjective cognitive decline to mild cognitive impairment, and ultimately to neurodegenerative and vascular dementias.Oxidative stress and mitochondrial dysfunction finally leading to neurodegeneration are the major driving forces.Standardised extracts of the leaves of Ginkgo biloba (GBE) show antioxidant and mitochondria protecting properties responsible for the improved cognition across the entire spectrum of neurocognitive disorders.Multiple placebo-controlled studies, reviews, and guidelines confirm GBE&#x2019;s clinical efficacy in cognitive improvement throughout the neurocognitive continuum.</AbstractText></OtherAbstract><KeywordList Owner=\"NOTNLM\"><Keyword MajorTopicYN=\"N\">Alzheimer&#x2019;s disease</Keyword><Keyword MajorTopicYN=\"N\">Standardised Ginkgo biloba extract</Keyword><Keyword MajorTopicYN=\"N\">ageing spectrum</Keyword><Keyword MajorTopicYN=\"N\">mild cognitive impairment</Keyword><Keyword MajorTopicYN=\"N\">neuroprotection</Keyword><Keyword MajorTopicYN=\"N\">vascular cognitive impairment</Keyword></KeywordList></MedlineCitation><PubmedData><History><PubMedPubDate PubStatus=\"medline\"><Year>2026</Year><Month>1</Month><Day>23</Day><Hour>13</Hour><Minute>5</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"pubmed\"><Year>2026</Year><Month>1</Month><Day>23</Day><Hour>13</Hour><Minute>5</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"entrez\"><Year>2026</Year><Month>1</Month><Day>23</Day><Hour>8</Hour><Minute>3</Minute></PubMedPubDate></History><PublicationStatus>aheadofprint</PublicationStatus><ArticleIdList><ArticleId IdType=\"pubmed\">41574926</ArticleId><ArticleId IdType=\"doi\">10.1080/13651501.2026.2617217</ArticleId></ArticleIdList></PubmedData></PubmedArticle></PubmedArticleSet>",
+  "fetched_at": "2026-01-29T19:53:38.758Z"
+}

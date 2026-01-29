@@ -1,0 +1,128 @@
+{
+  "pmid": "41539090",
+  "title": "Natural products modulate mitochondria-associated membranes to prevent cardiovascular diseases.",
+  "abstract": "Cardiovascular disease (CVD) represents a leading global cause of morbidity and mortality, and its prevalence and associated mortality are projected to rise significantly alongside the aging of the population. Aging, as a primary and non-modifiable risk factor, contributes to the progressive decline in cardiovascular structure and function, thereby predisposing individuals to a spectrum of CVDs, including coronary artery disease (CAD), heart failure (HF), and hypertension. A growing body of experimental evidence indicates that mitochondrial and endoplasmic reticulum (ER) dysfunction serves as a key driver in the onset and development of CVD. The mitochondria-associated membrane (MAM), a specialized subcellular domain, mediates the critcal communication between these two organelles. Functioning as both a physical tether and a functional platform, the MAM regulates essential cellular processes and has been implicated in the pathogenesis of CVD. Current conventional pharmacotherapies for CVD, while effective, are often associated with potential side effects and typically involve complex, long-term medication regimens that necessitate regular monitoring and therapeutic adjustments. In contrast, natural products (NPs), underpinned by unique theoretical frameworks and extensive postive clinical experience, offer patients a complementary and differentiated therapeutic choice. This article systematically reviews the role of action of MAM in the pathophysiology of CVD and explores its potential as a therapeutic target. Furthermore, it examines the regulatory effects of NPs on mitochondria-endoplasmic reticulum interactions and the cardioprotective effect exerted by targeting MAM. The search terms \"cardiovascular diseases\", \"mitochondria\", \"endoplasmic reticulum\", \"mitochondria-associated membranes\", \"mitochondria-associated endoplasmic reticulum membranes\", \"natural products\", \"traditional Chinese medicine\", \"mitochondrial dynamics\", \"lipid metabolism\", \"calcium\", \"apoptosis\", \"autophagy\", \"inflammation\" and \"oxidative stress\" were used to search for studies published in the past five years until August 2025. Studies have shown that MAM plays a pivotal role in the pathogenesis of CVD, including atherosclerosis (AS), myocardial ischemia/reperfusion injury (MI/RI), HF, and arrhythmia. By maintaining the normal function of mitochondria and the ER and enhancing their interaction, MAM serves as a key mechanism in protecting cardiovascular health. NPs encompass a wide range of substances, including Chinese herbs, traditional Chinese medicine (TCM) monomeric compounds, compound TCM prescriptions, and traditional Chinese patent medicines. By targeting MAM, NPs demonstrate significant efficacy in alleviating clinical symptoms in patients with CVD. Furthermore, NPs are characterized by their favorable safety profile and low incidence of adverse effects. Collectively, this evidence underscores the considerable therapeutic potential of NPs as promising candidate drugs for CVD treatment. It also highlights the pivotal role of MAM in the pathogenesis of CVD, establishing it as a key therapeutic target for future drug development.",
+  "journal": "Phytomedicine : international journal of phytotherapy and phytopharmacology",
+  "year": "2026",
+  "authors": [
+    {
+      "lastName": "Zhang",
+      "foreName": "Yuefang",
+      "initials": "Y",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Ning",
+      "foreName": "Bo",
+      "initials": "B",
+      "affiliation": ""
+    },
+    {
+      "lastName": "He",
+      "foreName": "Weiwei",
+      "initials": "W",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Wang",
+      "foreName": "Kai",
+      "initials": "K",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Chen",
+      "foreName": "Hongyu",
+      "initials": "H",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Zhang",
+      "foreName": "Zhan",
+      "initials": "Z",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Zhang",
+      "foreName": "Zhiru",
+      "initials": "Z",
+      "affiliation": ""
+    },
+    {
+      "lastName": "He",
+      "foreName": "Lihong",
+      "initials": "L",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Lei",
+      "foreName": "Yuxuan",
+      "initials": "Y",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Zhao",
+      "foreName": "Mingjun",
+      "initials": "M",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Liu",
+      "foreName": "Yao",
+      "initials": "Y",
+      "affiliation": ""
+    }
+  ],
+  "keywords": [
+    "Cardiovascular diseases",
+    "Mitochondria-associated membranes",
+    "Natural products"
+  ],
+  "doi": "10.1016/j.phymed.2026.157786",
+  "pmcId": null,
+  "meshTerms": [
+    {
+      "descriptor": "Humans",
+      "qualifiers": []
+    },
+    {
+      "descriptor": "Cardiovascular Diseases",
+      "qualifiers": [
+        "prevention & control"
+      ]
+    },
+    {
+      "descriptor": "Biological Products",
+      "qualifiers": [
+        "pharmacology"
+      ]
+    },
+    {
+      "descriptor": "Animals",
+      "qualifiers": []
+    },
+    {
+      "descriptor": "Mitochondrial Membranes",
+      "qualifiers": [
+        "drug effects"
+      ]
+    },
+    {
+      "descriptor": "Endoplasmic Reticulum",
+      "qualifiers": [
+        "drug effects"
+      ]
+    },
+    {
+      "descriptor": "Mitochondria",
+      "qualifiers": [
+        "drug effects"
+      ]
+    },
+    {
+      "descriptor": "Mitochondria Associated Membranes",
+      "qualifiers": []
+    }
+  ],
+  "rawXml": "<?xml version=\"1.0\" ?>\n<!DOCTYPE PubmedArticleSet PUBLIC \"-//NLM//DTD PubMedArticle, 1st January 2025//EN\" \"https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_250101.dtd\">\n<PubmedArticleSet>\n<PubmedArticle><MedlineCitation Status=\"MEDLINE\" Owner=\"NLM\" IndexingMethod=\"Automated\"><PMID Version=\"1\">41539090</PMID><DateCompleted><Year>2026</Year><Month>01</Month><Day>23</Day></DateCompleted><DateRevised><Year>2026</Year><Month>01</Month><Day>23</Day></DateRevised><Article PubModel=\"Print-Electronic\"><Journal><ISSN IssnType=\"Electronic\">1618-095X</ISSN><JournalIssue CitedMedium=\"Internet\"><Volume>151</Volume><PubDate><Year>2026</Year><Month>Feb</Month></PubDate></JournalIssue><Title>Phytomedicine : international journal of phytotherapy and phytopharmacology</Title><ISOAbbreviation>Phytomedicine</ISOAbbreviation></Journal><ArticleTitle>Natural products modulate mitochondria-associated membranes to prevent cardiovascular diseases.</ArticleTitle><Pagination><StartPage>157786</StartPage><MedlinePgn>157786</MedlinePgn></Pagination><ELocationID EIdType=\"doi\" ValidYN=\"Y\">10.1016/j.phymed.2026.157786</ELocationID><ELocationID EIdType=\"pii\" ValidYN=\"Y\">S0944-7113(26)00023-1</ELocationID><Abstract><AbstractText Label=\"BACKGROUND\" NlmCategory=\"BACKGROUND\">Cardiovascular disease (CVD) represents a leading global cause of morbidity and mortality, and its prevalence and associated mortality are projected to rise significantly alongside the aging of the population. Aging, as a primary and non-modifiable risk factor, contributes to the progressive decline in cardiovascular structure and function, thereby predisposing individuals to a spectrum of CVDs, including coronary artery disease (CAD), heart failure (HF), and hypertension. A growing body of experimental evidence indicates that mitochondrial and endoplasmic reticulum (ER) dysfunction serves as a key driver in the onset and development of CVD. The mitochondria-associated membrane (MAM), a specialized subcellular domain, mediates the critcal communication between these two organelles. Functioning as both a physical tether and a functional platform, the MAM regulates essential cellular processes and has been implicated in the pathogenesis of CVD. Current conventional pharmacotherapies for CVD, while effective, are often associated with potential side effects and typically involve complex, long-term medication regimens that necessitate regular monitoring and therapeutic adjustments. In contrast, natural products (NPs), underpinned by unique theoretical frameworks and extensive postive clinical experience, offer patients a complementary and differentiated therapeutic choice.</AbstractText><AbstractText Label=\"PURPOSE\" NlmCategory=\"OBJECTIVE\">This article systematically reviews the role of action of MAM in the pathophysiology of CVD and explores its potential as a therapeutic target. Furthermore, it examines the regulatory effects of NPs on mitochondria-endoplasmic reticulum interactions and the cardioprotective effect exerted by targeting MAM.</AbstractText><AbstractText Label=\"METHODS\" NlmCategory=\"METHODS\">The search terms \"cardiovascular diseases\", \"mitochondria\", \"endoplasmic reticulum\", \"mitochondria-associated membranes\", \"mitochondria-associated endoplasmic reticulum membranes\", \"natural products\", \"traditional Chinese medicine\", \"mitochondrial dynamics\", \"lipid metabolism\", \"calcium\", \"apoptosis\", \"autophagy\", \"inflammation\" and \"oxidative stress\" were used to search for studies published in the past five years until August 2025.</AbstractText><AbstractText Label=\"RESULTS\" NlmCategory=\"RESULTS\">Studies have shown that MAM plays a pivotal role in the pathogenesis of CVD, including atherosclerosis (AS), myocardial ischemia/reperfusion injury (MI/RI), HF, and arrhythmia. By maintaining the normal function of mitochondria and the ER and enhancing their interaction, MAM serves as a key mechanism in protecting cardiovascular health.</AbstractText><AbstractText Label=\"CONCLUSION\" NlmCategory=\"CONCLUSIONS\">NPs encompass a wide range of substances, including Chinese herbs, traditional Chinese medicine (TCM) monomeric compounds, compound TCM prescriptions, and traditional Chinese patent medicines. By targeting MAM, NPs demonstrate significant efficacy in alleviating clinical symptoms in patients with CVD. Furthermore, NPs are characterized by their favorable safety profile and low incidence of adverse effects. Collectively, this evidence underscores the considerable therapeutic potential of NPs as promising candidate drugs for CVD treatment. It also highlights the pivotal role of MAM in the pathogenesis of CVD, establishing it as a key therapeutic target for future drug development.</AbstractText><CopyrightInformation>Copyright &#xa9; 2026 Elsevier GmbH. All rights reserved.</CopyrightInformation></Abstract><AuthorList CompleteYN=\"Y\"><Author ValidYN=\"Y\"><LastName>Zhang</LastName><ForeName>Yuefang</ForeName><Initials>Y</Initials><AffiliationInfo><Affiliation>Shaanxi University of Chinese Medicine, Xianyang 712046, China.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Ning</LastName><ForeName>Bo</ForeName><Initials>B</Initials><AffiliationInfo><Affiliation>The Second Clinical Medical College, Guangzhou University of Chinese Medicine, Guangzhou 510006, China.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>He</LastName><ForeName>Weiwei</ForeName><Initials>W</Initials><AffiliationInfo><Affiliation>Shaanxi University of Chinese Medicine, Xianyang 712046, China.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Wang</LastName><ForeName>Kai</ForeName><Initials>K</Initials><AffiliationInfo><Affiliation>Shaanxi University of Chinese Medicine, Xianyang 712046, China.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Chen</LastName><ForeName>Hongyu</ForeName><Initials>H</Initials><AffiliationInfo><Affiliation>Shaanxi University of Chinese Medicine, Xianyang 712046, China.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Zhang</LastName><ForeName>Zhan</ForeName><Initials>Z</Initials><AffiliationInfo><Affiliation>Shaanxi University of Chinese Medicine, Xianyang 712046, China.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Zhang</LastName><ForeName>Zhiru</ForeName><Initials>Z</Initials><AffiliationInfo><Affiliation>Shaanxi University of Chinese Medicine, Xianyang 712046, China.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>He</LastName><ForeName>Lihong</ForeName><Initials>L</Initials><AffiliationInfo><Affiliation>Shaanxi University of Chinese Medicine, Xianyang 712046, China.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Lei</LastName><ForeName>Yuxuan</ForeName><Initials>Y</Initials><AffiliationInfo><Affiliation>Shaanxi University of Chinese Medicine, Xianyang 712046, China.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Zhao</LastName><ForeName>Mingjun</ForeName><Initials>M</Initials><AffiliationInfo><Affiliation>Affliated Hospital of Shaanxi University of Chinese Medicine, Xianyang 712000, China. Electronic address: zmj7125@163.com.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Liu</LastName><ForeName>Yao</ForeName><Initials>Y</Initials><AffiliationInfo><Affiliation>Department of Pharmacy, Children's Hospital of Nanjing Medical University, Nanjing 211100, China. Electronic address: liuyao_nch@163.com.</Affiliation></AffiliationInfo></Author></AuthorList><Language>eng</Language><PublicationTypeList><PublicationType UI=\"D016428\">Journal Article</PublicationType><PublicationType UI=\"D016454\">Review</PublicationType></PublicationTypeList><ArticleDate DateType=\"Electronic\"><Year>2026</Year><Month>01</Month><Day>06</Day></ArticleDate></Article><MedlineJournalInfo><Country>Germany</Country><MedlineTA>Phytomedicine</MedlineTA><NlmUniqueID>9438794</NlmUniqueID><ISSNLinking>0944-7113</ISSNLinking></MedlineJournalInfo><ChemicalList><Chemical><RegistryNumber>0</RegistryNumber><NameOfSubstance UI=\"D001688\">Biological Products</NameOfSubstance></Chemical></ChemicalList><CitationSubset>IM</CitationSubset><MeshHeadingList><MeshHeading><DescriptorName UI=\"D006801\" MajorTopicYN=\"N\">Humans</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D002318\" MajorTopicYN=\"Y\">Cardiovascular Diseases</DescriptorName><QualifierName UI=\"Q000517\" MajorTopicYN=\"N\">prevention &amp; control</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D001688\" MajorTopicYN=\"Y\">Biological Products</DescriptorName><QualifierName UI=\"Q000494\" MajorTopicYN=\"N\">pharmacology</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D000818\" MajorTopicYN=\"N\">Animals</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D051336\" MajorTopicYN=\"Y\">Mitochondrial Membranes</DescriptorName><QualifierName UI=\"Q000187\" MajorTopicYN=\"N\">drug effects</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D004721\" MajorTopicYN=\"N\">Endoplasmic Reticulum</DescriptorName><QualifierName UI=\"Q000187\" MajorTopicYN=\"N\">drug effects</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D008928\" MajorTopicYN=\"Y\">Mitochondria</DescriptorName><QualifierName UI=\"Q000187\" MajorTopicYN=\"N\">drug effects</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D000096322\" MajorTopicYN=\"N\">Mitochondria Associated Membranes</DescriptorName></MeshHeading></MeshHeadingList><KeywordList Owner=\"NOTNLM\"><Keyword MajorTopicYN=\"N\">Cardiovascular diseases</Keyword><Keyword MajorTopicYN=\"N\">Mitochondria-associated membranes</Keyword><Keyword MajorTopicYN=\"N\">Natural products</Keyword></KeywordList><CoiStatement>Declaration of competing interest The authors declared that they have no conflicts of interest.</CoiStatement></MedlineCitation><PubmedData><History><PubMedPubDate PubStatus=\"received\"><Year>2025</Year><Month>9</Month><Day>25</Day></PubMedPubDate><PubMedPubDate PubStatus=\"revised\"><Year>2025</Year><Month>11</Month><Day>16</Day></PubMedPubDate><PubMedPubDate PubStatus=\"accepted\"><Year>2026</Year><Month>1</Month><Day>5</Day></PubMedPubDate><PubMedPubDate PubStatus=\"medline\"><Year>2026</Year><Month>1</Month><Day>24</Day><Hour>0</Hour><Minute>32</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"pubmed\"><Year>2026</Year><Month>1</Month><Day>16</Day><Hour>17</Hour><Minute>21</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"entrez\"><Year>2026</Year><Month>1</Month><Day>15</Day><Hour>18</Hour><Minute>11</Minute></PubMedPubDate></History><PublicationStatus>ppublish</PublicationStatus><ArticleIdList><ArticleId IdType=\"pubmed\">41539090</ArticleId><ArticleId IdType=\"doi\">10.1016/j.phymed.2026.157786</ArticleId><ArticleId IdType=\"pii\">S0944-7113(26)00023-1</ArticleId></ArticleIdList></PubmedData></PubmedArticle></PubmedArticleSet>",
+  "fetched_at": "2026-01-29T20:00:44.179Z"
+}

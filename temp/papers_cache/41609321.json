@@ -1,0 +1,132 @@
+{
+  "pmid": "41609321",
+  "title": "Vascular-POPS: evidence for a new standard of care in the management of chronic limb-threatening Ischaemia.",
+  "abstract": "Patients with chronic limb-threatening ischaemia (CLTI) are often admitted emergently with significant comorbidity and frailty, and little time for pre-optimisation, resulting in longer hospital stays and worse outcomes. Our unit implemented a POPS (Perioperative Medicine for the Older Person undergoing Surgery) service, incorporating the comprehensive geriatric assessment (CGA) to optimise patients. This study assesses its effect on non-elective CLTI inpatients. This is a prospective observational cohort study at a single vascular centre, analysing outcomes in non-elective CLTI patients over three different periods: one year prior to POPS ('Pre-POPS'); during the initial delivery when it was nurse-led ('POPS v1'); and after it became physician-led ('POPS v2'). The primary outcome was length of stay (LoS), with 30-day and 12-month secondary outcomes. Cohorts were compared using propensity-score weighted statistical analysis. Economic analysis was undertaken. Six hundred and two patients were included. LoS reduced sequentially with greater POPS input (17 days vs. 13 days vs. 11 days, P < .001). There was a significant reduction in 30-day acute kidney injury (33% vs. 37% vs. 8%, P < .001), myocardial infarction (15% vs. 2% vs. 2% P < .001) and hospital-acquired pneumonia (17% vs. 10% vs. 9%, P = .048). Cox survival regression found a reduction in 12-month mortality of 37% for the POPS v1 [HR 0.628 (95% CI 0.481-0.891) P = .013] and 40% for the POPS v2 [HR 0.598 (95% CI 0.431-0.913) P = .001] cohorts, respectively. Economic analysis found that handling more medically complex patients with a shorter LoS negated its operational costs. A Vascular-POPS collaborative service has resulted in major improvements in LoS, adverse events and survival in this most vulnerable of vascular patient cohorts and is a financially sustainable initiative.",
+  "journal": "Age and ageing",
+  "year": "2026",
+  "authors": [
+    {
+      "lastName": "Khan",
+      "foreName": "Assad",
+      "initials": "A",
+      "affiliation": "Leeds General Infirmary, Great George Street, Leeds LS1 3EX, UK."
+    },
+    {
+      "lastName": "Davies",
+      "foreName": "Henry",
+      "initials": "H",
+      "affiliation": "Leeds General Infirmary, Great George Street, Leeds LS1 3EX, UK."
+    },
+    {
+      "lastName": "Fawcett",
+      "foreName": "Lee-Ellen",
+      "initials": "LE",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Darwood",
+      "foreName": "Rosie",
+      "initials": "R",
+      "affiliation": "Leeds General Infirmary, Great George Street, Leeds LS1 3EX, UK."
+    },
+    {
+      "lastName": "Anthony",
+      "foreName": "Rebecca",
+      "initials": "R",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Wallace",
+      "foreName": "Tom",
+      "initials": "T",
+      "affiliation": "Leeds General Infirmary, Great George Street, Leeds LS1 3EX, UK."
+    }
+  ],
+  "keywords": [
+    "CLTI",
+    "frailty",
+    "older people",
+    "optimisation",
+    "quality of care"
+  ],
+  "doi": "10.1093/ageing/afag003",
+  "pmcId": null,
+  "meshTerms": [
+    {
+      "descriptor": "Humans",
+      "qualifiers": []
+    },
+    {
+      "descriptor": "Male",
+      "qualifiers": []
+    },
+    {
+      "descriptor": "Female",
+      "qualifiers": []
+    },
+    {
+      "descriptor": "Aged",
+      "qualifiers": []
+    },
+    {
+      "descriptor": "Prospective Studies",
+      "qualifiers": []
+    },
+    {
+      "descriptor": "Length of Stay",
+      "qualifiers": []
+    },
+    {
+      "descriptor": "Aged, 80 and over",
+      "qualifiers": []
+    },
+    {
+      "descriptor": "Time Factors",
+      "qualifiers": []
+    },
+    {
+      "descriptor": "Treatment Outcome",
+      "qualifiers": []
+    },
+    {
+      "descriptor": "Ischemia",
+      "qualifiers": [
+        "economics",
+        "surgery",
+        "diagnosis",
+        "mortality",
+        "therapy"
+      ]
+    },
+    {
+      "descriptor": "Geriatric Assessment",
+      "qualifiers": []
+    },
+    {
+      "descriptor": "Standard of Care",
+      "qualifiers": []
+    },
+    {
+      "descriptor": "Chronic Disease",
+      "qualifiers": []
+    },
+    {
+      "descriptor": "Chronic Limb-Threatening Ischemia",
+      "qualifiers": [
+        "surgery",
+        "mortality",
+        "economics"
+      ]
+    },
+    {
+      "descriptor": "Cost-Benefit Analysis",
+      "qualifiers": []
+    },
+    {
+      "descriptor": "Risk Factors",
+      "qualifiers": []
+    }
+  ],
+  "rawXml": "<?xml version=\"1.0\" ?>\n<!DOCTYPE PubmedArticleSet PUBLIC \"-//NLM//DTD PubMedArticle, 1st January 2025//EN\" \"https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_250101.dtd\">\n<PubmedArticleSet>\n<PubmedArticle><MedlineCitation Status=\"MEDLINE\" Owner=\"NLM\" IndexingMethod=\"Automated\"><PMID Version=\"1\">41609321</PMID><DateCompleted><Year>2026</Year><Month>01</Month><Day>29</Day></DateCompleted><DateRevised><Year>2026</Year><Month>01</Month><Day>29</Day></DateRevised><Article PubModel=\"Print\"><Journal><ISSN IssnType=\"Electronic\">1468-2834</ISSN><JournalIssue CitedMedium=\"Internet\"><Volume>55</Volume><Issue>1</Issue><PubDate><Year>2026</Year><Month>Jan</Month><Day>03</Day></PubDate></JournalIssue><Title>Age and ageing</Title><ISOAbbreviation>Age Ageing</ISOAbbreviation></Journal><ArticleTitle>Vascular-POPS: evidence for a new standard of care in the management of chronic limb-threatening Ischaemia.</ArticleTitle><ELocationID EIdType=\"pii\" ValidYN=\"Y\">afag003</ELocationID><ELocationID EIdType=\"doi\" ValidYN=\"Y\">10.1093/ageing/afag003</ELocationID><Abstract><AbstractText Label=\"OBJECTIVE\" NlmCategory=\"OBJECTIVE\">Patients with chronic limb-threatening ischaemia (CLTI) are often admitted emergently with significant comorbidity and frailty, and little time for pre-optimisation, resulting in longer hospital stays and worse outcomes. Our unit implemented a POPS (Perioperative Medicine for the Older Person undergoing Surgery) service, incorporating the comprehensive geriatric assessment (CGA) to optimise patients. This study assesses its effect on non-elective CLTI inpatients.</AbstractText><AbstractText Label=\"METHODS\" NlmCategory=\"METHODS\">This is a prospective observational cohort study at a single vascular centre, analysing outcomes in non-elective CLTI patients over three different periods: one year prior to POPS ('Pre-POPS'); during the initial delivery when it was nurse-led ('POPS v1'); and after it became physician-led ('POPS v2'). The primary outcome was length of stay (LoS), with 30-day and 12-month secondary outcomes. Cohorts were compared using propensity-score weighted statistical analysis. Economic analysis was undertaken.</AbstractText><AbstractText Label=\"RESULTS\" NlmCategory=\"RESULTS\">Six hundred and two patients were included. LoS reduced sequentially with greater POPS input (17&#xa0;days vs. 13&#xa0;days vs. 11&#xa0;days, P&#xa0;&lt;&#x2009;.001). There was a significant reduction in 30-day acute kidney injury (33% vs. 37% vs. 8%, P&#xa0;&lt;&#x2009;.001), myocardial infarction (15% vs. 2% vs. 2% P&#xa0;&lt;&#x2009;.001) and hospital-acquired pneumonia (17% vs. 10% vs. 9%, P&#xa0;=&#x2009;.048). Cox survival regression found a reduction in 12-month mortality of 37% for the POPS v1 [HR 0.628 (95% CI 0.481-0.891) P&#xa0;=&#x2009;.013] and 40% for the POPS v2 [HR 0.598 (95% CI 0.431-0.913) P&#xa0;=&#x2009;.001] cohorts, respectively. Economic analysis found that handling more medically complex patients with a shorter LoS negated its operational costs.</AbstractText><AbstractText Label=\"CONCLUSION\" NlmCategory=\"CONCLUSIONS\">A Vascular-POPS collaborative service has resulted in major improvements in LoS, adverse events and survival in this most vulnerable of vascular patient cohorts and is a financially sustainable initiative.</AbstractText><CopyrightInformation>&#xa9; The Author(s) 2026. Published by Oxford University Press on behalf of the British Geriatrics Society. All rights reserved. For commercial re-use, please contact reprints@oup.com for reprints and translation rights for reprints. All other permissions can be obtained through our RightsLink service via the Permissions link on the article page on our site&#x2014;for further information please contact journals.permissions@oup.com.</CopyrightInformation></Abstract><AuthorList CompleteYN=\"Y\"><Author ValidYN=\"Y\"><LastName>Khan</LastName><ForeName>Assad</ForeName><Initials>A</Initials><AffiliationInfo><Affiliation>Leeds General Infirmary, Great George Street, Leeds LS1 3EX, UK.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Faculty of Medicine and Health, University of Leeds, Woodhouse, Leeds LS2 9JT, UK.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Davies</LastName><ForeName>Henry</ForeName><Initials>H</Initials><Identifier Source=\"ORCID\">0000-0002-8341-3585</Identifier><AffiliationInfo><Affiliation>Leeds General Infirmary, Great George Street, Leeds LS1 3EX, UK.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Faculty of Medicine and Health, University of Leeds, Woodhouse, Leeds LS2 9JT, UK.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Fawcett</LastName><ForeName>Lee-Ellen</ForeName><Initials>LE</Initials><AffiliationInfo><Affiliation>Leeds General Infirmary, Great George Street, Leeds LS1 3EX, UK.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Darwood</LastName><ForeName>Rosie</ForeName><Initials>R</Initials><AffiliationInfo><Affiliation>Leeds General Infirmary, Great George Street, Leeds LS1 3EX, UK.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Faculty of Medicine and Health, University of Leeds, Woodhouse, Leeds LS2 9JT, UK.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Anthony</LastName><ForeName>Rebecca</ForeName><Initials>R</Initials><AffiliationInfo><Affiliation>Leeds General Infirmary, Great George Street, Leeds LS1 3EX, UK.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Wallace</LastName><ForeName>Tom</ForeName><Initials>T</Initials><Identifier Source=\"ORCID\">0000-0003-1630-7739</Identifier><AffiliationInfo><Affiliation>Leeds General Infirmary, Great George Street, Leeds LS1 3EX, UK.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Faculty of Medicine and Health, University of Leeds, Woodhouse, Leeds LS2 9JT, UK.</Affiliation></AffiliationInfo></Author></AuthorList><Language>eng</Language><PublicationTypeList><PublicationType UI=\"D016428\">Journal Article</PublicationType><PublicationType UI=\"D064888\">Observational Study</PublicationType></PublicationTypeList></Article><MedlineJournalInfo><Country>England</Country><MedlineTA>Age Ageing</MedlineTA><NlmUniqueID>0375655</NlmUniqueID><ISSNLinking>0002-0729</ISSNLinking></MedlineJournalInfo><CitationSubset>IM</CitationSubset><MeshHeadingList><MeshHeading><DescriptorName UI=\"D006801\" MajorTopicYN=\"N\">Humans</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D008297\" MajorTopicYN=\"N\">Male</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D005260\" MajorTopicYN=\"N\">Female</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D000368\" MajorTopicYN=\"N\">Aged</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D011446\" MajorTopicYN=\"N\">Prospective Studies</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D007902\" MajorTopicYN=\"N\">Length of Stay</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D000369\" MajorTopicYN=\"N\">Aged, 80 and over</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D013997\" MajorTopicYN=\"N\">Time Factors</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D016896\" MajorTopicYN=\"N\">Treatment Outcome</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D007511\" MajorTopicYN=\"Y\">Ischemia</DescriptorName><QualifierName UI=\"Q000191\" MajorTopicYN=\"N\">economics</QualifierName><QualifierName UI=\"Q000601\" MajorTopicYN=\"N\">surgery</QualifierName><QualifierName UI=\"Q000175\" MajorTopicYN=\"N\">diagnosis</QualifierName><QualifierName UI=\"Q000401\" MajorTopicYN=\"N\">mortality</QualifierName><QualifierName UI=\"Q000628\" MajorTopicYN=\"N\">therapy</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D015577\" MajorTopicYN=\"N\">Geriatric Assessment</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D059039\" MajorTopicYN=\"Y\">Standard of Care</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D002908\" MajorTopicYN=\"N\">Chronic Disease</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D000089802\" MajorTopicYN=\"Y\">Chronic Limb-Threatening Ischemia</DescriptorName><QualifierName UI=\"Q000601\" MajorTopicYN=\"N\">surgery</QualifierName><QualifierName UI=\"Q000401\" MajorTopicYN=\"N\">mortality</QualifierName><QualifierName UI=\"Q000191\" MajorTopicYN=\"N\">economics</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D003362\" MajorTopicYN=\"N\">Cost-Benefit Analysis</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D012307\" MajorTopicYN=\"N\">Risk Factors</DescriptorName></MeshHeading></MeshHeadingList><KeywordList Owner=\"NOTNLM\"><Keyword MajorTopicYN=\"N\">CLTI</Keyword><Keyword MajorTopicYN=\"N\">frailty</Keyword><Keyword MajorTopicYN=\"N\">older people</Keyword><Keyword MajorTopicYN=\"N\">optimisation</Keyword><Keyword MajorTopicYN=\"N\">quality of care</Keyword></KeywordList></MedlineCitation><PubmedData><History><PubMedPubDate PubStatus=\"medline\"><Year>2026</Year><Month>1</Month><Day>29</Day><Hour>14</Hour><Minute>3</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"pubmed\"><Year>2026</Year><Month>1</Month><Day>29</Day><Hour>14</Hour><Minute>2</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"received\"><Year>2025</Year><Month>9</Month><Day>10</Day></PubMedPubDate><PubMedPubDate PubStatus=\"revised\"><Year>2025</Year><Month>12</Month><Day>9</Day></PubMedPubDate><PubMedPubDate PubStatus=\"accepted\"><Year>2025</Year><Month>12</Month><Day>15</Day></PubMedPubDate><PubMedPubDate PubStatus=\"entrez\"><Year>2026</Year><Month>1</Month><Day>29</Day><Hour>8</Hour><Minute>43</Minute></PubMedPubDate></History><PublicationStatus>ppublish</PublicationStatus><ArticleIdList><ArticleId IdType=\"pubmed\">41609321</ArticleId><ArticleId IdType=\"doi\">10.1093/ageing/afag003</ArticleId><ArticleId IdType=\"pii\">8444456</ArticleId></ArticleIdList></PubmedData></PubmedArticle></PubmedArticleSet>",
+  "fetched_at": "2026-01-29T21:12:00.884Z"
+}

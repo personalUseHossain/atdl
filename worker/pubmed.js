@@ -9,8 +9,8 @@ const parser = new xml2js.Parser({ explicitArray: false });
 class PubMedFetcher {
     constructor() {
         this.baseUrl = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils';
-        this.cacheDir = path.join(process.cwd(), 'data', 'papers_cache');
-        this.pmcCacheDir = path.join(process.cwd(), 'data', 'pmc_cache');
+        this.cacheDir = path.join(process.cwd(), 'temp', 'papers_cache');
+        this.pmcCacheDir = path.join(process.cwd(), 'temp', 'pmc_cache');
 
         // Ensure cache directories exist
         this.ensureDirectories();

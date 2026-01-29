@@ -1,0 +1,1913 @@
+[
+  {
+    "drug": "Coenzyme Q10",
+    "health_issue": "mitochondrial function",
+    "relationship": "neutral",
+    "mechanism": "supplementation raises plasma levels",
+    "study_type": "clinical",
+    "model": "older adults",
+    "dose": "not mentioned",
+    "duration": "not mentioned",
+    "sample_size": "not mentioned",
+    "statistical_significance": "not mentioned",
+    "confidence": "Medium",
+    "source_in_paper": "abstract_only",
+    "paper_id": "41604113",
+    "paper_title": "Coenzyme Q10 supplementation raises plasma levels without improving mitochondrial function in older adults.",
+    "paper_year": "2026",
+    "paper_journal": "GeroScience",
+    "paper_authors": [
+      {
+        "lastName": "Schmücker",
+        "foreName": "Malte",
+        "initials": "M",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Tranberg",
+        "foreName": "Cathrine",
+        "initials": "C",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Borch",
+        "foreName": "Jacob",
+        "initials": "J",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Kaae",
+        "foreName": "Mette Killerup",
+        "initials": "MK",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Damgaard",
+        "foreName": "Michelle",
+        "initials": "M",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Flensted-Jensen",
+        "foreName": "Mathias",
+        "initials": "M",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Blom",
+        "foreName": "Ida",
+        "initials": "I",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Morosetti",
+        "foreName": "Marco",
+        "initials": "M",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Barbarossa",
+        "foreName": "Sara",
+        "initials": "S",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Orlando",
+        "foreName": "Patrick",
+        "initials": "P",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Tiano",
+        "foreName": "Luca",
+        "initials": "L",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Dela",
+        "foreName": "Flemming",
+        "initials": "F",
+        "affiliation": "Department of Biomedical Sciences, Faculty of Health Sciences, University of Copenhagen, Blegdamsvej 3B, 2200, Copenhagen, Denmark."
+      },
+      {
+        "lastName": "Helge",
+        "foreName": "Jørn Wulff",
+        "initials": "JW",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Larsen",
+        "foreName": "Steen",
+        "initials": "S",
+        "affiliation": "Department of Biomedical Sciences, Faculty of Health Sciences, University of Copenhagen, Blegdamsvej 3B, 2200, Copenhagen, Denmark."
+      }
+    ],
+    "paper_doi": "10.1007/s11357-025-02068-9",
+    "paper_pmc_id": null,
+    "extracted_at": "2026-01-29T18:42:56.766Z",
+    "extraction_source": "abstract_only",
+    "supporting_papers": [
+      "41604113"
+    ],
+    "total_papers": 1,
+    "first_paper_year": "2026",
+    "latest_paper_year": "2026",
+    "extraction_sources": [
+      "abstract_only"
+    ],
+    "has_full_text_sources": 0,
+    "relationships": [
+      "neutral"
+    ],
+    "user_id": "697ba37d2d8d8b8d9272aa79",
+    "session_ids": [
+      "697ba37d2d8d8b8d9272aa79_1769712117675_aa5y2fw67"
+    ],
+    "strength": 4,
+    "id": "conn_1769712223963_vldlsikx7",
+    "last_updated": "2026-01-29T18:43:43.963Z",
+    "session_id": "697ba37d2d8d8b8d9272aa79_1769712117675_aa5y2fw67"
+  },
+  {
+    "drug": "chloroquine",
+    "health_issue": "cancer (squamous cell and adenocarcinoma lung cancer)",
+    "relationship": "negative",
+    "mechanism": "inhibits lysosome function, stimulates glucose uptake via SREBP-1 activation",
+    "study_type": "in vitro and in vivo",
+    "model": "various cancer cells, patient-derived organoids, xenografts",
+    "dose": "not mentioned",
+    "duration": "not mentioned",
+    "sample_size": "not mentioned",
+    "statistical_significance": "not mentioned",
+    "confidence": "Medium",
+    "source_in_paper": "abstract_only",
+    "paper_id": "41604461",
+    "paper_title": "SREBP-1 increases glucose uptake to promote tumor resistance to lysosome inhibition.",
+    "paper_year": "2026",
+    "paper_journal": "Science translational medicine",
+    "paper_authors": [
+      {
+        "lastName": "Zhong",
+        "foreName": "Yaogang",
+        "initials": "Y",
+        "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+      },
+      {
+        "lastName": "Geng",
+        "foreName": "Feng",
+        "initials": "F",
+        "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+      },
+      {
+        "lastName": "Su",
+        "foreName": "Huali",
+        "initials": "H",
+        "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+      },
+      {
+        "lastName": "Mazik",
+        "foreName": "Logan",
+        "initials": "L",
+        "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+      },
+      {
+        "lastName": "Yin",
+        "foreName": "Xinmin",
+        "initials": "X",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Pan",
+        "foreName": "Meixia",
+        "initials": "M",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Li",
+        "foreName": "Na",
+        "initials": "N",
+        "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+      },
+      {
+        "lastName": "Chiang",
+        "foreName": "Cheng-Yao",
+        "initials": "CY",
+        "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+      },
+      {
+        "lastName": "Tonniges",
+        "foreName": "Jeffrey R",
+        "initials": "JR",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Mo",
+        "foreName": "Xiaokui",
+        "initials": "X",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Webb",
+        "foreName": "Amy",
+        "initials": "A",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Guo",
+        "foreName": "Yongchen",
+        "initials": "Y",
+        "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+      },
+      {
+        "lastName": "Poyurovsky",
+        "foreName": "Masha V",
+        "initials": "MV",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Carbone",
+        "foreName": "David P",
+        "initials": "DP",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Zhang",
+        "foreName": "Junran",
+        "initials": "J",
+        "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+      },
+      {
+        "lastName": "He",
+        "foreName": "Liqing",
+        "initials": "L",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Han",
+        "foreName": "Xianlin",
+        "initials": "X",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Zhang",
+        "foreName": "Xiang",
+        "initials": "X",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Chakravarti",
+        "foreName": "Arnab",
+        "initials": "A",
+        "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+      },
+      {
+        "lastName": "Wang",
+        "foreName": "Qi-En",
+        "initials": "QE",
+        "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+      },
+      {
+        "lastName": "Guo",
+        "foreName": "Deliang",
+        "initials": "D",
+        "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+      }
+    ],
+    "paper_doi": "10.1126/scitranslmed.adx6873",
+    "paper_pmc_id": null,
+    "extracted_at": "2026-01-29T18:42:40.331Z",
+    "extraction_source": "abstract_only",
+    "supporting_papers": [
+      "41604461"
+    ],
+    "total_papers": 1,
+    "first_paper_year": "2026",
+    "latest_paper_year": "2026",
+    "extraction_sources": [
+      "abstract_only"
+    ],
+    "has_full_text_sources": 0,
+    "relationships": [
+      "negative"
+    ],
+    "user_id": "697ba37d2d8d8b8d9272aa79",
+    "session_ids": [
+      "697ba37d2d8d8b8d9272aa79_1769712117675_aa5y2fw67"
+    ],
+    "strength": 3,
+    "id": "conn_1769712223963_d4cgeuu0a",
+    "last_updated": "2026-01-29T18:43:43.963Z",
+    "session_id": "697ba37d2d8d8b8d9272aa79_1769712117675_aa5y2fw67"
+  },
+  {
+    "drug": "chloroquine combined with glucose transporter inhibitors",
+    "health_issue": "cancer (squamous cell and adenocarcinoma lung cancer)",
+    "relationship": "negative",
+    "mechanism": "disrupts SREBP-1-glucose uptake feedforward loop, impairs mitochondrial structure and function, induces apoptotic tumor cell death",
+    "study_type": "in vitro and in vivo",
+    "model": "patient-derived organoids, xenografts",
+    "dose": "not mentioned",
+    "duration": "not mentioned",
+    "sample_size": "not mentioned",
+    "statistical_significance": "not mentioned",
+    "confidence": "Medium",
+    "source_in_paper": "abstract_only",
+    "paper_id": "41604461",
+    "paper_title": "SREBP-1 increases glucose uptake to promote tumor resistance to lysosome inhibition.",
+    "paper_year": "2026",
+    "paper_journal": "Science translational medicine",
+    "paper_authors": [
+      {
+        "lastName": "Zhong",
+        "foreName": "Yaogang",
+        "initials": "Y",
+        "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+      },
+      {
+        "lastName": "Geng",
+        "foreName": "Feng",
+        "initials": "F",
+        "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+      },
+      {
+        "lastName": "Su",
+        "foreName": "Huali",
+        "initials": "H",
+        "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+      },
+      {
+        "lastName": "Mazik",
+        "foreName": "Logan",
+        "initials": "L",
+        "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+      },
+      {
+        "lastName": "Yin",
+        "foreName": "Xinmin",
+        "initials": "X",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Pan",
+        "foreName": "Meixia",
+        "initials": "M",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Li",
+        "foreName": "Na",
+        "initials": "N",
+        "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+      },
+      {
+        "lastName": "Chiang",
+        "foreName": "Cheng-Yao",
+        "initials": "CY",
+        "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+      },
+      {
+        "lastName": "Tonniges",
+        "foreName": "Jeffrey R",
+        "initials": "JR",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Mo",
+        "foreName": "Xiaokui",
+        "initials": "X",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Webb",
+        "foreName": "Amy",
+        "initials": "A",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Guo",
+        "foreName": "Yongchen",
+        "initials": "Y",
+        "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+      },
+      {
+        "lastName": "Poyurovsky",
+        "foreName": "Masha V",
+        "initials": "MV",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Carbone",
+        "foreName": "David P",
+        "initials": "DP",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Zhang",
+        "foreName": "Junran",
+        "initials": "J",
+        "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+      },
+      {
+        "lastName": "He",
+        "foreName": "Liqing",
+        "initials": "L",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Han",
+        "foreName": "Xianlin",
+        "initials": "X",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Zhang",
+        "foreName": "Xiang",
+        "initials": "X",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Chakravarti",
+        "foreName": "Arnab",
+        "initials": "A",
+        "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+      },
+      {
+        "lastName": "Wang",
+        "foreName": "Qi-En",
+        "initials": "QE",
+        "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+      },
+      {
+        "lastName": "Guo",
+        "foreName": "Deliang",
+        "initials": "D",
+        "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+      }
+    ],
+    "paper_doi": "10.1126/scitranslmed.adx6873",
+    "paper_pmc_id": null,
+    "extracted_at": "2026-01-29T18:42:40.331Z",
+    "extraction_source": "abstract_only",
+    "supporting_papers": [
+      "41604461"
+    ],
+    "total_papers": 1,
+    "first_paper_year": "2026",
+    "latest_paper_year": "2026",
+    "extraction_sources": [
+      "abstract_only"
+    ],
+    "has_full_text_sources": 0,
+    "relationships": [
+      "negative"
+    ],
+    "user_id": "697ba37d2d8d8b8d9272aa79",
+    "session_ids": [
+      "697ba37d2d8d8b8d9272aa79_1769712117675_aa5y2fw67"
+    ],
+    "strength": 3,
+    "id": "conn_1769712223963_2vx9pjkfi",
+    "last_updated": "2026-01-29T18:43:43.963Z",
+    "session_id": "697ba37d2d8d8b8d9272aa79_1769712117675_aa5y2fw67"
+  },
+  {
+    "drug": "chloroquine combined with SREBP-1 inhibitors",
+    "health_issue": "cancer (squamous cell and adenocarcinoma lung cancer)",
+    "relationship": "negative",
+    "mechanism": "disrupts SREBP-1-glucose uptake feedforward loop, impairs mitochondrial structure and function, induces apoptotic tumor cell death",
+    "study_type": "in vitro and in vivo",
+    "model": "patient-derived organoids, xenografts",
+    "dose": "not mentioned",
+    "duration": "not mentioned",
+    "sample_size": "not mentioned",
+    "statistical_significance": "not mentioned",
+    "confidence": "Medium",
+    "source_in_paper": "abstract_only",
+    "paper_id": "41604461",
+    "paper_title": "SREBP-1 increases glucose uptake to promote tumor resistance to lysosome inhibition.",
+    "paper_year": "2026",
+    "paper_journal": "Science translational medicine",
+    "paper_authors": [
+      {
+        "lastName": "Zhong",
+        "foreName": "Yaogang",
+        "initials": "Y",
+        "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+      },
+      {
+        "lastName": "Geng",
+        "foreName": "Feng",
+        "initials": "F",
+        "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+      },
+      {
+        "lastName": "Su",
+        "foreName": "Huali",
+        "initials": "H",
+        "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+      },
+      {
+        "lastName": "Mazik",
+        "foreName": "Logan",
+        "initials": "L",
+        "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+      },
+      {
+        "lastName": "Yin",
+        "foreName": "Xinmin",
+        "initials": "X",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Pan",
+        "foreName": "Meixia",
+        "initials": "M",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Li",
+        "foreName": "Na",
+        "initials": "N",
+        "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+      },
+      {
+        "lastName": "Chiang",
+        "foreName": "Cheng-Yao",
+        "initials": "CY",
+        "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+      },
+      {
+        "lastName": "Tonniges",
+        "foreName": "Jeffrey R",
+        "initials": "JR",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Mo",
+        "foreName": "Xiaokui",
+        "initials": "X",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Webb",
+        "foreName": "Amy",
+        "initials": "A",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Guo",
+        "foreName": "Yongchen",
+        "initials": "Y",
+        "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+      },
+      {
+        "lastName": "Poyurovsky",
+        "foreName": "Masha V",
+        "initials": "MV",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Carbone",
+        "foreName": "David P",
+        "initials": "DP",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Zhang",
+        "foreName": "Junran",
+        "initials": "J",
+        "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+      },
+      {
+        "lastName": "He",
+        "foreName": "Liqing",
+        "initials": "L",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Han",
+        "foreName": "Xianlin",
+        "initials": "X",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Zhang",
+        "foreName": "Xiang",
+        "initials": "X",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Chakravarti",
+        "foreName": "Arnab",
+        "initials": "A",
+        "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+      },
+      {
+        "lastName": "Wang",
+        "foreName": "Qi-En",
+        "initials": "QE",
+        "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+      },
+      {
+        "lastName": "Guo",
+        "foreName": "Deliang",
+        "initials": "D",
+        "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+      }
+    ],
+    "paper_doi": "10.1126/scitranslmed.adx6873",
+    "paper_pmc_id": null,
+    "extracted_at": "2026-01-29T18:42:40.331Z",
+    "extraction_source": "abstract_only",
+    "supporting_papers": [
+      "41604461"
+    ],
+    "total_papers": 1,
+    "first_paper_year": "2026",
+    "latest_paper_year": "2026",
+    "extraction_sources": [
+      "abstract_only"
+    ],
+    "has_full_text_sources": 0,
+    "relationships": [
+      "negative"
+    ],
+    "user_id": "697ba37d2d8d8b8d9272aa79",
+    "session_ids": [
+      "697ba37d2d8d8b8d9272aa79_1769712117675_aa5y2fw67"
+    ],
+    "strength": 3,
+    "id": "conn_1769712223963_zxpb6nmyz",
+    "last_updated": "2026-01-29T18:43:43.963Z",
+    "session_id": "697ba37d2d8d8b8d9272aa79_1769712117675_aa5y2fw67"
+  },
+  {
+    "drug": "chloroquine combined with lipogenic enzyme inhibitors",
+    "health_issue": "cancer (squamous cell and adenocarcinoma lung cancer)",
+    "relationship": "negative",
+    "mechanism": "disrupts SREBP-1-glucose uptake feedforward loop, impairs mitochondrial structure and function, induces apoptotic tumor cell death",
+    "study_type": "in vitro and in vivo",
+    "model": "patient-derived organoids, xenografts",
+    "dose": "not mentioned",
+    "duration": "not mentioned",
+    "sample_size": "not mentioned",
+    "statistical_significance": "not mentioned",
+    "confidence": "Medium",
+    "source_in_paper": "abstract_only",
+    "paper_id": "41604461",
+    "paper_title": "SREBP-1 increases glucose uptake to promote tumor resistance to lysosome inhibition.",
+    "paper_year": "2026",
+    "paper_journal": "Science translational medicine",
+    "paper_authors": [
+      {
+        "lastName": "Zhong",
+        "foreName": "Yaogang",
+        "initials": "Y",
+        "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+      },
+      {
+        "lastName": "Geng",
+        "foreName": "Feng",
+        "initials": "F",
+        "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+      },
+      {
+        "lastName": "Su",
+        "foreName": "Huali",
+        "initials": "H",
+        "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+      },
+      {
+        "lastName": "Mazik",
+        "foreName": "Logan",
+        "initials": "L",
+        "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+      },
+      {
+        "lastName": "Yin",
+        "foreName": "Xinmin",
+        "initials": "X",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Pan",
+        "foreName": "Meixia",
+        "initials": "M",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Li",
+        "foreName": "Na",
+        "initials": "N",
+        "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+      },
+      {
+        "lastName": "Chiang",
+        "foreName": "Cheng-Yao",
+        "initials": "CY",
+        "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+      },
+      {
+        "lastName": "Tonniges",
+        "foreName": "Jeffrey R",
+        "initials": "JR",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Mo",
+        "foreName": "Xiaokui",
+        "initials": "X",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Webb",
+        "foreName": "Amy",
+        "initials": "A",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Guo",
+        "foreName": "Yongchen",
+        "initials": "Y",
+        "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+      },
+      {
+        "lastName": "Poyurovsky",
+        "foreName": "Masha V",
+        "initials": "MV",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Carbone",
+        "foreName": "David P",
+        "initials": "DP",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Zhang",
+        "foreName": "Junran",
+        "initials": "J",
+        "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+      },
+      {
+        "lastName": "He",
+        "foreName": "Liqing",
+        "initials": "L",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Han",
+        "foreName": "Xianlin",
+        "initials": "X",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Zhang",
+        "foreName": "Xiang",
+        "initials": "X",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Chakravarti",
+        "foreName": "Arnab",
+        "initials": "A",
+        "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+      },
+      {
+        "lastName": "Wang",
+        "foreName": "Qi-En",
+        "initials": "QE",
+        "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+      },
+      {
+        "lastName": "Guo",
+        "foreName": "Deliang",
+        "initials": "D",
+        "affiliation": "Department of Radiation Oncology, Comprehensive Cancer Center, Arthur G. James Cancer Hospital and Richard J. Solove Research Institute, and College of Medicine, Ohio State University, Columbus, OH 43210, USA."
+      }
+    ],
+    "paper_doi": "10.1126/scitranslmed.adx6873",
+    "paper_pmc_id": null,
+    "extracted_at": "2026-01-29T18:42:40.331Z",
+    "extraction_source": "abstract_only",
+    "supporting_papers": [
+      "41604461"
+    ],
+    "total_papers": 1,
+    "first_paper_year": "2026",
+    "latest_paper_year": "2026",
+    "extraction_sources": [
+      "abstract_only"
+    ],
+    "has_full_text_sources": 0,
+    "relationships": [
+      "negative"
+    ],
+    "user_id": "697ba37d2d8d8b8d9272aa79",
+    "session_ids": [
+      "697ba37d2d8d8b8d9272aa79_1769712117675_aa5y2fw67"
+    ],
+    "strength": 3,
+    "id": "conn_1769712223963_p005tznnr",
+    "last_updated": "2026-01-29T18:43:43.963Z",
+    "session_id": "697ba37d2d8d8b8d9272aa79_1769712117675_aa5y2fw67"
+  },
+  {
+    "drug": "NADH",
+    "health_issue": "lifespan/longevity",
+    "relationship": "negative",
+    "mechanism": "reduced reliance on NADH-linked pathways for maximal respiratory flux in head and abdominal fat tissues of queens compared to workers",
+    "study_type": "observational",
+    "model": "Western honeybee (Apis mellifera) queens and workers",
+    "dose": "not mentioned",
+    "duration": "early (7 days) and late adult stages (28-30 days in workers; 2 years in queens)",
+    "sample_size": "not mentioned",
+    "statistical_significance": "not mentioned",
+    "confidence": "Medium",
+    "source_in_paper": "abstract_only",
+    "paper_id": "41604424",
+    "paper_title": "Tissue-specific mitochondrial pathway remodeling linked to longevity in honeybee queens.",
+    "paper_year": "2026",
+    "paper_journal": "PloS one",
+    "paper_authors": [
+      {
+        "lastName": "Chevret",
+        "foreName": "Clément Joël Lucien",
+        "initials": "CJL",
+        "affiliation": "Faculty Saint-Jean, University of Alberta, Edmonton, Alberta, Canada."
+      },
+      {
+        "lastName": "Echegaray",
+        "foreName": "José Francisco",
+        "initials": "JF",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Walton",
+        "foreName": "Alexander",
+        "initials": "A",
+        "affiliation": "Department of Biological Sciences, University of Alberta, Edmonton, Alberta, Canada."
+      },
+      {
+        "lastName": "Lo",
+        "foreName": "Maryam",
+        "initials": "M",
+        "affiliation": "Faculty Saint-Jean, University of Alberta, Edmonton, Alberta, Canada."
+      },
+      {
+        "lastName": "Rueppell",
+        "foreName": "Olav",
+        "initials": "O",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Lemieux",
+        "foreName": "Hélène",
+        "initials": "H",
+        "affiliation": "Faculty Saint-Jean, University of Alberta, Edmonton, Alberta, Canada."
+      }
+    ],
+    "paper_doi": "10.1371/journal.pone.0341233",
+    "paper_pmc_id": null,
+    "extracted_at": "2026-01-29T18:42:51.539Z",
+    "extraction_source": "abstract_only",
+    "supporting_papers": [
+      "41604424"
+    ],
+    "total_papers": 1,
+    "first_paper_year": "2026",
+    "latest_paper_year": "2026",
+    "extraction_sources": [
+      "abstract_only"
+    ],
+    "has_full_text_sources": 0,
+    "relationships": [
+      "negative"
+    ],
+    "user_id": "697ba37d2d8d8b8d9272aa79",
+    "session_ids": [
+      "697ba37d2d8d8b8d9272aa79_1769712117675_aa5y2fw67"
+    ],
+    "strength": 3,
+    "id": "conn_1769712223963_134bu9vus",
+    "last_updated": "2026-01-29T18:43:43.963Z",
+    "session_id": "697ba37d2d8d8b8d9272aa79_1769712117675_aa5y2fw67"
+  },
+  {
+    "drug": "glycerophosphate (Gp)",
+    "health_issue": "lifespan/longevity",
+    "relationship": "positive",
+    "mechanism": "increase in Gp-pathway contribution compensates for decreased NADH-pathway reliance in queens",
+    "study_type": "observational",
+    "model": "Western honeybee (Apis mellifera) queens and workers",
+    "dose": "not mentioned",
+    "duration": "early (7 days) and late adult stages (28-30 days in workers; 2 years in queens)",
+    "sample_size": "not mentioned",
+    "statistical_significance": "not mentioned",
+    "confidence": "Medium",
+    "source_in_paper": "abstract_only",
+    "paper_id": "41604424",
+    "paper_title": "Tissue-specific mitochondrial pathway remodeling linked to longevity in honeybee queens.",
+    "paper_year": "2026",
+    "paper_journal": "PloS one",
+    "paper_authors": [
+      {
+        "lastName": "Chevret",
+        "foreName": "Clément Joël Lucien",
+        "initials": "CJL",
+        "affiliation": "Faculty Saint-Jean, University of Alberta, Edmonton, Alberta, Canada."
+      },
+      {
+        "lastName": "Echegaray",
+        "foreName": "José Francisco",
+        "initials": "JF",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Walton",
+        "foreName": "Alexander",
+        "initials": "A",
+        "affiliation": "Department of Biological Sciences, University of Alberta, Edmonton, Alberta, Canada."
+      },
+      {
+        "lastName": "Lo",
+        "foreName": "Maryam",
+        "initials": "M",
+        "affiliation": "Faculty Saint-Jean, University of Alberta, Edmonton, Alberta, Canada."
+      },
+      {
+        "lastName": "Rueppell",
+        "foreName": "Olav",
+        "initials": "O",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Lemieux",
+        "foreName": "Hélène",
+        "initials": "H",
+        "affiliation": "Faculty Saint-Jean, University of Alberta, Edmonton, Alberta, Canada."
+      }
+    ],
+    "paper_doi": "10.1371/journal.pone.0341233",
+    "paper_pmc_id": null,
+    "extracted_at": "2026-01-29T18:42:51.539Z",
+    "extraction_source": "abstract_only",
+    "supporting_papers": [
+      "41604424"
+    ],
+    "total_papers": 1,
+    "first_paper_year": "2026",
+    "latest_paper_year": "2026",
+    "extraction_sources": [
+      "abstract_only"
+    ],
+    "has_full_text_sources": 0,
+    "relationships": [
+      "positive"
+    ],
+    "user_id": "697ba37d2d8d8b8d9272aa79",
+    "session_ids": [
+      "697ba37d2d8d8b8d9272aa79_1769712117675_aa5y2fw67"
+    ],
+    "strength": 3,
+    "id": "conn_1769712223963_mwbvrgldg",
+    "last_updated": "2026-01-29T18:43:43.963Z",
+    "session_id": "697ba37d2d8d8b8d9272aa79_1769712117675_aa5y2fw67"
+  },
+  {
+    "drug": "Liraglutide",
+    "health_issue": "insulin resistance in senescent cardiomyocytes",
+    "relationship": "positive",
+    "mechanism": "modulates intracellular zinc levels, improves mitochondrial membrane potential, reduces reactive oxygen species, alters ER-mitochondria communication",
+    "study_type": "in vitro",
+    "model": "human AC16 cells",
+    "dose": "not specified in abstract",
+    "duration": "chronic treatment (specific duration not specified)",
+    "sample_size": "not specified in abstract",
+    "statistical_significance": "not specified in abstract",
+    "confidence": "Medium",
+    "source_in_paper": "abstract_only",
+    "paper_id": "41604031",
+    "paper_title": "Liraglutide Modulates Zinc Release and Improves Mitochondrial Function in Insulin-Resistant Senescent Cardiomyocytes.",
+    "paper_year": "2026",
+    "paper_journal": "Cardiovascular toxicology",
+    "paper_authors": [
+      {
+        "lastName": "Hosseinpourshirazi",
+        "foreName": "Fatemeh",
+        "initials": "F",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Mendes",
+        "foreName": "Umur D",
+        "initials": "UD",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Aksoy",
+        "foreName": "Zeynep B",
+        "initials": "ZB",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Aydos",
+        "foreName": "Dunya",
+        "initials": "D",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Sözer",
+        "foreName": "Merve",
+        "initials": "M",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Aljaser",
+        "foreName": "Lubne",
+        "initials": "L",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Gundogdu",
+        "foreName": "Manolya",
+        "initials": "M",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Sık",
+        "foreName": "Suatnur",
+        "initials": "S",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Tuncay",
+        "foreName": "Erkan",
+        "initials": "E",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Turan",
+        "foreName": "Belma",
+        "initials": "B",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Olgar",
+        "foreName": "Yusuf",
+        "initials": "Y",
+        "affiliation": ""
+      }
+    ],
+    "paper_doi": "10.1007/s12012-026-10095-x",
+    "paper_pmc_id": null,
+    "extracted_at": "2026-01-29T18:43:18.744Z",
+    "extraction_source": "abstract_only",
+    "supporting_papers": [
+      "41604031"
+    ],
+    "total_papers": 1,
+    "first_paper_year": "2026",
+    "latest_paper_year": "2026",
+    "extraction_sources": [
+      "abstract_only"
+    ],
+    "has_full_text_sources": 0,
+    "relationships": [
+      "positive"
+    ],
+    "user_id": "697ba37d2d8d8b8d9272aa79",
+    "session_ids": [
+      "697ba37d2d8d8b8d9272aa79_1769712117675_aa5y2fw67"
+    ],
+    "strength": 3,
+    "id": "conn_1769712223963_x78k1rnzr",
+    "last_updated": "2026-01-29T18:43:43.963Z",
+    "session_id": "697ba37d2d8d8b8d9272aa79_1769712117675_aa5y2fw67"
+  },
+  {
+    "drug": "Liraglutide",
+    "health_issue": "mitochondrial dysfunction in insulin-resistant senescent cardiomyocytes",
+    "relationship": "positive",
+    "mechanism": "improves mitochondrial membrane potential, reduces reactive oxygen species, modulates ER-mitochondria communication",
+    "study_type": "in vitro",
+    "model": "human AC16 cells",
+    "dose": "not specified in abstract",
+    "duration": "chronic treatment (specific duration not specified)",
+    "sample_size": "not specified in abstract",
+    "statistical_significance": "not specified in abstract",
+    "confidence": "Medium",
+    "source_in_paper": "abstract_only",
+    "paper_id": "41604031",
+    "paper_title": "Liraglutide Modulates Zinc Release and Improves Mitochondrial Function in Insulin-Resistant Senescent Cardiomyocytes.",
+    "paper_year": "2026",
+    "paper_journal": "Cardiovascular toxicology",
+    "paper_authors": [
+      {
+        "lastName": "Hosseinpourshirazi",
+        "foreName": "Fatemeh",
+        "initials": "F",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Mendes",
+        "foreName": "Umur D",
+        "initials": "UD",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Aksoy",
+        "foreName": "Zeynep B",
+        "initials": "ZB",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Aydos",
+        "foreName": "Dunya",
+        "initials": "D",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Sözer",
+        "foreName": "Merve",
+        "initials": "M",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Aljaser",
+        "foreName": "Lubne",
+        "initials": "L",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Gundogdu",
+        "foreName": "Manolya",
+        "initials": "M",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Sık",
+        "foreName": "Suatnur",
+        "initials": "S",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Tuncay",
+        "foreName": "Erkan",
+        "initials": "E",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Turan",
+        "foreName": "Belma",
+        "initials": "B",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Olgar",
+        "foreName": "Yusuf",
+        "initials": "Y",
+        "affiliation": ""
+      }
+    ],
+    "paper_doi": "10.1007/s12012-026-10095-x",
+    "paper_pmc_id": null,
+    "extracted_at": "2026-01-29T18:43:18.744Z",
+    "extraction_source": "abstract_only",
+    "supporting_papers": [
+      "41604031"
+    ],
+    "total_papers": 1,
+    "first_paper_year": "2026",
+    "latest_paper_year": "2026",
+    "extraction_sources": [
+      "abstract_only"
+    ],
+    "has_full_text_sources": 0,
+    "relationships": [
+      "positive"
+    ],
+    "user_id": "697ba37d2d8d8b8d9272aa79",
+    "session_ids": [
+      "697ba37d2d8d8b8d9272aa79_1769712117675_aa5y2fw67"
+    ],
+    "strength": 3,
+    "id": "conn_1769712223963_s380hovvg",
+    "last_updated": "2026-01-29T18:43:43.963Z",
+    "session_id": "697ba37d2d8d8b8d9272aa79_1769712117675_aa5y2fw67"
+  },
+  {
+    "drug": "Liraglutide",
+    "health_issue": "oxidative stress in insulin-resistant senescent cardiomyocytes",
+    "relationship": "positive",
+    "mechanism": "reduces reactive oxygen species",
+    "study_type": "in vitro",
+    "model": "human AC16 cells",
+    "dose": "not specified in abstract",
+    "duration": "chronic treatment (specific duration not specified)",
+    "sample_size": "not specified in abstract",
+    "statistical_significance": "not specified in abstract",
+    "confidence": "Medium",
+    "source_in_paper": "abstract_only",
+    "paper_id": "41604031",
+    "paper_title": "Liraglutide Modulates Zinc Release and Improves Mitochondrial Function in Insulin-Resistant Senescent Cardiomyocytes.",
+    "paper_year": "2026",
+    "paper_journal": "Cardiovascular toxicology",
+    "paper_authors": [
+      {
+        "lastName": "Hosseinpourshirazi",
+        "foreName": "Fatemeh",
+        "initials": "F",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Mendes",
+        "foreName": "Umur D",
+        "initials": "UD",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Aksoy",
+        "foreName": "Zeynep B",
+        "initials": "ZB",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Aydos",
+        "foreName": "Dunya",
+        "initials": "D",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Sözer",
+        "foreName": "Merve",
+        "initials": "M",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Aljaser",
+        "foreName": "Lubne",
+        "initials": "L",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Gundogdu",
+        "foreName": "Manolya",
+        "initials": "M",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Sık",
+        "foreName": "Suatnur",
+        "initials": "S",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Tuncay",
+        "foreName": "Erkan",
+        "initials": "E",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Turan",
+        "foreName": "Belma",
+        "initials": "B",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Olgar",
+        "foreName": "Yusuf",
+        "initials": "Y",
+        "affiliation": ""
+      }
+    ],
+    "paper_doi": "10.1007/s12012-026-10095-x",
+    "paper_pmc_id": null,
+    "extracted_at": "2026-01-29T18:43:18.744Z",
+    "extraction_source": "abstract_only",
+    "supporting_papers": [
+      "41604031"
+    ],
+    "total_papers": 1,
+    "first_paper_year": "2026",
+    "latest_paper_year": "2026",
+    "extraction_sources": [
+      "abstract_only"
+    ],
+    "has_full_text_sources": 0,
+    "relationships": [
+      "positive"
+    ],
+    "user_id": "697ba37d2d8d8b8d9272aa79",
+    "session_ids": [
+      "697ba37d2d8d8b8d9272aa79_1769712117675_aa5y2fw67"
+    ],
+    "strength": 3,
+    "id": "conn_1769712223963_ows4kkjs5",
+    "last_updated": "2026-01-29T18:43:43.963Z",
+    "session_id": "697ba37d2d8d8b8d9272aa79_1769712117675_aa5y2fw67"
+  },
+  {
+    "drug": "Liraglutide",
+    "health_issue": "endoplasmic reticulum stress in insulin-resistant senescent cardiomyocytes",
+    "relationship": "positive",
+    "mechanism": "alters ER-mitochondria communication, upregulates ER proteostasis markers",
+    "study_type": "in vitro",
+    "model": "human AC16 cells",
+    "dose": "not specified in abstract",
+    "duration": "early minutes of treatment (acute) and chronic treatment",
+    "sample_size": "not specified in abstract",
+    "statistical_significance": "not specified in abstract",
+    "confidence": "Medium",
+    "source_in_paper": "abstract_only",
+    "paper_id": "41604031",
+    "paper_title": "Liraglutide Modulates Zinc Release and Improves Mitochondrial Function in Insulin-Resistant Senescent Cardiomyocytes.",
+    "paper_year": "2026",
+    "paper_journal": "Cardiovascular toxicology",
+    "paper_authors": [
+      {
+        "lastName": "Hosseinpourshirazi",
+        "foreName": "Fatemeh",
+        "initials": "F",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Mendes",
+        "foreName": "Umur D",
+        "initials": "UD",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Aksoy",
+        "foreName": "Zeynep B",
+        "initials": "ZB",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Aydos",
+        "foreName": "Dunya",
+        "initials": "D",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Sözer",
+        "foreName": "Merve",
+        "initials": "M",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Aljaser",
+        "foreName": "Lubne",
+        "initials": "L",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Gundogdu",
+        "foreName": "Manolya",
+        "initials": "M",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Sık",
+        "foreName": "Suatnur",
+        "initials": "S",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Tuncay",
+        "foreName": "Erkan",
+        "initials": "E",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Turan",
+        "foreName": "Belma",
+        "initials": "B",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Olgar",
+        "foreName": "Yusuf",
+        "initials": "Y",
+        "affiliation": ""
+      }
+    ],
+    "paper_doi": "10.1007/s12012-026-10095-x",
+    "paper_pmc_id": null,
+    "extracted_at": "2026-01-29T18:43:18.744Z",
+    "extraction_source": "abstract_only",
+    "supporting_papers": [
+      "41604031"
+    ],
+    "total_papers": 1,
+    "first_paper_year": "2026",
+    "latest_paper_year": "2026",
+    "extraction_sources": [
+      "abstract_only"
+    ],
+    "has_full_text_sources": 0,
+    "relationships": [
+      "positive"
+    ],
+    "user_id": "697ba37d2d8d8b8d9272aa79",
+    "session_ids": [
+      "697ba37d2d8d8b8d9272aa79_1769712117675_aa5y2fw67"
+    ],
+    "strength": 3,
+    "id": "conn_1769712223963_95qk13h5n",
+    "last_updated": "2026-01-29T18:43:43.963Z",
+    "session_id": "697ba37d2d8d8b8d9272aa79_1769712117675_aa5y2fw67"
+  },
+  {
+    "drug": "Liraglutide",
+    "health_issue": "metabolic cardiomyopathies linked to insulin resistance and aging",
+    "relationship": "positive",
+    "mechanism": "alters intracellular zinc and modulates ER-mitochondria communication",
+    "study_type": "in vitro",
+    "model": "human AC16 cells",
+    "dose": "not specified in abstract",
+    "duration": "chronic treatment (specific duration not specified)",
+    "sample_size": "not specified in abstract",
+    "statistical_significance": "not specified in abstract",
+    "confidence": "Medium",
+    "source_in_paper": "abstract_only",
+    "paper_id": "41604031",
+    "paper_title": "Liraglutide Modulates Zinc Release and Improves Mitochondrial Function in Insulin-Resistant Senescent Cardiomyocytes.",
+    "paper_year": "2026",
+    "paper_journal": "Cardiovascular toxicology",
+    "paper_authors": [
+      {
+        "lastName": "Hosseinpourshirazi",
+        "foreName": "Fatemeh",
+        "initials": "F",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Mendes",
+        "foreName": "Umur D",
+        "initials": "UD",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Aksoy",
+        "foreName": "Zeynep B",
+        "initials": "ZB",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Aydos",
+        "foreName": "Dunya",
+        "initials": "D",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Sözer",
+        "foreName": "Merve",
+        "initials": "M",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Aljaser",
+        "foreName": "Lubne",
+        "initials": "L",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Gundogdu",
+        "foreName": "Manolya",
+        "initials": "M",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Sık",
+        "foreName": "Suatnur",
+        "initials": "S",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Tuncay",
+        "foreName": "Erkan",
+        "initials": "E",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Turan",
+        "foreName": "Belma",
+        "initials": "B",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Olgar",
+        "foreName": "Yusuf",
+        "initials": "Y",
+        "affiliation": ""
+      }
+    ],
+    "paper_doi": "10.1007/s12012-026-10095-x",
+    "paper_pmc_id": null,
+    "extracted_at": "2026-01-29T18:43:18.744Z",
+    "extraction_source": "abstract_only",
+    "supporting_papers": [
+      "41604031"
+    ],
+    "total_papers": 1,
+    "first_paper_year": "2026",
+    "latest_paper_year": "2026",
+    "extraction_sources": [
+      "abstract_only"
+    ],
+    "has_full_text_sources": 0,
+    "relationships": [
+      "positive"
+    ],
+    "user_id": "697ba37d2d8d8b8d9272aa79",
+    "session_ids": [
+      "697ba37d2d8d8b8d9272aa79_1769712117675_aa5y2fw67"
+    ],
+    "strength": 3,
+    "id": "conn_1769712223963_xfgwrortm",
+    "last_updated": "2026-01-29T18:43:43.963Z",
+    "session_id": "697ba37d2d8d8b8d9272aa79_1769712117675_aa5y2fw67"
+  },
+  {
+    "drug": "nucleoside reverse transcriptase inhibitors",
+    "health_issue": "mtDNA depletion and mutation accumulation",
+    "relationship": "negative",
+    "mechanism": "inhibit polymerase γ",
+    "study_type": "review",
+    "model": "human population",
+    "dose": "not mentioned",
+    "duration": "not mentioned",
+    "sample_size": "not mentioned",
+    "statistical_significance": "not mentioned",
+    "confidence": "Medium",
+    "source_in_paper": "abstract_only",
+    "paper_id": "41601636",
+    "paper_title": "Mitochondrial DNA damage in HIV infection: a mechanistic driver of immunometabolic dysfunction and chronic inflammation.",
+    "paper_year": "2025",
+    "paper_journal": "Frontiers in immunology",
+    "paper_authors": [
+      {
+        "lastName": "Ma",
+        "foreName": "Li",
+        "initials": "L",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Wang",
+        "foreName": "Xiaolei",
+        "initials": "X",
+        "affiliation": "The Division of Comparative Pathology, Tulane National Biomedical Research Center (TNBRC), Covington, LA, United States."
+      },
+      {
+        "lastName": "Xu",
+        "foreName": "Huanbin",
+        "initials": "H",
+        "affiliation": "The Division of Comparative Pathology, Tulane National Biomedical Research Center (TNBRC), Covington, LA, United States."
+      }
+    ],
+    "paper_doi": "10.3389/fimmu.2025.1722463",
+    "paper_pmc_id": "PMC12832992",
+    "extracted_at": "2026-01-29T18:43:35.457Z",
+    "extraction_source": "abstract_only",
+    "supporting_papers": [
+      "41601636"
+    ],
+    "total_papers": 1,
+    "first_paper_year": "2025",
+    "latest_paper_year": "2025",
+    "extraction_sources": [
+      "abstract_only"
+    ],
+    "has_full_text_sources": 0,
+    "relationships": [
+      "negative"
+    ],
+    "user_id": "697ba37d2d8d8b8d9272aa79",
+    "session_ids": [
+      "697ba37d2d8d8b8d9272aa79_1769712117675_aa5y2fw67"
+    ],
+    "strength": 3,
+    "id": "conn_1769712223963_l2pnh5gbc",
+    "last_updated": "2026-01-29T18:43:43.963Z",
+    "session_id": "697ba37d2d8d8b8d9272aa79_1769712117675_aa5y2fw67"
+  },
+  {
+    "drug": "nucleoside reverse transcriptase inhibitors",
+    "health_issue": "lipodystrophy",
+    "relationship": "negative",
+    "mechanism": "mtDNA depletion and mutation accumulation",
+    "study_type": "review",
+    "model": "human population",
+    "dose": "not mentioned",
+    "duration": "not mentioned",
+    "sample_size": "not mentioned",
+    "statistical_significance": "not mentioned",
+    "confidence": "Medium",
+    "source_in_paper": "abstract_only",
+    "paper_id": "41601636",
+    "paper_title": "Mitochondrial DNA damage in HIV infection: a mechanistic driver of immunometabolic dysfunction and chronic inflammation.",
+    "paper_year": "2025",
+    "paper_journal": "Frontiers in immunology",
+    "paper_authors": [
+      {
+        "lastName": "Ma",
+        "foreName": "Li",
+        "initials": "L",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Wang",
+        "foreName": "Xiaolei",
+        "initials": "X",
+        "affiliation": "The Division of Comparative Pathology, Tulane National Biomedical Research Center (TNBRC), Covington, LA, United States."
+      },
+      {
+        "lastName": "Xu",
+        "foreName": "Huanbin",
+        "initials": "H",
+        "affiliation": "The Division of Comparative Pathology, Tulane National Biomedical Research Center (TNBRC), Covington, LA, United States."
+      }
+    ],
+    "paper_doi": "10.3389/fimmu.2025.1722463",
+    "paper_pmc_id": "PMC12832992",
+    "extracted_at": "2026-01-29T18:43:35.457Z",
+    "extraction_source": "abstract_only",
+    "supporting_papers": [
+      "41601636"
+    ],
+    "total_papers": 1,
+    "first_paper_year": "2025",
+    "latest_paper_year": "2025",
+    "extraction_sources": [
+      "abstract_only"
+    ],
+    "has_full_text_sources": 0,
+    "relationships": [
+      "negative"
+    ],
+    "user_id": "697ba37d2d8d8b8d9272aa79",
+    "session_ids": [
+      "697ba37d2d8d8b8d9272aa79_1769712117675_aa5y2fw67"
+    ],
+    "strength": 3,
+    "id": "conn_1769712223963_7ibut3gde",
+    "last_updated": "2026-01-29T18:43:43.963Z",
+    "session_id": "697ba37d2d8d8b8d9272aa79_1769712117675_aa5y2fw67"
+  },
+  {
+    "drug": "nucleoside reverse transcriptase inhibitors",
+    "health_issue": "neuropathy",
+    "relationship": "negative",
+    "mechanism": "mtDNA depletion and mutation accumulation",
+    "study_type": "review",
+    "model": "human population",
+    "dose": "not mentioned",
+    "duration": "not mentioned",
+    "sample_size": "not mentioned",
+    "statistical_significance": "not mentioned",
+    "confidence": "Medium",
+    "source_in_paper": "abstract_only",
+    "paper_id": "41601636",
+    "paper_title": "Mitochondrial DNA damage in HIV infection: a mechanistic driver of immunometabolic dysfunction and chronic inflammation.",
+    "paper_year": "2025",
+    "paper_journal": "Frontiers in immunology",
+    "paper_authors": [
+      {
+        "lastName": "Ma",
+        "foreName": "Li",
+        "initials": "L",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Wang",
+        "foreName": "Xiaolei",
+        "initials": "X",
+        "affiliation": "The Division of Comparative Pathology, Tulane National Biomedical Research Center (TNBRC), Covington, LA, United States."
+      },
+      {
+        "lastName": "Xu",
+        "foreName": "Huanbin",
+        "initials": "H",
+        "affiliation": "The Division of Comparative Pathology, Tulane National Biomedical Research Center (TNBRC), Covington, LA, United States."
+      }
+    ],
+    "paper_doi": "10.3389/fimmu.2025.1722463",
+    "paper_pmc_id": "PMC12832992",
+    "extracted_at": "2026-01-29T18:43:35.457Z",
+    "extraction_source": "abstract_only",
+    "supporting_papers": [
+      "41601636"
+    ],
+    "total_papers": 1,
+    "first_paper_year": "2025",
+    "latest_paper_year": "2025",
+    "extraction_sources": [
+      "abstract_only"
+    ],
+    "has_full_text_sources": 0,
+    "relationships": [
+      "negative"
+    ],
+    "user_id": "697ba37d2d8d8b8d9272aa79",
+    "session_ids": [
+      "697ba37d2d8d8b8d9272aa79_1769712117675_aa5y2fw67"
+    ],
+    "strength": 3,
+    "id": "conn_1769712223963_gu1jfrkq2",
+    "last_updated": "2026-01-29T18:43:43.963Z",
+    "session_id": "697ba37d2d8d8b8d9272aa79_1769712117675_aa5y2fw67"
+  },
+  {
+    "drug": "nucleoside reverse transcriptase inhibitors",
+    "health_issue": "accelerated aging",
+    "relationship": "negative",
+    "mechanism": "mtDNA depletion and mutation accumulation",
+    "study_type": "review",
+    "model": "human population",
+    "dose": "not mentioned",
+    "duration": "not mentioned",
+    "sample_size": "not mentioned",
+    "statistical_significance": "not mentioned",
+    "confidence": "Medium",
+    "source_in_paper": "abstract_only",
+    "paper_id": "41601636",
+    "paper_title": "Mitochondrial DNA damage in HIV infection: a mechanistic driver of immunometabolic dysfunction and chronic inflammation.",
+    "paper_year": "2025",
+    "paper_journal": "Frontiers in immunology",
+    "paper_authors": [
+      {
+        "lastName": "Ma",
+        "foreName": "Li",
+        "initials": "L",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Wang",
+        "foreName": "Xiaolei",
+        "initials": "X",
+        "affiliation": "The Division of Comparative Pathology, Tulane National Biomedical Research Center (TNBRC), Covington, LA, United States."
+      },
+      {
+        "lastName": "Xu",
+        "foreName": "Huanbin",
+        "initials": "H",
+        "affiliation": "The Division of Comparative Pathology, Tulane National Biomedical Research Center (TNBRC), Covington, LA, United States."
+      }
+    ],
+    "paper_doi": "10.3389/fimmu.2025.1722463",
+    "paper_pmc_id": "PMC12832992",
+    "extracted_at": "2026-01-29T18:43:35.457Z",
+    "extraction_source": "abstract_only",
+    "supporting_papers": [
+      "41601636"
+    ],
+    "total_papers": 1,
+    "first_paper_year": "2025",
+    "latest_paper_year": "2025",
+    "extraction_sources": [
+      "abstract_only"
+    ],
+    "has_full_text_sources": 0,
+    "relationships": [
+      "negative"
+    ],
+    "user_id": "697ba37d2d8d8b8d9272aa79",
+    "session_ids": [
+      "697ba37d2d8d8b8d9272aa79_1769712117675_aa5y2fw67"
+    ],
+    "strength": 3,
+    "id": "conn_1769712223963_gq4ylp23d",
+    "last_updated": "2026-01-29T18:43:43.963Z",
+    "session_id": "697ba37d2d8d8b8d9272aa79_1769712117675_aa5y2fw67"
+  },
+  {
+    "drug": "BIS (Bcl-2-interacting cell death suppressor, or BAG-3)",
+    "health_issue": "reactive gliosis following brain injury",
+    "relationship": "negative",
+    "mechanism": "modulates reactive astrogliosis, maintains protein quality control via autophagy and proteostasis",
+    "study_type": "in vivo",
+    "model": "astrocyte-specific BIS knockout (BIS-aKO) mice",
+    "dose": "not mentioned",
+    "duration": "not mentioned",
+    "sample_size": "not mentioned",
+    "statistical_significance": "not mentioned",
+    "confidence": "Medium",
+    "source_in_paper": "abstract_only",
+    "paper_id": "41601171",
+    "paper_title": "Depletion of BIS in astrocytes aggravates reactive gliosis following photothrombotic brain injury.",
+    "paper_year": "2026",
+    "paper_journal": "The Korean journal of physiology & pharmacology : official journal of the Korean Physiological Society and the Korean Society of Pharmacology",
+    "paper_authors": [
+      {
+        "lastName": "Jung",
+        "foreName": "Soon-Young",
+        "initials": "SY",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Hwang",
+        "foreName": "Ji-Won",
+        "initials": "JW",
+        "affiliation": "Department of Anatomy, Catholic Neuroscience Institute, College of Medicine, The Catholic University of Korea, Seoul 06591, Korea."
+      },
+      {
+        "lastName": "Yun",
+        "foreName": "Hye Hyeon",
+        "initials": "HH",
+        "affiliation": "Department of Biochemistry, College of Medicine, The Catholic University of Korea, Seoul 06591, Korea."
+      },
+      {
+        "lastName": "Yoo",
+        "foreName": "Kyunghyun",
+        "initials": "K",
+        "affiliation": "Department of Biochemistry, College of Medicine, The Catholic University of Korea, Seoul 06591, Korea."
+      },
+      {
+        "lastName": "Kim",
+        "foreName": "Hong Lim",
+        "initials": "HL",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Oh",
+        "foreName": "Yuna",
+        "initials": "Y",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Jung",
+        "foreName": "Sung Won",
+        "initials": "SW",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Kim",
+        "foreName": "Joo Youn",
+        "initials": "JY",
+        "affiliation": "Department of Pharmacology, College of Medicine, The Catholic University of Korea, Seoul 06591, Korea."
+      },
+      {
+        "lastName": "Hwang",
+        "foreName": "Sun-Nyoung",
+        "initials": "SN",
+        "affiliation": "Department of Pharmacology, College of Medicine, The Catholic University of Korea, Seoul 06591, Korea."
+      },
+      {
+        "lastName": "Kim",
+        "foreName": "Seong Yun",
+        "initials": "SY",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Jung",
+        "foreName": "Seung-Hyun",
+        "initials": "SH",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Lee",
+        "foreName": "Mun-Yong",
+        "initials": "MY",
+        "affiliation": "Department of Anatomy, Catholic Neuroscience Institute, College of Medicine, The Catholic University of Korea, Seoul 06591, Korea."
+      },
+      {
+        "lastName": "Lee",
+        "foreName": "Jeong-Hwa",
+        "initials": "JH",
+        "affiliation": "Department of Biochemistry, College of Medicine, The Catholic University of Korea, Seoul 06591, Korea."
+      },
+      {
+        "lastName": "Riew",
+        "foreName": "Tae-Ryong",
+        "initials": "TR",
+        "affiliation": "Department of Anatomy, Catholic Neuroscience Institute, College of Medicine, The Catholic University of Korea, Seoul 06591, Korea."
+      }
+    ],
+    "paper_doi": "10.4196/kjpp.25.361",
+    "paper_pmc_id": null,
+    "extracted_at": "2026-01-29T18:43:41.772Z",
+    "extraction_source": "abstract_only",
+    "supporting_papers": [
+      "41601171"
+    ],
+    "total_papers": 1,
+    "first_paper_year": "2026",
+    "latest_paper_year": "2026",
+    "extraction_sources": [
+      "abstract_only"
+    ],
+    "has_full_text_sources": 0,
+    "relationships": [
+      "negative"
+    ],
+    "user_id": "697ba37d2d8d8b8d9272aa79",
+    "session_ids": [
+      "697ba37d2d8d8b8d9272aa79_1769712117675_aa5y2fw67"
+    ],
+    "strength": 3,
+    "id": "conn_1769712223963_p13li1toa",
+    "last_updated": "2026-01-29T18:43:43.963Z",
+    "session_id": "697ba37d2d8d8b8d9272aa79_1769712117675_aa5y2fw67"
+  }
+]

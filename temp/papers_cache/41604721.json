@@ -1,0 +1,59 @@
+{
+  "pmid": "41604721",
+  "title": "A Portable System for Non-Invasive Cardiovascular Monitoring in Older Adults: Design and Validation.",
+  "abstract": "The healthcare system is experiencing profound change, driven by two key factors: the progressive aging of the population and the growing pressure from the increased demand for care. In this context, portable devices play a crucial role in enabling remote monitoring, especially for older population. Many portable devices have already been proposed in the literature and introduced to the market. Unfortunately, they all have shortcomings: they either require multiple devices and complex configurations, or they lack clear visual or auditory feedback. This paper therefore presents an innovative technological solution for monitoring cardiovascular health, designed to be non-invasive and user-friendly. In particular, the device integrates high-sensitivity sensors that allow simultaneous acquisition of photoplethysmographic (PPG) and electrocardiographic (ECG) signals through direct finger contact for 30 seconds, allowing the extraction of fundamental electrocardiographic parameters (PR, QRS, QT, RR, HR), oxygen saturation (SpO₂) and second derivative photoplethysmography indices SDPTG (b/a, c/a, d/a, e/a, SDPTG-AI). The system was validated on a court of 33 participants: 19 women and 14 men (age: 64 ± 10.48 years), by comparing its performance to a standard medical-grade instrumentation.&#xD;The system showed good agreement with reference measurements for the QRS duration, RR interval and heart rate, but the PR interval showed more variability, probably due to the difficulties in detecting the P wave. The results concerning SpO₂ were also consistent with those obtained using the standard reference instrumentation. Moreover, the analysis of SDPTG indices suggest that the device could also serve as a screening tool for vascular health. Future work will aim to enhancing real-time connectivity, improve P-wave detection accuracy and validate the device on a larger population.&#xD;.",
+  "journal": "Biomedical physics & engineering express",
+  "year": "2026",
+  "authors": [
+    {
+      "lastName": "Bencivenga",
+      "foreName": "Chiara",
+      "initials": "C",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Cangemi",
+      "foreName": "Roberto",
+      "initials": "R",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Basili",
+      "foreName": "Stefania",
+      "initials": "S",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Polimeni",
+      "foreName": "Antonella",
+      "initials": "A",
+      "affiliation": ""
+    },
+    {
+      "lastName": "D'Alvia",
+      "foreName": "Livio",
+      "initials": "L",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Del Prete",
+      "foreName": "Zaccaria",
+      "initials": "Z",
+      "affiliation": ""
+    }
+  ],
+  "keywords": [
+    "ECG measurement",
+    "PPG measurement",
+    "cardiovascular monitoring",
+    "portable health devices",
+    "signal accuracy",
+    "telemedicine",
+    "vital sign monitoring"
+  ],
+  "doi": "10.1088/2057-1976/ae3e9d",
+  "pmcId": null,
+  "meshTerms": [],
+  "rawXml": "<?xml version=\"1.0\" ?>\n<!DOCTYPE PubmedArticleSet PUBLIC \"-//NLM//DTD PubMedArticle, 1st January 2025//EN\" \"https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_250101.dtd\">\n<PubmedArticleSet>\n<PubmedArticle><MedlineCitation Status=\"Publisher\" Owner=\"NLM\"><PMID Version=\"1\">41604721</PMID><DateRevised><Year>2026</Year><Month>01</Month><Day>28</Day></DateRevised><Article PubModel=\"Print-Electronic\"><Journal><ISSN IssnType=\"Electronic\">2057-1976</ISSN><JournalIssue CitedMedium=\"Internet\"><PubDate><Year>2026</Year><Month>Jan</Month><Day>28</Day></PubDate></JournalIssue><Title>Biomedical physics &amp; engineering express</Title><ISOAbbreviation>Biomed Phys Eng Express</ISOAbbreviation></Journal><ArticleTitle>A Portable System for Non-Invasive Cardiovascular Monitoring in Older Adults: Design and Validation.</ArticleTitle><ELocationID EIdType=\"doi\" ValidYN=\"Y\">10.1088/2057-1976/ae3e9d</ELocationID><Abstract><AbstractText>The healthcare system is experiencing profound change, driven by two key factors: the progressive aging of the population and the growing pressure from the increased demand for care. In this context, portable devices play a crucial role in enabling remote monitoring, especially for older population. Many portable devices have already been proposed in the literature and introduced to the market. Unfortunately, they all have shortcomings: they either require multiple devices and complex configurations, or they lack clear visual or auditory feedback. This paper therefore presents an innovative technological solution for monitoring cardiovascular health, designed to be non-invasive and user-friendly. In particular, the device integrates high-sensitivity sensors that allow simultaneous acquisition of photoplethysmographic (PPG) and electrocardiographic (ECG) signals through direct finger contact for 30 seconds, allowing the extraction of fundamental electrocardiographic parameters (PR, QRS, QT, RR, HR), oxygen saturation (SpO&#x2082;) and second derivative photoplethysmography indices SDPTG (b/a, c/a, d/a, e/a, SDPTG-AI). The system was validated on a court of 33 participants: 19 women and 14 men (age: 64 &#xb1; 10.48 years), by comparing its performance to a standard medical-grade instrumentation.&amp;#xD;The system showed good agreement with reference measurements for the QRS duration, RR interval and heart rate, but the PR interval showed more variability, probably due to the difficulties in detecting the P wave. The results concerning SpO&#x2082; were also consistent with those obtained using the standard reference instrumentation. Moreover, the analysis of SDPTG indices suggest that the device could also serve as a screening tool for vascular health. Future work will aim to enhancing real-time connectivity, improve P-wave detection accuracy and validate the device on a larger population.&amp;#xD;.</AbstractText><CopyrightInformation>Creative Commons Attribution license.</CopyrightInformation></Abstract><AuthorList CompleteYN=\"Y\"><Author ValidYN=\"Y\"><LastName>Bencivenga</LastName><ForeName>Chiara</ForeName><Initials>C</Initials><Identifier Source=\"ORCID\">0009-0002-3256-0371</Identifier><AffiliationInfo><Affiliation>Department of Mechanical and Aerospace Engineering, University of Rome La Sapienza, via Eudossiana, 18, Rome, Lazio, 00184, ITALY.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Cangemi</LastName><ForeName>Roberto</ForeName><Initials>R</Initials><AffiliationInfo><Affiliation>Department of Translational and Precision Medicine , University of Rome La Sapienza, Viale dell'Universit&#xe0;, 37, Rome, Lazio, 00185, ITALY.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Basili</LastName><ForeName>Stefania</ForeName><Initials>S</Initials><Identifier Source=\"ORCID\">0000-0002-6987-1926</Identifier><AffiliationInfo><Affiliation>Department of Translational and Precision Medicine, University of Rome La Sapienza, Viale dell'Universit&#xe0;, 37, Rome, Lazio, 00185, ITALY.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Polimeni</LastName><ForeName>Antonella</ForeName><Initials>A</Initials><AffiliationInfo><Affiliation>Department of Odontostomatology and Maxillofacial Sciences, University of Rome La Sapienza, Via Caserta, 6, Rome, Lazio, 00185, ITALY.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>D'Alvia</LastName><ForeName>Livio</ForeName><Initials>L</Initials><Identifier Source=\"ORCID\">0000-0003-2952-5655</Identifier><AffiliationInfo><Affiliation>Dept. of Well-being, Health and Environmental Sustainability (BeSSA) , Universit&#xe0; degli Studi di Roma La Sapienza, Via della Fontanelle, rieti, Lazio, 02100, ITALY.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Del Prete</LastName><ForeName>Zaccaria</ForeName><Initials>Z</Initials><AffiliationInfo><Affiliation>Department of Mechanical and Aerospace Engineering, University of Rome La Sapienza, Via Eudossiana 18, Rome, Lazio, 00185, ITALY.</Affiliation></AffiliationInfo></Author></AuthorList><Language>eng</Language><PublicationTypeList><PublicationType UI=\"D016428\">Journal Article</PublicationType></PublicationTypeList><ArticleDate DateType=\"Electronic\"><Year>2026</Year><Month>01</Month><Day>28</Day></ArticleDate></Article><MedlineJournalInfo><Country>England</Country><MedlineTA>Biomed Phys Eng Express</MedlineTA><NlmUniqueID>101675002</NlmUniqueID><ISSNLinking>2057-1976</ISSNLinking></MedlineJournalInfo><CitationSubset>IM</CitationSubset><KeywordList Owner=\"NOTNLM\"><Keyword MajorTopicYN=\"N\">ECG measurement</Keyword><Keyword MajorTopicYN=\"N\">PPG measurement</Keyword><Keyword MajorTopicYN=\"N\">cardiovascular monitoring</Keyword><Keyword MajorTopicYN=\"N\">portable health devices</Keyword><Keyword MajorTopicYN=\"N\">signal accuracy</Keyword><Keyword MajorTopicYN=\"N\">telemedicine</Keyword><Keyword MajorTopicYN=\"N\">vital sign monitoring</Keyword></KeywordList></MedlineCitation><PubmedData><History><PubMedPubDate PubStatus=\"medline\"><Year>2026</Year><Month>1</Month><Day>28</Day><Hour>19</Hour><Minute>19</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"pubmed\"><Year>2026</Year><Month>1</Month><Day>28</Day><Hour>19</Hour><Minute>19</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"entrez\"><Year>2026</Year><Month>1</Month><Day>28</Day><Hour>17</Hour><Minute>54</Minute></PubMedPubDate></History><PublicationStatus>aheadofprint</PublicationStatus><ArticleIdList><ArticleId IdType=\"pubmed\">41604721</ArticleId><ArticleId IdType=\"doi\">10.1088/2057-1976/ae3e9d</ArticleId></ArticleIdList></PubmedData></PubmedArticle></PubmedArticleSet>",
+  "fetched_at": "2026-01-29T21:12:03.507Z"
+}

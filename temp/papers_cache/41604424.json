@@ -1,0 +1,87 @@
+{
+  "pmid": "41604424",
+  "title": "Tissue-specific mitochondrial pathway remodeling linked to longevity in honeybee queens.",
+  "abstract": "Mitochondrial metabolism plays a critical role in determining lifespan across animal taxa. In our study, we used the Western honeybee (Apis mellifera) as a model, capitalizing on the stark lifespan difference between queens, which often live more than two years, and summer workers, which survive only about 30 days, despite sharing the same genetic background. We investigated mitochondrial function in head tissue, thoracic muscle, and abdominal fat tissue of queens and workers, comparing early (7 days) and late adult stages (28-30 days in workers; 2 years in queens). No significant differences in mitochondrial flux control ratio for the NADH- Succinate- and glycerophosphate (Gp) pathways were found in thoracic muscles across castes or age groups. In head and abdominal fat tissues, early-life queens showed reduced reliance on NADH-linked pathways for maximal respiratory flux compared to workers. The decrease in the NADH-pathway was compensated by an increase in the Gp-pathway contribution. Queens exhibited reduced phosphorylation-pathway control over OXPHOS compared to workers, both in head tissue during early life and in abdominal fat tissue later in life. These findings reveal caste- and tissue-specific patterns of mitochondrial regulation that may contribute to dramatic lifespan divergence observed in eusocial insects. They suggest that early-life metabolic flexibility could play an important role in shaping life history evolution in Apis mellifera.",
+  "journal": "PloS one",
+  "year": "2026",
+  "authors": [
+    {
+      "lastName": "Chevret",
+      "foreName": "Clément Joël Lucien",
+      "initials": "CJL",
+      "affiliation": "Faculty Saint-Jean, University of Alberta, Edmonton, Alberta, Canada."
+    },
+    {
+      "lastName": "Echegaray",
+      "foreName": "José Francisco",
+      "initials": "JF",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Walton",
+      "foreName": "Alexander",
+      "initials": "A",
+      "affiliation": "Department of Biological Sciences, University of Alberta, Edmonton, Alberta, Canada."
+    },
+    {
+      "lastName": "Lo",
+      "foreName": "Maryam",
+      "initials": "M",
+      "affiliation": "Faculty Saint-Jean, University of Alberta, Edmonton, Alberta, Canada."
+    },
+    {
+      "lastName": "Rueppell",
+      "foreName": "Olav",
+      "initials": "O",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Lemieux",
+      "foreName": "Hélène",
+      "initials": "H",
+      "affiliation": "Faculty Saint-Jean, University of Alberta, Edmonton, Alberta, Canada."
+    }
+  ],
+  "keywords": [],
+  "doi": "10.1371/journal.pone.0341233",
+  "pmcId": null,
+  "meshTerms": [
+    {
+      "descriptor": "Animals",
+      "qualifiers": []
+    },
+    {
+      "descriptor": "Bees",
+      "qualifiers": [
+        "metabolism",
+        "physiology"
+      ]
+    },
+    {
+      "descriptor": "Longevity",
+      "qualifiers": [
+        "physiology"
+      ]
+    },
+    {
+      "descriptor": "Mitochondria",
+      "qualifiers": [
+        "metabolism"
+      ]
+    },
+    {
+      "descriptor": "Female",
+      "qualifiers": []
+    },
+    {
+      "descriptor": "Organ Specificity",
+      "qualifiers": []
+    },
+    {
+      "descriptor": "Oxidative Phosphorylation",
+      "qualifiers": []
+    }
+  ],
+  "rawXml": "<?xml version=\"1.0\" ?>\n<!DOCTYPE PubmedArticleSet PUBLIC \"-//NLM//DTD PubMedArticle, 1st January 2025//EN\" \"https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_250101.dtd\">\n<PubmedArticleSet>\n<PubmedArticle><MedlineCitation Status=\"MEDLINE\" Owner=\"NLM\" IndexingMethod=\"Automated\"><PMID Version=\"1\">41604424</PMID><DateCompleted><Year>2026</Year><Month>01</Month><Day>28</Day></DateCompleted><DateRevised><Year>2026</Year><Month>01</Month><Day>28</Day></DateRevised><Article PubModel=\"Electronic-eCollection\"><Journal><ISSN IssnType=\"Electronic\">1932-6203</ISSN><JournalIssue CitedMedium=\"Internet\"><Volume>21</Volume><Issue>1</Issue><PubDate><Year>2026</Year></PubDate></JournalIssue><Title>PloS one</Title><ISOAbbreviation>PLoS One</ISOAbbreviation></Journal><ArticleTitle>Tissue-specific mitochondrial pathway remodeling linked to longevity in honeybee queens.</ArticleTitle><Pagination><StartPage>e0341233</StartPage><MedlinePgn>e0341233</MedlinePgn></Pagination><ELocationID EIdType=\"doi\" ValidYN=\"Y\">10.1371/journal.pone.0341233</ELocationID><Abstract><AbstractText>Mitochondrial metabolism plays a critical role in determining lifespan across animal taxa. In our study, we used the Western honeybee (Apis mellifera) as a model, capitalizing on the stark lifespan difference between queens, which often live more than two years, and summer workers, which survive only about 30 days, despite sharing the same genetic background. We investigated mitochondrial function in head tissue, thoracic muscle, and abdominal fat tissue of queens and workers, comparing early (7 days) and late adult stages (28-30 days in workers; 2 years in queens). No significant differences in mitochondrial flux control ratio for the NADH- Succinate- and glycerophosphate (Gp) pathways were found in thoracic muscles across castes or age groups. In head and abdominal fat tissues, early-life queens showed reduced reliance on NADH-linked pathways for maximal respiratory flux compared to workers. The decrease in the NADH-pathway was compensated by an increase in the Gp-pathway contribution. Queens exhibited reduced phosphorylation-pathway control over OXPHOS compared to workers, both in head tissue during early life and in abdominal fat tissue later in life. These findings reveal caste- and tissue-specific patterns of mitochondrial regulation that may contribute to dramatic lifespan divergence observed in eusocial insects. They suggest that early-life metabolic flexibility could play an important role in shaping life history evolution in Apis mellifera.</AbstractText><CopyrightInformation>Copyright: &#xa9; 2026 Chevret et al. This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</CopyrightInformation></Abstract><AuthorList CompleteYN=\"Y\"><Author ValidYN=\"Y\"><LastName>Chevret</LastName><ForeName>Cl&#xe9;ment Jo&#xeb;l Lucien</ForeName><Initials>CJL</Initials><AffiliationInfo><Affiliation>Faculty Saint-Jean, University of Alberta, Edmonton, Alberta, Canada.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Department of Medicine, University of Alberta, Edmonton, Alberta, Canada.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Echegaray</LastName><ForeName>Jos&#xe9; Francisco</ForeName><Initials>JF</Initials><AffiliationInfo><Affiliation>Faculty Saint-Jean, University of Alberta, Edmonton, Alberta, Canada.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Walton</LastName><ForeName>Alexander</ForeName><Initials>A</Initials><AffiliationInfo><Affiliation>Department of Biological Sciences, University of Alberta, Edmonton, Alberta, Canada.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Department of Biological Sciences, Concordia University of Edmonton, Edmonton, Alberta, Canada.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Lo</LastName><ForeName>Maryam</ForeName><Initials>M</Initials><Identifier Source=\"ORCID\">0009-0009-8271-7008</Identifier><AffiliationInfo><Affiliation>Faculty Saint-Jean, University of Alberta, Edmonton, Alberta, Canada.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Department of Medicine, University of Alberta, Edmonton, Alberta, Canada.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Rueppell</LastName><ForeName>Olav</ForeName><Initials>O</Initials><AffiliationInfo><Affiliation>Department of Biological Sciences, University of Alberta, Edmonton, Alberta, Canada.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Lemieux</LastName><ForeName>H&#xe9;l&#xe8;ne</ForeName><Initials>H</Initials><Identifier Source=\"ORCID\">0000-0002-8864-6062</Identifier><AffiliationInfo><Affiliation>Faculty Saint-Jean, University of Alberta, Edmonton, Alberta, Canada.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Department of Medicine, University of Alberta, Edmonton, Alberta, Canada.</Affiliation></AffiliationInfo></Author></AuthorList><Language>eng</Language><PublicationTypeList><PublicationType UI=\"D016428\">Journal Article</PublicationType></PublicationTypeList><ArticleDate DateType=\"Electronic\"><Year>2026</Year><Month>01</Month><Day>28</Day></ArticleDate></Article><MedlineJournalInfo><Country>United States</Country><MedlineTA>PLoS One</MedlineTA><NlmUniqueID>101285081</NlmUniqueID><ISSNLinking>1932-6203</ISSNLinking></MedlineJournalInfo><CitationSubset>IM</CitationSubset><MeshHeadingList><MeshHeading><DescriptorName UI=\"D000818\" MajorTopicYN=\"N\">Animals</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D001516\" MajorTopicYN=\"N\">Bees</DescriptorName><QualifierName UI=\"Q000378\" MajorTopicYN=\"N\">metabolism</QualifierName><QualifierName UI=\"Q000502\" MajorTopicYN=\"N\">physiology</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D008136\" MajorTopicYN=\"Y\">Longevity</DescriptorName><QualifierName UI=\"Q000502\" MajorTopicYN=\"N\">physiology</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D008928\" MajorTopicYN=\"Y\">Mitochondria</DescriptorName><QualifierName UI=\"Q000378\" MajorTopicYN=\"N\">metabolism</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D005260\" MajorTopicYN=\"N\">Female</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D009928\" MajorTopicYN=\"N\">Organ Specificity</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D010085\" MajorTopicYN=\"N\">Oxidative Phosphorylation</DescriptorName></MeshHeading></MeshHeadingList><CoiStatement>The authors have declared that no competing interests exist.</CoiStatement></MedlineCitation><PubmedData><History><PubMedPubDate PubStatus=\"received\"><Year>2025</Year><Month>9</Month><Day>12</Day></PubMedPubDate><PubMedPubDate PubStatus=\"accepted\"><Year>2026</Year><Month>1</Month><Day>5</Day></PubMedPubDate><PubMedPubDate PubStatus=\"medline\"><Year>2026</Year><Month>1</Month><Day>28</Day><Hour>19</Hour><Minute>20</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"pubmed\"><Year>2026</Year><Month>1</Month><Day>28</Day><Hour>19</Hour><Minute>19</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"entrez\"><Year>2026</Year><Month>1</Month><Day>28</Day><Hour>13</Hour><Minute>43</Minute></PubMedPubDate></History><PublicationStatus>epublish</PublicationStatus><ArticleIdList><ArticleId IdType=\"pubmed\">41604424</ArticleId><ArticleId IdType=\"doi\">10.1371/journal.pone.0341233</ArticleId><ArticleId IdType=\"pii\">PONE-D-25-49904</ArticleId></ArticleIdList></PubmedData></PubmedArticle></PubmedArticleSet>",
+  "fetched_at": "2026-01-29T18:50:45.927Z"
+}

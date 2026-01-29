@@ -1,0 +1,330 @@
+{
+  "nodes": [
+    {
+      "id": "drug_1",
+      "label": "POPS (Perioperative Medicine for the Older Person undergoing Surgery) service",
+      "type": "drug",
+      "size": 35,
+      "color": "#4A90E2",
+      "total_connections": 1,
+      "user_id": "697ba37d2d8d8b8d9272aa79"
+    },
+    {
+      "id": "health_2",
+      "label": "chronic limb-threatening ischaemia (CLTI)",
+      "type": "health_issue",
+      "size": 23,
+      "color": "#50E3C2",
+      "total_connections": 1,
+      "user_id": "697ba37d2d8d8b8d9272aa79"
+    },
+    {
+      "id": "drug_3",
+      "label": "healthy lifestyle",
+      "type": "drug",
+      "size": 35,
+      "color": "#4A90E2",
+      "total_connections": 2,
+      "user_id": "697ba37d2d8d8b8d9272aa79"
+    },
+    {
+      "id": "health_4",
+      "label": "all-cause mortality",
+      "type": "health_issue",
+      "size": 23,
+      "color": "#50E3C2",
+      "total_connections": 2,
+      "user_id": "697ba37d2d8d8b8d9272aa79"
+    },
+    {
+      "id": "health_5",
+      "label": "cardiovascular mortality",
+      "type": "health_issue",
+      "size": 23,
+      "color": "#50E3C2",
+      "total_connections": 2,
+      "user_id": "697ba37d2d8d8b8d9272aa79"
+    },
+    {
+      "id": "drug_6",
+      "label": "healthy lifestyle combined with mental health",
+      "type": "drug",
+      "size": 35,
+      "color": "#4A90E2",
+      "total_connections": 2,
+      "user_id": "697ba37d2d8d8b8d9272aa79"
+    },
+    {
+      "id": "drug_7",
+      "label": "N/A",
+      "type": "drug",
+      "size": 35,
+      "color": "#4A90E2",
+      "total_connections": 2,
+      "user_id": "697ba37d2d8d8b8d9272aa79"
+    },
+    {
+      "id": "health_8",
+      "label": "cardiovascular health monitoring",
+      "type": "health_issue",
+      "size": 23,
+      "color": "#50E3C2",
+      "total_connections": 1,
+      "user_id": "697ba37d2d8d8b8d9272aa79"
+    },
+    {
+      "id": "health_9",
+      "label": "vascular health screening",
+      "type": "health_issue",
+      "size": 23,
+      "color": "#50E3C2",
+      "total_connections": 1,
+      "user_id": "697ba37d2d8d8b8d9272aa79"
+    },
+    {
+      "id": "drug_10",
+      "label": "telomere length (kidney)",
+      "type": "drug",
+      "size": 35,
+      "color": "#4A90E2",
+      "total_connections": 2,
+      "user_id": "697ba37d2d8d8b8d9272aa79"
+    },
+    {
+      "id": "health_11",
+      "label": "nephrosclerosis",
+      "type": "health_issue",
+      "size": 23,
+      "color": "#50E3C2",
+      "total_connections": 2,
+      "user_id": "697ba37d2d8d8b8d9272aa79"
+    },
+    {
+      "id": "health_12",
+      "label": "kidney ageing/structural decline",
+      "type": "health_issue",
+      "size": 23,
+      "color": "#50E3C2",
+      "total_connections": 1,
+      "user_id": "697ba37d2d8d8b8d9272aa79"
+    },
+    {
+      "id": "drug_13",
+      "label": "cystathionine γ-lyase (CTH)",
+      "type": "drug",
+      "size": 35,
+      "color": "#4A90E2",
+      "total_connections": 1,
+      "user_id": "697ba37d2d8d8b8d9272aa79"
+    },
+    {
+      "id": "health_14",
+      "label": "abnormal cell fate and function, DNA damage repair capacity, senescent phenotype",
+      "type": "health_issue",
+      "size": 23,
+      "color": "#50E3C2",
+      "total_connections": 2,
+      "user_id": "697ba37d2d8d8b8d9272aa79"
+    },
+    {
+      "id": "drug_15",
+      "label": "cystathionine β-synthase (CBS)",
+      "type": "drug",
+      "size": 35,
+      "color": "#4A90E2",
+      "total_connections": 1,
+      "user_id": "697ba37d2d8d8b8d9272aa79"
+    },
+    {
+      "id": "drug_16",
+      "label": "DNA methylation patterns (kidney)",
+      "type": "drug",
+      "size": 35,
+      "color": "#4A90E2",
+      "total_connections": 1,
+      "user_id": "697ba37d2d8d8b8d9272aa79"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_0",
+      "source": "drug_1",
+      "target": "health_2",
+      "label": "Strength: 4",
+      "value": 4,
+      "papers": 1,
+      "relationship": "positive",
+      "width": 8,
+      "has_full_text": false,
+      "user_id": "697ba37d2d8d8b8d9272aa79",
+      "session_id": "697ba37d2d8d8b8d9272aa79_1769721118948_245guqivz"
+    },
+    {
+      "id": "edge_1",
+      "source": "drug_3",
+      "target": "health_4",
+      "label": "Strength: 4",
+      "value": 4,
+      "papers": 1,
+      "relationship": "negative",
+      "width": 8,
+      "has_full_text": false,
+      "user_id": "697ba37d2d8d8b8d9272aa79",
+      "session_id": "697ba37d2d8d8b8d9272aa79_1769721118948_245guqivz"
+    },
+    {
+      "id": "edge_2",
+      "source": "drug_3",
+      "target": "health_5",
+      "label": "Strength: 4",
+      "value": 4,
+      "papers": 1,
+      "relationship": "negative",
+      "width": 8,
+      "has_full_text": false,
+      "user_id": "697ba37d2d8d8b8d9272aa79",
+      "session_id": "697ba37d2d8d8b8d9272aa79_1769721118948_245guqivz"
+    },
+    {
+      "id": "edge_3",
+      "source": "drug_6",
+      "target": "health_4",
+      "label": "Strength: 4",
+      "value": 4,
+      "papers": 1,
+      "relationship": "negative",
+      "width": 8,
+      "has_full_text": false,
+      "user_id": "697ba37d2d8d8b8d9272aa79",
+      "session_id": "697ba37d2d8d8b8d9272aa79_1769721118948_245guqivz"
+    },
+    {
+      "id": "edge_4",
+      "source": "drug_6",
+      "target": "health_5",
+      "label": "Strength: 4",
+      "value": 4,
+      "papers": 1,
+      "relationship": "negative",
+      "width": 8,
+      "has_full_text": false,
+      "user_id": "697ba37d2d8d8b8d9272aa79",
+      "session_id": "697ba37d2d8d8b8d9272aa79_1769721118948_245guqivz"
+    },
+    {
+      "id": "edge_5",
+      "source": "drug_7",
+      "target": "health_8",
+      "label": "Strength: 4",
+      "value": 4,
+      "papers": 1,
+      "relationship": "neutral",
+      "width": 8,
+      "has_full_text": false,
+      "user_id": "697ba37d2d8d8b8d9272aa79",
+      "session_id": "697ba37d2d8d8b8d9272aa79_1769721118948_245guqivz"
+    },
+    {
+      "id": "edge_6",
+      "source": "drug_7",
+      "target": "health_9",
+      "label": "Strength: 4",
+      "value": 4,
+      "papers": 1,
+      "relationship": "neutral",
+      "width": 8,
+      "has_full_text": false,
+      "user_id": "697ba37d2d8d8b8d9272aa79",
+      "session_id": "697ba37d2d8d8b8d9272aa79_1769721118948_245guqivz"
+    },
+    {
+      "id": "edge_7",
+      "source": "drug_10",
+      "target": "health_11",
+      "label": "Strength: 3",
+      "value": 3,
+      "papers": 1,
+      "relationship": "negative",
+      "width": 6,
+      "has_full_text": false,
+      "user_id": "697ba37d2d8d8b8d9272aa79",
+      "session_id": "697ba37d2d8d8b8d9272aa79_1769721118948_245guqivz"
+    },
+    {
+      "id": "edge_8",
+      "source": "drug_10",
+      "target": "health_12",
+      "label": "Strength: 3",
+      "value": 3,
+      "papers": 1,
+      "relationship": "negative",
+      "width": 6,
+      "has_full_text": false,
+      "user_id": "697ba37d2d8d8b8d9272aa79",
+      "session_id": "697ba37d2d8d8b8d9272aa79_1769721118948_245guqivz"
+    },
+    {
+      "id": "edge_9",
+      "source": "drug_13",
+      "target": "health_14",
+      "label": "Strength: 2",
+      "value": 2,
+      "papers": 1,
+      "relationship": "negative",
+      "width": 4,
+      "has_full_text": false,
+      "user_id": "697ba37d2d8d8b8d9272aa79",
+      "session_id": "697ba37d2d8d8b8d9272aa79_1769721118948_245guqivz"
+    },
+    {
+      "id": "edge_10",
+      "source": "drug_15",
+      "target": "health_14",
+      "label": "Strength: 2",
+      "value": 2,
+      "papers": 1,
+      "relationship": "negative",
+      "width": 4,
+      "has_full_text": false,
+      "user_id": "697ba37d2d8d8b8d9272aa79",
+      "session_id": "697ba37d2d8d8b8d9272aa79_1769721118948_245guqivz"
+    },
+    {
+      "id": "edge_11",
+      "source": "drug_16",
+      "target": "health_11",
+      "label": "Strength: 2",
+      "value": 2,
+      "papers": 1,
+      "relationship": "positive",
+      "width": 4,
+      "has_full_text": false,
+      "user_id": "697ba37d2d8d8b8d9272aa79",
+      "session_id": "697ba37d2d8d8b8d9272aa79_1769721118948_245guqivz"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-01-29T21:13:06.523Z",
+    "total_connections": 12,
+    "total_drugs": 8,
+    "total_health_issues": 8,
+    "user_id": "697ba37d2d8d8b8d9272aa79",
+    "session_id": "697ba37d2d8d8b8d9272aa79_1769721118948_245guqivz"
+  },
+  "stats": {
+    "totalNodes": 16,
+    "totalEdges": 12,
+    "drugNodes": 8,
+    "healthNodes": 8,
+    "maxDegree": 2,
+    "avgDegree": "1.50",
+    "strengthDistribution": {
+      "1": 0,
+      "2": 3,
+      "3": 2,
+      "4": 7,
+      "5": 0
+    },
+    "density": 0.1
+  }
+}

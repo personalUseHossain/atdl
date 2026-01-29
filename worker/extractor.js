@@ -1,4 +1,3 @@
-// worker/extractor.js (Updated)
 const axios = require('axios');
 
 class AIExtractor {
@@ -14,22 +13,30 @@ class AIExtractor {
         }
 
         const hasFullText = paper.hasFullText && paper.fullText && paper.fullText.length > 1000;
-        
+
         const systemPrompt = `You are a biomedical research extraction assistant. Extract drug/compound to health issue connections from the research paper.
 
 EXTRACTION PRIORITY:
 1. Use FULL TEXT if available (marked with ⭐) - contains detailed methods, results, discussions
 2. Otherwise use ABSTRACT only - limited to summary information
 
-For each connection, assess confidence based on:
-- High: Clear evidence in full text with dosage, duration, statistical significance
-- Medium: Mentioned in abstract or limited details in full text
-- Low: Indirect mention or speculative
+CONFIDENCE ASSESSMENT CRITERIA:
+- HIGH: Clear, direct evidence with specific details (dosage, duration, statistical significance p<0.05, sample size)
+- MEDIUM: Reasonable evidence but limited details, or from abstract only
+- LOW: Indirect mention, speculative, or weak evidence
 
-Return ONLY valid JSON array.`;
+STRENGTH FACTORS (these will be calculated separately):
+1. Number of supporting papers across studies
+2. Full text availability
+3. Statistical significance
+4. Study quality (clinical > observational > in vitro)
+5. Recency of evidence
+6. Replication across multiple papers
+
+For each connection, assess confidence based SOLELY on evidence quality in THIS specific paper.`;
 
         let prompt;
-        
+
         if (hasFullText) {
             prompt = `⭐ FULL TEXT AVAILABLE - Extract from detailed paper content:
 
@@ -43,6 +50,11 @@ ${paper.fullText.substring(0, 8000)}...
 IMPORTANT: The full text contains detailed methods, results, and discussions.
 Look for specific dosages, durations, statistical significance (p-values), sample sizes.
 
+CRITICAL: Rate confidence based on:
+- HIGH: Specific dosage AND duration AND statistical significance mentioned
+- MEDIUM: Some details present but incomplete
+- LOW: General mention without specific details
+
 Extract ALL drug/compound to health issue connections you can find.`;
         } else {
             prompt = `ABSTRACT ONLY - Extract from paper summary:
@@ -51,7 +63,9 @@ TITLE: ${paper.title}
 ABSTRACT: ${paper.abstract || 'Not available'}
 
 NOTE: Abstract only provides summary information.
-Confidence scores may be lower due to limited details.`;
+Default confidence for abstract-only is MEDIUM unless strong evidence mentioned.
+If abstract mentions specific numbers (dosage, sample size, p-values), confidence can be HIGH.
+If very vague or speculative, confidence should be LOW.`;
         }
 
         const formatPrompt = `
@@ -66,12 +80,18 @@ Return JSON array with this exact format:
     "model": "animal model, cell line, human population",
     "dose": "dosage if mentioned (e.g., 500mg/day)",
     "duration": "treatment duration if mentioned (e.g., 12 weeks)",
-    "sample_size": "number of subjects if mentioned",
-    "statistical_significance": "p-value or significance level if mentioned",
-    "confidence": "High/Medium/Low based on evidence quality",
-    "source_in_paper": "abstract_only/full_text_methods/full_text_results/full_text_discussion"
+    "sample_size": "number of subjects if mentioned (e.g., n=100)",
+    "statistical_significance": "p-value or significance level if mentioned (e.g., p<0.05)",
+    "confidence": "High/Medium/Low - BASED ONLY ON EVIDENCE QUALITY IN THIS PAPER",
+    "source_in_paper": "abstract_only/full_text_methods/full_text_results/full_text_discussion",
+    "evidence_score": 1-5 (1=very weak, 5=very strong evidence in this paper)
   }
 ]
+
+CONFIDENCE GUIDELINES:
+- HIGH: Must have at least 3 of: specific dose, duration, sample size, statistical significance
+- MEDIUM: Has 1-2 specific details OR clear mention in abstract
+- LOW: Vague mention, speculative, no specific details
 
 Return ONLY the JSON array, no other text.`;
 
@@ -101,10 +121,21 @@ Return ONLY the JSON array, no other text.`;
 
             const content = response.data.choices[0].message.content;
             const cleaned = this.cleanJSONResponse(content);
-            
+
             try {
-                const connections = JSON.parse(cleaned);
+                let connections = JSON.parse(cleaned);
                 
+                // Ensure connections is an array
+                if (!Array.isArray(connections)) {
+                    // Try to extract array from object
+                    const firstKey = Object.keys(connections)[0];
+                    if (Array.isArray(connections[firstKey])) {
+                        connections = connections[firstKey];
+                    } else {
+                        connections = [connections];
+                    }
+                }
+
                 // Add paper metadata and source info
                 return connections.map(conn => ({
                     ...conn,
@@ -117,14 +148,18 @@ Return ONLY the JSON array, no other text.`;
                     paper_pmc_id: paper.pmcId,
                     has_full_text: hasFullText,
                     extracted_at: new Date().toISOString(),
-                    extraction_source: hasFullText ? 'full_text' : 'abstract_only'
+                    extraction_source: hasFullText ? 'full_text' : 'abstract_only',
+                    // Ensure evidence_score is a number
+                    evidence_score: typeof conn.evidence_score === 'number' ? conn.evidence_score : 
+                                  conn.confidence === 'High' ? 5 :
+                                  conn.confidence === 'Medium' ? 3 : 1
                 }));
             } catch (parseError) {
                 console.error('JSON parse error:', parseError.message);
                 console.log('Raw response:', content.substring(0, 500));
                 return this.generateMockConnections(paper, hasFullText);
             }
-            
+
         } catch (error) {
             console.error('AI extraction error:', error.message);
             if (error.response) {
@@ -136,17 +171,17 @@ Return ONLY the JSON array, no other text.`;
 
     cleanJSONResponse(content) {
         let cleaned = content.trim();
-        
+
         // Remove markdown code blocks
         cleaned = cleaned.replace(/```json\s*/g, '');
         cleaned = cleaned.replace(/```\s*/g, '');
-        
+
         // Try to extract JSON array
         const jsonMatch = cleaned.match(/\[\s*{.*}\s*\]/s);
         if (jsonMatch) {
             return jsonMatch[0];
         }
-        
+
         // Try to extract JSON object with array
         const objMatch = cleaned.match(/{\s*".*"\s*:\s*\[.*\]\s*}/s);
         if (objMatch) {
@@ -160,7 +195,7 @@ Return ONLY the JSON array, no other text.`;
                 // Continue
             }
         }
-        
+
         // Fallback: try to parse as is
         return cleaned;
     }
@@ -168,11 +203,15 @@ Return ONLY the JSON array, no other text.`;
     generateMockConnections(paper, hasFullText = false) {
         const mockDrugs = ['Metformin', 'Rapamycin', 'Resveratrol', 'Vitamin D', 'Omega-3'];
         const mockHealthIssues = ['Longevity', 'Immune Function', 'Cognitive Decline', 'Bone Health', 'Cardiovascular Health'];
-        
+
         const numConnections = hasFullText ? Math.floor(Math.random() * 4) + 2 : Math.floor(Math.random() * 2) + 1;
         const connections = [];
-        
+
         for (let i = 0; i < numConnections; i++) {
+            const hasDetails = hasFullText || Math.random() > 0.5;
+            const confidence = hasDetails ? 'Medium' : 'Low';
+            const evidence_score = confidence === 'High' ? 5 : confidence === 'Medium' ? 3 : 1;
+            
             connections.push({
                 drug: mockDrugs[Math.floor(Math.random() * mockDrugs.length)],
                 health_issue: mockHealthIssues[Math.floor(Math.random() * mockHealthIssues.length)],
@@ -180,12 +219,13 @@ Return ONLY the JSON array, no other text.`;
                 mechanism: hasFullText ? 'Detailed mechanism from full text analysis' : 'Limited mechanism from abstract',
                 study_type: hasFullText ? 'clinical' : 'observational',
                 model: hasFullText ? 'human, randomized controlled trial' : 'various models',
-                dose: hasFullText ? '500mg/day' : null,
-                duration: hasFullText ? '12 weeks' : null,
-                sample_size: hasFullText ? 'n=100' : null,
-                statistical_significance: hasFullText ? 'p<0.05' : null,
-                confidence: hasFullText ? 'High' : 'Medium',
+                dose: hasDetails ? '500mg/day' : null,
+                duration: hasDetails ? '12 weeks' : null,
+                sample_size: hasDetails ? 'n=100' : null,
+                statistical_significance: hasDetails ? 'p<0.05' : null,
+                confidence: confidence,
                 source_in_paper: hasFullText ? 'full_text_results' : 'abstract_only',
+                evidence_score: evidence_score,
                 paper_id: paper.pmid,
                 paper_title: paper.title,
                 paper_year: paper.year,
@@ -196,7 +236,7 @@ Return ONLY the JSON array, no other text.`;
                 is_mock: true // Mark as mock data
             });
         }
-        
+
         return connections;
     }
 }

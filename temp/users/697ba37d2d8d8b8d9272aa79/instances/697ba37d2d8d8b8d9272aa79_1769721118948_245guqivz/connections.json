@@ -1,0 +1,1388 @@
+[
+  {
+    "drug": "POPS (Perioperative Medicine for the Older Person undergoing Surgery) service",
+    "health_issue": "chronic limb-threatening ischaemia (CLTI)",
+    "relationship": "positive",
+    "mechanism": "incorporating comprehensive geriatric assessment (CGA) to optimize patients",
+    "study_type": "observational",
+    "model": "human population",
+    "dose": "not mentioned",
+    "duration": "not mentioned",
+    "sample_size": "602",
+    "statistical_significance": "P<.001 for length of stay reduction, P<.001 for acute kidney injury reduction, P<.001 for myocardial infarction reduction, P=.048 for hospital-acquired pneumonia reduction, P=.013 and P=.001 for mortality reduction",
+    "confidence": "High",
+    "source_in_paper": "abstract_only",
+    "evidence_score": 4,
+    "paper_id": "41609321",
+    "paper_title": "Vascular-POPS: evidence for a new standard of care in the management of chronic limb-threatening Ischaemia.",
+    "paper_year": "2026",
+    "paper_journal": "Age and ageing",
+    "paper_authors": [
+      {
+        "lastName": "Khan",
+        "foreName": "Assad",
+        "initials": "A",
+        "affiliation": "Leeds General Infirmary, Great George Street, Leeds LS1 3EX, UK."
+      },
+      {
+        "lastName": "Davies",
+        "foreName": "Henry",
+        "initials": "H",
+        "affiliation": "Leeds General Infirmary, Great George Street, Leeds LS1 3EX, UK."
+      },
+      {
+        "lastName": "Fawcett",
+        "foreName": "Lee-Ellen",
+        "initials": "LE",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Darwood",
+        "foreName": "Rosie",
+        "initials": "R",
+        "affiliation": "Leeds General Infirmary, Great George Street, Leeds LS1 3EX, UK."
+      },
+      {
+        "lastName": "Anthony",
+        "foreName": "Rebecca",
+        "initials": "R",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Wallace",
+        "foreName": "Tom",
+        "initials": "T",
+        "affiliation": "Leeds General Infirmary, Great George Street, Leeds LS1 3EX, UK."
+      }
+    ],
+    "paper_doi": "10.1093/ageing/afag003",
+    "paper_pmc_id": null,
+    "extracted_at": "2026-01-29T21:12:11.066Z",
+    "extraction_source": "abstract_only",
+    "supporting_papers": [
+      "41609321"
+    ],
+    "total_papers": 1,
+    "first_paper_year": "2026",
+    "latest_paper_year": "2026",
+    "extraction_sources": [
+      "abstract_only"
+    ],
+    "has_full_text_sources": 0,
+    "relationships": [
+      "positive"
+    ],
+    "user_id": "697ba37d2d8d8b8d9272aa79",
+    "session_ids": [
+      "697ba37d2d8d8b8d9272aa79_1769721118948_245guqivz"
+    ],
+    "strength": 4,
+    "id": "conn_1769721186521_werpcc48c",
+    "last_updated": "2026-01-29T21:13:06.521Z",
+    "session_id": "697ba37d2d8d8b8d9272aa79_1769721118948_245guqivz"
+  },
+  {
+    "drug": "healthy lifestyle",
+    "health_issue": "all-cause mortality",
+    "relationship": "negative",
+    "mechanism": "not mentioned",
+    "study_type": "observational",
+    "model": "human population (NHANES and UK Biobank participants)",
+    "dose": "not mentioned",
+    "duration": "not mentioned",
+    "sample_size": "95,313 total (19,528 from NHANES + 75,785 from UK Biobank)",
+    "statistical_significance": "p<0.001 for NHANES, p<0.001 for UK Biobank",
+    "confidence": "High",
+    "source_in_paper": "abstract_only",
+    "evidence_score": 4,
+    "paper_id": "41606627",
+    "paper_title": "Association of healthy lifestyle, depression with all-cause or cardiovascular mortality modified by metabolic syndrome among individuals: evidence from US NHANES and UK biobank cohort studies.",
+    "paper_year": "2026",
+    "paper_journal": "Nutrition & metabolism",
+    "paper_authors": [
+      {
+        "lastName": "Hu",
+        "foreName": "Feng",
+        "initials": "F",
+        "affiliation": "Department of Cardiology, Fujian Cardiovascular Medical Center, Fujian Institute of Coronary Artery Disease, Fujian Cardiovascular Research Center, Fujian Medical University Union Hospital, Fuzhou, 350001, People's Republic of China."
+      },
+      {
+        "lastName": "Fu",
+        "foreName": "Fayuan",
+        "initials": "F",
+        "affiliation": "Department of Cardiology, Fujian Cardiovascular Medical Center, Fujian Institute of Coronary Artery Disease, Fujian Cardiovascular Research Center, Fujian Medical University Union Hospital, Fuzhou, 350001, People's Republic of China."
+      },
+      {
+        "lastName": "Chen",
+        "foreName": "Hui",
+        "initials": "H",
+        "affiliation": "Department of Cardiology, Fujian Cardiovascular Medical Center, Fujian Institute of Coronary Artery Disease, Fujian Cardiovascular Research Center, Fujian Medical University Union Hospital, Fuzhou, 350001, People's Republic of China."
+      },
+      {
+        "lastName": "Zeng",
+        "foreName": "Xinjie",
+        "initials": "X",
+        "affiliation": "Department of Cardiology, Fujian Cardiovascular Medical Center, Fujian Institute of Coronary Artery Disease, Fujian Cardiovascular Research Center, Fujian Medical University Union Hospital, Fuzhou, 350001, People's Republic of China."
+      },
+      {
+        "lastName": "Wang",
+        "foreName": "Jing",
+        "initials": "J",
+        "affiliation": "Department of Cardiology, Fujian Cardiovascular Medical Center, Fujian Institute of Coronary Artery Disease, Fujian Cardiovascular Research Center, Fujian Medical University Union Hospital, Fuzhou, 350001, People's Republic of China."
+      },
+      {
+        "lastName": "Lin",
+        "foreName": "Chaoyang",
+        "initials": "C",
+        "affiliation": "Department of Cardiology, Fujian Cardiovascular Medical Center, Fujian Institute of Coronary Artery Disease, Fujian Cardiovascular Research Center, Fujian Medical University Union Hospital, Fuzhou, 350001, People's Republic of China."
+      },
+      {
+        "lastName": "Jiang",
+        "foreName": "Yufang",
+        "initials": "Y",
+        "affiliation": "Department of Cardiology, Fujian Cardiovascular Medical Center, Fujian Institute of Coronary Artery Disease, Fujian Cardiovascular Research Center, Fujian Medical University Union Hospital, Fuzhou, 350001, People's Republic of China."
+      },
+      {
+        "lastName": "Fan",
+        "foreName": "Lin",
+        "initials": "L",
+        "affiliation": "Department of Cardiology, Fujian Cardiovascular Medical Center, Fujian Institute of Coronary Artery Disease, Fujian Cardiovascular Research Center, Fujian Medical University Union Hospital, Fuzhou, 350001, People's Republic of China. rickfan7587@hotmail.com."
+      },
+      {
+        "lastName": "Luo",
+        "foreName": "Yukun",
+        "initials": "Y",
+        "affiliation": "Department of Cardiology, Fujian Cardiovascular Medical Center, Fujian Institute of Coronary Artery Disease, Fujian Cardiovascular Research Center, Fujian Medical University Union Hospital, Fuzhou, 350001, People's Republic of China. luoyukun@hotmail.com."
+      }
+    ],
+    "paper_doi": "10.1186/s12986-026-01087-3",
+    "paper_pmc_id": null,
+    "extracted_at": "2026-01-29T21:12:30.233Z",
+    "extraction_source": "abstract_only",
+    "supporting_papers": [
+      "41606627"
+    ],
+    "total_papers": 1,
+    "first_paper_year": "2026",
+    "latest_paper_year": "2026",
+    "extraction_sources": [
+      "abstract_only"
+    ],
+    "has_full_text_sources": 0,
+    "relationships": [
+      "negative"
+    ],
+    "user_id": "697ba37d2d8d8b8d9272aa79",
+    "session_ids": [
+      "697ba37d2d8d8b8d9272aa79_1769721118948_245guqivz"
+    ],
+    "strength": 4,
+    "id": "conn_1769721186521_7sqbixsvd",
+    "last_updated": "2026-01-29T21:13:06.521Z",
+    "session_id": "697ba37d2d8d8b8d9272aa79_1769721118948_245guqivz"
+  },
+  {
+    "drug": "healthy lifestyle",
+    "health_issue": "cardiovascular mortality",
+    "relationship": "negative",
+    "mechanism": "not mentioned",
+    "study_type": "observational",
+    "model": "human population (NHANES and UK Biobank participants)",
+    "dose": "not mentioned",
+    "duration": "not mentioned",
+    "sample_size": "95,313 total (19,528 from NHANES + 75,785 from UK Biobank)",
+    "statistical_significance": "p=0.027 for NHANES, p=0.002 for UK Biobank",
+    "confidence": "High",
+    "source_in_paper": "abstract_only",
+    "evidence_score": 4,
+    "paper_id": "41606627",
+    "paper_title": "Association of healthy lifestyle, depression with all-cause or cardiovascular mortality modified by metabolic syndrome among individuals: evidence from US NHANES and UK biobank cohort studies.",
+    "paper_year": "2026",
+    "paper_journal": "Nutrition & metabolism",
+    "paper_authors": [
+      {
+        "lastName": "Hu",
+        "foreName": "Feng",
+        "initials": "F",
+        "affiliation": "Department of Cardiology, Fujian Cardiovascular Medical Center, Fujian Institute of Coronary Artery Disease, Fujian Cardiovascular Research Center, Fujian Medical University Union Hospital, Fuzhou, 350001, People's Republic of China."
+      },
+      {
+        "lastName": "Fu",
+        "foreName": "Fayuan",
+        "initials": "F",
+        "affiliation": "Department of Cardiology, Fujian Cardiovascular Medical Center, Fujian Institute of Coronary Artery Disease, Fujian Cardiovascular Research Center, Fujian Medical University Union Hospital, Fuzhou, 350001, People's Republic of China."
+      },
+      {
+        "lastName": "Chen",
+        "foreName": "Hui",
+        "initials": "H",
+        "affiliation": "Department of Cardiology, Fujian Cardiovascular Medical Center, Fujian Institute of Coronary Artery Disease, Fujian Cardiovascular Research Center, Fujian Medical University Union Hospital, Fuzhou, 350001, People's Republic of China."
+      },
+      {
+        "lastName": "Zeng",
+        "foreName": "Xinjie",
+        "initials": "X",
+        "affiliation": "Department of Cardiology, Fujian Cardiovascular Medical Center, Fujian Institute of Coronary Artery Disease, Fujian Cardiovascular Research Center, Fujian Medical University Union Hospital, Fuzhou, 350001, People's Republic of China."
+      },
+      {
+        "lastName": "Wang",
+        "foreName": "Jing",
+        "initials": "J",
+        "affiliation": "Department of Cardiology, Fujian Cardiovascular Medical Center, Fujian Institute of Coronary Artery Disease, Fujian Cardiovascular Research Center, Fujian Medical University Union Hospital, Fuzhou, 350001, People's Republic of China."
+      },
+      {
+        "lastName": "Lin",
+        "foreName": "Chaoyang",
+        "initials": "C",
+        "affiliation": "Department of Cardiology, Fujian Cardiovascular Medical Center, Fujian Institute of Coronary Artery Disease, Fujian Cardiovascular Research Center, Fujian Medical University Union Hospital, Fuzhou, 350001, People's Republic of China."
+      },
+      {
+        "lastName": "Jiang",
+        "foreName": "Yufang",
+        "initials": "Y",
+        "affiliation": "Department of Cardiology, Fujian Cardiovascular Medical Center, Fujian Institute of Coronary Artery Disease, Fujian Cardiovascular Research Center, Fujian Medical University Union Hospital, Fuzhou, 350001, People's Republic of China."
+      },
+      {
+        "lastName": "Fan",
+        "foreName": "Lin",
+        "initials": "L",
+        "affiliation": "Department of Cardiology, Fujian Cardiovascular Medical Center, Fujian Institute of Coronary Artery Disease, Fujian Cardiovascular Research Center, Fujian Medical University Union Hospital, Fuzhou, 350001, People's Republic of China. rickfan7587@hotmail.com."
+      },
+      {
+        "lastName": "Luo",
+        "foreName": "Yukun",
+        "initials": "Y",
+        "affiliation": "Department of Cardiology, Fujian Cardiovascular Medical Center, Fujian Institute of Coronary Artery Disease, Fujian Cardiovascular Research Center, Fujian Medical University Union Hospital, Fuzhou, 350001, People's Republic of China. luoyukun@hotmail.com."
+      }
+    ],
+    "paper_doi": "10.1186/s12986-026-01087-3",
+    "paper_pmc_id": null,
+    "extracted_at": "2026-01-29T21:12:30.233Z",
+    "extraction_source": "abstract_only",
+    "supporting_papers": [
+      "41606627"
+    ],
+    "total_papers": 1,
+    "first_paper_year": "2026",
+    "latest_paper_year": "2026",
+    "extraction_sources": [
+      "abstract_only"
+    ],
+    "has_full_text_sources": 0,
+    "relationships": [
+      "negative"
+    ],
+    "user_id": "697ba37d2d8d8b8d9272aa79",
+    "session_ids": [
+      "697ba37d2d8d8b8d9272aa79_1769721118948_245guqivz"
+    ],
+    "strength": 4,
+    "id": "conn_1769721186521_45zllpdm2",
+    "last_updated": "2026-01-29T21:13:06.521Z",
+    "session_id": "697ba37d2d8d8b8d9272aa79_1769721118948_245guqivz"
+  },
+  {
+    "drug": "healthy lifestyle combined with mental health",
+    "health_issue": "all-cause mortality",
+    "relationship": "negative",
+    "mechanism": "not mentioned",
+    "study_type": "observational",
+    "model": "human population (NHANES and UK Biobank participants)",
+    "dose": "not mentioned",
+    "duration": "not mentioned",
+    "sample_size": "95,313 total (19,528 from NHANES + 75,785 from UK Biobank)",
+    "statistical_significance": "p<0.001 for both databases",
+    "confidence": "High",
+    "source_in_paper": "abstract_only",
+    "evidence_score": 4,
+    "paper_id": "41606627",
+    "paper_title": "Association of healthy lifestyle, depression with all-cause or cardiovascular mortality modified by metabolic syndrome among individuals: evidence from US NHANES and UK biobank cohort studies.",
+    "paper_year": "2026",
+    "paper_journal": "Nutrition & metabolism",
+    "paper_authors": [
+      {
+        "lastName": "Hu",
+        "foreName": "Feng",
+        "initials": "F",
+        "affiliation": "Department of Cardiology, Fujian Cardiovascular Medical Center, Fujian Institute of Coronary Artery Disease, Fujian Cardiovascular Research Center, Fujian Medical University Union Hospital, Fuzhou, 350001, People's Republic of China."
+      },
+      {
+        "lastName": "Fu",
+        "foreName": "Fayuan",
+        "initials": "F",
+        "affiliation": "Department of Cardiology, Fujian Cardiovascular Medical Center, Fujian Institute of Coronary Artery Disease, Fujian Cardiovascular Research Center, Fujian Medical University Union Hospital, Fuzhou, 350001, People's Republic of China."
+      },
+      {
+        "lastName": "Chen",
+        "foreName": "Hui",
+        "initials": "H",
+        "affiliation": "Department of Cardiology, Fujian Cardiovascular Medical Center, Fujian Institute of Coronary Artery Disease, Fujian Cardiovascular Research Center, Fujian Medical University Union Hospital, Fuzhou, 350001, People's Republic of China."
+      },
+      {
+        "lastName": "Zeng",
+        "foreName": "Xinjie",
+        "initials": "X",
+        "affiliation": "Department of Cardiology, Fujian Cardiovascular Medical Center, Fujian Institute of Coronary Artery Disease, Fujian Cardiovascular Research Center, Fujian Medical University Union Hospital, Fuzhou, 350001, People's Republic of China."
+      },
+      {
+        "lastName": "Wang",
+        "foreName": "Jing",
+        "initials": "J",
+        "affiliation": "Department of Cardiology, Fujian Cardiovascular Medical Center, Fujian Institute of Coronary Artery Disease, Fujian Cardiovascular Research Center, Fujian Medical University Union Hospital, Fuzhou, 350001, People's Republic of China."
+      },
+      {
+        "lastName": "Lin",
+        "foreName": "Chaoyang",
+        "initials": "C",
+        "affiliation": "Department of Cardiology, Fujian Cardiovascular Medical Center, Fujian Institute of Coronary Artery Disease, Fujian Cardiovascular Research Center, Fujian Medical University Union Hospital, Fuzhou, 350001, People's Republic of China."
+      },
+      {
+        "lastName": "Jiang",
+        "foreName": "Yufang",
+        "initials": "Y",
+        "affiliation": "Department of Cardiology, Fujian Cardiovascular Medical Center, Fujian Institute of Coronary Artery Disease, Fujian Cardiovascular Research Center, Fujian Medical University Union Hospital, Fuzhou, 350001, People's Republic of China."
+      },
+      {
+        "lastName": "Fan",
+        "foreName": "Lin",
+        "initials": "L",
+        "affiliation": "Department of Cardiology, Fujian Cardiovascular Medical Center, Fujian Institute of Coronary Artery Disease, Fujian Cardiovascular Research Center, Fujian Medical University Union Hospital, Fuzhou, 350001, People's Republic of China. rickfan7587@hotmail.com."
+      },
+      {
+        "lastName": "Luo",
+        "foreName": "Yukun",
+        "initials": "Y",
+        "affiliation": "Department of Cardiology, Fujian Cardiovascular Medical Center, Fujian Institute of Coronary Artery Disease, Fujian Cardiovascular Research Center, Fujian Medical University Union Hospital, Fuzhou, 350001, People's Republic of China. luoyukun@hotmail.com."
+      }
+    ],
+    "paper_doi": "10.1186/s12986-026-01087-3",
+    "paper_pmc_id": null,
+    "extracted_at": "2026-01-29T21:12:30.233Z",
+    "extraction_source": "abstract_only",
+    "supporting_papers": [
+      "41606627"
+    ],
+    "total_papers": 1,
+    "first_paper_year": "2026",
+    "latest_paper_year": "2026",
+    "extraction_sources": [
+      "abstract_only"
+    ],
+    "has_full_text_sources": 0,
+    "relationships": [
+      "negative"
+    ],
+    "user_id": "697ba37d2d8d8b8d9272aa79",
+    "session_ids": [
+      "697ba37d2d8d8b8d9272aa79_1769721118948_245guqivz"
+    ],
+    "strength": 4,
+    "id": "conn_1769721186521_hnacaak32",
+    "last_updated": "2026-01-29T21:13:06.521Z",
+    "session_id": "697ba37d2d8d8b8d9272aa79_1769721118948_245guqivz"
+  },
+  {
+    "drug": "healthy lifestyle combined with mental health",
+    "health_issue": "cardiovascular mortality",
+    "relationship": "negative",
+    "mechanism": "not mentioned",
+    "study_type": "observational",
+    "model": "human population (NHANES and UK Biobank participants)",
+    "dose": "not mentioned",
+    "duration": "not mentioned",
+    "sample_size": "95,313 total (19,528 from NHANES + 75,785 from UK Biobank)",
+    "statistical_significance": "p=0.027 for NHANES, p=0.002 for UK Biobank",
+    "confidence": "High",
+    "source_in_paper": "abstract_only",
+    "evidence_score": 4,
+    "paper_id": "41606627",
+    "paper_title": "Association of healthy lifestyle, depression with all-cause or cardiovascular mortality modified by metabolic syndrome among individuals: evidence from US NHANES and UK biobank cohort studies.",
+    "paper_year": "2026",
+    "paper_journal": "Nutrition & metabolism",
+    "paper_authors": [
+      {
+        "lastName": "Hu",
+        "foreName": "Feng",
+        "initials": "F",
+        "affiliation": "Department of Cardiology, Fujian Cardiovascular Medical Center, Fujian Institute of Coronary Artery Disease, Fujian Cardiovascular Research Center, Fujian Medical University Union Hospital, Fuzhou, 350001, People's Republic of China."
+      },
+      {
+        "lastName": "Fu",
+        "foreName": "Fayuan",
+        "initials": "F",
+        "affiliation": "Department of Cardiology, Fujian Cardiovascular Medical Center, Fujian Institute of Coronary Artery Disease, Fujian Cardiovascular Research Center, Fujian Medical University Union Hospital, Fuzhou, 350001, People's Republic of China."
+      },
+      {
+        "lastName": "Chen",
+        "foreName": "Hui",
+        "initials": "H",
+        "affiliation": "Department of Cardiology, Fujian Cardiovascular Medical Center, Fujian Institute of Coronary Artery Disease, Fujian Cardiovascular Research Center, Fujian Medical University Union Hospital, Fuzhou, 350001, People's Republic of China."
+      },
+      {
+        "lastName": "Zeng",
+        "foreName": "Xinjie",
+        "initials": "X",
+        "affiliation": "Department of Cardiology, Fujian Cardiovascular Medical Center, Fujian Institute of Coronary Artery Disease, Fujian Cardiovascular Research Center, Fujian Medical University Union Hospital, Fuzhou, 350001, People's Republic of China."
+      },
+      {
+        "lastName": "Wang",
+        "foreName": "Jing",
+        "initials": "J",
+        "affiliation": "Department of Cardiology, Fujian Cardiovascular Medical Center, Fujian Institute of Coronary Artery Disease, Fujian Cardiovascular Research Center, Fujian Medical University Union Hospital, Fuzhou, 350001, People's Republic of China."
+      },
+      {
+        "lastName": "Lin",
+        "foreName": "Chaoyang",
+        "initials": "C",
+        "affiliation": "Department of Cardiology, Fujian Cardiovascular Medical Center, Fujian Institute of Coronary Artery Disease, Fujian Cardiovascular Research Center, Fujian Medical University Union Hospital, Fuzhou, 350001, People's Republic of China."
+      },
+      {
+        "lastName": "Jiang",
+        "foreName": "Yufang",
+        "initials": "Y",
+        "affiliation": "Department of Cardiology, Fujian Cardiovascular Medical Center, Fujian Institute of Coronary Artery Disease, Fujian Cardiovascular Research Center, Fujian Medical University Union Hospital, Fuzhou, 350001, People's Republic of China."
+      },
+      {
+        "lastName": "Fan",
+        "foreName": "Lin",
+        "initials": "L",
+        "affiliation": "Department of Cardiology, Fujian Cardiovascular Medical Center, Fujian Institute of Coronary Artery Disease, Fujian Cardiovascular Research Center, Fujian Medical University Union Hospital, Fuzhou, 350001, People's Republic of China. rickfan7587@hotmail.com."
+      },
+      {
+        "lastName": "Luo",
+        "foreName": "Yukun",
+        "initials": "Y",
+        "affiliation": "Department of Cardiology, Fujian Cardiovascular Medical Center, Fujian Institute of Coronary Artery Disease, Fujian Cardiovascular Research Center, Fujian Medical University Union Hospital, Fuzhou, 350001, People's Republic of China. luoyukun@hotmail.com."
+      }
+    ],
+    "paper_doi": "10.1186/s12986-026-01087-3",
+    "paper_pmc_id": null,
+    "extracted_at": "2026-01-29T21:12:30.233Z",
+    "extraction_source": "abstract_only",
+    "supporting_papers": [
+      "41606627"
+    ],
+    "total_papers": 1,
+    "first_paper_year": "2026",
+    "latest_paper_year": "2026",
+    "extraction_sources": [
+      "abstract_only"
+    ],
+    "has_full_text_sources": 0,
+    "relationships": [
+      "negative"
+    ],
+    "user_id": "697ba37d2d8d8b8d9272aa79",
+    "session_ids": [
+      "697ba37d2d8d8b8d9272aa79_1769721118948_245guqivz"
+    ],
+    "strength": 4,
+    "id": "conn_1769721186521_wsvjtt7tr",
+    "last_updated": "2026-01-29T21:13:06.521Z",
+    "session_id": "697ba37d2d8d8b8d9272aa79_1769721118948_245guqivz"
+  },
+  {
+    "drug": "N/A",
+    "health_issue": "cardiovascular health monitoring",
+    "relationship": "neutral",
+    "mechanism": "non-invasive monitoring via photoplethysmographic (PPG) and electrocardiographic (ECG) signals",
+    "study_type": "clinical",
+    "model": "human population (older adults)",
+    "dose": "N/A",
+    "duration": "30 seconds measurement",
+    "sample_size": "33 participants (19 women, 14 men)",
+    "statistical_significance": "N/A",
+    "confidence": "Medium",
+    "source_in_paper": "abstract_only",
+    "evidence_score": 3,
+    "paper_id": "41604721",
+    "paper_title": "A Portable System for Non-Invasive Cardiovascular Monitoring in Older Adults: Design and Validation.",
+    "paper_year": "2026",
+    "paper_journal": "Biomedical physics & engineering express",
+    "paper_authors": [
+      {
+        "lastName": "Bencivenga",
+        "foreName": "Chiara",
+        "initials": "C",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Cangemi",
+        "foreName": "Roberto",
+        "initials": "R",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Basili",
+        "foreName": "Stefania",
+        "initials": "S",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Polimeni",
+        "foreName": "Antonella",
+        "initials": "A",
+        "affiliation": ""
+      },
+      {
+        "lastName": "D'Alvia",
+        "foreName": "Livio",
+        "initials": "L",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Del Prete",
+        "foreName": "Zaccaria",
+        "initials": "Z",
+        "affiliation": ""
+      }
+    ],
+    "paper_doi": "10.1088/2057-1976/ae3e9d",
+    "paper_pmc_id": null,
+    "extracted_at": "2026-01-29T21:12:51.014Z",
+    "extraction_source": "abstract_only",
+    "supporting_papers": [
+      "41604721"
+    ],
+    "total_papers": 1,
+    "first_paper_year": "2026",
+    "latest_paper_year": "2026",
+    "extraction_sources": [
+      "abstract_only"
+    ],
+    "has_full_text_sources": 0,
+    "relationships": [
+      "neutral"
+    ],
+    "user_id": "697ba37d2d8d8b8d9272aa79",
+    "session_ids": [
+      "697ba37d2d8d8b8d9272aa79_1769721118948_245guqivz"
+    ],
+    "strength": 4,
+    "id": "conn_1769721186521_67zmq32ko",
+    "last_updated": "2026-01-29T21:13:06.521Z",
+    "session_id": "697ba37d2d8d8b8d9272aa79_1769721118948_245guqivz"
+  },
+  {
+    "drug": "N/A",
+    "health_issue": "vascular health screening",
+    "relationship": "neutral",
+    "mechanism": "analysis of second derivative photoplethysmography indices (SDPTG)",
+    "study_type": "clinical",
+    "model": "human population (older adults)",
+    "dose": "N/A",
+    "duration": "30 seconds measurement",
+    "sample_size": "33 participants (19 women, 14 men)",
+    "statistical_significance": "N/A",
+    "confidence": "Medium",
+    "source_in_paper": "abstract_only",
+    "evidence_score": 2,
+    "paper_id": "41604721",
+    "paper_title": "A Portable System for Non-Invasive Cardiovascular Monitoring in Older Adults: Design and Validation.",
+    "paper_year": "2026",
+    "paper_journal": "Biomedical physics & engineering express",
+    "paper_authors": [
+      {
+        "lastName": "Bencivenga",
+        "foreName": "Chiara",
+        "initials": "C",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Cangemi",
+        "foreName": "Roberto",
+        "initials": "R",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Basili",
+        "foreName": "Stefania",
+        "initials": "S",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Polimeni",
+        "foreName": "Antonella",
+        "initials": "A",
+        "affiliation": ""
+      },
+      {
+        "lastName": "D'Alvia",
+        "foreName": "Livio",
+        "initials": "L",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Del Prete",
+        "foreName": "Zaccaria",
+        "initials": "Z",
+        "affiliation": ""
+      }
+    ],
+    "paper_doi": "10.1088/2057-1976/ae3e9d",
+    "paper_pmc_id": null,
+    "extracted_at": "2026-01-29T21:12:51.014Z",
+    "extraction_source": "abstract_only",
+    "supporting_papers": [
+      "41604721"
+    ],
+    "total_papers": 1,
+    "first_paper_year": "2026",
+    "latest_paper_year": "2026",
+    "extraction_sources": [
+      "abstract_only"
+    ],
+    "has_full_text_sources": 0,
+    "relationships": [
+      "neutral"
+    ],
+    "user_id": "697ba37d2d8d8b8d9272aa79",
+    "session_ids": [
+      "697ba37d2d8d8b8d9272aa79_1769721118948_245guqivz"
+    ],
+    "strength": 4,
+    "id": "conn_1769721186521_3nwr218eo",
+    "last_updated": "2026-01-29T21:13:06.521Z",
+    "session_id": "697ba37d2d8d8b8d9272aa79_1769721118948_245guqivz"
+  },
+  {
+    "drug": "telomere length (kidney)",
+    "health_issue": "nephrosclerosis",
+    "relationship": "negative",
+    "mechanism": "shorter kidney telomeres associated with nephrosclerosis through epigenetic changes (DNA methylation) independent of chronological age",
+    "study_type": "observational",
+    "model": "human population (Human Kidney Tissue Resource participants)",
+    "dose": "",
+    "duration": "",
+    "sample_size": "200 participants (plus 71 for validation)",
+    "statistical_significance": "P = 0.00003 for kidney telomere length association with age",
+    "confidence": "Medium",
+    "source_in_paper": "abstract_only",
+    "evidence_score": 3,
+    "paper_id": "41604428",
+    "paper_title": "Shorter kidney telomeres are associated with nephrosclerosis by an epigenetic signature.",
+    "paper_year": "2026",
+    "paper_journal": "Cardiovascular research",
+    "paper_authors": [
+      {
+        "lastName": "Akinnibosun",
+        "foreName": "Olutope Arinola",
+        "initials": "OA",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Xu",
+        "foreName": "Xiaoguang",
+        "initials": "X",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Emmett",
+        "foreName": "Amber",
+        "initials": "A",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Nguyen",
+        "foreName": "Huy",
+        "initials": "H",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Hames-Fathi",
+        "foreName": "Shadi",
+        "initials": "S",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Drzal",
+        "foreName": "Maciej",
+        "initials": "M",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Eales",
+        "foreName": "James",
+        "initials": "J",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Scannali",
+        "foreName": "David",
+        "initials": "D",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Prestes",
+        "foreName": "Priscilla R",
+        "initials": "PR",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Denniff",
+        "foreName": "Matthew",
+        "initials": "M",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Bogdanski",
+        "foreName": "Pawel",
+        "initials": "P",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Zywiec",
+        "foreName": "Joanna",
+        "initials": "J",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Wystrychowski",
+        "foreName": "Wojciech",
+        "initials": "W",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Zukowska-Szczechowska",
+        "foreName": "Ewa",
+        "initials": "E",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Guzik",
+        "foreName": "Tomasz J",
+        "initials": "TJ",
+        "affiliation": "Department of Internal Medicine, Jagiellonian University Medical College, 31-0008, Kraków, Poland."
+      },
+      {
+        "lastName": "Samani",
+        "foreName": "Nilesh J",
+        "initials": "NJ",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Dormer",
+        "foreName": "John",
+        "initials": "J",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Tomaszewski",
+        "foreName": "Maciej",
+        "initials": "M",
+        "affiliation": "Division of Cardiovascular Sciences, Faculty of Medicine, Biology and Health, University of Manchester, Manchester, M13 9PL, UK."
+      },
+      {
+        "lastName": "Charchar",
+        "foreName": "Fadi J",
+        "initials": "FJ",
+        "affiliation": "Health Innovation and Transformation Centre, Federation University Australia, Ballarat, VIC 3353, Australia."
+      }
+    ],
+    "paper_doi": "10.1093/cvr/cvag034",
+    "paper_pmc_id": null,
+    "extracted_at": "2026-01-29T21:13:05.883Z",
+    "extraction_source": "abstract_only",
+    "supporting_papers": [
+      "41604428"
+    ],
+    "total_papers": 1,
+    "first_paper_year": "2026",
+    "latest_paper_year": "2026",
+    "extraction_sources": [
+      "abstract_only"
+    ],
+    "has_full_text_sources": 0,
+    "relationships": [
+      "negative"
+    ],
+    "user_id": "697ba37d2d8d8b8d9272aa79",
+    "session_ids": [
+      "697ba37d2d8d8b8d9272aa79_1769721118948_245guqivz"
+    ],
+    "strength": 3,
+    "id": "conn_1769721186521_7rhkqiq3r",
+    "last_updated": "2026-01-29T21:13:06.521Z",
+    "session_id": "697ba37d2d8d8b8d9272aa79_1769721118948_245guqivz"
+  },
+  {
+    "drug": "telomere length (kidney)",
+    "health_issue": "kidney ageing/structural decline",
+    "relationship": "negative",
+    "mechanism": "telomere shortening accompanies age-related structural involution and functional decline in kidneys",
+    "study_type": "observational",
+    "model": "human population (Human Kidney Tissue Resource participants)",
+    "dose": "",
+    "duration": "",
+    "sample_size": "200 participants (plus 71 for validation)",
+    "statistical_significance": "P = 0.00003 for kidney telomere length association with age",
+    "confidence": "Medium",
+    "source_in_paper": "abstract_only",
+    "evidence_score": 3,
+    "paper_id": "41604428",
+    "paper_title": "Shorter kidney telomeres are associated with nephrosclerosis by an epigenetic signature.",
+    "paper_year": "2026",
+    "paper_journal": "Cardiovascular research",
+    "paper_authors": [
+      {
+        "lastName": "Akinnibosun",
+        "foreName": "Olutope Arinola",
+        "initials": "OA",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Xu",
+        "foreName": "Xiaoguang",
+        "initials": "X",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Emmett",
+        "foreName": "Amber",
+        "initials": "A",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Nguyen",
+        "foreName": "Huy",
+        "initials": "H",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Hames-Fathi",
+        "foreName": "Shadi",
+        "initials": "S",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Drzal",
+        "foreName": "Maciej",
+        "initials": "M",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Eales",
+        "foreName": "James",
+        "initials": "J",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Scannali",
+        "foreName": "David",
+        "initials": "D",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Prestes",
+        "foreName": "Priscilla R",
+        "initials": "PR",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Denniff",
+        "foreName": "Matthew",
+        "initials": "M",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Bogdanski",
+        "foreName": "Pawel",
+        "initials": "P",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Zywiec",
+        "foreName": "Joanna",
+        "initials": "J",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Wystrychowski",
+        "foreName": "Wojciech",
+        "initials": "W",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Zukowska-Szczechowska",
+        "foreName": "Ewa",
+        "initials": "E",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Guzik",
+        "foreName": "Tomasz J",
+        "initials": "TJ",
+        "affiliation": "Department of Internal Medicine, Jagiellonian University Medical College, 31-0008, Kraków, Poland."
+      },
+      {
+        "lastName": "Samani",
+        "foreName": "Nilesh J",
+        "initials": "NJ",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Dormer",
+        "foreName": "John",
+        "initials": "J",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Tomaszewski",
+        "foreName": "Maciej",
+        "initials": "M",
+        "affiliation": "Division of Cardiovascular Sciences, Faculty of Medicine, Biology and Health, University of Manchester, Manchester, M13 9PL, UK."
+      },
+      {
+        "lastName": "Charchar",
+        "foreName": "Fadi J",
+        "initials": "FJ",
+        "affiliation": "Health Innovation and Transformation Centre, Federation University Australia, Ballarat, VIC 3353, Australia."
+      }
+    ],
+    "paper_doi": "10.1093/cvr/cvag034",
+    "paper_pmc_id": null,
+    "extracted_at": "2026-01-29T21:13:05.883Z",
+    "extraction_source": "abstract_only",
+    "supporting_papers": [
+      "41604428"
+    ],
+    "total_papers": 1,
+    "first_paper_year": "2026",
+    "latest_paper_year": "2026",
+    "extraction_sources": [
+      "abstract_only"
+    ],
+    "has_full_text_sources": 0,
+    "relationships": [
+      "negative"
+    ],
+    "user_id": "697ba37d2d8d8b8d9272aa79",
+    "session_ids": [
+      "697ba37d2d8d8b8d9272aa79_1769721118948_245guqivz"
+    ],
+    "strength": 3,
+    "id": "conn_1769721186521_gyqge8erh",
+    "last_updated": "2026-01-29T21:13:06.521Z",
+    "session_id": "697ba37d2d8d8b8d9272aa79_1769721118948_245guqivz"
+  },
+  {
+    "drug": "cystathionine γ-lyase (CTH)",
+    "health_issue": "abnormal cell fate and function, DNA damage repair capacity, senescent phenotype",
+    "relationship": "negative",
+    "mechanism": "Modulation of CTH rescues abnormal cell fate and function, restores DNA damage repair capacity, and alleviates senescent phenotype caused by lamin A/C mutations",
+    "study_type": "in vitro",
+    "model": "naive mouse pluripotent stem cells",
+    "dose": "",
+    "duration": "",
+    "sample_size": "",
+    "statistical_significance": "",
+    "confidence": "Medium",
+    "source_in_paper": "abstract_only",
+    "evidence_score": 3,
+    "paper_id": "41606307",
+    "paper_title": "Lamin A/C-regulated cysteine catabolic flux modulates stem cell fate through epigenome reprogramming.",
+    "paper_year": "2026",
+    "paper_journal": "Nature metabolism",
+    "paper_authors": [
+      {
+        "lastName": "Wang",
+        "foreName": "Yinuo",
+        "initials": "Y",
+        "affiliation": "Department of Cardiovascular Genomics and Epigenomics, European Center for Angioscience (ECAS), Medical Faculty Mannheim, Heidelberg University, Mannheim, Germany. Yinuo.Wang@medma.uni-heidelberg.de."
+      },
+      {
+        "lastName": "Shi",
+        "foreName": "Haojie",
+        "initials": "H",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Wittig",
+        "foreName": "Janina",
+        "initials": "J",
+        "affiliation": "Department of Vascular Dysfunction, ECAS, Medical Faculty Mannheim, Heidelberg University, Mannheim, Germany."
+      },
+      {
+        "lastName": "Ren",
+        "foreName": "Yonggang",
+        "initials": "Y",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Cordero",
+        "foreName": "Julio",
+        "initials": "J",
+        "affiliation": "Department of Cardiovascular Genomics and Epigenomics, European Center for Angioscience (ECAS), Medical Faculty Mannheim, Heidelberg University, Mannheim, Germany."
+      },
+      {
+        "lastName": "Dewenter",
+        "foreName": "Matthias",
+        "initials": "M",
+        "affiliation": "German Centre for Cardiovascular Research (DZHK), Heidelberg/Mannheim, Germany."
+      },
+      {
+        "lastName": "Mella",
+        "foreName": "Jessica",
+        "initials": "J",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Buchwalter",
+        "foreName": "Abigail",
+        "initials": "A",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Backs",
+        "foreName": "Johannes",
+        "initials": "J",
+        "affiliation": "German Centre for Cardiovascular Research (DZHK), Heidelberg/Mannheim, Germany."
+      },
+      {
+        "lastName": "Wieland",
+        "foreName": "Thomas",
+        "initials": "T",
+        "affiliation": "German Centre for Cardiovascular Research (DZHK), Heidelberg/Mannheim, Germany."
+      },
+      {
+        "lastName": "Heineke",
+        "foreName": "Joerg",
+        "initials": "J",
+        "affiliation": "German Centre for Cardiovascular Research (DZHK), Heidelberg/Mannheim, Germany."
+      },
+      {
+        "lastName": "Fleming",
+        "foreName": "Ingrid",
+        "initials": "I",
+        "affiliation": "German Centre for Cardiovascular Research (DZHK), Heidelberg/Mannheim, Germany."
+      },
+      {
+        "lastName": "Bibli",
+        "foreName": "Sofia-Iris",
+        "initials": "SI",
+        "affiliation": "German Centre for Cardiovascular Research (DZHK), Heidelberg/Mannheim, Germany. Iris.Bibli@medma.uni-heidelberg.de."
+      },
+      {
+        "lastName": "Dobreva",
+        "foreName": "Gergana",
+        "initials": "G",
+        "affiliation": "Department of Cardiovascular Genomics and Epigenomics, European Center for Angioscience (ECAS), Medical Faculty Mannheim, Heidelberg University, Mannheim, Germany. Gergana.Dobreva@medma.uni-heidelberg.de."
+      }
+    ],
+    "paper_doi": "10.1038/s42255-025-01443-2",
+    "paper_pmc_id": null,
+    "extracted_at": "2026-01-29T21:12:41.326Z",
+    "extraction_source": "abstract_only",
+    "supporting_papers": [
+      "41606307"
+    ],
+    "total_papers": 1,
+    "first_paper_year": "2026",
+    "latest_paper_year": "2026",
+    "extraction_sources": [
+      "abstract_only"
+    ],
+    "has_full_text_sources": 0,
+    "relationships": [
+      "negative"
+    ],
+    "user_id": "697ba37d2d8d8b8d9272aa79",
+    "session_ids": [
+      "697ba37d2d8d8b8d9272aa79_1769721118948_245guqivz"
+    ],
+    "strength": 2,
+    "id": "conn_1769721186521_negoai13p",
+    "last_updated": "2026-01-29T21:13:06.521Z",
+    "session_id": "697ba37d2d8d8b8d9272aa79_1769721118948_245guqivz"
+  },
+  {
+    "drug": "cystathionine β-synthase (CBS)",
+    "health_issue": "abnormal cell fate and function, DNA damage repair capacity, senescent phenotype",
+    "relationship": "negative",
+    "mechanism": "Modulation of CBS rescues abnormal cell fate and function, restores DNA damage repair capacity, and alleviates senescent phenotype caused by lamin A/C mutations",
+    "study_type": "in vitro",
+    "model": "naive mouse pluripotent stem cells",
+    "dose": "",
+    "duration": "",
+    "sample_size": "",
+    "statistical_significance": "",
+    "confidence": "Medium",
+    "source_in_paper": "abstract_only",
+    "evidence_score": 3,
+    "paper_id": "41606307",
+    "paper_title": "Lamin A/C-regulated cysteine catabolic flux modulates stem cell fate through epigenome reprogramming.",
+    "paper_year": "2026",
+    "paper_journal": "Nature metabolism",
+    "paper_authors": [
+      {
+        "lastName": "Wang",
+        "foreName": "Yinuo",
+        "initials": "Y",
+        "affiliation": "Department of Cardiovascular Genomics and Epigenomics, European Center for Angioscience (ECAS), Medical Faculty Mannheim, Heidelberg University, Mannheim, Germany. Yinuo.Wang@medma.uni-heidelberg.de."
+      },
+      {
+        "lastName": "Shi",
+        "foreName": "Haojie",
+        "initials": "H",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Wittig",
+        "foreName": "Janina",
+        "initials": "J",
+        "affiliation": "Department of Vascular Dysfunction, ECAS, Medical Faculty Mannheim, Heidelberg University, Mannheim, Germany."
+      },
+      {
+        "lastName": "Ren",
+        "foreName": "Yonggang",
+        "initials": "Y",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Cordero",
+        "foreName": "Julio",
+        "initials": "J",
+        "affiliation": "Department of Cardiovascular Genomics and Epigenomics, European Center for Angioscience (ECAS), Medical Faculty Mannheim, Heidelberg University, Mannheim, Germany."
+      },
+      {
+        "lastName": "Dewenter",
+        "foreName": "Matthias",
+        "initials": "M",
+        "affiliation": "German Centre for Cardiovascular Research (DZHK), Heidelberg/Mannheim, Germany."
+      },
+      {
+        "lastName": "Mella",
+        "foreName": "Jessica",
+        "initials": "J",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Buchwalter",
+        "foreName": "Abigail",
+        "initials": "A",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Backs",
+        "foreName": "Johannes",
+        "initials": "J",
+        "affiliation": "German Centre for Cardiovascular Research (DZHK), Heidelberg/Mannheim, Germany."
+      },
+      {
+        "lastName": "Wieland",
+        "foreName": "Thomas",
+        "initials": "T",
+        "affiliation": "German Centre for Cardiovascular Research (DZHK), Heidelberg/Mannheim, Germany."
+      },
+      {
+        "lastName": "Heineke",
+        "foreName": "Joerg",
+        "initials": "J",
+        "affiliation": "German Centre for Cardiovascular Research (DZHK), Heidelberg/Mannheim, Germany."
+      },
+      {
+        "lastName": "Fleming",
+        "foreName": "Ingrid",
+        "initials": "I",
+        "affiliation": "German Centre for Cardiovascular Research (DZHK), Heidelberg/Mannheim, Germany."
+      },
+      {
+        "lastName": "Bibli",
+        "foreName": "Sofia-Iris",
+        "initials": "SI",
+        "affiliation": "German Centre for Cardiovascular Research (DZHK), Heidelberg/Mannheim, Germany. Iris.Bibli@medma.uni-heidelberg.de."
+      },
+      {
+        "lastName": "Dobreva",
+        "foreName": "Gergana",
+        "initials": "G",
+        "affiliation": "Department of Cardiovascular Genomics and Epigenomics, European Center for Angioscience (ECAS), Medical Faculty Mannheim, Heidelberg University, Mannheim, Germany. Gergana.Dobreva@medma.uni-heidelberg.de."
+      }
+    ],
+    "paper_doi": "10.1038/s42255-025-01443-2",
+    "paper_pmc_id": null,
+    "extracted_at": "2026-01-29T21:12:41.326Z",
+    "extraction_source": "abstract_only",
+    "supporting_papers": [
+      "41606307"
+    ],
+    "total_papers": 1,
+    "first_paper_year": "2026",
+    "latest_paper_year": "2026",
+    "extraction_sources": [
+      "abstract_only"
+    ],
+    "has_full_text_sources": 0,
+    "relationships": [
+      "negative"
+    ],
+    "user_id": "697ba37d2d8d8b8d9272aa79",
+    "session_ids": [
+      "697ba37d2d8d8b8d9272aa79_1769721118948_245guqivz"
+    ],
+    "strength": 2,
+    "id": "conn_1769721186521_0sy0yuwxn",
+    "last_updated": "2026-01-29T21:13:06.521Z",
+    "session_id": "697ba37d2d8d8b8d9272aa79_1769721118948_245guqivz"
+  },
+  {
+    "drug": "DNA methylation patterns (kidney)",
+    "health_issue": "nephrosclerosis",
+    "relationship": "positive",
+    "mechanism": "epigenetic changes (57 CpGs epigenetic clock) contribute to nephrosclerosis independently of chronological age",
+    "study_type": "observational",
+    "model": "human population (Human Kidney Tissue Resource participants)",
+    "dose": "",
+    "duration": "",
+    "sample_size": "200 participants (plus 71 for validation)",
+    "statistical_significance": "",
+    "confidence": "Medium",
+    "source_in_paper": "abstract_only",
+    "evidence_score": 3,
+    "paper_id": "41604428",
+    "paper_title": "Shorter kidney telomeres are associated with nephrosclerosis by an epigenetic signature.",
+    "paper_year": "2026",
+    "paper_journal": "Cardiovascular research",
+    "paper_authors": [
+      {
+        "lastName": "Akinnibosun",
+        "foreName": "Olutope Arinola",
+        "initials": "OA",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Xu",
+        "foreName": "Xiaoguang",
+        "initials": "X",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Emmett",
+        "foreName": "Amber",
+        "initials": "A",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Nguyen",
+        "foreName": "Huy",
+        "initials": "H",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Hames-Fathi",
+        "foreName": "Shadi",
+        "initials": "S",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Drzal",
+        "foreName": "Maciej",
+        "initials": "M",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Eales",
+        "foreName": "James",
+        "initials": "J",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Scannali",
+        "foreName": "David",
+        "initials": "D",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Prestes",
+        "foreName": "Priscilla R",
+        "initials": "PR",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Denniff",
+        "foreName": "Matthew",
+        "initials": "M",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Bogdanski",
+        "foreName": "Pawel",
+        "initials": "P",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Zywiec",
+        "foreName": "Joanna",
+        "initials": "J",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Wystrychowski",
+        "foreName": "Wojciech",
+        "initials": "W",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Zukowska-Szczechowska",
+        "foreName": "Ewa",
+        "initials": "E",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Guzik",
+        "foreName": "Tomasz J",
+        "initials": "TJ",
+        "affiliation": "Department of Internal Medicine, Jagiellonian University Medical College, 31-0008, Kraków, Poland."
+      },
+      {
+        "lastName": "Samani",
+        "foreName": "Nilesh J",
+        "initials": "NJ",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Dormer",
+        "foreName": "John",
+        "initials": "J",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Tomaszewski",
+        "foreName": "Maciej",
+        "initials": "M",
+        "affiliation": "Division of Cardiovascular Sciences, Faculty of Medicine, Biology and Health, University of Manchester, Manchester, M13 9PL, UK."
+      },
+      {
+        "lastName": "Charchar",
+        "foreName": "Fadi J",
+        "initials": "FJ",
+        "affiliation": "Health Innovation and Transformation Centre, Federation University Australia, Ballarat, VIC 3353, Australia."
+      }
+    ],
+    "paper_doi": "10.1093/cvr/cvag034",
+    "paper_pmc_id": null,
+    "extracted_at": "2026-01-29T21:13:05.883Z",
+    "extraction_source": "abstract_only",
+    "supporting_papers": [
+      "41604428"
+    ],
+    "total_papers": 1,
+    "first_paper_year": "2026",
+    "latest_paper_year": "2026",
+    "extraction_sources": [
+      "abstract_only"
+    ],
+    "has_full_text_sources": 0,
+    "relationships": [
+      "positive"
+    ],
+    "user_id": "697ba37d2d8d8b8d9272aa79",
+    "session_ids": [
+      "697ba37d2d8d8b8d9272aa79_1769721118948_245guqivz"
+    ],
+    "strength": 2,
+    "id": "conn_1769721186521_6e1r598qy",
+    "last_updated": "2026-01-29T21:13:06.521Z",
+    "session_id": "697ba37d2d8d8b8d9272aa79_1769721118948_245guqivz"
+  }
+]

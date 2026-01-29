@@ -1,0 +1,181 @@
+{
+  "pmid": "41608615",
+  "title": "β3-adrenergic receptor agonist causes acute thermogenic metabolic crisis in ACSS1-K635Q knock-in mice.",
+  "abstract": "",
+  "journal": "International journal of biological sciences",
+  "year": "2026",
+  "authors": [
+    {
+      "lastName": "Chocron",
+      "foreName": "E Sandra",
+      "initials": "ES",
+      "affiliation": "Department of Radiation Oncology, Mays Cancer Center at UT Health San Antonio MD Anderson, Joe R. and Teresa Lozano Long School of Medicine, San Antonio, Texas, United States."
+    },
+    {
+      "lastName": "Zhang",
+      "foreName": "David",
+      "initials": "D",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Sumawi",
+      "foreName": "Bushra",
+      "initials": "B",
+      "affiliation": "Department of Radiation Oncology, Mays Cancer Center at UT Health San Antonio MD Anderson, Joe R. and Teresa Lozano Long School of Medicine, San Antonio, Texas, United States."
+    },
+    {
+      "lastName": "Schell",
+      "foreName": "Joseph",
+      "initials": "J",
+      "affiliation": "Department of Radiation Oncology, Mays Cancer Center at UT Health San Antonio MD Anderson, Joe R. and Teresa Lozano Long School of Medicine, San Antonio, Texas, United States."
+    },
+    {
+      "lastName": "Cruz",
+      "foreName": "Diego",
+      "initials": "D",
+      "affiliation": "Department of Radiation Oncology, Mays Cancer Center at UT Health San Antonio MD Anderson, Joe R. and Teresa Lozano Long School of Medicine, San Antonio, Texas, United States."
+    },
+    {
+      "lastName": "Li",
+      "foreName": "Guannan",
+      "initials": "G",
+      "affiliation": "Barshop Institute for Longevity and Aging Studies at UT Health San Antonio, San Antonio, Texas, United States."
+    },
+    {
+      "lastName": "Sreenivas",
+      "foreName": "Prethish",
+      "initials": "P",
+      "affiliation": "Department of Radiation Oncology, Mays Cancer Center at UT Health San Antonio MD Anderson, Joe R. and Teresa Lozano Long School of Medicine, San Antonio, Texas, United States."
+    },
+    {
+      "lastName": "Jiang",
+      "foreName": "Haiyan",
+      "initials": "H",
+      "affiliation": "Department of Radiation Oncology, Mays Cancer Center at UT Health San Antonio MD Anderson, Joe R. and Teresa Lozano Long School of Medicine, San Antonio, Texas, United States."
+    },
+    {
+      "lastName": "Dong",
+      "foreName": "Felix F",
+      "initials": "FF",
+      "affiliation": "Department of Radiation Oncology, Mays Cancer Center at UT Health San Antonio MD Anderson, Joe R. and Teresa Lozano Long School of Medicine, San Antonio, Texas, United States."
+    },
+    {
+      "lastName": "Munkácsy",
+      "foreName": "Erin",
+      "initials": "E",
+      "affiliation": "Department of Radiation Oncology, Mays Cancer Center at UT Health San Antonio MD Anderson, Joe R. and Teresa Lozano Long School of Medicine, San Antonio, Texas, United States."
+    },
+    {
+      "lastName": "Zhao",
+      "foreName": "Shangang",
+      "initials": "S",
+      "affiliation": "Barshop Institute for Longevity and Aging Studies at UT Health San Antonio, San Antonio, Texas, United States."
+    },
+    {
+      "lastName": "Porras",
+      "foreName": "Maria A Gonzalez",
+      "initials": "MAG",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Gius",
+      "foreName": "David",
+      "initials": "D",
+      "affiliation": "Department of Radiation Oncology, Mays Cancer Center at UT Health San Antonio MD Anderson, Joe R. and Teresa Lozano Long School of Medicine, San Antonio, Texas, United States."
+    }
+  ],
+  "keywords": [
+    "ACSS1",
+    "UCP1",
+    "acetylation",
+    "beige",
+    "brown adipose tissue",
+    "brown fat",
+    "mitochondria",
+    "thermogenesis"
+  ],
+  "doi": "10.7150/ijbs.122643",
+  "pmcId": "PMC12836529",
+  "meshTerms": [
+    {
+      "descriptor": "Animals",
+      "qualifiers": []
+    },
+    {
+      "descriptor": "Thermogenesis",
+      "qualifiers": [
+        "drug effects",
+        "genetics"
+      ]
+    },
+    {
+      "descriptor": "Mice",
+      "qualifiers": []
+    },
+    {
+      "descriptor": "Adrenergic beta-3 Receptor Agonists",
+      "qualifiers": [
+        "pharmacology"
+      ]
+    },
+    {
+      "descriptor": "Adipose Tissue, Brown",
+      "qualifiers": [
+        "metabolism",
+        "drug effects"
+      ]
+    },
+    {
+      "descriptor": "Acetate-CoA Ligase",
+      "qualifiers": [
+        "metabolism",
+        "genetics"
+      ]
+    },
+    {
+      "descriptor": "Dioxoles",
+      "qualifiers": [
+        "pharmacology"
+      ]
+    },
+    {
+      "descriptor": "Acetates",
+      "qualifiers": [
+        "pharmacology"
+      ]
+    },
+    {
+      "descriptor": "Gene Knock-In Techniques",
+      "qualifiers": []
+    },
+    {
+      "descriptor": "Male",
+      "qualifiers": []
+    },
+    {
+      "descriptor": "Uncoupling Protein 1",
+      "qualifiers": [
+        "metabolism"
+      ]
+    },
+    {
+      "descriptor": "Mice, Inbred C57BL",
+      "qualifiers": []
+    },
+    {
+      "descriptor": "Oxygen Consumption",
+      "qualifiers": [
+        "drug effects"
+      ]
+    },
+    {
+      "descriptor": "Adipose Tissue, White",
+      "qualifiers": [
+        "metabolism",
+        "drug effects"
+      ]
+    }
+  ],
+  "rawXml": "<?xml version=\"1.0\" ?>\n<!DOCTYPE PubmedArticleSet PUBLIC \"-//NLM//DTD PubMedArticle, 1st January 2025//EN\" \"https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_250101.dtd\">\n<PubmedArticleSet>\n<PubmedArticle><MedlineCitation Status=\"MEDLINE\" Owner=\"NLM\" IndexingMethod=\"Automated\"><PMID Version=\"1\">41608615</PMID><DateCompleted><Year>2026</Year><Month>01</Month><Day>29</Day></DateCompleted><DateRevised><Year>2026</Year><Month>01</Month><Day>29</Day></DateRevised><Article PubModel=\"Electronic-eCollection\"><Journal><ISSN IssnType=\"Electronic\">1449-2288</ISSN><JournalIssue CitedMedium=\"Internet\"><Volume>22</Volume><Issue>3</Issue><PubDate><Year>2026</Year></PubDate></JournalIssue><Title>International journal of biological sciences</Title><ISOAbbreviation>Int J Biol Sci</ISOAbbreviation></Journal><ArticleTitle>&#x3b2;3-adrenergic receptor agonist causes acute thermogenic metabolic crisis in ACSS1-K635Q knock-in mice.</ArticleTitle><Pagination><StartPage>1070</StartPage><EndPage>1081</EndPage><MedlinePgn>1070-1081</MedlinePgn></Pagination><ELocationID EIdType=\"doi\" ValidYN=\"Y\">10.7150/ijbs.122643</ELocationID><Abstract><AbstractText>Mitochondrial Acyl-Coenzyme Synthetase Short Chain Family Member-1 (ACSS1) converts free acetate into acetyl-coenzyme A (acetyl-CoA), regulated, in part, by acetylation at lysine 635 (ACSS1-K635). We challenged our ACSS1 constitutive acetylation mimic knock-in (K635Q) mice by injecting a &#x3b2;3-adrenergic receptor agonist, CL-316243 (CL), to induce a thermogenic response. Strikingly, we show that <i>Acss1<sup>K635Q/K635Q</sup></i> mice exhibit hypothermia and acute metabolic crisis following CL stimulus, as shown by significantly reduced oxygen consumption, carbon dioxide production, respiratory exchange ratio, and heat production. We also observed histological differences in both brown adipose tissue (BAT) and subcutaneous white adipose tissue (WAT), accompanied by altered expression and regulation of lipogenic enzymes and Uncoupling Protein 1 (UCP1) in <i>Acss1<sup>K635Q/K635Q</sup></i> . In contrast to wild-type adipose tissues, <i>Acss1<sup>K635Q/K635Q</sup></i> did not show changes in acetyl-CoA and acetate levels in response to CL, and mitochondria isolated from BAT displayed impaired respiration on palmitate. Lastly, beige adipocytes differentiated <i>ex vivo</i> from <i>Acss1<sup>K635Q/K635Q</sup></i> mice showed altered response to the adenylate cyclase stimulator, forskolin, with unresponsive mitochondria and lipogenic lipid droplets, and lower fatty acid oxidation activity. These results suggest that non-acetylated ACSS1 plays an essential role in thermoregulation and the ability to metabolize free fatty acids.</AbstractText><CopyrightInformation>&#xa9; The author(s).</CopyrightInformation></Abstract><AuthorList CompleteYN=\"Y\"><Author ValidYN=\"Y\"><LastName>Chocron</LastName><ForeName>E Sandra</ForeName><Initials>ES</Initials><AffiliationInfo><Affiliation>Department of Radiation Oncology, Mays Cancer Center at UT Health San Antonio MD Anderson, Joe R. and Teresa Lozano Long School of Medicine, San Antonio, Texas, United States.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Barshop Institute for Longevity and Aging Studies at UT Health San Antonio, San Antonio, Texas, United States.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Zhang</LastName><ForeName>David</ForeName><Initials>D</Initials><AffiliationInfo><Affiliation>Department of Biomedical Engineering and Chemical Engineering, The University of Texas at San Antonio, San Antonio, TX.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Sumawi</LastName><ForeName>Bushra</ForeName><Initials>B</Initials><AffiliationInfo><Affiliation>Department of Radiation Oncology, Mays Cancer Center at UT Health San Antonio MD Anderson, Joe R. and Teresa Lozano Long School of Medicine, San Antonio, Texas, United States.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Barshop Institute for Longevity and Aging Studies at UT Health San Antonio, San Antonio, Texas, United States.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Schell</LastName><ForeName>Joseph</ForeName><Initials>J</Initials><AffiliationInfo><Affiliation>Department of Radiation Oncology, Mays Cancer Center at UT Health San Antonio MD Anderson, Joe R. and Teresa Lozano Long School of Medicine, San Antonio, Texas, United States.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Barshop Institute for Longevity and Aging Studies at UT Health San Antonio, San Antonio, Texas, United States.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Cruz</LastName><ForeName>Diego</ForeName><Initials>D</Initials><AffiliationInfo><Affiliation>Department of Radiation Oncology, Mays Cancer Center at UT Health San Antonio MD Anderson, Joe R. and Teresa Lozano Long School of Medicine, San Antonio, Texas, United States.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Barshop Institute for Longevity and Aging Studies at UT Health San Antonio, San Antonio, Texas, United States.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Li</LastName><ForeName>Guannan</ForeName><Initials>G</Initials><AffiliationInfo><Affiliation>Barshop Institute for Longevity and Aging Studies at UT Health San Antonio, San Antonio, Texas, United States.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Department of Medicine, UT Health San Antonio, San Antonio, Texas, United States.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Sreenivas</LastName><ForeName>Prethish</ForeName><Initials>P</Initials><AffiliationInfo><Affiliation>Department of Radiation Oncology, Mays Cancer Center at UT Health San Antonio MD Anderson, Joe R. and Teresa Lozano Long School of Medicine, San Antonio, Texas, United States.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Barshop Institute for Longevity and Aging Studies at UT Health San Antonio, San Antonio, Texas, United States.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Jiang</LastName><ForeName>Haiyan</ForeName><Initials>H</Initials><AffiliationInfo><Affiliation>Department of Radiation Oncology, Mays Cancer Center at UT Health San Antonio MD Anderson, Joe R. and Teresa Lozano Long School of Medicine, San Antonio, Texas, United States.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Barshop Institute for Longevity and Aging Studies at UT Health San Antonio, San Antonio, Texas, United States.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Dong</LastName><ForeName>Felix F</ForeName><Initials>FF</Initials><AffiliationInfo><Affiliation>Department of Radiation Oncology, Mays Cancer Center at UT Health San Antonio MD Anderson, Joe R. and Teresa Lozano Long School of Medicine, San Antonio, Texas, United States.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Barshop Institute for Longevity and Aging Studies at UT Health San Antonio, San Antonio, Texas, United States.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Munk&#xe1;csy</LastName><ForeName>Erin</ForeName><Initials>E</Initials><AffiliationInfo><Affiliation>Department of Radiation Oncology, Mays Cancer Center at UT Health San Antonio MD Anderson, Joe R. and Teresa Lozano Long School of Medicine, San Antonio, Texas, United States.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Barshop Institute for Longevity and Aging Studies at UT Health San Antonio, San Antonio, Texas, United States.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Zhao</LastName><ForeName>Shangang</ForeName><Initials>S</Initials><AffiliationInfo><Affiliation>Barshop Institute for Longevity and Aging Studies at UT Health San Antonio, San Antonio, Texas, United States.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Department of Medicine, UT Health San Antonio, San Antonio, Texas, United States.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Porras</LastName><ForeName>Maria A Gonzalez</ForeName><Initials>MAG</Initials><AffiliationInfo><Affiliation>Department of Biomedical Engineering and Chemical Engineering, The University of Texas at San Antonio, San Antonio, TX.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Gius</LastName><ForeName>David</ForeName><Initials>D</Initials><AffiliationInfo><Affiliation>Department of Radiation Oncology, Mays Cancer Center at UT Health San Antonio MD Anderson, Joe R. and Teresa Lozano Long School of Medicine, San Antonio, Texas, United States.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Barshop Institute for Longevity and Aging Studies at UT Health San Antonio, San Antonio, Texas, United States.</Affiliation></AffiliationInfo></Author></AuthorList><Language>eng</Language><PublicationTypeList><PublicationType UI=\"D016428\">Journal Article</PublicationType></PublicationTypeList><ArticleDate DateType=\"Electronic\"><Year>2026</Year><Month>01</Month><Day>01</Day></ArticleDate></Article><MedlineJournalInfo><Country>Australia</Country><MedlineTA>Int J Biol Sci</MedlineTA><NlmUniqueID>101235568</NlmUniqueID><ISSNLinking>1449-2288</ISSNLinking></MedlineJournalInfo><ChemicalList><Chemical><RegistryNumber>0</RegistryNumber><NameOfSubstance UI=\"D058667\">Adrenergic beta-3 Receptor Agonists</NameOfSubstance></Chemical><Chemical><RegistryNumber>138908-40-4</RegistryNumber><NameOfSubstance UI=\"C076126\">disodium (R,R)-5-(2-((2-(3-chlorophenyl)-2-hydroxyethyl)-amino)propyl)-1,3-benzodioxole-2,3-dicarboxylate</NameOfSubstance></Chemical><Chemical><RegistryNumber>EC 6.2.1.1</RegistryNumber><NameOfSubstance UI=\"D000106\">Acetate-CoA Ligase</NameOfSubstance></Chemical><Chemical><RegistryNumber>0</RegistryNumber><NameOfSubstance UI=\"D004149\">Dioxoles</NameOfSubstance></Chemical><Chemical><RegistryNumber>0</RegistryNumber><NameOfSubstance UI=\"D000085\">Acetates</NameOfSubstance></Chemical><Chemical><RegistryNumber>0</RegistryNumber><NameOfSubstance UI=\"D000071256\">Uncoupling Protein 1</NameOfSubstance></Chemical></ChemicalList><CitationSubset>IM</CitationSubset><MeshHeadingList><MeshHeading><DescriptorName UI=\"D000818\" MajorTopicYN=\"N\">Animals</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D022722\" MajorTopicYN=\"Y\">Thermogenesis</DescriptorName><QualifierName UI=\"Q000187\" MajorTopicYN=\"N\">drug effects</QualifierName><QualifierName UI=\"Q000235\" MajorTopicYN=\"N\">genetics</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D051379\" MajorTopicYN=\"N\">Mice</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D058667\" MajorTopicYN=\"Y\">Adrenergic beta-3 Receptor Agonists</DescriptorName><QualifierName UI=\"Q000494\" MajorTopicYN=\"N\">pharmacology</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D002001\" MajorTopicYN=\"N\">Adipose Tissue, Brown</DescriptorName><QualifierName UI=\"Q000378\" MajorTopicYN=\"N\">metabolism</QualifierName><QualifierName UI=\"Q000187\" MajorTopicYN=\"N\">drug effects</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D000106\" MajorTopicYN=\"Y\">Acetate-CoA Ligase</DescriptorName><QualifierName UI=\"Q000378\" MajorTopicYN=\"N\">metabolism</QualifierName><QualifierName UI=\"Q000235\" MajorTopicYN=\"N\">genetics</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D004149\" MajorTopicYN=\"N\">Dioxoles</DescriptorName><QualifierName UI=\"Q000494\" MajorTopicYN=\"N\">pharmacology</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D000085\" MajorTopicYN=\"N\">Acetates</DescriptorName><QualifierName UI=\"Q000494\" MajorTopicYN=\"N\">pharmacology</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D055879\" MajorTopicYN=\"N\">Gene Knock-In Techniques</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D008297\" MajorTopicYN=\"N\">Male</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D000071256\" MajorTopicYN=\"N\">Uncoupling Protein 1</DescriptorName><QualifierName UI=\"Q000378\" MajorTopicYN=\"N\">metabolism</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D008810\" MajorTopicYN=\"N\">Mice, Inbred C57BL</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D010101\" MajorTopicYN=\"N\">Oxygen Consumption</DescriptorName><QualifierName UI=\"Q000187\" MajorTopicYN=\"N\">drug effects</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D052436\" MajorTopicYN=\"N\">Adipose Tissue, White</DescriptorName><QualifierName UI=\"Q000378\" MajorTopicYN=\"N\">metabolism</QualifierName><QualifierName UI=\"Q000187\" MajorTopicYN=\"N\">drug effects</QualifierName></MeshHeading></MeshHeadingList><KeywordList Owner=\"NOTNLM\"><Keyword MajorTopicYN=\"N\">ACSS1</Keyword><Keyword MajorTopicYN=\"N\">UCP1</Keyword><Keyword MajorTopicYN=\"N\">acetylation</Keyword><Keyword MajorTopicYN=\"N\">beige</Keyword><Keyword MajorTopicYN=\"N\">brown adipose tissue</Keyword><Keyword MajorTopicYN=\"N\">brown fat</Keyword><Keyword MajorTopicYN=\"N\">mitochondria</Keyword><Keyword MajorTopicYN=\"N\">thermogenesis</Keyword></KeywordList><CoiStatement>Competing Interests: The authors have declared that no competing interest exists.</CoiStatement></MedlineCitation><PubmedData><History><PubMedPubDate PubStatus=\"received\"><Year>2025</Year><Month>7</Month><Day>29</Day></PubMedPubDate><PubMedPubDate PubStatus=\"accepted\"><Year>2025</Year><Month>11</Month><Day>7</Day></PubMedPubDate><PubMedPubDate PubStatus=\"medline\"><Year>2026</Year><Month>1</Month><Day>29</Day><Hour>7</Hour><Minute>35</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"pubmed\"><Year>2026</Year><Month>1</Month><Day>29</Day><Hour>7</Hour><Minute>34</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"entrez\"><Year>2026</Year><Month>1</Month><Day>29</Day><Hour>4</Hour><Minute>56</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"pmc-release\"><Year>2026</Year><Month>1</Month><Day>1</Day></PubMedPubDate></History><PublicationStatus>epublish</PublicationStatus><ArticleIdList><ArticleId IdType=\"pubmed\">41608615</ArticleId><ArticleId IdType=\"pmc\">PMC12836529</ArticleId><ArticleId IdType=\"doi\">10.7150/ijbs.122643</ArticleId><ArticleId IdType=\"pii\">ijbsv22p1070</ArticleId></ArticleIdList><ReferenceList><Reference><Citation>Schug ZT, Peck B, Jones DT, Zhang Q, Grosskurth S, Alam IS. et al. Acetyl-CoA synthetase 2 promotes acetate utilization and maintains cancer cell growth under metabolic stress. Cancer Cell. 2015;27:57&#x2013;71.</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC4297291</ArticleId><ArticleId IdType=\"pubmed\">25584894</ArticleId></ArticleIdList></Reference><Reference><Citation>Castro LF, Lopes-Marques M, Wilson JM, Rocha E, Reis-Henriques MA, Santos MM. et al. A novel Acetyl-CoA synthetase short-chain subfamily member 1 (Acss1) gene indicates a dynamic history of paralogue retention and loss in vertebrates. Gene. 2012;497:249&#x2013;55.</Citation><ArticleIdList><ArticleId IdType=\"pubmed\">22313524</ArticleId></ArticleIdList></Reference><Reference><Citation>Choudhary C, Weinert BT, Nishida Y, Verdin E, Mann M. The growing landscape of lysine acetylation links metabolism and cell signalling. Nat Rev Mol Cell Biol. 2014;15:536&#x2013;50.</Citation><ArticleIdList><ArticleId IdType=\"pubmed\">25053359</ArticleId></ArticleIdList></Reference><Reference><Citation>Baeza J, Smallegan MJ, Denu JM. Mechanisms and Dynamics of Protein Acetylation in Mitochondria. Trends Biochem Sci. 2016;41:231&#x2013;44.</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC4783225</ArticleId><ArticleId IdType=\"pubmed\">26822488</ArticleId></ArticleIdList></Reference><Reference><Citation>Hirschey MD, Shimazu T, Huang JY, Schwer B, Verdin E. SIRT3 Regulates Mitochondrial Protein Acetylation and Intermediary Metabolism. Cold Spring Harb Symp Quant Biol. 2011.</Citation><ArticleIdList><ArticleId IdType=\"pubmed\">22114326</ArticleId></ArticleIdList></Reference><Reference><Citation>Pougovkina O, te Brinke H, Ofman R, van Cruchten AG, Kulik W, Wanders RJ. et al. Mitochondrial protein acetylation is driven by acetyl-CoA from fatty acid oxidation. Hum Mol Genet. 2014;23:3513&#x2013;22.</Citation><ArticleIdList><ArticleId IdType=\"pubmed\">24516071</ArticleId></ArticleIdList></Reference><Reference><Citation>Xu G, Quan S, Schell J, Gao Y, Varmazyad M, Sreenivas P. et al. Mitochondrial ACSS1-K635 acetylation knock-in mice exhibit altered metabolism, cell senescence, and nonalcoholic fatty liver disease. Sci Adv. 2024;10:eadj5942.</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC11100568</ArticleId><ArticleId IdType=\"pubmed\">38758779</ArticleId></ArticleIdList></Reference><Reference><Citation>Hallows WC, Lee S, Denu JM. Sirtuins deacetylate and activate mammalian acetyl-CoA synthetases. Proc Natl Acad Sci U S A. 2006;103:10230&#x2013;5.</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC1480596</ArticleId><ArticleId IdType=\"pubmed\">16790548</ArticleId></ArticleIdList></Reference><Reference><Citation>Schwer B, Bunkenborg J, Verdin RO, Andersen JS, Verdin E. Reversible lysine acetylation controls the activity of the mitochondrial enzyme acetyl-CoA synthetase 2. Proc Natl Acad Sci U S A. 2006;103:10224&#x2013;9.</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC1502439</ArticleId><ArticleId IdType=\"pubmed\">16788062</ArticleId></ArticleIdList></Reference><Reference><Citation>Hirschey MD, Shimazu T, Capra JA, Pollard KS, Verdin E. SIRT1 and SIRT3 deacetylate homologous substrates: AceCS1,2 and HMGCS1,2. Aging (Albany NY) 2011;3:635&#x2013;42.</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC3164371</ArticleId><ArticleId IdType=\"pubmed\">21701047</ArticleId></ArticleIdList></Reference><Reference><Citation>Yoshimura Y, Araki A, Maruta H, Takahashi Y, Yamashita H. Molecular cloning of rat acss3 and characterization of mammalian propionyl-CoA synthetase in the liver mitochondrial matrix. J Biochem. 2017;161:279&#x2013;89.</Citation><ArticleIdList><ArticleId IdType=\"pubmed\">28003429</ArticleId></ArticleIdList></Reference><Reference><Citation>Hirschey MD, Shimazu T, Goetzman E, Jing E, Schwer B, Lombard DB. et al. SIRT3 regulates mitochondrial fatty-acid oxidation by reversible enzyme deacetylation. Nature. 2010;464:121&#x2013;5.</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC2841477</ArticleId><ArticleId IdType=\"pubmed\">20203611</ArticleId></ArticleIdList></Reference><Reference><Citation>Sebaa R, Johnson J, Pileggi C, Norgren M, Xuan J, Sai Y. et al. SIRT3 controls brown fat thermogenesis by deacetylation regulation of pathways upstream of UCP1. Mol Metab. 2019;25:35&#x2013;49.</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC6601363</ArticleId><ArticleId IdType=\"pubmed\">31060926</ArticleId></ArticleIdList></Reference><Reference><Citation>Becher T, Palanisamy S, Kramer DJ, Eljalby M, Marx SJ, Wibmer AG. et al. Brown adipose tissue is associated with cardiometabolic health. Nat Med. 2021;27:58&#x2013;65.</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC8461455</ArticleId><ArticleId IdType=\"pubmed\">33398160</ArticleId></ArticleIdList></Reference><Reference><Citation>Chondronikola M, Volpi E, Borsheim E, Porter C, Annamalai P, Enerback S. et al. Brown adipose tissue improves whole-body glucose homeostasis and insulin sensitivity in humans. Diabetes. 2014;63:4089&#x2013;99.</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC4238005</ArticleId><ArticleId IdType=\"pubmed\">25056438</ArticleId></ArticleIdList></Reference><Reference><Citation>Harms M, Seale P. Brown and beige fat: development, function and therapeutic potential. Nat Med. 2013;19:1252&#x2013;63.</Citation><ArticleIdList><ArticleId IdType=\"pubmed\">24100998</ArticleId></ArticleIdList></Reference><Reference><Citation>Angueira AR, Shapira SN, Ishibashi J, Sampat S, Sostre-Colon J, Emmett MJ. et al. Early B Cell Factor Activity Controls Developmental and Adaptive Thermogenic Gene Programming in Adipocytes. Cell Rep. 2020;30:2869&#x2013;78. e4.</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC7079313</ArticleId><ArticleId IdType=\"pubmed\">32130892</ArticleId></ArticleIdList></Reference><Reference><Citation>Ouellet V, Labbe SM, Blondin DP, Phoenix S, Guerin B, Haman F. et al. Brown adipose tissue oxidative metabolism contributes to energy expenditure during acute cold exposure in humans. J Clin Invest. 2012;122:545&#x2013;52.</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC3266793</ArticleId><ArticleId IdType=\"pubmed\">22269323</ArticleId></ArticleIdList></Reference><Reference><Citation>Cannon B, Nedergaard J. Brown adipose tissue: function and physiological significance. Physiol Rev. 2004;84:277&#x2013;359.</Citation><ArticleIdList><ArticleId IdType=\"pubmed\">14715917</ArticleId></ArticleIdList></Reference><Reference><Citation>Gonzalez-Hurtado E, Lee J, Choi J, Wolfgang MJ. Fatty acid oxidation is required for active and quiescent brown adipose tissue maintenance and thermogenic programing. Mol Metab. 2018;7:45&#x2013;56.</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC5784326</ArticleId><ArticleId IdType=\"pubmed\">29175051</ArticleId></ArticleIdList></Reference><Reference><Citation>Fedorenko A, Lishko PV, Kirichok Y. Mechanism of fatty-acid-dependent UCP1 uncoupling in brown fat mitochondria. Cell. 2012;151:400&#x2013;13.</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC3782081</ArticleId><ArticleId IdType=\"pubmed\">23063128</ArticleId></ArticleIdList></Reference><Reference><Citation>Shin H, Ma Y, Chanturiya T, Cao Q, Wang Y, Kadegowda AKG. et al. Lipolysis in Brown Adipocytes Is Not Essential for Cold-Induced Thermogenesis in Mice. Cell Metab. 2017;26:764&#x2013;77. e5.</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC5905336</ArticleId><ArticleId IdType=\"pubmed\">28988822</ArticleId></ArticleIdList></Reference><Reference><Citation>Xu G, Schell J, Quan S, Gao Y, Wei SJ, Pan M. et al. Mitochondrial ACSS1-K635 acetylation knock-in mice exhibit altered liver lipid metabolism on a ketogenic diet. Free Radic Biol Med. 2025;232:260&#x2013;8.</Citation><ArticleIdList><ArticleId IdType=\"pubmed\">40074187</ArticleId></ArticleIdList></Reference><Reference><Citation>Goswami PC, Sheren J, Albee LD, Parsian A, Sim JE, Ridnour LA. et al. Cell cycle-coupled variation in topoisomerase IIalpha mRNA is regulated by the 3'-untranslated region. Possible role of redox-sensitive protein binding in mRNA accumulation. J Biol Chem. 2000;275:38384&#x2013;92.</Citation><ArticleIdList><ArticleId IdType=\"pubmed\">10986283</ArticleId></ArticleIdList></Reference><Reference><Citation>Wang T, Hu YC, Dong S, Fan M, Tamae D, Ozeki M. et al. Co-activation of ERK, NF-kappaB, and GADD45beta in response to ionizing radiation. J Biol Chem. 2005;280:12593&#x2013;601.</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC4130153</ArticleId><ArticleId IdType=\"pubmed\">15642734</ArticleId></ArticleIdList></Reference><Reference><Citation>Kim HS, Patel K, Muldoon-Jacobs K, Bisht KS, Aykin-Burns N, Pennington JD. et al. SIRT3 is a mitochondria-localized tumor suppressor required for maintenance of mitochondrial integrity and metabolism during stress. Cancer Cell. 2010;17:41&#x2013;52.</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC3711519</ArticleId><ArticleId IdType=\"pubmed\">20129246</ArticleId></ArticleIdList></Reference><Reference><Citation>Tao R, Coleman MC, Pennington JD, Ozden O, Park SH, Jiang H. et al. Sirt3-mediated deacetylation of evolutionarily conserved lysine 122 regulates MnSOD activity in response to stress. Mol Cell. 2010;40:893&#x2013;904.</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC3266626</ArticleId><ArticleId IdType=\"pubmed\">21172655</ArticleId></ArticleIdList></Reference><Reference><Citation>Yu G, Wu X, Kilroy G, Halvorsen YD, Gimble JM, Floyd ZE. Isolation of murine adipose-derived stem cells. Methods Mol Biol. 2011;702:29&#x2013;36.</Citation><ArticleIdList><ArticleId IdType=\"pubmed\">21082392</ArticleId></ArticleIdList></Reference><Reference><Citation>Lee J, Ellis JM, Wolfgang MJ. Adipose fatty acid oxidation is required for thermogenesis and potentiates oxidative stress-induced inflammation. Cell Rep. 2015;10:266&#x2013;79.</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC4359063</ArticleId><ArticleId IdType=\"pubmed\">25578732</ArticleId></ArticleIdList></Reference><Reference><Citation>Yang S, Wang X, Zhang Y, Ke Q, Su W, Zhou Y. et al. SIRT3 regulates CPT1a acetylation and fatty acid oxidation in renal tubular epithelial cells under diabetic condition. Mol Biol Rep. 2025;52:603.</Citation><ArticleIdList><ArticleId IdType=\"pubmed\">40522438</ArticleId></ArticleIdList></Reference><Reference><Citation>Li M, Li CM, Ye ZC, Huang J, Li Y, Lai W. et al. Sirt3 modulates fatty acid oxidation and attenuates cisplatin-induced AKI in mice. J Cell Mol Med. 2020;24:5109&#x2013;21.</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC7205836</ArticleId><ArticleId IdType=\"pubmed\">32281286</ArticleId></ArticleIdList></Reference><Reference><Citation>Lee HJ, Lee J, Yang MJ, Kim YC, Hong SP, Kim JM. et al. Endothelial cell-derived stem cell factor promotes lipid accumulation through c-Kit-mediated increase of lipogenic enzymes in brown adipocytes. Nat Commun. 2023;14:2754.</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC10183046</ArticleId><ArticleId IdType=\"pubmed\">37179330</ArticleId></ArticleIdList></Reference><Reference><Citation>Sanchez-Gurmaches J, Tang Y, Jespersen NZ, Wallace M, Martinez Calejman C, Gujja S. et al. Brown Fat AKT2 Is a Cold-Induced Kinase that Stimulates ChREBP-Mediated De Novo Lipogenesis to Optimize Fuel Storage and Thermogenesis. Cell Metab. 2018;27:195&#x2013;209. e6.</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC5762420</ArticleId><ArticleId IdType=\"pubmed\">29153407</ArticleId></ArticleIdList></Reference><Reference><Citation>Forner F, Kumar C, Luber CA, Fromme T, Klingenspor M, Mann M. Proteome differences between brown and white fat mitochondria reveal specialized metabolic functions. Cell Metab. 2009;10:324&#x2013;35.</Citation><ArticleIdList><ArticleId IdType=\"pubmed\">19808025</ArticleId></ArticleIdList></Reference><Reference><Citation>Jaswal JS, Keung W, Wang W, Ussher JR, Lopaschuk GD. Targeting fatty acid and carbohydrate oxidation-a novel therapeutic intervention in the ischemic and failing heart. Biochim Biophys Acta. 2011;1813:1333&#x2013;50.</Citation><ArticleIdList><ArticleId IdType=\"pubmed\">21256164</ArticleId></ArticleIdList></Reference><Reference><Citation>Abo Alrob O, Lopaschuk GD. Role of CoA and acetyl-CoA in regulating cardiac fatty acid and glucose oxidation. Biochem Soc Trans. 2014;42:1043&#x2013;51.</Citation><ArticleIdList><ArticleId IdType=\"pubmed\">25110000</ArticleId></ArticleIdList></Reference><Reference><Citation>Merritt JL 2nd, Norris M, Kanungo S. Fatty acid oxidation disorders. Ann Transl Med. 2018;6:473.</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC6331364</ArticleId><ArticleId IdType=\"pubmed\">30740404</ArticleId></ArticleIdList></Reference><Reference><Citation>Divakaruni AS, Humphrey DM, Brand MD. Fatty acids change the conformation of uncoupling protein 1 (UCP1) J Biol Chem. 2012;287:36845&#x2013;53.</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC3481287</ArticleId><ArticleId IdType=\"pubmed\">22952235</ArticleId></ArticleIdList></Reference></ReferenceList></PubmedData></PubmedArticle></PubmedArticleSet>",
+  "fetched_at": "2026-01-29T18:50:37.700Z"
+}

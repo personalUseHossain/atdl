@@ -1,0 +1,125 @@
+[
+  {
+    "drug": "β3-adrenergic receptor agonist",
+    "health_issue": "acute thermogenic metabolic crisis",
+    "relationship": "positive",
+    "mechanism": "β3-adrenergic receptor agonism",
+    "study_type": "in vivo",
+    "model": "ACSS1-K635Q knock-in mice",
+    "dose": "Not mentioned",
+    "duration": "Not mentioned",
+    "sample_size": "Not mentioned",
+    "statistical_significance": "Not mentioned",
+    "confidence": "Medium",
+    "source_in_paper": "abstract_only",
+    "paper_id": "41608615",
+    "paper_title": "β3-adrenergic receptor agonist causes acute thermogenic metabolic crisis in ACSS1-K635Q knock-in mice.",
+    "paper_year": "2026",
+    "paper_journal": "International journal of biological sciences",
+    "paper_authors": [
+      {
+        "lastName": "Chocron",
+        "foreName": "E Sandra",
+        "initials": "ES",
+        "affiliation": "Department of Radiation Oncology, Mays Cancer Center at UT Health San Antonio MD Anderson, Joe R. and Teresa Lozano Long School of Medicine, San Antonio, Texas, United States."
+      },
+      {
+        "lastName": "Zhang",
+        "foreName": "David",
+        "initials": "D",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Sumawi",
+        "foreName": "Bushra",
+        "initials": "B",
+        "affiliation": "Department of Radiation Oncology, Mays Cancer Center at UT Health San Antonio MD Anderson, Joe R. and Teresa Lozano Long School of Medicine, San Antonio, Texas, United States."
+      },
+      {
+        "lastName": "Schell",
+        "foreName": "Joseph",
+        "initials": "J",
+        "affiliation": "Department of Radiation Oncology, Mays Cancer Center at UT Health San Antonio MD Anderson, Joe R. and Teresa Lozano Long School of Medicine, San Antonio, Texas, United States."
+      },
+      {
+        "lastName": "Cruz",
+        "foreName": "Diego",
+        "initials": "D",
+        "affiliation": "Department of Radiation Oncology, Mays Cancer Center at UT Health San Antonio MD Anderson, Joe R. and Teresa Lozano Long School of Medicine, San Antonio, Texas, United States."
+      },
+      {
+        "lastName": "Li",
+        "foreName": "Guannan",
+        "initials": "G",
+        "affiliation": "Barshop Institute for Longevity and Aging Studies at UT Health San Antonio, San Antonio, Texas, United States."
+      },
+      {
+        "lastName": "Sreenivas",
+        "foreName": "Prethish",
+        "initials": "P",
+        "affiliation": "Department of Radiation Oncology, Mays Cancer Center at UT Health San Antonio MD Anderson, Joe R. and Teresa Lozano Long School of Medicine, San Antonio, Texas, United States."
+      },
+      {
+        "lastName": "Jiang",
+        "foreName": "Haiyan",
+        "initials": "H",
+        "affiliation": "Department of Radiation Oncology, Mays Cancer Center at UT Health San Antonio MD Anderson, Joe R. and Teresa Lozano Long School of Medicine, San Antonio, Texas, United States."
+      },
+      {
+        "lastName": "Dong",
+        "foreName": "Felix F",
+        "initials": "FF",
+        "affiliation": "Department of Radiation Oncology, Mays Cancer Center at UT Health San Antonio MD Anderson, Joe R. and Teresa Lozano Long School of Medicine, San Antonio, Texas, United States."
+      },
+      {
+        "lastName": "Munkácsy",
+        "foreName": "Erin",
+        "initials": "E",
+        "affiliation": "Department of Radiation Oncology, Mays Cancer Center at UT Health San Antonio MD Anderson, Joe R. and Teresa Lozano Long School of Medicine, San Antonio, Texas, United States."
+      },
+      {
+        "lastName": "Zhao",
+        "foreName": "Shangang",
+        "initials": "S",
+        "affiliation": "Barshop Institute for Longevity and Aging Studies at UT Health San Antonio, San Antonio, Texas, United States."
+      },
+      {
+        "lastName": "Porras",
+        "foreName": "Maria A Gonzalez",
+        "initials": "MAG",
+        "affiliation": ""
+      },
+      {
+        "lastName": "Gius",
+        "foreName": "David",
+        "initials": "D",
+        "affiliation": "Department of Radiation Oncology, Mays Cancer Center at UT Health San Antonio MD Anderson, Joe R. and Teresa Lozano Long School of Medicine, San Antonio, Texas, United States."
+      }
+    ],
+    "paper_doi": "10.7150/ijbs.122643",
+    "paper_pmc_id": "PMC12836529",
+    "extracted_at": "2026-01-29T18:40:51.229Z",
+    "extraction_source": "abstract_only",
+    "supporting_papers": [
+      "41608615"
+    ],
+    "total_papers": 1,
+    "first_paper_year": "2026",
+    "latest_paper_year": "2026",
+    "extraction_sources": [
+      "abstract_only"
+    ],
+    "has_full_text_sources": 0,
+    "relationships": [
+      "positive"
+    ],
+    "user_id": "697ba37d2d8d8b8d9272aa79",
+    "session_ids": [
+      "697ba37d2d8d8b8d9272aa79_1769712045293_etw8xijqn"
+    ],
+    "strength": 3,
+    "id": "conn_1769712051588_t5puybdp4",
+    "last_updated": "2026-01-29T18:40:51.588Z",
+    "session_id": "697ba37d2d8d8b8d9272aa79_1769712045293_etw8xijqn"
+  }
+]

@@ -1,21 +1,32 @@
-// worker/processor.js (Updated)
+// worker/processor.js (Updated for Multi-User)
 const fs = require('fs');
 const path = require('path');
 const PubMedFetcher = require('./pubmed');
 const AIExtractor = require('./extractor');
 
 class DataProcessor {
-    constructor() {
-        this.dataDir = path.join(process.cwd(), 'data');
+    constructor(userId, sessionId = null) {
+        this.userId = userId;
+        this.sessionId = sessionId || `session_${Date.now()}`;
+        
+        // User-specific data directories
+        this.dataDir = path.join(process.cwd(), 'temp', 'users', userId.toString());
+        if (sessionId) {
+            this.dataDir = path.join(this.dataDir, 'instances', sessionId);
+        }
+        
         this.connectionsFile = path.join(this.dataDir, 'connections.json');
         this.knowledgeGraphFile = path.join(this.dataDir, 'knowledge_graph.json');
         this.processedPapersFile = path.join(this.dataDir, 'processed_papers.json');
         this.processingHistoryFile = path.join(this.dataDir, 'processing_history.json');
+        this.cacheDir = path.join(this.dataDir, 'cache');
         
-        // Ensure data directory exists
+        // Ensure data directories exist
         this.ensureDirectory(this.dataDir);
+        this.ensureDirectory(this.cacheDir);
         
-        this.pubmedFetcher = new PubMedFetcher();
+        // Initialize with user-specific PubMed fetcher
+        this.pubmedFetcher = new PubMedFetcher(this.cacheDir);
         this.aiExtractor = new AIExtractor();
         
         // Load existing data
@@ -62,7 +73,9 @@ class DataProcessor {
             has_full_text: hasFullText,
             connections_found: connectionsFound,
             processed_at: new Date().toISOString(),
-            processed: true
+            processed: true,
+            user_id: this.userId,
+            session_id: this.sessionId
         };
 
         // Update or add to processed papers
@@ -87,7 +100,9 @@ class DataProcessor {
                 unique_connections_total: uniqueConnections,
                 duration_seconds: duration
             },
-            cache_stats: this.pubmedFetcher.getCacheStats()
+            cache_stats: this.pubmedFetcher.getCacheStats(),
+            user_id: this.userId,
+            session_id: this.sessionId
         };
 
         this.processingHistory.unshift(historyEntry); // Add to beginning
@@ -106,7 +121,7 @@ class DataProcessor {
         for (let i = 0; i < papers.length; i++) {
             const paper = papers[i];
             
-            // Skip if already processed
+            // Skip if already processed in this session
             if (this.isPaperProcessed(paper.pmid)) {
                 console.log(`Skipping already processed paper: ${paper.pmid}`);
                 continue;
@@ -119,7 +134,15 @@ class DataProcessor {
                 const connections = await this.aiExtractor.extractConnections(paper);
                 
                 if (connections && connections.length > 0) {
-                    allConnections.push(...connections);
+                    // Add user and session metadata to each connection
+                    const enrichedConnections = connections.map(conn => ({
+                        ...conn,
+                        user_id: this.userId,
+                        session_id: this.sessionId,
+                        processed_at: new Date().toISOString()
+                    }));
+                    
+                    allConnections.push(...enrichedConnections);
                     
                     // Mark paper as processed
                     this.markPaperAsProcessed(paper, connections.length, hasFullText);
@@ -129,7 +152,7 @@ class DataProcessor {
                 
                 if (onProgress) {
                     const progress = 25 + Math.round(((i + 1) / papers.length) * 50); // 25-75%
-                    onProgress(progress, `Extracted from ${papersProcessed}/${papers.length} papers (${papersWithFullText} with full text)`);
+                    onProgress(progress, `Extracted from ${papersProcessed}/${papers.length} papers `);
                 }
                 
             } catch (error) {
@@ -171,7 +194,9 @@ class DataProcessor {
                 ...conn,
                 strength: strength,
                 id: conn.id || `conn_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
-                last_updated: new Date().toISOString()
+                last_updated: new Date().toISOString(),
+                user_id: this.userId,
+                session_id: this.sessionId
             };
         });
         
@@ -196,7 +221,9 @@ class DataProcessor {
                 latest_paper_year: connection.paper_year,
                 extraction_sources: [connection.extraction_source || 'unknown'],
                 has_full_text_sources: connection.has_full_text ? 1 : 0,
-                relationships: [connection.relationship]
+                relationships: [connection.relationship],
+                user_id: this.userId,
+                session_ids: [this.sessionId]
             });
         } else {
             const existing = map.get(key);
@@ -215,6 +242,11 @@ class DataProcessor {
                 
                 if (connection.has_full_text) {
                     existing.has_full_text_sources++;
+                }
+                
+                // Add session ID if not already present
+                if (!existing.session_ids.includes(this.sessionId)) {
+                    existing.session_ids.push(this.sessionId);
                 }
                 
                 // Update year range
@@ -263,6 +295,11 @@ class DataProcessor {
             strength = Math.min(strength + 1, 5);
         }
         
+        // Factor 7: Multiple session verification
+        if (connection.session_ids && connection.session_ids.length > 1) {
+            strength = Math.min(strength + 1, 5);
+        }
+        
         return Math.max(1, Math.min(5, strength));
     }
 
@@ -274,7 +311,9 @@ class DataProcessor {
                 generated_at: new Date().toISOString(),
                 total_connections: connections.length,
                 total_drugs: new Set(connections.map(c => c.drug)).size,
-                total_health_issues: new Set(connections.map(c => c.health_issue)).size
+                total_health_issues: new Set(connections.map(c => c.health_issue)).size,
+                user_id: this.userId,
+                session_id: this.sessionId
             }
         };
         
@@ -291,7 +330,8 @@ class DataProcessor {
                     type: 'drug',
                     size: Math.min(30 + (conn.total_papers * 5), 100),
                     color: '#4A90E2',
-                    total_connections: 1
+                    total_connections: 1,
+                    user_id: this.userId
                 });
             } else {
                 nodeMap.get(conn.drug).total_connections++;
@@ -305,7 +345,8 @@ class DataProcessor {
                     type: 'health_issue',
                     size: Math.min(20 + (conn.total_papers * 3), 80),
                     color: '#50E3C2',
-                    total_connections: 1
+                    total_connections: 1,
+                    user_id: this.userId
                 });
             } else {
                 nodeMap.get(conn.health_issue).total_connections++;
@@ -334,7 +375,9 @@ class DataProcessor {
                         papers: conn.total_papers || 1,
                         relationship: conn.relationship,
                         width: Math.min(conn.strength * 2, 10),
-                        has_full_text: conn.has_full_text_sources > 0
+                        has_full_text: conn.has_full_text_sources > 0,
+                        user_id: this.userId,
+                        session_id: this.sessionId
                     });
                 }
             }
@@ -342,8 +385,49 @@ class DataProcessor {
         
         graph.edges = Array.from(edgeMap.values());
         
+        // Calculate graph statistics
+        graph.stats = this.calculateGraphStats(graph);
+        
         this.saveJSON(this.knowledgeGraphFile, graph);
         return graph;
+    }
+
+    calculateGraphStats(graph) {
+        if (!graph || !graph.nodes) return null;
+        
+        const nodes = graph.nodes;
+        const edges = graph.edges || [];
+        
+        const drugNodes = nodes.filter(n => n.type === 'drug').length;
+        const healthNodes = nodes.filter(n => n.type === 'health_issue').length;
+        
+        // Calculate degree distribution
+        const degrees = nodes.map(node => {
+            return edges.filter(e => e.source === node.id || e.target === node.id).length;
+        });
+        
+        const maxDegree = Math.max(...degrees);
+        const avgDegree = degrees.length > 0 
+            ? (degrees.reduce((a, b) => a + b, 0) / degrees.length).toFixed(2)
+            : 0;
+            
+        // Edge strength distribution
+        const strengthDist = {1: 0, 2: 0, 3: 0, 4: 0, 5: 0};
+        edges.forEach(edge => {
+            const strength = edge.value || 1;
+            strengthDist[strength] = (strengthDist[strength] || 0) + 1;
+        });
+        
+        return {
+            totalNodes: nodes.length,
+            totalEdges: edges.length,
+            drugNodes,
+            healthNodes,
+            maxDegree,
+            avgDegree,
+            strengthDistribution: strengthDist,
+            density: edges.length / Math.max(1, (nodes.length * (nodes.length - 1) / 2))
+        };
     }
 
     getStats() {
@@ -362,18 +446,66 @@ class DataProcessor {
                 with_full_text: this.processedPapers.filter(p => p.has_full_text).length,
                 total_in_cache: cacheStats.total
             },
-            cache: cacheStats
+            cache: cacheStats,
+            user_id: this.userId,
+            session_id: this.sessionId
         };
+    }
+
+    // Export data for database storage
+    exportData() {
+        return {
+            connections: this.connections,
+            processedPapers: this.processedPapers,
+            processingHistory: this.processingHistory,
+            knowledgeGraph: this.loadJSON(this.knowledgeGraphFile, {}),
+            stats: this.getStats()
+        };
+    }
+
+    // Import data from database
+    importData(data) {
+        if (data.connections) {
+            this.connections = data.connections;
+            this.saveJSON(this.connectionsFile, this.connections);
+        }
+        
+        if (data.processedPapers) {
+            this.processedPapers = data.processedPapers;
+            this.saveJSON(this.processedPapersFile, this.processedPapers);
+        }
+        
+        if (data.processingHistory) {
+            this.processingHistory = data.processingHistory;
+            this.saveJSON(this.processingHistoryFile, this.processingHistory);
+        }
+        
+        if (data.knowledgeGraph) {
+            this.saveJSON(this.knowledgeGraphFile, data.knowledgeGraph);
+        }
+    }
+
+    // Clear session-specific data
+    clearSessionData() {
+        this.connections = [];
+        this.processedPapers = [];
+        this.processingHistory = [];
+        
+        this.saveJSON(this.connectionsFile, []);
+        this.saveJSON(this.processedPapersFile, []);
+        this.saveJSON(this.processingHistoryFile, []);
+        
+        // Keep knowledge graph for reference
     }
 }
 
-async function processPubMedPapers(query, maxPapers, callbacks = {}) {
+async function processPubMedPapers(query, maxPapers, callbacks = {}, customProcessor = null, userId = 'anonymous', sessionId = null) {
     const { onProgress, onLog } = callbacks;
     const startTime = Date.now();
-    const processor = new DataProcessor();
+    const processor = new DataProcessor(userId, sessionId);
     
     try {
-        if (onLog) onLog(`Starting PubMed search: ${query}`);
+        if (onLog) onLog(`Starting PubMed search for user ${userId}: ${query}`);
         if (onProgress) onProgress(5, 'Searching PubMed...');
         
         // Step 1: Search PubMed
@@ -384,7 +516,7 @@ async function processPubMedPapers(query, maxPapers, callbacks = {}) {
         
         // Get cached papers stats
         const cacheStats = processor.pubmedFetcher.getCacheStats();
-        if (onLog) onLog(`Cache: ${cacheStats.total} papers (${cacheStats.withFullText} with full text)`);
+        if (onLog) onLog(`Cache: ${cacheStats.total} papers`);
         
         // Step 2: Fetch papers (skip already cached)
         const papers = await processor.pubmedFetcher.fetchMultiplePapers(
@@ -395,11 +527,13 @@ async function processPubMedPapers(query, maxPapers, callbacks = {}) {
             false // Don't force refresh
         );
         
-        if (onLog) onLog(`Fetched ${papers.length} papers (${papers.filter(p => p.hasFullText).length} with full text)`);
+        if (onLog) onLog(`Fetched ${papers.length} papers`);
         if (onProgress) onProgress(35, 'Processing papers...');
         
-        // Step 3: Process papers (skip already processed)
-        const newConnections = await processor.processPapers(papers, onProgress);
+        // Step 3: Process papers (use custom processor if provided)
+        const newConnections = customProcessor 
+            ? await customProcessor(papers, onProgress)
+            : await processor.processPapers(papers, onProgress);
         
         if (onLog) onLog(`Extracted ${newConnections.length} new connections`);
         if (onProgress) onProgress(80, 'Ranking connections...');
@@ -437,7 +571,10 @@ async function processPubMedPapers(query, maxPapers, callbacks = {}) {
             knowledgeGraph: knowledgeGraph,
             stats: stats,
             duration: duration,
-            query: query
+            query: query,
+            userId: userId,
+            sessionId: sessionId || processor.sessionId,
+            exportedData: processor.exportData()
         };
         
     } catch (error) {
@@ -446,4 +583,96 @@ async function processPubMedPapers(query, maxPapers, callbacks = {}) {
     }
 }
 
-module.exports = { processPubMedPapers, DataProcessor };
+// Helper function to load user's previous data
+async function loadUserData(userId, sessionId = null) {
+    const processor = new DataProcessor(userId, sessionId);
+    return processor.exportData();
+}
+
+// Helper function to merge data from multiple sessions
+async function mergeUserSessions(userId) {
+    const userDir = path.join(process.cwd(), 'temp', 'users', userId.toString());
+    if (!fs.existsSync(userDir)) {
+        return null;
+    }
+    
+    const instancesDir = path.join(userDir, 'instances');
+    if (!fs.existsSync(instancesDir)) {
+        return null;
+    }
+    
+    const instanceDirs = fs.readdirSync(instancesDir).filter(dir => {
+        return fs.statSync(path.join(instancesDir, dir)).isDirectory();
+    });
+    
+    let allConnections = [];
+    let allProcessedPapers = [];
+    let allProcessingHistory = [];
+    
+    for (const instanceDir of instanceDirs) {
+        const instancePath = path.join(instancesDir, instanceDir);
+        
+        // Load connections
+        const connectionsFile = path.join(instancePath, 'connections.json');
+        if (fs.existsSync(connectionsFile)) {
+            try {
+                const connections = JSON.parse(fs.readFileSync(connectionsFile, 'utf8'));
+                allConnections.push(...connections);
+            } catch (e) {
+                console.error(`Error loading connections from ${instanceDir}:`, e);
+            }
+        }
+        
+        // Load processed papers
+        const processedPapersFile = path.join(instancePath, 'processed_papers.json');
+        if (fs.existsSync(processedPapersFile)) {
+            try {
+                const papers = JSON.parse(fs.readFileSync(processedPapersFile, 'utf8'));
+                allProcessedPapers.push(...papers);
+            } catch (e) {
+                console.error(`Error loading papers from ${instanceDir}:`, e);
+            }
+        }
+        
+        // Load history
+        const historyFile = path.join(instancePath, 'processing_history.json');
+        if (fs.existsSync(historyFile)) {
+            try {
+                const history = JSON.parse(fs.readFileSync(historyFile, 'utf8'));
+                allProcessingHistory.push(...history);
+            } catch (e) {
+                console.error(`Error loading history from ${instanceDir}:`, e);
+            }
+        }
+    }
+    
+    // Create merged processor
+    const mergedProcessor = new DataProcessor(userId, 'merged');
+    
+    // Process and rank all connections
+    const rankedConnections = mergedProcessor.processAndRankConnections(allConnections);
+    
+    // Build merged knowledge graph
+    const knowledgeGraph = mergedProcessor.buildKnowledgeGraph(rankedConnections);
+    
+    // Save merged data
+    mergedProcessor.saveJSON(path.join(userDir, 'merged_connections.json'), rankedConnections);
+    mergedProcessor.saveJSON(path.join(userDir, 'merged_knowledge_graph.json'), knowledgeGraph);
+    mergedProcessor.saveJSON(path.join(userDir, 'merged_processed_papers.json'), allProcessedPapers);
+    mergedProcessor.saveJSON(path.join(userDir, 'merged_processing_history.json'), allProcessingHistory);
+    
+    return {
+        connections: rankedConnections,
+        processedPapers: allProcessedPapers,
+        processingHistory: allProcessingHistory,
+        knowledgeGraph: knowledgeGraph,
+        stats: mergedProcessor.getStats()
+    };
+}
+
+module.exports = { 
+    processPubMedPapers, 
+    DataProcessor,
+    loadUserData,
+    mergeUserSessions 
+};

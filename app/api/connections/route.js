@@ -1,103 +1,148 @@
-// app/api/connections/route.js
-import fs from 'fs';
-import path from 'path';
+import { authenticate } from '@/middleware/auth';
+import { connectToDatabase } from '@/lib/db';
+import Connection from '@/models/Connection';
 
 export async function GET(request) {
-    try {
-        const { searchParams } = new URL(request.url);
-        const page = parseInt(searchParams.get('page') || '1');
-        const limit = parseInt(searchParams.get('limit') || '20');
-        const search = searchParams.get('search') || '';
-        const minStrength = parseInt(searchParams.get('minStrength') || '1');
-        
-        const dataDir = path.join(process.cwd(), 'data');
-        const connectionsFile = path.join(dataDir, 'connections.json');
-        
-        if (!fs.existsSync(connectionsFile)) {
-            return Response.json({
-                success: true,
-                connections: [],
-                pagination: {
-                    page,
-                    limit,
-                    total: 0,
-                    pages: 0
-                }
-            });
-        }
-        
-        const connections = JSON.parse(fs.readFileSync(connectionsFile, 'utf8'));
-        
-        // Filter connections
-        let filtered = connections;
-        
-        if (search) {
-            const searchLower = search.toLowerCase();
-            filtered = filtered.filter(conn => 
-                conn.drug.toLowerCase().includes(searchLower) ||
-                conn.health_issue.toLowerCase().includes(searchLower) ||
-                (conn.mechanism && conn.mechanism.toLowerCase().includes(searchLower))
-            );
-        }
-        
-        if (minStrength > 1) {
-            filtered = filtered.filter(conn => conn.strength >= minStrength);
-        }
-        
-        // Paginate
-        const total = filtered.length;
-        const pages = Math.ceil(total / limit);
-        const startIndex = (page - 1) * limit;
-        const paginated = filtered.slice(startIndex, startIndex + limit);
-        
-        return Response.json({
-            success: true,
-            connections: paginated,
-            pagination: {
-                page,
-                limit,
-                total,
-                pages
-            }
-        });
-        
-    } catch (error) {
-        return Response.json({
-            success: false,
-            error: error.message
-        }, { status: 500 });
+  try {
+    await connectToDatabase();
+    
+    // Authenticate user
+    const authResult = await new Promise((resolve, reject) => {
+      authenticate(request, {
+        json: (data) => reject(data),
+        status: (code) => ({
+          json: (data) => reject(data)
+        })
+      }, (err) => {
+        if (err) reject(err);
+        else resolve(request.user);
+      });
+    });
+    
+    const user = authResult;
+    const { searchParams } = new URL(request.url);
+    
+    const page = parseInt(searchParams.get('page') || '1');
+    const limit = parseInt(searchParams.get('limit') || '20');
+    const search = searchParams.get('search') || '';
+    const minStrength = parseInt(searchParams.get('minStrength') || '1');
+    const drug = searchParams.get('drug');
+    const healthIssue = searchParams.get('health_issue');
+    const sortBy = searchParams.get('sortBy') || 'strength';
+    const sortOrder = searchParams.get('sortOrder') || 'desc';
+    
+    // Build query
+    const query = { user: user._id };
+    
+    if (minStrength > 1) {
+      query.strength = { $gte: minStrength };
     }
+    
+    if (drug) {
+      query.drug = { $regex: drug, $options: 'i' };
+    }
+    
+    if (healthIssue) {
+      query.health_issue = { $regex: healthIssue, $options: 'i' };
+    }
+    
+    if (search) {
+      query.$or = [
+        { drug: { $regex: search, $options: 'i' } },
+        { health_issue: { $regex: search, $options: 'i' } },
+        { mechanism: { $regex: search, $options: 'i' } }
+      ];
+    }
+    
+    // Build sort
+    const sort = {};
+    sort[sortBy] = sortOrder === 'desc' ? -1 : 1;
+    
+    // Get total count
+    const total = await Connection.countDocuments(query);
+    
+    // Get connections with pagination
+    const connections = await Connection.find(query)
+      .sort(sort)
+      .skip((page - 1) * limit)
+      .limit(limit)
+      .lean();
+    
+    // Get stats
+    const stats = {
+      total: await Connection.countDocuments({ user: user._id }),
+      averageStrength: await Connection.aggregate([
+        { $match: { user: user._id } },
+        { $group: { _id: null, avg: { $avg: '$strength' } } }
+      ]).then(result => result[0]?.avg || 0),
+      byStrength: await Connection.aggregate([
+        { $match: { user: user._id } },
+        { $group: { _id: '$strength', count: { $sum: 1 } } },
+        { $sort: { _id: 1 } }
+      ])
+    };
+    
+    return Response.json({
+      success: true,
+      connections,
+      stats,
+      pagination: {
+        page,
+        limit,
+        total,
+        pages: Math.ceil(total / limit)
+      }
+    });
+    
+  } catch (error) {
+    console.error('Get connections error:', error);
+    return Response.json({
+      success: false,
+      error: error.message
+    }, { status: 500 });
+  }
 }
 
 export async function POST(request) {
-    try {
-        const body = await request.json();
-        const dataDir = path.join(process.cwd(), 'data');
-        const connectionsFile = path.join(dataDir, 'connections.json');
-        
-        let connections = [];
-        if (fs.existsSync(connectionsFile)) {
-            connections = JSON.parse(fs.readFileSync(connectionsFile, 'utf8'));
-        }
-        
-        const newConnection = {
-            ...body,
-            id: `conn_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
-            created_at: new Date().toISOString()
-        };
-        
-        connections.unshift(newConnection);
-        fs.writeFileSync(connectionsFile, JSON.stringify(connections, null, 2));
-        
-        return Response.json({
-            success: true,
-            connection: newConnection
-        });
-        
-    } catch (error) {
-        return Response.json({
-            success: false,
-            error: error.message
-        }, { status: 500 });
-    }
+  try {
+    await connectToDatabase();
+    
+    // Authenticate user
+    const authResult = await new Promise((resolve, reject) => {
+      authenticate(request, {
+        json: (data) => reject(data),
+        status: (code) => ({
+          json: (data) => reject(data)
+        })
+      }, (err) => {
+        if (err) reject(err);
+        else resolve(request.user);
+      });
+    });
+    
+    const user = authResult;
+    const body = await request.json();
+    
+    // Create new connection
+    const connection = new Connection({
+      ...body,
+      user: user._id,
+      created_at: new Date(),
+      last_updated: new Date()
+    });
+    
+    await connection.save();
+    
+    return Response.json({
+      success: true,
+      connection
+    });
+    
+  } catch (error) {
+    console.error('Create connection error:', error);
+    return Response.json({
+      success: false,
+      error: error.message
+    }, { status: 500 });
+  }
 }

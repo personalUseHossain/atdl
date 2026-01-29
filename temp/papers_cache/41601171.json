@@ -1,0 +1,104 @@
+{
+  "pmid": "41601171",
+  "title": "Depletion of BIS in astrocytes aggravates reactive gliosis following photothrombotic brain injury.",
+  "abstract": "BIS (Bcl-2-interacting cell death suppressor, or BAG-3), is a multifunctional co-chaperone that maintains protein quality control via autophagy and proteostasis. Following the central nervous system (CNS) injury, BIS expression is markedly upregulated in reactive astrocytes, suggesting a regulatory role of reactive astrogliosis. To investigate this, we generated astrocyte-specific BIS knockout (BIS-aKO) mice for the first time. While BIS-aKO mice exhibited normal growth and survival, the injury-induced upregulation of BIS expression was abolished in reactive astrocytes following excitotoxic injury. Using a photothrombotic stroke model, we found that astrocytic BIS deficiency resulted in significantly increased GFAP expression in scar-forming astrocytes at the infarct border and altered morphology in the peri-infarct region. Furthermore, we observed increased infiltration of amoeboid Iba1-positive cells in the astroglial scar, indicating enhanced neuroinflammation. Correlative light-and electron-microscopy following both stroke and stab wound injury revealed BIS-aKO astrocytes exhibited a greater density of intermediate filament filling in their soma and processes, along with relatively fewer cytoplasmic organelles, such as mitochondria. Collectively, these findings highlight a previously unrecognized role of BIS in modulating reactive gliosis during brain injury and our model provides a valuable tool for investigating the astrocyte-specific functions of BIS in CNS pathophysiology.",
+  "journal": "The Korean journal of physiology & pharmacology : official journal of the Korean Physiological Society and the Korean Society of Pharmacology",
+  "year": "2026",
+  "authors": [
+    {
+      "lastName": "Jung",
+      "foreName": "Soon-Young",
+      "initials": "SY",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Hwang",
+      "foreName": "Ji-Won",
+      "initials": "JW",
+      "affiliation": "Department of Anatomy, Catholic Neuroscience Institute, College of Medicine, The Catholic University of Korea, Seoul 06591, Korea."
+    },
+    {
+      "lastName": "Yun",
+      "foreName": "Hye Hyeon",
+      "initials": "HH",
+      "affiliation": "Department of Biochemistry, College of Medicine, The Catholic University of Korea, Seoul 06591, Korea."
+    },
+    {
+      "lastName": "Yoo",
+      "foreName": "Kyunghyun",
+      "initials": "K",
+      "affiliation": "Department of Biochemistry, College of Medicine, The Catholic University of Korea, Seoul 06591, Korea."
+    },
+    {
+      "lastName": "Kim",
+      "foreName": "Hong Lim",
+      "initials": "HL",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Oh",
+      "foreName": "Yuna",
+      "initials": "Y",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Jung",
+      "foreName": "Sung Won",
+      "initials": "SW",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Kim",
+      "foreName": "Joo Youn",
+      "initials": "JY",
+      "affiliation": "Department of Pharmacology, College of Medicine, The Catholic University of Korea, Seoul 06591, Korea."
+    },
+    {
+      "lastName": "Hwang",
+      "foreName": "Sun-Nyoung",
+      "initials": "SN",
+      "affiliation": "Department of Pharmacology, College of Medicine, The Catholic University of Korea, Seoul 06591, Korea."
+    },
+    {
+      "lastName": "Kim",
+      "foreName": "Seong Yun",
+      "initials": "SY",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Jung",
+      "foreName": "Seung-Hyun",
+      "initials": "SH",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Lee",
+      "foreName": "Mun-Yong",
+      "initials": "MY",
+      "affiliation": "Department of Anatomy, Catholic Neuroscience Institute, College of Medicine, The Catholic University of Korea, Seoul 06591, Korea."
+    },
+    {
+      "lastName": "Lee",
+      "foreName": "Jeong-Hwa",
+      "initials": "JH",
+      "affiliation": "Department of Biochemistry, College of Medicine, The Catholic University of Korea, Seoul 06591, Korea."
+    },
+    {
+      "lastName": "Riew",
+      "foreName": "Tae-Ryong",
+      "initials": "TR",
+      "affiliation": "Department of Anatomy, Catholic Neuroscience Institute, College of Medicine, The Catholic University of Korea, Seoul 06591, Korea."
+    }
+  ],
+  "keywords": [
+    "Astrocyte",
+    "BAG3",
+    "Electron microscopy",
+    "Stroke"
+  ],
+  "doi": "10.4196/kjpp.25.361",
+  "pmcId": null,
+  "meshTerms": [],
+  "rawXml": "<?xml version=\"1.0\" ?>\n<!DOCTYPE PubmedArticleSet PUBLIC \"-//NLM//DTD PubMedArticle, 1st January 2025//EN\" \"https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_250101.dtd\">\n<PubmedArticleSet>\n<PubmedArticle><MedlineCitation Status=\"Publisher\" Owner=\"NLM\"><PMID Version=\"1\">41601171</PMID><DateRevised><Year>2026</Year><Month>01</Month><Day>28</Day></DateRevised><Article PubModel=\"Print-Electronic\"><Journal><ISSN IssnType=\"Print\">1226-4512</ISSN><JournalIssue CitedMedium=\"Print\"><PubDate><Year>2026</Year><Month>Jan</Month><Day>28</Day></PubDate></JournalIssue><Title>The Korean journal of physiology &amp; pharmacology : official journal of the Korean Physiological Society and the Korean Society of Pharmacology</Title><ISOAbbreviation>Korean J Physiol Pharmacol</ISOAbbreviation></Journal><ArticleTitle>Depletion of BIS in astrocytes aggravates reactive gliosis following photothrombotic brain injury.</ArticleTitle><ELocationID EIdType=\"doi\" ValidYN=\"Y\">10.4196/kjpp.25.361</ELocationID><Abstract><AbstractText>BIS (Bcl-2-interacting cell death suppressor, or BAG-3), is a multifunctional co-chaperone that maintains protein quality control via autophagy and proteostasis. Following the central nervous system (CNS) injury, BIS expression is markedly upregulated in reactive astrocytes, suggesting a regulatory role of reactive astrogliosis. To investigate this, we generated astrocyte-specific BIS knockout (BIS-aKO) mice for the first time. While BIS-aKO mice exhibited normal growth and survival, the injury-induced upregulation of BIS expression was abolished in reactive astrocytes following excitotoxic injury. Using a photothrombotic stroke model, we found that astrocytic BIS deficiency resulted in significantly increased GFAP expression in scar-forming astrocytes at the infarct border and altered morphology in the peri-infarct region. Furthermore, we observed increased infiltration of amoeboid Iba1-positive cells in the astroglial scar, indicating enhanced neuroinflammation. Correlative light-and electron-microscopy following both stroke and stab wound injury revealed BIS-aKO astrocytes exhibited a greater density of intermediate filament filling in their soma and processes, along with relatively fewer cytoplasmic organelles, such as mitochondria. Collectively, these findings highlight a previously unrecognized role of BIS in modulating reactive gliosis during brain injury and our model provides a valuable tool for investigating the astrocyte-specific functions of BIS in CNS pathophysiology.</AbstractText></Abstract><AuthorList CompleteYN=\"Y\"><Author ValidYN=\"Y\"><LastName>Jung</LastName><ForeName>Soon-Young</ForeName><Initials>SY</Initials><AffiliationInfo><Affiliation>Department of Anatomy, Catholic Neuroscience Institute, College of Medicine, The Catholic University of Korea, Seoul 06591, Korea.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Hwang</LastName><ForeName>Ji-Won</ForeName><Initials>JW</Initials><AffiliationInfo><Affiliation>Department of Anatomy, Catholic Neuroscience Institute, College of Medicine, The Catholic University of Korea, Seoul 06591, Korea.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Department of Medical Science, College of Medicine, Graduate School of The Catholic University of Korea, Seoul 06591, Korea.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Yun</LastName><ForeName>Hye Hyeon</ForeName><Initials>HH</Initials><AffiliationInfo><Affiliation>Department of Biochemistry, College of Medicine, The Catholic University of Korea, Seoul 06591, Korea.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Institute for Aging and Metabolic Diseases, College of Medicine, The Catholic University of Korea, Seoul 06591, Korea.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Yoo</LastName><ForeName>Kyunghyun</ForeName><Initials>K</Initials><AffiliationInfo><Affiliation>Department of Biochemistry, College of Medicine, The Catholic University of Korea, Seoul 06591, Korea.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Institute for Aging and Metabolic Diseases, College of Medicine, The Catholic University of Korea, Seoul 06591, Korea.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Kim</LastName><ForeName>Hong Lim</ForeName><Initials>HL</Initials><AffiliationInfo><Affiliation>Integrative Research Support Center, Laboratory of Electron Microscope, College of Medicine, The Catholic University of Korea, Seoul 06591, Korea.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Oh</LastName><ForeName>Yuna</ForeName><Initials>Y</Initials><AffiliationInfo><Affiliation>Integrative Research Support Center, Laboratory of Electron Microscope, College of Medicine, The Catholic University of Korea, Seoul 06591, Korea.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Jung</LastName><ForeName>Sung Won</ForeName><Initials>SW</Initials><AffiliationInfo><Affiliation>Department of Anatomy, Catholic Neuroscience Institute, College of Medicine, The Catholic University of Korea, Seoul 06591, Korea.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Kim</LastName><ForeName>Joo Youn</ForeName><Initials>JY</Initials><AffiliationInfo><Affiliation>Department of Pharmacology, College of Medicine, The Catholic University of Korea, Seoul 06591, Korea.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Department of Research and Analysis, National Health Insurance Service Ilsan Hospital, Goyang 10444, Korea.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Hwang</LastName><ForeName>Sun-Nyoung</ForeName><Initials>SN</Initials><AffiliationInfo><Affiliation>Department of Pharmacology, College of Medicine, The Catholic University of Korea, Seoul 06591, Korea.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>CHA University Fertility Center Seoul Station, Seoul 04637, Korea.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Kim</LastName><ForeName>Seong Yun</ForeName><Initials>SY</Initials><AffiliationInfo><Affiliation>Department of Pharmacology, College of Medicine, The Catholic University of Korea, Seoul 06591, Korea.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Jung</LastName><ForeName>Seung-Hyun</ForeName><Initials>SH</Initials><AffiliationInfo><Affiliation>Department of Biochemistry, College of Medicine, The Catholic University of Korea, Seoul 06591, Korea.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Lee</LastName><ForeName>Mun-Yong</ForeName><Initials>MY</Initials><AffiliationInfo><Affiliation>Department of Anatomy, Catholic Neuroscience Institute, College of Medicine, The Catholic University of Korea, Seoul 06591, Korea.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Department of Medical Science, College of Medicine, Graduate School of The Catholic University of Korea, Seoul 06591, Korea.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Lee</LastName><ForeName>Jeong-Hwa</ForeName><Initials>JH</Initials><AffiliationInfo><Affiliation>Department of Biochemistry, College of Medicine, The Catholic University of Korea, Seoul 06591, Korea.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Institute for Aging and Metabolic Diseases, College of Medicine, The Catholic University of Korea, Seoul 06591, Korea.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Riew</LastName><ForeName>Tae-Ryong</ForeName><Initials>TR</Initials><AffiliationInfo><Affiliation>Department of Anatomy, Catholic Neuroscience Institute, College of Medicine, The Catholic University of Korea, Seoul 06591, Korea.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Department of Medical Science, College of Medicine, Graduate School of The Catholic University of Korea, Seoul 06591, Korea.</Affiliation></AffiliationInfo></Author></AuthorList><Language>eng</Language><PublicationTypeList><PublicationType UI=\"D016428\">Journal Article</PublicationType></PublicationTypeList><ArticleDate DateType=\"Electronic\"><Year>2026</Year><Month>01</Month><Day>28</Day></ArticleDate></Article><MedlineJournalInfo><Country>Korea (South)</Country><MedlineTA>Korean J Physiol Pharmacol</MedlineTA><NlmUniqueID>9709505</NlmUniqueID><ISSNLinking>1226-4512</ISSNLinking></MedlineJournalInfo><KeywordList Owner=\"NOTNLM\"><Keyword MajorTopicYN=\"N\">Astrocyte</Keyword><Keyword MajorTopicYN=\"N\">BAG3</Keyword><Keyword MajorTopicYN=\"N\">Electron microscopy</Keyword><Keyword MajorTopicYN=\"N\">Stroke</Keyword></KeywordList></MedlineCitation><PubmedData><History><PubMedPubDate PubStatus=\"received\"><Year>2025</Year><Month>9</Month><Day>26</Day></PubMedPubDate><PubMedPubDate PubStatus=\"revised\"><Year>2025</Year><Month>10</Month><Day>31</Day></PubMedPubDate><PubMedPubDate PubStatus=\"accepted\"><Year>2025</Year><Month>11</Month><Day>2</Day></PubMedPubDate><PubMedPubDate PubStatus=\"medline\"><Year>2026</Year><Month>1</Month><Day>28</Day><Hour>7</Hour><Minute>48</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"pubmed\"><Year>2026</Year><Month>1</Month><Day>28</Day><Hour>7</Hour><Minute>48</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"entrez\"><Year>2026</Year><Month>1</Month><Day>28</Day><Hour>2</Hour><Minute>13</Minute></PubMedPubDate></History><PublicationStatus>aheadofprint</PublicationStatus><ArticleIdList><ArticleId IdType=\"pubmed\">41601171</ArticleId><ArticleId IdType=\"doi\">10.4196/kjpp.25.361</ArticleId><ArticleId IdType=\"pii\">kjpp.25.361</ArticleId></ArticleIdList></PubmedData></PubmedArticle></PubmedArticleSet>",
+  "fetched_at": "2026-01-29T18:51:05.360Z"
+}

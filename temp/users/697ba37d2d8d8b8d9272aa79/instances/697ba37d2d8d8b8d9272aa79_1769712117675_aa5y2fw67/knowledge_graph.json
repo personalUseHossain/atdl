@@ -1,0 +1,458 @@
+{
+  "nodes": [
+    {
+      "id": "drug_1",
+      "label": "Coenzyme Q10",
+      "type": "drug",
+      "size": 35,
+      "color": "#4A90E2",
+      "total_connections": 1,
+      "user_id": "697ba37d2d8d8b8d9272aa79"
+    },
+    {
+      "id": "health_2",
+      "label": "mitochondrial function",
+      "type": "health_issue",
+      "size": 23,
+      "color": "#50E3C2",
+      "total_connections": 1,
+      "user_id": "697ba37d2d8d8b8d9272aa79"
+    },
+    {
+      "id": "drug_3",
+      "label": "chloroquine",
+      "type": "drug",
+      "size": 35,
+      "color": "#4A90E2",
+      "total_connections": 1,
+      "user_id": "697ba37d2d8d8b8d9272aa79"
+    },
+    {
+      "id": "health_4",
+      "label": "cancer (squamous cell and adenocarcinoma lung cancer)",
+      "type": "health_issue",
+      "size": 23,
+      "color": "#50E3C2",
+      "total_connections": 4,
+      "user_id": "697ba37d2d8d8b8d9272aa79"
+    },
+    {
+      "id": "drug_5",
+      "label": "chloroquine combined with glucose transporter inhibitors",
+      "type": "drug",
+      "size": 35,
+      "color": "#4A90E2",
+      "total_connections": 1,
+      "user_id": "697ba37d2d8d8b8d9272aa79"
+    },
+    {
+      "id": "drug_6",
+      "label": "chloroquine combined with SREBP-1 inhibitors",
+      "type": "drug",
+      "size": 35,
+      "color": "#4A90E2",
+      "total_connections": 1,
+      "user_id": "697ba37d2d8d8b8d9272aa79"
+    },
+    {
+      "id": "drug_7",
+      "label": "chloroquine combined with lipogenic enzyme inhibitors",
+      "type": "drug",
+      "size": 35,
+      "color": "#4A90E2",
+      "total_connections": 1,
+      "user_id": "697ba37d2d8d8b8d9272aa79"
+    },
+    {
+      "id": "drug_8",
+      "label": "NADH",
+      "type": "drug",
+      "size": 35,
+      "color": "#4A90E2",
+      "total_connections": 1,
+      "user_id": "697ba37d2d8d8b8d9272aa79"
+    },
+    {
+      "id": "health_9",
+      "label": "lifespan/longevity",
+      "type": "health_issue",
+      "size": 23,
+      "color": "#50E3C2",
+      "total_connections": 2,
+      "user_id": "697ba37d2d8d8b8d9272aa79"
+    },
+    {
+      "id": "drug_10",
+      "label": "glycerophosphate (Gp)",
+      "type": "drug",
+      "size": 35,
+      "color": "#4A90E2",
+      "total_connections": 1,
+      "user_id": "697ba37d2d8d8b8d9272aa79"
+    },
+    {
+      "id": "drug_11",
+      "label": "Liraglutide",
+      "type": "drug",
+      "size": 35,
+      "color": "#4A90E2",
+      "total_connections": 5,
+      "user_id": "697ba37d2d8d8b8d9272aa79"
+    },
+    {
+      "id": "health_12",
+      "label": "insulin resistance in senescent cardiomyocytes",
+      "type": "health_issue",
+      "size": 23,
+      "color": "#50E3C2",
+      "total_connections": 1,
+      "user_id": "697ba37d2d8d8b8d9272aa79"
+    },
+    {
+      "id": "health_13",
+      "label": "mitochondrial dysfunction in insulin-resistant senescent cardiomyocytes",
+      "type": "health_issue",
+      "size": 23,
+      "color": "#50E3C2",
+      "total_connections": 1,
+      "user_id": "697ba37d2d8d8b8d9272aa79"
+    },
+    {
+      "id": "health_14",
+      "label": "oxidative stress in insulin-resistant senescent cardiomyocytes",
+      "type": "health_issue",
+      "size": 23,
+      "color": "#50E3C2",
+      "total_connections": 1,
+      "user_id": "697ba37d2d8d8b8d9272aa79"
+    },
+    {
+      "id": "health_15",
+      "label": "endoplasmic reticulum stress in insulin-resistant senescent cardiomyocytes",
+      "type": "health_issue",
+      "size": 23,
+      "color": "#50E3C2",
+      "total_connections": 1,
+      "user_id": "697ba37d2d8d8b8d9272aa79"
+    },
+    {
+      "id": "health_16",
+      "label": "metabolic cardiomyopathies linked to insulin resistance and aging",
+      "type": "health_issue",
+      "size": 23,
+      "color": "#50E3C2",
+      "total_connections": 1,
+      "user_id": "697ba37d2d8d8b8d9272aa79"
+    },
+    {
+      "id": "drug_17",
+      "label": "nucleoside reverse transcriptase inhibitors",
+      "type": "drug",
+      "size": 35,
+      "color": "#4A90E2",
+      "total_connections": 4,
+      "user_id": "697ba37d2d8d8b8d9272aa79"
+    },
+    {
+      "id": "health_18",
+      "label": "mtDNA depletion and mutation accumulation",
+      "type": "health_issue",
+      "size": 23,
+      "color": "#50E3C2",
+      "total_connections": 1,
+      "user_id": "697ba37d2d8d8b8d9272aa79"
+    },
+    {
+      "id": "health_19",
+      "label": "lipodystrophy",
+      "type": "health_issue",
+      "size": 23,
+      "color": "#50E3C2",
+      "total_connections": 1,
+      "user_id": "697ba37d2d8d8b8d9272aa79"
+    },
+    {
+      "id": "health_20",
+      "label": "neuropathy",
+      "type": "health_issue",
+      "size": 23,
+      "color": "#50E3C2",
+      "total_connections": 1,
+      "user_id": "697ba37d2d8d8b8d9272aa79"
+    },
+    {
+      "id": "health_21",
+      "label": "accelerated aging",
+      "type": "health_issue",
+      "size": 23,
+      "color": "#50E3C2",
+      "total_connections": 1,
+      "user_id": "697ba37d2d8d8b8d9272aa79"
+    },
+    {
+      "id": "drug_22",
+      "label": "BIS (Bcl-2-interacting cell death suppressor, or BAG-3)",
+      "type": "drug",
+      "size": 35,
+      "color": "#4A90E2",
+      "total_connections": 1,
+      "user_id": "697ba37d2d8d8b8d9272aa79"
+    },
+    {
+      "id": "health_23",
+      "label": "reactive gliosis following brain injury",
+      "type": "health_issue",
+      "size": 23,
+      "color": "#50E3C2",
+      "total_connections": 1,
+      "user_id": "697ba37d2d8d8b8d9272aa79"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_0",
+      "source": "drug_1",
+      "target": "health_2",
+      "label": "Strength: 4",
+      "value": 4,
+      "papers": 1,
+      "relationship": "neutral",
+      "width": 8,
+      "has_full_text": false,
+      "user_id": "697ba37d2d8d8b8d9272aa79",
+      "session_id": "697ba37d2d8d8b8d9272aa79_1769712117675_aa5y2fw67"
+    },
+    {
+      "id": "edge_1",
+      "source": "drug_3",
+      "target": "health_4",
+      "label": "Strength: 3",
+      "value": 3,
+      "papers": 1,
+      "relationship": "negative",
+      "width": 6,
+      "has_full_text": false,
+      "user_id": "697ba37d2d8d8b8d9272aa79",
+      "session_id": "697ba37d2d8d8b8d9272aa79_1769712117675_aa5y2fw67"
+    },
+    {
+      "id": "edge_2",
+      "source": "drug_5",
+      "target": "health_4",
+      "label": "Strength: 3",
+      "value": 3,
+      "papers": 1,
+      "relationship": "negative",
+      "width": 6,
+      "has_full_text": false,
+      "user_id": "697ba37d2d8d8b8d9272aa79",
+      "session_id": "697ba37d2d8d8b8d9272aa79_1769712117675_aa5y2fw67"
+    },
+    {
+      "id": "edge_3",
+      "source": "drug_6",
+      "target": "health_4",
+      "label": "Strength: 3",
+      "value": 3,
+      "papers": 1,
+      "relationship": "negative",
+      "width": 6,
+      "has_full_text": false,
+      "user_id": "697ba37d2d8d8b8d9272aa79",
+      "session_id": "697ba37d2d8d8b8d9272aa79_1769712117675_aa5y2fw67"
+    },
+    {
+      "id": "edge_4",
+      "source": "drug_7",
+      "target": "health_4",
+      "label": "Strength: 3",
+      "value": 3,
+      "papers": 1,
+      "relationship": "negative",
+      "width": 6,
+      "has_full_text": false,
+      "user_id": "697ba37d2d8d8b8d9272aa79",
+      "session_id": "697ba37d2d8d8b8d9272aa79_1769712117675_aa5y2fw67"
+    },
+    {
+      "id": "edge_5",
+      "source": "drug_8",
+      "target": "health_9",
+      "label": "Strength: 3",
+      "value": 3,
+      "papers": 1,
+      "relationship": "negative",
+      "width": 6,
+      "has_full_text": false,
+      "user_id": "697ba37d2d8d8b8d9272aa79",
+      "session_id": "697ba37d2d8d8b8d9272aa79_1769712117675_aa5y2fw67"
+    },
+    {
+      "id": "edge_6",
+      "source": "drug_10",
+      "target": "health_9",
+      "label": "Strength: 3",
+      "value": 3,
+      "papers": 1,
+      "relationship": "positive",
+      "width": 6,
+      "has_full_text": false,
+      "user_id": "697ba37d2d8d8b8d9272aa79",
+      "session_id": "697ba37d2d8d8b8d9272aa79_1769712117675_aa5y2fw67"
+    },
+    {
+      "id": "edge_7",
+      "source": "drug_11",
+      "target": "health_12",
+      "label": "Strength: 3",
+      "value": 3,
+      "papers": 1,
+      "relationship": "positive",
+      "width": 6,
+      "has_full_text": false,
+      "user_id": "697ba37d2d8d8b8d9272aa79",
+      "session_id": "697ba37d2d8d8b8d9272aa79_1769712117675_aa5y2fw67"
+    },
+    {
+      "id": "edge_8",
+      "source": "drug_11",
+      "target": "health_13",
+      "label": "Strength: 3",
+      "value": 3,
+      "papers": 1,
+      "relationship": "positive",
+      "width": 6,
+      "has_full_text": false,
+      "user_id": "697ba37d2d8d8b8d9272aa79",
+      "session_id": "697ba37d2d8d8b8d9272aa79_1769712117675_aa5y2fw67"
+    },
+    {
+      "id": "edge_9",
+      "source": "drug_11",
+      "target": "health_14",
+      "label": "Strength: 3",
+      "value": 3,
+      "papers": 1,
+      "relationship": "positive",
+      "width": 6,
+      "has_full_text": false,
+      "user_id": "697ba37d2d8d8b8d9272aa79",
+      "session_id": "697ba37d2d8d8b8d9272aa79_1769712117675_aa5y2fw67"
+    },
+    {
+      "id": "edge_10",
+      "source": "drug_11",
+      "target": "health_15",
+      "label": "Strength: 3",
+      "value": 3,
+      "papers": 1,
+      "relationship": "positive",
+      "width": 6,
+      "has_full_text": false,
+      "user_id": "697ba37d2d8d8b8d9272aa79",
+      "session_id": "697ba37d2d8d8b8d9272aa79_1769712117675_aa5y2fw67"
+    },
+    {
+      "id": "edge_11",
+      "source": "drug_11",
+      "target": "health_16",
+      "label": "Strength: 3",
+      "value": 3,
+      "papers": 1,
+      "relationship": "positive",
+      "width": 6,
+      "has_full_text": false,
+      "user_id": "697ba37d2d8d8b8d9272aa79",
+      "session_id": "697ba37d2d8d8b8d9272aa79_1769712117675_aa5y2fw67"
+    },
+    {
+      "id": "edge_12",
+      "source": "drug_17",
+      "target": "health_18",
+      "label": "Strength: 3",
+      "value": 3,
+      "papers": 1,
+      "relationship": "negative",
+      "width": 6,
+      "has_full_text": false,
+      "user_id": "697ba37d2d8d8b8d9272aa79",
+      "session_id": "697ba37d2d8d8b8d9272aa79_1769712117675_aa5y2fw67"
+    },
+    {
+      "id": "edge_13",
+      "source": "drug_17",
+      "target": "health_19",
+      "label": "Strength: 3",
+      "value": 3,
+      "papers": 1,
+      "relationship": "negative",
+      "width": 6,
+      "has_full_text": false,
+      "user_id": "697ba37d2d8d8b8d9272aa79",
+      "session_id": "697ba37d2d8d8b8d9272aa79_1769712117675_aa5y2fw67"
+    },
+    {
+      "id": "edge_14",
+      "source": "drug_17",
+      "target": "health_20",
+      "label": "Strength: 3",
+      "value": 3,
+      "papers": 1,
+      "relationship": "negative",
+      "width": 6,
+      "has_full_text": false,
+      "user_id": "697ba37d2d8d8b8d9272aa79",
+      "session_id": "697ba37d2d8d8b8d9272aa79_1769712117675_aa5y2fw67"
+    },
+    {
+      "id": "edge_15",
+      "source": "drug_17",
+      "target": "health_21",
+      "label": "Strength: 3",
+      "value": 3,
+      "papers": 1,
+      "relationship": "negative",
+      "width": 6,
+      "has_full_text": false,
+      "user_id": "697ba37d2d8d8b8d9272aa79",
+      "session_id": "697ba37d2d8d8b8d9272aa79_1769712117675_aa5y2fw67"
+    },
+    {
+      "id": "edge_16",
+      "source": "drug_22",
+      "target": "health_23",
+      "label": "Strength: 3",
+      "value": 3,
+      "papers": 1,
+      "relationship": "negative",
+      "width": 6,
+      "has_full_text": false,
+      "user_id": "697ba37d2d8d8b8d9272aa79",
+      "session_id": "697ba37d2d8d8b8d9272aa79_1769712117675_aa5y2fw67"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-01-29T18:43:43.964Z",
+    "total_connections": 17,
+    "total_drugs": 10,
+    "total_health_issues": 13,
+    "user_id": "697ba37d2d8d8b8d9272aa79",
+    "session_id": "697ba37d2d8d8b8d9272aa79_1769712117675_aa5y2fw67"
+  },
+  "stats": {
+    "totalNodes": 23,
+    "totalEdges": 17,
+    "drugNodes": 10,
+    "healthNodes": 13,
+    "maxDegree": 5,
+    "avgDegree": "1.48",
+    "strengthDistribution": {
+      "1": 0,
+      "2": 0,
+      "3": 16,
+      "4": 1,
+      "5": 0
+    },
+    "density": 0.06719367588932806
+  }
+}

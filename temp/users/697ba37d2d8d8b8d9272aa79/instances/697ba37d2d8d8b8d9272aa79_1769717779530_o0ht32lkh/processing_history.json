@@ -1,0 +1,20 @@
+[
+  {
+    "id": "run_1769718336349",
+    "query": "aging mitochondria",
+    "timestamp": "2026-01-29T20:25:36.349Z",
+    "stats": {
+      "total_papers_processed": 50,
+      "new_connections_found": 100,
+      "unique_connections_total": 100,
+      "duration_seconds": 557
+    },
+    "cache_stats": {
+      "total": 51,
+      "withFullText": 0,
+      "withAbstractOnly": 51
+    },
+    "user_id": "697ba37d2d8d8b8d9272aa79",
+    "session_id": "697ba37d2d8d8b8d9272aa79_1769717779530_o0ht32lkh"
+  }
+]

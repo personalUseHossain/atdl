@@ -1,0 +1,20 @@
+[
+  {
+    "id": "run_1769721186524",
+    "query": "vascular aging",
+    "timestamp": "2026-01-29T21:13:06.524Z",
+    "stats": {
+      "total_papers_processed": 5,
+      "new_connections_found": 12,
+      "unique_connections_total": 12,
+      "duration_seconds": 67
+    },
+    "cache_stats": {
+      "total": 57,
+      "withFullText": 0,
+      "withAbstractOnly": 57
+    },
+    "user_id": "697ba37d2d8d8b8d9272aa79",
+    "session_id": "697ba37d2d8d8b8d9272aa79_1769721118948_245guqivz"
+  }
+]

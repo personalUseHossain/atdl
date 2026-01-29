@@ -1,0 +1,227 @@
+{
+  "pmid": "41576098",
+  "title": "MTFR1L is a cardiac antiaging factor for maintenance of mitochondrial homeostasis.",
+  "abstract": "",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "year": "2026",
+  "authors": [
+    {
+      "lastName": "Shi",
+      "foreName": "Le",
+      "initials": "L",
+      "affiliation": "State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Guangdong Provincial Key Laboratory of Ophthalmology and Visual Science, Sun Yat-Sen University, Guangzhou 510060, China."
+    },
+    {
+      "lastName": "Sun",
+      "foreName": "Zehui",
+      "initials": "Z",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Cao",
+      "foreName": "Yingxue",
+      "initials": "Y",
+      "affiliation": "State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Guangdong Provincial Key Laboratory of Ophthalmology and Visual Science, Sun Yat-Sen University, Guangzhou 510060, China."
+    },
+    {
+      "lastName": "Li",
+      "foreName": "Yuying",
+      "initials": "Y",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Qing",
+      "foreName": "Wenjie",
+      "initials": "W",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Zhou",
+      "foreName": "Lingli",
+      "initials": "L",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Xu",
+      "foreName": "Mingming",
+      "initials": "M",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Mai",
+      "foreName": "Xiaomei",
+      "initials": "X",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Ou",
+      "foreName": "Lechun",
+      "initials": "L",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Yang",
+      "foreName": "Xiaoping",
+      "initials": "X",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Shakiba",
+      "foreName": "Delaram",
+      "initials": "D",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Ri",
+      "foreName": "Kaoru",
+      "initials": "K",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Ou",
+      "foreName": "Wangsheng",
+      "initials": "W",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Chen",
+      "foreName": "Jun",
+      "initials": "J",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Rosenberg",
+      "foreName": "Avi",
+      "initials": "A",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Trempe",
+      "foreName": "Jean-François",
+      "initials": "JF",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Fon",
+      "foreName": "Edward A",
+      "initials": "EA",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Liu",
+      "foreName": "Xialin",
+      "initials": "X",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Cao",
+      "foreName": "Yihai",
+      "initials": "Y",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Duh",
+      "foreName": "Elia J",
+      "initials": "EJ",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Yi",
+      "foreName": "Wei",
+      "initials": "W",
+      "affiliation": ""
+    }
+  ],
+  "keywords": [
+    "MTFR1L",
+    "aging",
+    "heart",
+    "mitophagy",
+    "p-S65-Ub"
+  ],
+  "doi": "10.1073/pnas.2527247123",
+  "pmcId": "PMC12846826",
+  "meshTerms": [
+    {
+      "descriptor": "Animals",
+      "qualifiers": []
+    },
+    {
+      "descriptor": "Mice",
+      "qualifiers": []
+    },
+    {
+      "descriptor": "Mitophagy",
+      "qualifiers": []
+    },
+    {
+      "descriptor": "Homeostasis",
+      "qualifiers": []
+    },
+    {
+      "descriptor": "Aging",
+      "qualifiers": [
+        "metabolism"
+      ]
+    },
+    {
+      "descriptor": "Ubiquitin-Protein Ligases",
+      "qualifiers": [
+        "metabolism",
+        "genetics"
+      ]
+    },
+    {
+      "descriptor": "Humans",
+      "qualifiers": []
+    },
+    {
+      "descriptor": "Myocytes, Cardiac",
+      "qualifiers": [
+        "metabolism"
+      ]
+    },
+    {
+      "descriptor": "Mitochondria, Heart",
+      "qualifiers": [
+        "metabolism"
+      ]
+    },
+    {
+      "descriptor": "Mitochondria",
+      "qualifiers": [
+        "metabolism"
+      ]
+    },
+    {
+      "descriptor": "Mice, Knockout",
+      "qualifiers": []
+    },
+    {
+      "descriptor": "Cellular Senescence",
+      "qualifiers": []
+    },
+    {
+      "descriptor": "Signal Transduction",
+      "qualifiers": []
+    },
+    {
+      "descriptor": "Protein Kinases",
+      "qualifiers": [
+        "metabolism"
+      ]
+    },
+    {
+      "descriptor": "Myocardium",
+      "qualifiers": [
+        "metabolism"
+      ]
+    },
+    {
+      "descriptor": "Male",
+      "qualifiers": []
+    }
+  ],
+  "rawXml": "<?xml version=\"1.0\" ?>\n<!DOCTYPE PubmedArticleSet PUBLIC \"-//NLM//DTD PubMedArticle, 1st January 2025//EN\" \"https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_250101.dtd\">\n<PubmedArticleSet>\n<PubmedArticle><MedlineCitation Status=\"MEDLINE\" Owner=\"NLM\" IndexingMethod=\"Automated\"><PMID Version=\"1\">41576098</PMID><DateCompleted><Year>2026</Year><Month>01</Month><Day>23</Day></DateCompleted><DateRevised><Year>2026</Year><Month>01</Month><Day>29</Day></DateRevised><Article PubModel=\"Print-Electronic\"><Journal><ISSN IssnType=\"Electronic\">1091-6490</ISSN><JournalIssue CitedMedium=\"Internet\"><Volume>123</Volume><Issue>4</Issue><PubDate><Year>2026</Year><Month>Jan</Month><Day>27</Day></PubDate></JournalIssue><Title>Proceedings of the National Academy of Sciences of the United States of America</Title><ISOAbbreviation>Proc Natl Acad Sci U S A</ISOAbbreviation></Journal><ArticleTitle>MTFR1L is a cardiac antiaging factor for maintenance of mitochondrial homeostasis.</ArticleTitle><Pagination><StartPage>e2527247123</StartPage><MedlinePgn>e2527247123</MedlinePgn></Pagination><ELocationID EIdType=\"pii\" ValidYN=\"Y\">e2527247123</ELocationID><ELocationID EIdType=\"doi\" ValidYN=\"Y\">10.1073/pnas.2527247123</ELocationID><Abstract><AbstractText>Mitochondrial dysfunction is a hallmark of aging and a key contributor to age-related diseases including cardiovascular disease. However, molecular pathways that safeguard mitochondrial homeostasis in the aging heart remain poorly understood. Here, we identify MTFR1L as a regulator of mitophagy that binds p-S65-Ub, a key signal amplifying the PINK1/Parkin axis. We find that MTFR1L is enriched in metabolically active tissues, particularly in the heart, where it regulates Parkin signaling. Genetic deletion of <i>Mtfr1l</i> in mice impairs stress-induced mitophagy and Parkin activation, leading to accumulation of damaged mitochondria, increased inflammation and senescence, and accelerated age-related cardiac dysfunction. Strikingly, cardiac expression of MTFR1L progressively decreases along with aging in mice, primates, and humans, coinciding with cardiomyocyte senescence and lipofuscin accumulation. Together, these findings uncover a role for MTFR1L in regulation of the p-S65-Ub/Parkin mitophagy axis and maintenance of mitochondrial homeostasis during cardiac aging and suggest that age-associated loss of MTFR1L may contribute to age-related cardiac dysfunction. Based on these findings, we propose a therapeutic paradigm for the prevention of heart aging by restoring MTFR1L function.</AbstractText></Abstract><AuthorList CompleteYN=\"Y\"><Author ValidYN=\"Y\" EqualContrib=\"Y\"><LastName>Shi</LastName><ForeName>Le</ForeName><Initials>L</Initials><Identifier Source=\"ORCID\">0009-0004-2751-1174</Identifier><AffiliationInfo><Affiliation>State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Guangdong Provincial Key Laboratory of Ophthalmology and Visual Science, Sun Yat-Sen University, Guangzhou 510060, China.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Department of Ophthalmology, Johns Hopkins School of Medicine, Baltimore, MD 21287.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\" EqualContrib=\"Y\"><LastName>Sun</LastName><ForeName>Zehui</ForeName><Initials>Z</Initials><Identifier Source=\"ORCID\">0000-0003-3040-4279</Identifier><AffiliationInfo><Affiliation>State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Guangdong Provincial Key Laboratory of Ophthalmology and Visual Science, Sun Yat-Sen University, Guangzhou 510060, China.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Cao</LastName><ForeName>Yingxue</ForeName><Initials>Y</Initials><Identifier Source=\"ORCID\">0009-0004-0365-8462</Identifier><AffiliationInfo><Affiliation>State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Guangdong Provincial Key Laboratory of Ophthalmology and Visual Science, Sun Yat-Sen University, Guangzhou 510060, China.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Department of Ophthalmology, Johns Hopkins School of Medicine, Baltimore, MD 21287.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Li</LastName><ForeName>Yuying</ForeName><Initials>Y</Initials><Identifier Source=\"ORCID\">0009-0003-5475-7455</Identifier><AffiliationInfo><Affiliation>State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Guangdong Provincial Key Laboratory of Ophthalmology and Visual Science, Sun Yat-Sen University, Guangzhou 510060, China.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Qing</LastName><ForeName>Wenjie</ForeName><Initials>W</Initials><Identifier Source=\"ORCID\">0009-0005-4497-7010</Identifier><AffiliationInfo><Affiliation>State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Guangdong Provincial Key Laboratory of Ophthalmology and Visual Science, Sun Yat-Sen University, Guangzhou 510060, China.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Zhou</LastName><ForeName>Lingli</ForeName><Initials>L</Initials><Identifier Source=\"ORCID\">0000-0002-9321-9348</Identifier><AffiliationInfo><Affiliation>Department of Ophthalmology, Johns Hopkins School of Medicine, Baltimore, MD 21287.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Xu</LastName><ForeName>Mingming</ForeName><Initials>M</Initials><Identifier Source=\"ORCID\">0009-0001-3110-5871</Identifier><AffiliationInfo><Affiliation>State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Guangdong Provincial Key Laboratory of Ophthalmology and Visual Science, Sun Yat-Sen University, Guangzhou 510060, China.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Mai</LastName><ForeName>Xiaomei</ForeName><Initials>X</Initials><Identifier Source=\"ORCID\">0009-0004-6373-7437</Identifier><AffiliationInfo><Affiliation>State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Guangdong Provincial Key Laboratory of Ophthalmology and Visual Science, Sun Yat-Sen University, Guangzhou 510060, China.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Ou</LastName><ForeName>Lechun</ForeName><Initials>L</Initials><AffiliationInfo><Affiliation>State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Guangdong Provincial Key Laboratory of Ophthalmology and Visual Science, Sun Yat-Sen University, Guangzhou 510060, China.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Yang</LastName><ForeName>Xiaoping</ForeName><Initials>X</Initials><AffiliationInfo><Affiliation>Department of Pathology, Johns Hopkins Medical Institutions, Baltimore, MD 21287.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Shakiba</LastName><ForeName>Delaram</ForeName><Initials>D</Initials><Identifier Source=\"ORCID\">0000-0002-3525-9042</Identifier><AffiliationInfo><Affiliation>Department of Pathology, Johns Hopkins Medical Institutions, Baltimore, MD 21287.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Ri</LastName><ForeName>Kaoru</ForeName><Initials>K</Initials><Identifier Source=\"ORCID\">0009-0004-9315-1912</Identifier><AffiliationInfo><Affiliation>Department of Ophthalmology, Johns Hopkins School of Medicine, Baltimore, MD 21287.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Ou</LastName><ForeName>Wangsheng</ForeName><Initials>W</Initials><AffiliationInfo><Affiliation>State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Guangdong Provincial Key Laboratory of Ophthalmology and Visual Science, Sun Yat-Sen University, Guangzhou 510060, China.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Chen</LastName><ForeName>Jun</ForeName><Initials>J</Initials><AffiliationInfo><Affiliation>Department of Immunology and Microbiology, Zhongshan School of Medicine, Sun Yat-sen University, Guangzhou 510080, China.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Rosenberg</LastName><ForeName>Avi</ForeName><Initials>A</Initials><Identifier Source=\"ORCID\">0000-0003-2356-950X</Identifier><AffiliationInfo><Affiliation>Department of Pathology, Johns Hopkins Medical Institutions, Baltimore, MD 21287.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Trempe</LastName><ForeName>Jean-Fran&#xe7;ois</ForeName><Initials>JF</Initials><Identifier Source=\"ORCID\">0000-0002-6543-3371</Identifier><AffiliationInfo><Affiliation>Department of Pharmacology and Therapeutics and Centre de Recherche en Biologie Structurale, McGill University, Montreal H3G0B1, Canada.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Fon</LastName><ForeName>Edward A</ForeName><Initials>EA</Initials><Identifier Source=\"ORCID\">0000-0002-5520-6239</Identifier><AffiliationInfo><Affiliation>McGill Parkinson Program, Neurodegenerative Diseases Group, Department of Neurology and Neurosurgery, Montreal Neurological Institute, McGill University, Montreal H3A2B4, Canada.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Liu</LastName><ForeName>Xialin</ForeName><Initials>X</Initials><Identifier Source=\"ORCID\">0000-0003-2086-5805</Identifier><AffiliationInfo><Affiliation>State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Guangdong Provincial Key Laboratory of Ophthalmology and Visual Science, Sun Yat-Sen University, Guangzhou 510060, China.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Cao</LastName><ForeName>Yihai</ForeName><Initials>Y</Initials><Identifier Source=\"ORCID\">0000-0003-1308-0065</Identifier><AffiliationInfo><Affiliation>Department of Microbiology, Tumor and Cell Biology, Karolinska Institute, Stockholm 17177, Sweden.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Duh</LastName><ForeName>Elia J</ForeName><Initials>EJ</Initials><Identifier Source=\"ORCID\">0000-0003-1917-373X</Identifier><AffiliationInfo><Affiliation>Department of Ophthalmology, Johns Hopkins School of Medicine, Baltimore, MD 21287.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Yi</LastName><ForeName>Wei</ForeName><Initials>W</Initials><Identifier Source=\"ORCID\">0000-0003-0943-7244</Identifier><AffiliationInfo><Affiliation>State Key Laboratory of Ophthalmology, Zhongshan Ophthalmic Center, Guangdong Provincial Key Laboratory of Ophthalmology and Visual Science, Sun Yat-Sen University, Guangzhou 510060, China.</Affiliation></AffiliationInfo></Author></AuthorList><Language>eng</Language><GrantList CompleteYN=\"Y\"><Grant><GrantID>2023B1111050004</GrantID><Agency>GDSTC | Special Project for Research and Development in Key areas of Guangdong Province ()</Agency><Country/></Grant><Grant><GrantID>82101329</GrantID><Agency>MOST | National Natural Science Foundation of China (NSFC)</Agency><Country/></Grant><Grant><GrantID>82271095</GrantID><Agency>MOST | National Natural Science Foundation of China (NSFC)</Agency><Country/></Grant><Grant><GrantID>2024B01J1121</GrantID><Agency>Bureau of Science and Information Technology of Guangzhou Municipality | Guangzhou Municipal Science and Technology Program key projects (Guangzhou Science and Technology Program key projects)</Agency><Country/></Grant><Grant><GrantID>2025A03J3988</GrantID><Agency>Bureau of Science and Information Technology of Guangzhou Municipality | Guangzhou Municipal Science and Technology Project (Guangzhou Science and Technology Plan)</Agency><Country/></Grant><Grant><GrantID>2018YFA0108300</GrantID><Agency>MOST | National Key Research and Development Program of China (NKPs)</Agency><Country/></Grant><Grant><GrantID>R01EY035897</GrantID><Agency>Foundation for the NIH (FNIH)</Agency><Country/></Grant><Grant><GrantID>R01EY035549</GrantID><Agency>Foundation for the NIH (FNIH)</Agency><Country/></Grant><Grant><GrantID>P30EY001765</GrantID><Agency>HHS | NIH (NIH)</Agency><Country/></Grant></GrantList><PublicationTypeList><PublicationType UI=\"D016428\">Journal Article</PublicationType></PublicationTypeList><ArticleDate DateType=\"Electronic\"><Year>2026</Year><Month>01</Month><Day>23</Day></ArticleDate></Article><MedlineJournalInfo><Country>United States</Country><MedlineTA>Proc Natl Acad Sci U S A</MedlineTA><NlmUniqueID>7505876</NlmUniqueID><ISSNLinking>0027-8424</ISSNLinking></MedlineJournalInfo><ChemicalList><Chemical><RegistryNumber>EC 2.3.2.27</RegistryNumber><NameOfSubstance UI=\"D044767\">Ubiquitin-Protein Ligases</NameOfSubstance></Chemical><Chemical><RegistryNumber>EC 2.3.2.27</RegistryNumber><NameOfSubstance UI=\"C111567\">parkin protein</NameOfSubstance></Chemical><Chemical><RegistryNumber>EC 2.7.-</RegistryNumber><NameOfSubstance UI=\"D011494\">Protein Kinases</NameOfSubstance></Chemical></ChemicalList><CitationSubset>IM</CitationSubset><MeshHeadingList><MeshHeading><DescriptorName UI=\"D000818\" MajorTopicYN=\"N\">Animals</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D051379\" MajorTopicYN=\"N\">Mice</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D063306\" MajorTopicYN=\"N\">Mitophagy</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D006706\" MajorTopicYN=\"Y\">Homeostasis</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D000375\" MajorTopicYN=\"Y\">Aging</DescriptorName><QualifierName UI=\"Q000378\" MajorTopicYN=\"N\">metabolism</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D044767\" MajorTopicYN=\"N\">Ubiquitin-Protein Ligases</DescriptorName><QualifierName UI=\"Q000378\" MajorTopicYN=\"N\">metabolism</QualifierName><QualifierName UI=\"Q000235\" MajorTopicYN=\"N\">genetics</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D006801\" MajorTopicYN=\"N\">Humans</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D032383\" MajorTopicYN=\"N\">Myocytes, Cardiac</DescriptorName><QualifierName UI=\"Q000378\" MajorTopicYN=\"N\">metabolism</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D008929\" MajorTopicYN=\"Y\">Mitochondria, Heart</DescriptorName><QualifierName UI=\"Q000378\" MajorTopicYN=\"N\">metabolism</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D008928\" MajorTopicYN=\"Y\">Mitochondria</DescriptorName><QualifierName UI=\"Q000378\" MajorTopicYN=\"N\">metabolism</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D018345\" MajorTopicYN=\"N\">Mice, Knockout</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D016922\" MajorTopicYN=\"N\">Cellular Senescence</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D015398\" MajorTopicYN=\"N\">Signal Transduction</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D011494\" MajorTopicYN=\"N\">Protein Kinases</DescriptorName><QualifierName UI=\"Q000378\" MajorTopicYN=\"N\">metabolism</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D009206\" MajorTopicYN=\"N\">Myocardium</DescriptorName><QualifierName UI=\"Q000378\" MajorTopicYN=\"N\">metabolism</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D008297\" MajorTopicYN=\"N\">Male</DescriptorName></MeshHeading></MeshHeadingList><KeywordList Owner=\"NOTNLM\"><Keyword MajorTopicYN=\"N\">MTFR1L</Keyword><Keyword MajorTopicYN=\"N\">aging</Keyword><Keyword MajorTopicYN=\"N\">heart</Keyword><Keyword MajorTopicYN=\"N\">mitophagy</Keyword><Keyword MajorTopicYN=\"N\">p-S65-Ub</Keyword></KeywordList><CoiStatement>Competing interests statement:The authors declare no competing interest.</CoiStatement></MedlineCitation><PubmedData><History><PubMedPubDate PubStatus=\"pmc-release\"><Year>2026</Year><Month>7</Month><Day>23</Day></PubMedPubDate><PubMedPubDate PubStatus=\"medline\"><Year>2026</Year><Month>1</Month><Day>23</Day><Hour>18</Hour><Minute>36</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"pubmed\"><Year>2026</Year><Month>1</Month><Day>23</Day><Hour>18</Hour><Minute>35</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"entrez\"><Year>2026</Year><Month>1</Month><Day>23</Day><Hour>13</Hour><Minute>54</Minute></PubMedPubDate></History><PublicationStatus>ppublish</PublicationStatus><ArticleIdList><ArticleId IdType=\"pubmed\">41576098</ArticleId><ArticleId IdType=\"pmc\">PMC12846826</ArticleId><ArticleId IdType=\"doi\">10.1073/pnas.2527247123</ArticleId></ArticleIdList><ReferenceList><Reference><Citation>L&#xf3;pez-Ot&#xed;n C., Blasco M. A., Partridge L., Serrano M., Kroemer G., Hallmarks of aging: An expanding universe. Cell 186, 243&#x2013;278 (2023).</Citation><ArticleIdList><ArticleId IdType=\"pubmed\">36599349</ArticleId></ArticleIdList></Reference><Reference><Citation>Li H., et al. , Targeting age-related pathways in heart failure. Circ. Res. 126, 533&#x2013;551 (2020).</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC7041880</ArticleId><ArticleId IdType=\"pubmed\">32078451</ArticleId></ArticleIdList></Reference><Reference><Citation>Ravindran R., Gustafsson B., Mitochondrial quality control in cardiomyocytes: Safeguarding the heart against disease and ageing. Nat. Rev. Cardiol. 22, 798&#x2013;813 (2025).</Citation><ArticleIdList><ArticleId IdType=\"pubmed\">40113864</ArticleId></ArticleIdList></Reference><Reference><Citation>Gustafsson &#xc5;. B., Dorn G. W. II, Evolving and expanding the roles of mitophagy as a homeostatic and pathogenic process. Physiol. Rev. 99, 853&#x2013;892 (2019).</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC6442924</ArticleId><ArticleId IdType=\"pubmed\">30540226</ArticleId></ArticleIdList></Reference><Reference><Citation>Eldeeb M. A., Thomas R. A., Ragheb M. A., Fallahi A., Fon E. A., Mitochondrial quality control in health and in Parkinson&#x2019;s disease. Physiol. Rev. 102, 1721&#x2013;1755 (2022).</Citation><ArticleIdList><ArticleId IdType=\"pubmed\">35466694</ArticleId></ArticleIdList></Reference><Reference><Citation>Narendra D. P., Youle R. J., The role of PINK1&#x2013;Parkin in mitochondrial quality control. Nat. Cell Biol. 26, 1639&#x2013;1651 (2024).</Citation><ArticleIdList><ArticleId IdType=\"pubmed\">39358449</ArticleId></ArticleIdList></Reference><Reference><Citation>Narendra D. P., et al. , PINK1 is selectively stabilized on impaired mitochondria to activate Parkin. PLoS Biol. 8, e1000298 (2010).</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC2811155</ArticleId><ArticleId IdType=\"pubmed\">20126261</ArticleId></ArticleIdList></Reference><Reference><Citation>Koyano F., et al. , Ubiquitin is phosphorylated by PINK1 to activate parkin. Nature 510, 162&#x2013;166 (2014).</Citation><ArticleIdList><ArticleId IdType=\"pubmed\">24784582</ArticleId></ArticleIdList></Reference><Reference><Citation>Wauer T., Simicek M., Schubert A., Komander D., Mechanism of phospho-ubiquitin-induced PARKIN activation. Nature 524, 370&#x2013;374 (2015).</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC4984986</ArticleId><ArticleId IdType=\"pubmed\">26161729</ArticleId></ArticleIdList></Reference><Reference><Citation>Sauv&#xe9; V., et al. , Mechanism of parkin activation by phosphorylation. Nat. Struct. Mol. Biol. 25, 623&#x2013;630 (2018).</Citation><ArticleIdList><ArticleId IdType=\"pubmed\">29967542</ArticleId></ArticleIdList></Reference><Reference><Citation>Lazarou M., et al. , The ubiquitin kinase PINK1 recruits autophagy receptors to induce mitophagy. Nature 524, 309&#x2013;314 (2015).</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC5018156</ArticleId><ArticleId IdType=\"pubmed\">26266977</ArticleId></ArticleIdList></Reference><Reference><Citation>Sliter D. A., et al. , Parkin and PINK1 mitigate STING-induced inflammation. Nature 561, 258&#x2013;262 (2018).</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC7362342</ArticleId><ArticleId IdType=\"pubmed\">30135585</ArticleId></ArticleIdList></Reference><Reference><Citation>Tong M., et al. , Mitophagy is essential for maintaining cardiac function during high fat diet-induced diabetic cardiomyopathy. Circ. Res. 124, 1360&#x2013;1371 (2019).</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC6483841</ArticleId><ArticleId IdType=\"pubmed\">30786833</ArticleId></ArticleIdList></Reference><Reference><Citation>Tu M., et al. , RhoA signaling increases mitophagy and protects cardiomyocytes against ischemia by stabilizing PINK1 protein and recruiting Parkin to mitochondria. Cell Death Differ. 29, 2472&#x2013;2486 (2022).</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC9751115</ArticleId><ArticleId IdType=\"pubmed\">35760846</ArticleId></ArticleIdList></Reference><Reference><Citation>Kubli D. A., et al. , Parkin protein deficiency exacerbates cardiac injury and reduces survival following myocardial infarction. J. Biol. Chem. 288, 915&#x2013;926 (2013).</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC3543040</ArticleId><ArticleId IdType=\"pubmed\">23152496</ArticleId></ArticleIdList></Reference><Reference><Citation>Cornelissen T., et al. , Deficiency of parkin and PINK1 impairs age-dependent mitophagy in <i>Drosophila</i>. Elife\n7, e35878 (2018).\n</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC6008047</ArticleId><ArticleId IdType=\"pubmed\">29809156</ArticleId></ArticleIdList></Reference><Reference><Citation>Chen Y., Dorn G. W. II, PINK1-phosphorylated mitofusin 2 is a Parkin receptor for culling damaged mitochondria. Science 340, 471&#x2013;475 (2013).</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC3774525</ArticleId><ArticleId IdType=\"pubmed\">23620051</ArticleId></ArticleIdList></Reference><Reference><Citation>Antico O., et al. , Global ubiquitylation analysis of mitochondria in primary neurons identifies endogenous Parkin targets following activation of PINK1. Sci. Adv. 7, eabj0722 (2021).</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC8589319</ArticleId><ArticleId IdType=\"pubmed\">34767452</ArticleId></ArticleIdList></Reference><Reference><Citation>Kazlauskaite A., et al. , Binding to serine 65-phosphorylated ubiquitin primes Parkin for optimal PINK1-dependent phosphorylation and activation. EMBO Rep. 16, 939&#x2013;954 (2015).</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC4552487</ArticleId><ArticleId IdType=\"pubmed\">26116755</ArticleId></ArticleIdList></Reference><Reference><Citation>Virga D. M., et al. , Activity-dependent compartmentalization of dendritic mitochondria morphology through local regulation of fusion-fission balance in neurons in vivo. Nat. Commun. 15, 2142 (2024).</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC10923867</ArticleId><ArticleId IdType=\"pubmed\">38459070</ArticleId></ArticleIdList></Reference><Reference><Citation>Tilokani L., et al. , AMPK-dependent phosphorylation of MTFR1L regulates mitochondrial morphology. Sci. Adv. 8, eabo7956 (2022).</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC9651865</ArticleId><ArticleId IdType=\"pubmed\">36367943</ArticleId></ArticleIdList></Reference><Reference><Citation>McLelland G. L., et al. , Mfn2 ubiquitination by PINK1/parkin gates the p97-dependent release of ER from mitochondria to drive mitophagy. Elife 7, e32866 (2018).</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC5927771</ArticleId><ArticleId IdType=\"pubmed\">29676259</ArticleId></ArticleIdList></Reference><Reference><Citation>Mellacheruvu D., et al. , The CRAPome: A contaminant repository for affinity purification-mass spectrometry data. Nat. Methods 10, 730&#x2013;736 (2013).</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC3773500</ArticleId><ArticleId IdType=\"pubmed\">23921808</ArticleId></ArticleIdList></Reference><Reference><Citation>Denison S. R., et al. , Alterations in the common fragile site gene Parkin in ovarian and other cancers. Oncogene 22, 8370&#x2013;8378 (2003).</Citation><ArticleIdList><ArticleId IdType=\"pubmed\">14614460</ArticleId></ArticleIdList></Reference><Reference><Citation>Yi W., et al. , The landscape of Parkin variants reveals pathogenic mechanisms and therapeutic targets in Parkinson&#x2019;s disease. Hum. Mol. Genet. 28, 2811&#x2013;2825 (2019).</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC6736174</ArticleId><ArticleId IdType=\"pubmed\">30994895</ArticleId></ArticleIdList></Reference><Reference><Citation>Choo Y. S., Tang C., Zhang Z., Critical role of PINK1 in regulating Parkin protein levels in vivo. Arch. Neurol. 68, 684&#x2013;685 (2011).</Citation><ArticleIdList><ArticleId IdType=\"pubmed\">21555650</ArticleId></ArticleIdList></Reference><Reference><Citation>Abramson J., et al. , Accurate structure prediction of biomolecular interactions with AlphaFold 3. Nature 630, 493&#x2013;500 (2024), 10.1038/s41586-024-07487-w.</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1038/s41586-024-07487-w</ArticleId><ArticleId IdType=\"pmc\">PMC11168924</ArticleId><ArticleId IdType=\"pubmed\">38718835</ArticleId></ArticleIdList></Reference><Reference><Citation>Picca A., Faitg J., Auwerx J., Ferrucci L., D&#x2019;Amico D., Mitophagy in human health, ageing and disease. Nat. Metab. 5, 2047&#x2013;2061 (2023).</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC12159423</ArticleId><ArticleId IdType=\"pubmed\">38036770</ArticleId></ArticleIdList></Reference><Reference><Citation>Ribeiro A. S. F., Zerolo B. E., Lopez-Espuela F., Sanchez R., Fernandes V. S., Cardiac system during the aging process. Aging Dis. 14, 1105&#x2013;1122 (2023).</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC10389818</ArticleId><ArticleId IdType=\"pubmed\">37163425</ArticleId></ArticleIdList></Reference><Reference><Citation>Borlaug B. A., Evaluation and management of heart failure with preserved ejection fraction. Nat. Rev. Cardiol. 17, 559&#x2013;573 (2020).</Citation><ArticleIdList><ArticleId IdType=\"pubmed\">32231333</ArticleId></ArticleIdList></Reference><Reference><Citation>Yagi M., et al. , Mitochondrial translation deficiency impairs NAD+ -mediated lysosomal acidification. EMBO J. 40, e105268 (2021).</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC8047443</ArticleId><ArticleId IdType=\"pubmed\">33528041</ArticleId></ArticleIdList></Reference><Reference><Citation>Miwa S., Kashyap S., Chini E., Zglinicki T., Mitochondrial dysfunction in cell senescence and aging. J. Clin. Invest. 132, e158447 (2022).</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC9246372</ArticleId><ArticleId IdType=\"pubmed\">35775483</ArticleId></ArticleIdList></Reference><Reference><Citation>Dunkerley K. M., et al. , Distinct phosphorylation signals drive acceptor versus free ubiquitin chain targeting by parkin. Biochem. J. 479, 751&#x2013;766 (2022).</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC9022993</ArticleId><ArticleId IdType=\"pubmed\">35262643</ArticleId></ArticleIdList></Reference><Reference><Citation>Rakovic A., et al. , Phosphatase and tensin homolog (PTEN)-induced putative kinase 1 (PINK1)-dependent ubiquitination of endogenous Parkin attenuates mitophagy: Study in human primary fibroblasts and induced pluripotent stem cell-derived neurons. J. Biol. Chem. 288, 2223&#x2013;2237 (2013).</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC3554895</ArticleId><ArticleId IdType=\"pubmed\">23212910</ArticleId></ArticleIdList></Reference><Reference><Citation>McWilliams T., et al. , Basal mitophagy occurs independently of PINK1 in mouse tissues of high metabolic demand. Cell Metab. 27, 439&#x2013;449.e5 (2018).</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC5807059</ArticleId><ArticleId IdType=\"pubmed\">29337137</ArticleId></ArticleIdList></Reference><Reference><Citation>Perez F. A., Palmiter R. D., Parkin-deficient mice are not a robust model of parkinsonism. Proc. Natl. Acad. Sci. U.S.A. 102, 2174&#x2013;2179 (2005).</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC548311</ArticleId><ArticleId IdType=\"pubmed\">15684050</ArticleId></ArticleIdList></Reference><Reference><Citation>Hung C.-M., et al. , AMPK/ULK1-mediated phosphorylation of Parkin ACT domain mediates an early step in mitophagy. Sci. Adv. 7, eabg4544 (2021).</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC8026119</ArticleId><ArticleId IdType=\"pubmed\">33827825</ArticleId></ArticleIdList></Reference><Reference><Citation>Jim&#xe9;nez-Loygorri J. I., et al. , Mitophagy curtails cytosolic mtDNA-dependent activation of cGAS/STING inflammation during aging. Nat. Commun. 15, 830 (2024).</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC10821893</ArticleId><ArticleId IdType=\"pubmed\">38280852</ArticleId></ArticleIdList></Reference><Reference><Citation>K&#xf6;nig J., et al. , Mitochondrial contribution to lipofuscin formation. Redox Biol. 11, 673&#x2013;681 (2017).</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC5292761</ArticleId><ArticleId IdType=\"pubmed\">28160744</ArticleId></ArticleIdList></Reference><Reference><Citation>McKenna M. J., et al. , ARMC1 partitions between distinct complexes and assembles MIRO with MTFR to control mitochondrial distribution. Sci. Adv. 11, eadu5091 (2025).</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC11980836</ArticleId><ArticleId IdType=\"pubmed\">40203102</ArticleId></ArticleIdList></Reference><Reference><Citation>Sundaresan N. R., et al. , Sirt3 blocks the cardiac hypertrophic response by augmenting Foxo3a-dependent antioxidant defense mechanisms in mice. J. Clin. Invest. 119, 2758&#x2013;2771 (2009).</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC2735933</ArticleId><ArticleId IdType=\"pubmed\">19652361</ArticleId></ArticleIdList></Reference><Reference><Citation>Bindu S., Pillai V. B., Gupta M. P., Role of sirtuins in regulating pathophysiology of the heart. Trends Endocrinol. Metab. 27, 563&#x2013;573 (2016).</Citation><ArticleIdList><ArticleId IdType=\"pubmed\">27210897</ArticleId></ArticleIdList></Reference><Reference><Citation>Diguet N., et al. , Nicotinamide riboside preserves cardiac function in a mouse model of dilated cardiomyopathy. Circulation 137, 2256&#x2013;2273 (2017).</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC6954688</ArticleId><ArticleId IdType=\"pubmed\">29217642</ArticleId></ArticleIdList></Reference><Reference><Citation>G&#xe9;linas R., et al. , AMPK activation counteracts cardiac hypertrophy by reducing o-GlcNAcylation. Nat. Commun. 9, 374 (2018).</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC5785516</ArticleId><ArticleId IdType=\"pubmed\">29371602</ArticleId></ArticleIdList></Reference><Reference><Citation>Pillai V. B., et al. , Honokiol blocks and reverses cardiac hypertrophy in mice by activating mitochondrial Sirt3. Nat. Commun. 6, 6656 (2015).</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC4441304</ArticleId><ArticleId IdType=\"pubmed\">25871545</ArticleId></ArticleIdList></Reference><Reference><Citation>Pillai V. B., et al. , Honokiol, an activator of Sirtuin-3 (SIRT3) preserves mitochondria and protects the heart from doxorubicin-induced cardiomyopathy in mice. Oncotarget 8, 34082&#x2013;34098 (2017).</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC5470953</ArticleId><ArticleId IdType=\"pubmed\">28423723</ArticleId></ArticleIdList></Reference><Reference><Citation>Pillai V. B., Sundaresan N. R., Jeevanandam V., Gupta M. P., Mitochondrial SIRT3 and heart disease. Cardiovasc. Res. 88, 250&#x2013;256 (2010).</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC2952535</ArticleId><ArticleId IdType=\"pubmed\">20685942</ArticleId></ArticleIdList></Reference><Reference><Citation>McWilliams T., et al. , Mito-QC illuminates mitophagy and mitochondrial architecture in vivo. J. Cell Biol. 214, 333&#x2013;345 (2016).</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC4970326</ArticleId><ArticleId IdType=\"pubmed\">27458135</ArticleId></ArticleIdList></Reference></ReferenceList></PubmedData></PubmedArticle></PubmedArticleSet>",
+  "fetched_at": "2026-01-29T19:53:34.276Z"
+}

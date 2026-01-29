@@ -11,7 +11,7 @@ class WorkerManager {
         this.currentStep = '';
         this.results = null;
         this.error = null;
-        this.dataDir = path.join(process.cwd(), 'data');
+        this.dataDir = path.join(process.cwd(), 'temp');
         this.logsDir = path.join(this.dataDir, 'logs');
         
         // Ensure directories exist

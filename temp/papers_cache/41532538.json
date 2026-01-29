@@ -1,0 +1,188 @@
+{
+  "pmid": "41532538",
+  "title": "Effect of Mitochondria-Derived Methylmalonic Acid on Progress and Mortality Risk in US Adults With Cardiovascular-Kidney-Metabolic Syndrome.",
+  "abstract": "Methylmalonic acid (MMA) is regarded a biomarker of aging, oxidative stress, and mitochondrial dysfunction, which are also pathophysiological mechanisms that underlying cardiovascular-kidney-metabolic (CKM) syndrome. Nevertheless, the relationship between MMA per se and CKM remains unclear. This prospective cohort study was based on data from the National Health and Nutrition Examination Survey (1999-2018). Multinomial logistic regression was conducted to evaluate the relationship between MMA and CKM stages. Hazard ratios (HRs) and 96% CI for the association between MMA and mortality were calculated using the multivariable Cox regression model. The mediating role of MMA on the association between cardiometabolic biomarkers and mortality was estimating using mediation analysis. The cohort included 14 581 participants with CKM (median age, 55.0 [interquartile range, 41.0-69.0] years; 52.4% male). MMA showed a significant association with CKM stages (odds ratio, 3.73 [95% CI, 3.47-4.01]) after adjustment for multivariate covariates. During the median follow-up of 102 months (interquartile range, 76-202), 3738 deaths occurred. Compared with participants in the lowest MMA quartile, those in the highest MMA quartile had HRs of 2.03 (95% CI, 1.78-2.30) for all-cause death mortality, 2.31 (95% CI, 1.81-2.95) for cardiovascular mortality, and 1.92 (95% CI, 1.65-2.23) for noncardiovascular mortality, consistent with results in the CKM stage 1 to 2 and 3 to 4 groups. Furthermore, MMA mediated the association between several cardiometabolic biomarkers, such as physical activity, frailty, Life's Simole 7 score, and estimated glomerular filtration rate levels, and mortality outcomes in the population with CKM. Mitochondria-derived MMA may serve as a valuable biomarker for evaluating CKM progression and mortality risk in individuals with CKM.",
+  "journal": "Journal of the American Heart Association",
+  "year": "2026",
+  "authors": [
+    {
+      "lastName": "Liu",
+      "foreName": "Hongyu",
+      "initials": "H",
+      "affiliation": "Department of Cardiovascular Medicine, The Second Affiliated Hospital, School of Basic Sciences, Jiangxi Medical College Nanchang University Nanchang Jiangxi People's Republic of China."
+    },
+    {
+      "lastName": "Wu",
+      "foreName": "Shuang",
+      "initials": "S",
+      "affiliation": "National Center for Cardiovascular Disease, Fuwai Hospital Chinese Academy of Medical Sciences and Peking Union Medical College Beijing People's Republic of China."
+    },
+    {
+      "lastName": "Huang",
+      "foreName": "Bi",
+      "initials": "B",
+      "affiliation": "Liverpool Centre for Cardiovascular Science at University of Liverpool Liverpool John Moores University and Liverpool Heart & Chest Hospital Liverpool UK."
+    },
+    {
+      "lastName": "Liu",
+      "foreName": "Yang",
+      "initials": "Y",
+      "affiliation": "Department of Genetic Medicine, The Second Affiliated Hospital, Jiangxi Medical College Nanchang University Nanchang Jiangxi People's Republic of China."
+    },
+    {
+      "lastName": "Zhong",
+      "foreName": "Ziyi",
+      "initials": "Z",
+      "affiliation": "Liverpool Centre for Cardiovascular Science at University of Liverpool Liverpool John Moores University and Liverpool Heart & Chest Hospital Liverpool UK."
+    },
+    {
+      "lastName": "Zhao",
+      "foreName": "Manlin",
+      "initials": "M",
+      "affiliation": "Liverpool Centre for Cardiovascular Science at University of Liverpool Liverpool John Moores University and Liverpool Heart & Chest Hospital Liverpool UK."
+    },
+    {
+      "lastName": "Wang",
+      "foreName": "Yimeng",
+      "initials": "Y",
+      "affiliation": "National Center for Cardiovascular Disease, Fuwai Hospital Chinese Academy of Medical Sciences and Peking Union Medical College Beijing People's Republic of China."
+    },
+    {
+      "lastName": "Bucci",
+      "foreName": "Tommaso",
+      "initials": "T",
+      "affiliation": "Liverpool Centre for Cardiovascular Science at University of Liverpool Liverpool John Moores University and Liverpool Heart & Chest Hospital Liverpool UK."
+    },
+    {
+      "lastName": "Liu",
+      "foreName": "Chunyu",
+      "initials": "C",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Chen",
+      "foreName": "Yang",
+      "initials": "Y",
+      "affiliation": "Liverpool Centre for Cardiovascular Science at University of Liverpool Liverpool John Moores University and Liverpool Heart & Chest Hospital Liverpool UK."
+    },
+    {
+      "lastName": "Hong",
+      "foreName": "Kui",
+      "initials": "K",
+      "affiliation": "Department of Cardiovascular Medicine, The Second Affiliated Hospital, School of Basic Sciences, Jiangxi Medical College Nanchang University Nanchang Jiangxi People's Republic of China."
+    },
+    {
+      "lastName": "Lip",
+      "foreName": "Gregory Y H",
+      "initials": "GYH",
+      "affiliation": "Liverpool Centre for Cardiovascular Science at University of Liverpool Liverpool John Moores University and Liverpool Heart & Chest Hospital Liverpool UK."
+    }
+  ],
+  "keywords": [
+    "biomarker",
+    "cardiovascular‐kidney‐metabolic",
+    "methylmalonic acid",
+    "mitochondria",
+    "mortality"
+  ],
+  "doi": "10.1161/JAHA.125.043066",
+  "pmcId": null,
+  "meshTerms": [
+    {
+      "descriptor": "Humans",
+      "qualifiers": []
+    },
+    {
+      "descriptor": "Male",
+      "qualifiers": []
+    },
+    {
+      "descriptor": "Female",
+      "qualifiers": []
+    },
+    {
+      "descriptor": "Middle Aged",
+      "qualifiers": []
+    },
+    {
+      "descriptor": "Metabolic Syndrome",
+      "qualifiers": [
+        "mortality",
+        "metabolism",
+        "blood",
+        "diagnosis"
+      ]
+    },
+    {
+      "descriptor": "United States",
+      "qualifiers": [
+        "epidemiology"
+      ]
+    },
+    {
+      "descriptor": "Biomarkers",
+      "qualifiers": [
+        "blood",
+        "metabolism"
+      ]
+    },
+    {
+      "descriptor": "Prospective Studies",
+      "qualifiers": []
+    },
+    {
+      "descriptor": "Methylmalonic Acid",
+      "qualifiers": [
+        "metabolism",
+        "blood"
+      ]
+    },
+    {
+      "descriptor": "Adult",
+      "qualifiers": []
+    },
+    {
+      "descriptor": "Aged",
+      "qualifiers": []
+    },
+    {
+      "descriptor": "Mitochondria",
+      "qualifiers": [
+        "metabolism"
+      ]
+    },
+    {
+      "descriptor": "Cardio-Renal Syndrome",
+      "qualifiers": [
+        "mortality",
+        "metabolism",
+        "blood",
+        "diagnosis"
+      ]
+    },
+    {
+      "descriptor": "Nutrition Surveys",
+      "qualifiers": []
+    },
+    {
+      "descriptor": "Risk Assessment",
+      "qualifiers": []
+    },
+    {
+      "descriptor": "Cardiovascular Diseases",
+      "qualifiers": [
+        "mortality"
+      ]
+    },
+    {
+      "descriptor": "Risk Factors",
+      "qualifiers": []
+    },
+    {
+      "descriptor": "Disease Progression",
+      "qualifiers": []
+    }
+  ],
+  "rawXml": "<?xml version=\"1.0\" ?>\n<!DOCTYPE PubmedArticleSet PUBLIC \"-//NLM//DTD PubMedArticle, 1st January 2025//EN\" \"https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_250101.dtd\">\n<PubmedArticleSet>\n<PubmedArticle><MedlineCitation Status=\"MEDLINE\" Owner=\"NLM\" IndexingMethod=\"Automated\"><PMID Version=\"1\">41532538</PMID><DateCompleted><Year>2026</Year><Month>01</Month><Day>21</Day></DateCompleted><DateRevised><Year>2026</Year><Month>01</Month><Day>21</Day></DateRevised><Article PubModel=\"Print-Electronic\"><Journal><ISSN IssnType=\"Electronic\">2047-9980</ISSN><JournalIssue CitedMedium=\"Internet\"><Volume>15</Volume><Issue>2</Issue><PubDate><Year>2026</Year><Month>Jan</Month><Day>20</Day></PubDate></JournalIssue><Title>Journal of the American Heart Association</Title><ISOAbbreviation>J Am Heart Assoc</ISOAbbreviation></Journal><ArticleTitle>Effect of Mitochondria-Derived Methylmalonic Acid on Progress and Mortality Risk in US Adults With Cardiovascular-Kidney-Metabolic Syndrome.</ArticleTitle><Pagination><StartPage>e043066</StartPage><MedlinePgn>e043066</MedlinePgn></Pagination><ELocationID EIdType=\"doi\" ValidYN=\"Y\">10.1161/JAHA.125.043066</ELocationID><Abstract><AbstractText Label=\"BACKGROUND\" NlmCategory=\"BACKGROUND\">Methylmalonic acid (MMA) is regarded a biomarker of aging, oxidative stress, and mitochondrial dysfunction, which are also pathophysiological mechanisms that underlying cardiovascular-kidney-metabolic (CKM) syndrome. Nevertheless, the relationship between MMA per se and CKM remains unclear.</AbstractText><AbstractText Label=\"METHODS\" NlmCategory=\"METHODS\">This prospective cohort study was based on data from the National Health and Nutrition Examination Survey (1999-2018). Multinomial logistic regression was conducted to evaluate the relationship between MMA and CKM stages. Hazard ratios (HRs) and 96% CI for the association between MMA and mortality were calculated using the multivariable Cox regression model. The mediating role of MMA on the association between cardiometabolic biomarkers and mortality was estimating using mediation analysis.</AbstractText><AbstractText Label=\"RESULTS\" NlmCategory=\"RESULTS\">The cohort included 14 581 participants with CKM (median age, 55.0 [interquartile range, 41.0-69.0] years; 52.4% male). MMA showed a significant association with CKM stages (odds ratio, 3.73 [95% CI, 3.47-4.01]) after adjustment for multivariate covariates. During the median follow-up of 102 months (interquartile range, 76-202), 3738 deaths occurred. Compared with participants in the lowest MMA quartile, those in the highest MMA quartile had HRs of 2.03 (95% CI, 1.78-2.30) for all-cause death mortality, 2.31 (95% CI, 1.81-2.95) for cardiovascular mortality, and 1.92 (95% CI, 1.65-2.23) for noncardiovascular mortality, consistent with results in the CKM stage 1 to 2 and 3 to 4 groups. Furthermore, MMA mediated the association between several cardiometabolic biomarkers, such as physical activity, frailty, Life's Simole 7 score, and estimated glomerular filtration rate levels, and mortality outcomes in the population with CKM.</AbstractText><AbstractText Label=\"CONCLUSIONS\" NlmCategory=\"CONCLUSIONS\">Mitochondria-derived MMA may serve as a valuable biomarker for evaluating CKM progression and mortality risk in individuals with CKM.</AbstractText></Abstract><AuthorList CompleteYN=\"Y\"><Author ValidYN=\"Y\" EqualContrib=\"Y\"><LastName>Liu</LastName><ForeName>Hongyu</ForeName><Initials>H</Initials><Identifier Source=\"ORCID\">0000-0003-0383-8725</Identifier><AffiliationInfo><Affiliation>Department of Cardiovascular Medicine, The Second Affiliated Hospital, School of Basic Sciences, Jiangxi Medical College Nanchang University Nanchang Jiangxi People's Republic of China.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Liverpool Centre for Cardiovascular Science at University of Liverpool Liverpool John Moores University and Liverpool Heart &amp; Chest Hospital Liverpool UK.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\" EqualContrib=\"Y\"><LastName>Wu</LastName><ForeName>Shuang</ForeName><Initials>S</Initials><Identifier Source=\"ORCID\">0000-0003-1047-0818</Identifier><AffiliationInfo><Affiliation>National Center for Cardiovascular Disease, Fuwai Hospital Chinese Academy of Medical Sciences and Peking Union Medical College Beijing People's Republic of China.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>National Clinical Research Center of Cardiovascular Diseases, Fuwai Hospital Chinese Academy of Medical Sciences and Peking Union Medical College Beijing People's Republic of China.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Huang</LastName><ForeName>Bi</ForeName><Initials>B</Initials><AffiliationInfo><Affiliation>Liverpool Centre for Cardiovascular Science at University of Liverpool Liverpool John Moores University and Liverpool Heart &amp; Chest Hospital Liverpool UK.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Department of Cardiology The First Affiliated Hospital of Chongqing Medical University Chongqing People's Republic of China.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Liu</LastName><ForeName>Yang</ForeName><Initials>Y</Initials><AffiliationInfo><Affiliation>Department of Genetic Medicine, The Second Affiliated Hospital, Jiangxi Medical College Nanchang University Nanchang Jiangxi People's Republic of China.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Jiangxi Provincial Key Laboratory of Molecular Medicine The Second Affiliated Hospital Nanchang Jiangxi People's Republic of China.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Zhong</LastName><ForeName>Ziyi</ForeName><Initials>Z</Initials><Identifier Source=\"ORCID\">0000-0003-3344-2019</Identifier><AffiliationInfo><Affiliation>Liverpool Centre for Cardiovascular Science at University of Liverpool Liverpool John Moores University and Liverpool Heart &amp; Chest Hospital Liverpool UK.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Department of Musculoskeletal Ageing and Science, Institute of Life Course and Medical Sciences University of Liverpool UK.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Zhao</LastName><ForeName>Manlin</ForeName><Initials>M</Initials><Identifier Source=\"ORCID\">0000-0002-5073-1798</Identifier><AffiliationInfo><Affiliation>Liverpool Centre for Cardiovascular Science at University of Liverpool Liverpool John Moores University and Liverpool Heart &amp; Chest Hospital Liverpool UK.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Department of Cardiology, Beijing Anzhen Hospital, Capital Medical University, Engineering Research Center of Medical Devices for Cardiovascular Diseases, Ministry of Education National Clinical Research Center for Cardiovascular Diseases Beijing People's Republic of China.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Wang</LastName><ForeName>Yimeng</ForeName><Initials>Y</Initials><Identifier Source=\"ORCID\">0000-0003-1943-2500</Identifier><AffiliationInfo><Affiliation>National Center for Cardiovascular Disease, Fuwai Hospital Chinese Academy of Medical Sciences and Peking Union Medical College Beijing People's Republic of China.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>National Clinical Research Center of Cardiovascular Diseases, Fuwai Hospital Chinese Academy of Medical Sciences and Peking Union Medical College Beijing People's Republic of China.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Bucci</LastName><ForeName>Tommaso</ForeName><Initials>T</Initials><Identifier Source=\"ORCID\">0000-0003-2895-6234</Identifier><AffiliationInfo><Affiliation>Liverpool Centre for Cardiovascular Science at University of Liverpool Liverpool John Moores University and Liverpool Heart &amp; Chest Hospital Liverpool UK.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Department of Clinical Internal, Anaesthesiologic and Cardiovascular Sciences Sapienza University of Rome Rome Italy.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Liu</LastName><ForeName>Chunyu</ForeName><Initials>C</Initials><AffiliationInfo><Affiliation>The Third Clinical Medical School The Rehabilitation Medical School of Zhejiang Chinese Medical University Hangzhou Zhejiang People's Republic of China.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Chen</LastName><ForeName>Yang</ForeName><Initials>Y</Initials><Identifier Source=\"ORCID\">0000-0002-2808-6286</Identifier><AffiliationInfo><Affiliation>Liverpool Centre for Cardiovascular Science at University of Liverpool Liverpool John Moores University and Liverpool Heart &amp; Chest Hospital Liverpool UK.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Department of Cardiovascular and Metabolic Medicine, Institute of Life Course and Medical Sciences University of Liverpool Liverpool UK.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Hong</LastName><ForeName>Kui</ForeName><Initials>K</Initials><Identifier Source=\"ORCID\">0000-0001-9416-0862</Identifier><AffiliationInfo><Affiliation>Department of Cardiovascular Medicine, The Second Affiliated Hospital, School of Basic Sciences, Jiangxi Medical College Nanchang University Nanchang Jiangxi People's Republic of China.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Department of Genetic Medicine, The Second Affiliated Hospital, Jiangxi Medical College Nanchang University Nanchang Jiangxi People's Republic of China.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Jiangxi Provincial Key Laboratory of Molecular Medicine The Second Affiliated Hospital Nanchang Jiangxi People's Republic of China.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Lip</LastName><ForeName>Gregory Y H</ForeName><Initials>GYH</Initials><Identifier Source=\"ORCID\">0000-0002-7566-1626</Identifier><AffiliationInfo><Affiliation>Liverpool Centre for Cardiovascular Science at University of Liverpool Liverpool John Moores University and Liverpool Heart &amp; Chest Hospital Liverpool UK.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Danish Center for Health Services Research, Department of Clinical Medicine Aalborg University Aalborg Denmark.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Medical University of Bialystok Bialystok Poland.</Affiliation></AffiliationInfo></Author></AuthorList><Language>eng</Language><PublicationTypeList><PublicationType UI=\"D016428\">Journal Article</PublicationType></PublicationTypeList><ArticleDate DateType=\"Electronic\"><Year>2026</Year><Month>01</Month><Day>14</Day></ArticleDate></Article><MedlineJournalInfo><Country>England</Country><MedlineTA>J Am Heart Assoc</MedlineTA><NlmUniqueID>101580524</NlmUniqueID><ISSNLinking>2047-9980</ISSNLinking></MedlineJournalInfo><ChemicalList><Chemical><RegistryNumber>0</RegistryNumber><NameOfSubstance UI=\"D015415\">Biomarkers</NameOfSubstance></Chemical><Chemical><RegistryNumber>8LL8S712J7</RegistryNumber><NameOfSubstance UI=\"D008764\">Methylmalonic Acid</NameOfSubstance></Chemical></ChemicalList><CitationSubset>IM</CitationSubset><MeshHeadingList><MeshHeading><DescriptorName UI=\"D006801\" MajorTopicYN=\"N\">Humans</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D008297\" MajorTopicYN=\"N\">Male</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D005260\" MajorTopicYN=\"N\">Female</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D008875\" MajorTopicYN=\"N\">Middle Aged</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D024821\" MajorTopicYN=\"Y\">Metabolic Syndrome</DescriptorName><QualifierName UI=\"Q000401\" MajorTopicYN=\"N\">mortality</QualifierName><QualifierName UI=\"Q000378\" MajorTopicYN=\"N\">metabolism</QualifierName><QualifierName UI=\"Q000097\" MajorTopicYN=\"N\">blood</QualifierName><QualifierName UI=\"Q000175\" MajorTopicYN=\"N\">diagnosis</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D014481\" MajorTopicYN=\"N\" Type=\"Geographic\">United States</DescriptorName><QualifierName UI=\"Q000453\" MajorTopicYN=\"N\">epidemiology</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D015415\" MajorTopicYN=\"N\">Biomarkers</DescriptorName><QualifierName UI=\"Q000097\" MajorTopicYN=\"N\">blood</QualifierName><QualifierName UI=\"Q000378\" MajorTopicYN=\"N\">metabolism</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D011446\" MajorTopicYN=\"N\">Prospective Studies</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D008764\" MajorTopicYN=\"Y\">Methylmalonic Acid</DescriptorName><QualifierName UI=\"Q000378\" MajorTopicYN=\"N\">metabolism</QualifierName><QualifierName UI=\"Q000097\" MajorTopicYN=\"N\">blood</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D000328\" MajorTopicYN=\"N\">Adult</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D000368\" MajorTopicYN=\"N\">Aged</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D008928\" MajorTopicYN=\"Y\">Mitochondria</DescriptorName><QualifierName UI=\"Q000378\" MajorTopicYN=\"N\">metabolism</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D059347\" MajorTopicYN=\"Y\">Cardio-Renal Syndrome</DescriptorName><QualifierName UI=\"Q000401\" MajorTopicYN=\"N\">mortality</QualifierName><QualifierName UI=\"Q000378\" MajorTopicYN=\"N\">metabolism</QualifierName><QualifierName UI=\"Q000097\" MajorTopicYN=\"N\">blood</QualifierName><QualifierName UI=\"Q000175\" MajorTopicYN=\"N\">diagnosis</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D009749\" MajorTopicYN=\"N\">Nutrition Surveys</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D018570\" MajorTopicYN=\"N\">Risk Assessment</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D002318\" MajorTopicYN=\"Y\">Cardiovascular Diseases</DescriptorName><QualifierName UI=\"Q000401\" MajorTopicYN=\"N\">mortality</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D012307\" MajorTopicYN=\"N\">Risk Factors</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D018450\" MajorTopicYN=\"N\">Disease Progression</DescriptorName></MeshHeading></MeshHeadingList><KeywordList Owner=\"NOTNLM\"><Keyword MajorTopicYN=\"N\">biomarker</Keyword><Keyword MajorTopicYN=\"N\">cardiovascular&#x2010;kidney&#x2010;metabolic</Keyword><Keyword MajorTopicYN=\"N\">methylmalonic acid</Keyword><Keyword MajorTopicYN=\"N\">mitochondria</Keyword><Keyword MajorTopicYN=\"N\">mortality</Keyword></KeywordList></MedlineCitation><PubmedData><History><PubMedPubDate PubStatus=\"medline\"><Year>2026</Year><Month>1</Month><Day>21</Day><Hour>6</Hour><Minute>29</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"pubmed\"><Year>2026</Year><Month>1</Month><Day>14</Day><Hour>12</Hour><Minute>30</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"entrez\"><Year>2026</Year><Month>1</Month><Day>14</Day><Hour>6</Hour><Minute>53</Minute></PubMedPubDate></History><PublicationStatus>ppublish</PublicationStatus><ArticleIdList><ArticleId IdType=\"pubmed\">41532538</ArticleId><ArticleId IdType=\"doi\">10.1161/JAHA.125.043066</ArticleId></ArticleIdList></PubmedData></PubmedArticle></PubmedArticleSet>",
+  "fetched_at": "2026-01-29T20:01:01.057Z"
+}

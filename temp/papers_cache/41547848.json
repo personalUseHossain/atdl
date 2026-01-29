@@ -1,0 +1,294 @@
+{
+  "pmid": "41547848",
+  "title": "A small molecule VDAC ligand inhibits ERAD and induces selective cancer cell death via disruption of calcium homeostasis.",
+  "abstract": "Endoplasmic reticulum-associated degradation (ERAD) is a critical protein quality control mechanism that also regulates lipid metabolism and calcium homeostasis. Dysregulation of ERAD and unfolded protein response underlies diseases including cancer, neurodegenerative disorders, and metabolic syndromes. Small molecule modulators of ERAD could enable mechanistic discovery and therapeutic intervention, but few have been identified. Using a high-content screening, we discovered several ERAD-modulating compounds, including NCATS-SM0225, an ERAD inhibitor that unexpectedly binds all three isoforms of VDAC, outer mitochondrial membrane proteins enriched at mitochondria-associated membranes. This led us to discover an essential role for VDACs in ERAD and ER-phagy. NCATS-SM0225 elevates cytosolic, ER, and mitochondrial calcium through calcium influx and IP3R-MCU activity. This calcium imbalance strengthens VDAC1-IP3R coupling and activates PERK, which phosphorylates STIM1 and drives degradation of key ERAD regulators. Loss of these components amplifies PERK signaling and selectively kills cancer cells while sparing normal cells. These findings uncover a cancer-specific role of VDACs in ERAD regulation and calcium signaling, highlighting a therapeutically actionable vulnerability.",
+  "journal": "Nature communications",
+  "year": "2026",
+  "authors": [
+    {
+      "lastName": "Yan",
+      "foreName": "Wenjing",
+      "initials": "W",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Talley",
+      "foreName": "Daniel C",
+      "initials": "DC",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Syam",
+      "foreName": "Antara",
+      "initials": "A",
+      "affiliation": "Eunice Kennedy Shriver National Institute of Child Health and Human Development, NIH, Bethesda, MD, USA."
+    },
+    {
+      "lastName": "Danchik",
+      "foreName": "Carina",
+      "initials": "C",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Zhong",
+      "foreName": "Yongwang",
+      "initials": "Y",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Zhang",
+      "foreName": "Xianzheng",
+      "initials": "X",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Liu",
+      "foreName": "Xiaoying",
+      "initials": "X",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Baljinnyam",
+      "foreName": "Bolormaa",
+      "initials": "B",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Kales",
+      "foreName": "Stephen C",
+      "initials": "SC",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Cyr",
+      "foreName": "Matthew G",
+      "initials": "MG",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Fang",
+      "foreName": "Yuhong",
+      "initials": "Y",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Zakharov",
+      "foreName": "Alexey V",
+      "initials": "AV",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Hu",
+      "foreName": "Xin",
+      "initials": "X",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Niehoff",
+      "foreName": "Taylor",
+      "initials": "T",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Xu",
+      "foreName": "Tuan",
+      "initials": "T",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Qu",
+      "foreName": "Yanyan",
+      "initials": "Y",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Yang",
+      "foreName": "Allison",
+      "initials": "A",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Courouble",
+      "foreName": "Valentine V",
+      "initials": "VV",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Yao",
+      "foreName": "Qin",
+      "initials": "Q",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Simeonov",
+      "foreName": "Anton",
+      "initials": "A",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Huang",
+      "foreName": "Ruili",
+      "initials": "R",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Rostovtseva",
+      "foreName": "Tatiana K",
+      "initials": "TK",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Bezrukov",
+      "foreName": "Sergey M",
+      "initials": "SM",
+      "affiliation": ""
+    },
+    {
+      "lastName": "LeClair",
+      "foreName": "Christopher A",
+      "initials": "CA",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Egan",
+      "foreName": "Josephine M",
+      "initials": "JM",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Wang",
+      "foreName": "Hua",
+      "initials": "H",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Tao",
+      "foreName": "Dingyin",
+      "initials": "D",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Rai",
+      "foreName": "Ganesha",
+      "initials": "G",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Henderson",
+      "foreName": "Mark J",
+      "initials": "MJ",
+      "affiliation": ""
+    },
+    {
+      "lastName": "Fang",
+      "foreName": "Shengyun",
+      "initials": "S",
+      "affiliation": "Department of Pharmacology and Physiology, University of Maryland School of Medicine, Baltimore, MD, USA. sfang@som.umaryland.edu."
+    }
+  ],
+  "keywords": [],
+  "doi": "10.1038/s41467-025-67816-z",
+  "pmcId": "PMC12847789",
+  "meshTerms": [
+    {
+      "descriptor": "Humans",
+      "qualifiers": []
+    },
+    {
+      "descriptor": "Calcium",
+      "qualifiers": [
+        "metabolism"
+      ]
+    },
+    {
+      "descriptor": "Endoplasmic Reticulum-Associated Degradation",
+      "qualifiers": [
+        "drug effects"
+      ]
+    },
+    {
+      "descriptor": "Homeostasis",
+      "qualifiers": [
+        "drug effects"
+      ]
+    },
+    {
+      "descriptor": "Mitochondria",
+      "qualifiers": [
+        "metabolism",
+        "drug effects"
+      ]
+    },
+    {
+      "descriptor": "Cell Line, Tumor",
+      "qualifiers": []
+    },
+    {
+      "descriptor": "Endoplasmic Reticulum",
+      "qualifiers": [
+        "metabolism",
+        "drug effects"
+      ]
+    },
+    {
+      "descriptor": "Voltage-Dependent Anion Channel 1",
+      "qualifiers": [
+        "metabolism"
+      ]
+    },
+    {
+      "descriptor": "Calcium Signaling",
+      "qualifiers": [
+        "drug effects"
+      ]
+    },
+    {
+      "descriptor": "Neoplasms",
+      "qualifiers": [
+        "metabolism",
+        "pathology",
+        "drug therapy"
+      ]
+    },
+    {
+      "descriptor": "Cell Death",
+      "qualifiers": [
+        "drug effects"
+      ]
+    },
+    {
+      "descriptor": "Inositol 1,4,5-Trisphosphate Receptors",
+      "qualifiers": [
+        "metabolism"
+      ]
+    },
+    {
+      "descriptor": "Stromal Interaction Molecule 1",
+      "qualifiers": [
+        "metabolism"
+      ]
+    },
+    {
+      "descriptor": "Ligands",
+      "qualifiers": []
+    },
+    {
+      "descriptor": "Animals",
+      "qualifiers": []
+    },
+    {
+      "descriptor": "Neoplasm Proteins",
+      "qualifiers": [
+        "metabolism"
+      ]
+    },
+    {
+      "descriptor": "Small Molecule Libraries",
+      "qualifiers": [
+        "pharmacology"
+      ]
+    }
+  ],
+  "rawXml": "<?xml version=\"1.0\" ?>\n<!DOCTYPE PubmedArticleSet PUBLIC \"-//NLM//DTD PubMedArticle, 1st January 2025//EN\" \"https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_250101.dtd\">\n<PubmedArticleSet>\n<PubmedArticle><MedlineCitation Status=\"MEDLINE\" Owner=\"NLM\" IndexingMethod=\"Automated\"><PMID Version=\"1\">41547848</PMID><DateCompleted><Year>2026</Year><Month>01</Month><Day>27</Day></DateCompleted><DateRevised><Year>2026</Year><Month>01</Month><Day>28</Day></DateRevised><Article PubModel=\"Electronic\"><Journal><ISSN IssnType=\"Electronic\">2041-1723</ISSN><JournalIssue CitedMedium=\"Internet\"><Volume>17</Volume><Issue>1</Issue><PubDate><Year>2026</Year><Month>Jan</Month><Day>17</Day></PubDate></JournalIssue><Title>Nature communications</Title><ISOAbbreviation>Nat Commun</ISOAbbreviation></Journal><ArticleTitle>A small molecule VDAC ligand inhibits ERAD and induces selective cancer cell death via disruption of calcium homeostasis.</ArticleTitle><Pagination><StartPage>1058</StartPage><MedlinePgn>1058</MedlinePgn></Pagination><ELocationID EIdType=\"pii\" ValidYN=\"Y\">1058</ELocationID><ELocationID EIdType=\"doi\" ValidYN=\"Y\">10.1038/s41467-025-67816-z</ELocationID><Abstract><AbstractText>Endoplasmic reticulum-associated degradation (ERAD) is a critical protein quality control mechanism that also regulates lipid metabolism and calcium homeostasis. Dysregulation of ERAD and unfolded protein response underlies diseases including cancer, neurodegenerative disorders, and metabolic syndromes. Small molecule modulators of ERAD could enable mechanistic discovery and therapeutic intervention, but few have been identified. Using a high-content screening, we discovered several ERAD-modulating compounds, including NCATS-SM0225, an ERAD inhibitor that unexpectedly binds all three isoforms of VDAC, outer mitochondrial membrane proteins enriched at mitochondria-associated membranes. This led us to discover an essential role for VDACs in ERAD and ER-phagy. NCATS-SM0225 elevates cytosolic, ER, and mitochondrial calcium through calcium influx and IP3R-MCU activity. This calcium imbalance strengthens VDAC1-IP3R coupling and activates PERK, which phosphorylates STIM1 and drives degradation of key ERAD regulators. Loss of these components amplifies PERK signaling and selectively kills cancer cells while sparing normal cells. These findings uncover a cancer-specific role of VDACs in ERAD regulation and calcium signaling, highlighting a therapeutically actionable vulnerability.</AbstractText><CopyrightInformation>&#xa9; 2026. The Author(s).</CopyrightInformation></Abstract><AuthorList CompleteYN=\"Y\"><Author ValidYN=\"Y\"><LastName>Yan</LastName><ForeName>Wenjing</ForeName><Initials>W</Initials><AffiliationInfo><Affiliation>Department of Pharmacology and Physiology, University of Maryland School of Medicine, Baltimore, MD, USA.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Talley</LastName><ForeName>Daniel C</ForeName><Initials>DC</Initials><AffiliationInfo><Affiliation>National Center for Advancing Translational Sciences, National Institutes of Health, Rockville, MD, USA.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Syam</LastName><ForeName>Antara</ForeName><Initials>A</Initials><Identifier Source=\"ORCID\">0009-0004-4974-0357</Identifier><AffiliationInfo><Affiliation>Eunice Kennedy Shriver National Institute of Child Health and Human Development, NIH, Bethesda, MD, USA.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>The Catholic University of America, Washington, DC, USA.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Danchik</LastName><ForeName>Carina</ForeName><Initials>C</Initials><AffiliationInfo><Affiliation>National Center for Advancing Translational Sciences, National Institutes of Health, Rockville, MD, USA.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Zhong</LastName><ForeName>Yongwang</ForeName><Initials>Y</Initials><AffiliationInfo><Affiliation>Department of Pharmacology and Physiology, University of Maryland School of Medicine, Baltimore, MD, USA.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Zhang</LastName><ForeName>Xianzheng</ForeName><Initials>X</Initials><AffiliationInfo><Affiliation>School of Pharmacy and Science, Anhui Medical University, Hefei, P. R. China.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Liu</LastName><ForeName>Xiaoying</ForeName><Initials>X</Initials><Identifier Source=\"ORCID\">0000-0003-3450-5683</Identifier><AffiliationInfo><Affiliation>School of life sciences, Anhui medical university, Hefei, P. R. China.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Baljinnyam</LastName><ForeName>Bolormaa</ForeName><Initials>B</Initials><Identifier Source=\"ORCID\">0000-0001-9548-4965</Identifier><AffiliationInfo><Affiliation>National Center for Advancing Translational Sciences, National Institutes of Health, Rockville, MD, USA.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Kales</LastName><ForeName>Stephen C</ForeName><Initials>SC</Initials><AffiliationInfo><Affiliation>National Center for Advancing Translational Sciences, National Institutes of Health, Rockville, MD, USA.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Cyr</LastName><ForeName>Matthew G</ForeName><Initials>MG</Initials><AffiliationInfo><Affiliation>National Center for Advancing Translational Sciences, National Institutes of Health, Rockville, MD, USA.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Fang</LastName><ForeName>Yuhong</ForeName><Initials>Y</Initials><AffiliationInfo><Affiliation>National Center for Advancing Translational Sciences, National Institutes of Health, Rockville, MD, USA.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Zakharov</LastName><ForeName>Alexey V</ForeName><Initials>AV</Initials><Identifier Source=\"ORCID\">0000-0003-2466-1711</Identifier><AffiliationInfo><Affiliation>National Center for Advancing Translational Sciences, National Institutes of Health, Rockville, MD, USA.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Hu</LastName><ForeName>Xin</ForeName><Initials>X</Initials><AffiliationInfo><Affiliation>National Center for Advancing Translational Sciences, National Institutes of Health, Rockville, MD, USA.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Niehoff</LastName><ForeName>Taylor</ForeName><Initials>T</Initials><Identifier Source=\"ORCID\">0000-0002-0506-6012</Identifier><AffiliationInfo><Affiliation>National Center for Advancing Translational Sciences, National Institutes of Health, Rockville, MD, USA.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Xu</LastName><ForeName>Tuan</ForeName><Initials>T</Initials><Identifier Source=\"ORCID\">0000-0001-6430-3500</Identifier><AffiliationInfo><Affiliation>National Center for Advancing Translational Sciences, National Institutes of Health, Rockville, MD, USA.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Qu</LastName><ForeName>Yanyan</ForeName><Initials>Y</Initials><AffiliationInfo><Affiliation>National Center for Advancing Translational Sciences, National Institutes of Health, Rockville, MD, USA.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Yang</LastName><ForeName>Allison</ForeName><Initials>A</Initials><AffiliationInfo><Affiliation>National Center for Advancing Translational Sciences, National Institutes of Health, Rockville, MD, USA.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Courouble</LastName><ForeName>Valentine V</ForeName><Initials>VV</Initials><AffiliationInfo><Affiliation>National Center for Advancing Translational Sciences, National Institutes of Health, Rockville, MD, USA.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Yao</LastName><ForeName>Qin</ForeName><Initials>Q</Initials><AffiliationInfo><Affiliation>Laboratory of Clinical Investigation, National Institute on Aging, Baltimore, MD, USA.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Simeonov</LastName><ForeName>Anton</ForeName><Initials>A</Initials><AffiliationInfo><Affiliation>National Center for Advancing Translational Sciences, National Institutes of Health, Rockville, MD, USA.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Huang</LastName><ForeName>Ruili</ForeName><Initials>R</Initials><AffiliationInfo><Affiliation>National Center for Advancing Translational Sciences, National Institutes of Health, Rockville, MD, USA.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Rostovtseva</LastName><ForeName>Tatiana K</ForeName><Initials>TK</Initials><Identifier Source=\"ORCID\">0000-0001-7299-7362</Identifier><AffiliationInfo><Affiliation>Eunice Kennedy Shriver National Institute of Child Health and Human Development, NIH, Bethesda, MD, USA.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Bezrukov</LastName><ForeName>Sergey M</ForeName><Initials>SM</Initials><AffiliationInfo><Affiliation>Eunice Kennedy Shriver National Institute of Child Health and Human Development, NIH, Bethesda, MD, USA.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>LeClair</LastName><ForeName>Christopher A</ForeName><Initials>CA</Initials><Identifier Source=\"ORCID\">0000-0002-2746-5938</Identifier><AffiliationInfo><Affiliation>National Center for Advancing Translational Sciences, National Institutes of Health, Rockville, MD, USA.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Egan</LastName><ForeName>Josephine M</ForeName><Initials>JM</Initials><Identifier Source=\"ORCID\">0000-0002-8945-0053</Identifier><AffiliationInfo><Affiliation>Laboratory of Clinical Investigation, National Institute on Aging, Baltimore, MD, USA.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Wang</LastName><ForeName>Hua</ForeName><Initials>H</Initials><Identifier Source=\"ORCID\">0000-0002-2605-5697</Identifier><AffiliationInfo><Affiliation>Department of Oncology, The First Affiliated Hospital of Anhui Medical University, Hefei, P. R. China.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Tao</LastName><ForeName>Dingyin</ForeName><Initials>D</Initials><Identifier Source=\"ORCID\">0000-0001-6531-2740</Identifier><AffiliationInfo><Affiliation>National Center for Advancing Translational Sciences, National Institutes of Health, Rockville, MD, USA. dingyin.tao@nih.gov.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Rai</LastName><ForeName>Ganesha</ForeName><Initials>G</Initials><AffiliationInfo><Affiliation>National Center for Advancing Translational Sciences, National Institutes of Health, Rockville, MD, USA. bantukallug@mail.nih.gov.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Henderson</LastName><ForeName>Mark J</ForeName><Initials>MJ</Initials><Identifier Source=\"ORCID\">0000-0001-8590-7338</Identifier><AffiliationInfo><Affiliation>National Center for Advancing Translational Sciences, National Institutes of Health, Rockville, MD, USA. mark.henderson2@nih.gov.</Affiliation></AffiliationInfo></Author><Author ValidYN=\"Y\"><LastName>Fang</LastName><ForeName>Shengyun</ForeName><Initials>S</Initials><Identifier Source=\"ORCID\">0000-0001-7280-5463</Identifier><AffiliationInfo><Affiliation>Department of Pharmacology and Physiology, University of Maryland School of Medicine, Baltimore, MD, USA. sfang@som.umaryland.edu.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>Program in Oncology, UM Greenebaum Comprehensive Cancer Center, University of Maryland School of Medicine, Baltimore, MD, USA. sfang@som.umaryland.edu.</Affiliation></AffiliationInfo></Author></AuthorList><Language>eng</Language><GrantList CompleteYN=\"Y\"><Grant><GrantID>5U01AR081599</GrantID><Agency>U.S. Department of Health &amp; Human Services | NIH | National Institute of Arthritis and Musculoskeletal and Skin Diseases (NIAMS)</Agency><Country/></Grant></GrantList><PublicationTypeList><PublicationType UI=\"D016428\">Journal Article</PublicationType></PublicationTypeList><ArticleDate DateType=\"Electronic\"><Year>2026</Year><Month>01</Month><Day>17</Day></ArticleDate></Article><MedlineJournalInfo><Country>England</Country><MedlineTA>Nat Commun</MedlineTA><NlmUniqueID>101528555</NlmUniqueID><ISSNLinking>2041-1723</ISSNLinking></MedlineJournalInfo><ChemicalList><Chemical><RegistryNumber>SY7Q814VUP</RegistryNumber><NameOfSubstance UI=\"D002118\">Calcium</NameOfSubstance></Chemical><Chemical><RegistryNumber>EC 1.6.-</RegistryNumber><NameOfSubstance UI=\"D050995\">Voltage-Dependent Anion Channel 1</NameOfSubstance></Chemical><Chemical><RegistryNumber>0</RegistryNumber><NameOfSubstance UI=\"D053496\">Inositol 1,4,5-Trisphosphate Receptors</NameOfSubstance></Chemical><Chemical><RegistryNumber>0</RegistryNumber><NameOfSubstance UI=\"D000071737\">Stromal Interaction Molecule 1</NameOfSubstance></Chemical><Chemical><RegistryNumber>0</RegistryNumber><NameOfSubstance UI=\"D008024\">Ligands</NameOfSubstance></Chemical><Chemical><RegistryNumber>0</RegistryNumber><NameOfSubstance UI=\"C494762\">VDAC1 protein, human</NameOfSubstance></Chemical><Chemical><RegistryNumber>0</RegistryNumber><NameOfSubstance UI=\"C103530\">STIM1 protein, human</NameOfSubstance></Chemical><Chemical><RegistryNumber>0</RegistryNumber><NameOfSubstance UI=\"D009363\">Neoplasm Proteins</NameOfSubstance></Chemical><Chemical><RegistryNumber>0</RegistryNumber><NameOfSubstance UI=\"D054852\">Small Molecule Libraries</NameOfSubstance></Chemical></ChemicalList><CitationSubset>IM</CitationSubset><MeshHeadingList><MeshHeading><DescriptorName UI=\"D006801\" MajorTopicYN=\"N\">Humans</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D002118\" MajorTopicYN=\"Y\">Calcium</DescriptorName><QualifierName UI=\"Q000378\" MajorTopicYN=\"N\">metabolism</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D060746\" MajorTopicYN=\"Y\">Endoplasmic Reticulum-Associated Degradation</DescriptorName><QualifierName UI=\"Q000187\" MajorTopicYN=\"N\">drug effects</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D006706\" MajorTopicYN=\"N\">Homeostasis</DescriptorName><QualifierName UI=\"Q000187\" MajorTopicYN=\"N\">drug effects</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D008928\" MajorTopicYN=\"N\">Mitochondria</DescriptorName><QualifierName UI=\"Q000378\" MajorTopicYN=\"N\">metabolism</QualifierName><QualifierName UI=\"Q000187\" MajorTopicYN=\"N\">drug effects</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D045744\" MajorTopicYN=\"N\">Cell Line, Tumor</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D004721\" MajorTopicYN=\"N\">Endoplasmic Reticulum</DescriptorName><QualifierName UI=\"Q000378\" MajorTopicYN=\"N\">metabolism</QualifierName><QualifierName UI=\"Q000187\" MajorTopicYN=\"N\">drug effects</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D050995\" MajorTopicYN=\"N\">Voltage-Dependent Anion Channel 1</DescriptorName><QualifierName UI=\"Q000378\" MajorTopicYN=\"N\">metabolism</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D020013\" MajorTopicYN=\"N\">Calcium Signaling</DescriptorName><QualifierName UI=\"Q000187\" MajorTopicYN=\"N\">drug effects</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D009369\" MajorTopicYN=\"Y\">Neoplasms</DescriptorName><QualifierName UI=\"Q000378\" MajorTopicYN=\"N\">metabolism</QualifierName><QualifierName UI=\"Q000473\" MajorTopicYN=\"N\">pathology</QualifierName><QualifierName UI=\"Q000188\" MajorTopicYN=\"N\">drug therapy</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D016923\" MajorTopicYN=\"N\">Cell Death</DescriptorName><QualifierName UI=\"Q000187\" MajorTopicYN=\"N\">drug effects</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D053496\" MajorTopicYN=\"N\">Inositol 1,4,5-Trisphosphate Receptors</DescriptorName><QualifierName UI=\"Q000378\" MajorTopicYN=\"N\">metabolism</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D000071737\" MajorTopicYN=\"N\">Stromal Interaction Molecule 1</DescriptorName><QualifierName UI=\"Q000378\" MajorTopicYN=\"N\">metabolism</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D008024\" MajorTopicYN=\"N\">Ligands</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D000818\" MajorTopicYN=\"N\">Animals</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI=\"D009363\" MajorTopicYN=\"N\">Neoplasm Proteins</DescriptorName><QualifierName UI=\"Q000378\" MajorTopicYN=\"N\">metabolism</QualifierName></MeshHeading><MeshHeading><DescriptorName UI=\"D054852\" MajorTopicYN=\"N\">Small Molecule Libraries</DescriptorName><QualifierName UI=\"Q000494\" MajorTopicYN=\"N\">pharmacology</QualifierName></MeshHeading></MeshHeadingList><CoiStatement>Competing interests: The authors declare no competing interests.</CoiStatement></MedlineCitation><PubmedData><History><PubMedPubDate PubStatus=\"received\"><Year>2025</Year><Month>5</Month><Day>12</Day></PubMedPubDate><PubMedPubDate PubStatus=\"accepted\"><Year>2025</Year><Month>12</Month><Day>9</Day></PubMedPubDate><PubMedPubDate PubStatus=\"medline\"><Year>2026</Year><Month>1</Month><Day>28</Day><Hour>19</Hour><Minute>21</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"pubmed\"><Year>2026</Year><Month>1</Month><Day>18</Day><Hour>0</Hour><Minute>37</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"entrez\"><Year>2026</Year><Month>1</Month><Day>17</Day><Hour>23</Hour><Minute>16</Minute></PubMedPubDate><PubMedPubDate PubStatus=\"pmc-release\"><Year>2026</Year><Month>1</Month><Day>17</Day></PubMedPubDate></History><PublicationStatus>epublish</PublicationStatus><ArticleIdList><ArticleId IdType=\"pubmed\">41547848</ArticleId><ArticleId IdType=\"doi\">10.1038/s41467-025-67816-z</ArticleId><ArticleId IdType=\"pii\">10.1038/s41467-025-67816-z</ArticleId><ArticleId IdType=\"pmc\">PMC12847789</ArticleId></ArticleIdList><ReferenceList><Reference><Citation>Vembar, S. S. &amp; Brodsky, J. L. One step at a time: endoplasmic reticulum-associated degradation. <i>Nat. Rev. Mol. Cell Biol.</i><b>9</b>, 944&#x2013;957 (2008).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1038/nrm2546</ArticleId><ArticleId IdType=\"pmc\">PMC2654601</ArticleId><ArticleId IdType=\"pubmed\">19002207</ArticleId></ArticleIdList></Reference><Reference><Citation>Christianson, J. C., Jarosch, E. &amp; Sommer, T. Mechanisms of substrate processing during ER-associated protein degradation. <i>Nat. Rev. Mol. Cell Biol.</i><b>24</b>, 777&#x2013;796 (2023).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1038/s41580-023-00633-8</ArticleId><ArticleId IdType=\"pubmed\">37528230</ArticleId></ArticleIdList></Reference><Reference><Citation>Wu, S. A., Li, Z. J. &amp; Qi, L. Endoplasmic reticulum (ER) protein degradation by ER-associated degradation and ER-phagy. <i>Trends Cell Biol.</i>10.1016/J.TCB.2025.01.002 (2025).</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC12227305</ArticleId><ArticleId IdType=\"pubmed\">39909774</ArticleId></ArticleIdList></Reference><Reference><Citation>Hebert, D. N. &amp; Molinari, M. In and out of the ER: protein folding, quality control, degradation, and related human diseases. <i>Physiol. Rev.</i><b>87</b>, 1377&#x2013;1408 (2007).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1152/physrev.00050.2006</ArticleId><ArticleId IdType=\"pubmed\">17928587</ArticleId></ArticleIdList></Reference><Reference><Citation>Ye, Y., Meyer, H. H. &amp; Rapoport, T. A. The AAA ATPase Cdc48/p97 and its partners transport proteins from the ER into the cytosol. <i>Nature</i><b>414</b>, 652&#x2013;656 (2001).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1038/414652a</ArticleId><ArticleId IdType=\"pubmed\">11740563</ArticleId></ArticleIdList></Reference><Reference><Citation>Tsai, B., Ye, Y. &amp; Rapoport, T. A. Retro-translocation of proteins from the endoplasmic reticulum into the cytosol. <i>Nat. Rev. Mol. Cell Biol.</i><b>3</b>, 246&#x2013;255 (2002).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1038/nrm780</ArticleId><ArticleId IdType=\"pubmed\">11994744</ArticleId></ArticleIdList></Reference><Reference><Citation>Goldstein, J. L., DeBose-Boyd, R. A. &amp; Brown, M. S. Protein sensors for membrane sterols. <i>Cell</i><b>124</b>, 35&#x2013;46 (2006).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1016/j.cell.2005.12.022</ArticleId><ArticleId IdType=\"pubmed\">16413480</ArticleId></ArticleIdList></Reference><Reference><Citation>Hampton, R. Y. Proteolysis and sterol regulation. <i>Annu Rev. Cell Dev. Biol.</i><b>18</b>, 345&#x2013;378 (2002).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1146/annurev.cellbio.18.032002.131219</ArticleId><ArticleId IdType=\"pubmed\">12142284</ArticleId></ArticleIdList></Reference><Reference><Citation>Gubas, A. &amp; Dikic, I. ER remodeling via ER-phagy. <i>Mol. Cell</i><b>82</b>, 1492&#x2013;1500 (2022).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1016/j.molcel.2022.02.018</ArticleId><ArticleId IdType=\"pmc\">PMC9098120</ArticleId><ArticleId IdType=\"pubmed\">35452617</ArticleId></ArticleIdList></Reference><Reference><Citation>Reggiori, F. &amp; Molinari, M. Er-Phagy: Mechanisms, Regulation, And Diseases Connected To The Lysosomal Clearance Of The Endoplasmic Reticulum. <i>Physiol. Rev.</i><b>102</b>, 1398&#x2013;1448 (2022).</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1152/physrev.00038.2021</ArticleId><ArticleId IdType=\"pmc\">PMC9126229</ArticleId><ArticleId IdType=\"pubmed\">35188422</ArticleId></ArticleIdList></Reference><Reference><Citation>Mori, K. Signalling pathways in the unfolded protein response: development from yeast to mammals. <i>J. Biochem</i><b>146</b>, 743&#x2013;750 (2009).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1093/jb/mvp166</ArticleId><ArticleId IdType=\"pubmed\">19861400</ArticleId></ArticleIdList></Reference><Reference><Citation>Travers, K. J. et al. Functional and genomic analyses reveal an essential coordination between the unfolded protein response and ER-associated degradation. <i>Cell</i><b>101</b>, 249&#x2013;258 (2000).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1016/S0092-8674(00)80835-1</ArticleId><ArticleId IdType=\"pubmed\">10847680</ArticleId></ArticleIdList></Reference><Reference><Citation>Hetz, C. &amp; Papa, F. R. The unfolded protein response and cell fate control. <i>Mol.</i><i>Cell</i><b>69</b>, 169&#x2013;181 (2018).</Citation><ArticleIdList><ArticleId IdType=\"pubmed\">29107536</ArticleId></ArticleIdList></Reference><Reference><Citation>Yong, J., Johnson, J. D., Arvan, P., Han, J. &amp; Kaufman, R. J. Therapeutic opportunities for pancreatic &#x3b2;-cell ER stress in diabetes mellitus. <i>Nat. Rev. Endocrinol.</i><b>17</b>, 455&#x2013;467 (2021).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1038/s41574-021-00510-4</ArticleId><ArticleId IdType=\"pmc\">PMC8765009</ArticleId><ArticleId IdType=\"pubmed\">34163039</ArticleId></ArticleIdList></Reference><Reference><Citation>Marciniak, S. J., Chambers, J. E. &amp; Ron, D. Pharmacological targeting of endoplasmic reticulum stress in disease. <i>Nat. Rev. Drug Discov. 2021 21:2</i><b>21</b>, 115&#x2013;140 (2021).</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1038/s41573-021-00320-3</ArticleId><ArticleId IdType=\"pubmed\">34702991</ArticleId></ArticleIdList></Reference><Reference><Citation>Cubillos-Ruiz, J. R., Bettigole, S. E. &amp; Glimcher, L. H. Tumorigenic and immunosuppressive effects of endoplasmic reticulum stress in cancer. <i>Cell</i><b>168</b>, 692&#x2013;706 (2017).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1016/j.cell.2016.12.004</ArticleId><ArticleId IdType=\"pmc\">PMC5333759</ArticleId><ArticleId IdType=\"pubmed\">28187289</ArticleId></ArticleIdList></Reference><Reference><Citation>Hetz, C., Zhang, K. &amp; Kaufman, R. J. Mechanisms, regulation and functions of the unfolded protein response. <i>Nat. Rev. Mol. Cell Biol.</i><b>21</b>, 421&#x2013;438 (2020).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1038/s41580-020-0250-z</ArticleId><ArticleId IdType=\"pmc\">PMC8867924</ArticleId><ArticleId IdType=\"pubmed\">32457508</ArticleId></ArticleIdList></Reference><Reference><Citation>Lebeaupin, C., Yong, J. &amp; Kaufman, R. J. The impact of the ER unfolded protein response on cancer initiation and progression: therapeutic implications. <i>Adv. Exp. Med Biol.</i><b>1243</b>, 113&#x2013;131 (2020).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1007/978-3-030-40204-4_8</ArticleId><ArticleId IdType=\"pmc\">PMC7243802</ArticleId><ArticleId IdType=\"pubmed\">32297215</ArticleId></ArticleIdList></Reference><Reference><Citation>&#xd6;zcan, U. et al. Endoplasmic reticulum stress links obesity, insulin action, and type 2 diabetes. <i>Science (1979)</i><b>306</b>, 457&#x2013;461 (2004).</Citation><ArticleIdList><ArticleId IdType=\"pubmed\">15486293</ArticleId></ArticleIdList></Reference><Reference><Citation>Huang, L. et al. Visualizing endoplasmic reticulum stress and autophagy in alzheimer&#x2019;s model cells by a peroxynitrite-responsive aiegen fluorescent probe. <i>ACS Chem. Neurosci.</i><b>16</b>, 223&#x2013;231 (2025).</Citation><ArticleIdList><ArticleId IdType=\"pubmed\">39763175</ArticleId></ArticleIdList></Reference><Reference><Citation>Bennett, E. J., Bence, N. F., Jayakumar, R. &amp; Kopito, R. R. Global impairment of the ubiquitin-proteasome system by nuclear or cytoplasmic protein aggregates precedes inclusion body formation. <i>Mol. Cell</i><b>17</b>, 351&#x2013;365 (2005).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1016/j.molcel.2004.12.021</ArticleId><ArticleId IdType=\"pubmed\">15694337</ArticleId></ArticleIdList></Reference><Reference><Citation>Uddin, M. S. et al. Molecular mechanisms of ER stress and UPR in the pathogenesis of alzheimer&#x2019;s disease. <i>Mol. Neurobiol.</i><b>57</b>, 2902&#x2013;2919 (2020).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1007/s12035-020-01929-y</ArticleId><ArticleId IdType=\"pubmed\">32430843</ArticleId></ArticleIdList></Reference><Reference><Citation>Huang, H. C., Tang, D., Lu, S. Y. &amp; Jiang, Z. F. Endoplasmic reticulum stress as a novel neuronal mediator in Alzheimer&#x2019;s disease. <i>Neurol. Res</i><b>37</b>, 366&#x2013;374 (2015).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1179/1743132814Y.0000000448</ArticleId><ArticleId IdType=\"pubmed\">25310352</ArticleId></ArticleIdList></Reference><Reference><Citation>Gerakis, Y. &amp; Hetz, C. Emerging roles of ER stress in the etiology and pathogenesis of Alzheimer&#x2019;s disease. <i>FEBS J.</i><b>285</b>, 995&#x2013;1011 (2018).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1111/febs.14332</ArticleId><ArticleId IdType=\"pubmed\">29148236</ArticleId></ArticleIdList></Reference><Reference><Citation>Jiang, Y., Chadwick, S. R. &amp; Lajoie, P. Endoplasmic reticulum stress: the cause and solution to Huntington&#x2019;s disease? <i>Brain Res</i><b>1648</b>, 650&#x2013;657 (2016).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1016/j.brainres.2016.03.034</ArticleId><ArticleId IdType=\"pubmed\">27040914</ArticleId></ArticleIdList></Reference><Reference><Citation>da Costa, C. A., Manaa, W., El, Duplan, E. &amp; Checler, F. The Endoplasmic Reticulum Stress/Unfolded Protein Response and Their Contributions to Parkinson&#x2019;s Disease Physiopathology. <i>Cells</i><b>9</b>, 2495 (2020).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.3390/cells9112495</ArticleId><ArticleId IdType=\"pmc\">PMC7698446</ArticleId><ArticleId IdType=\"pubmed\">33212954</ArticleId></ArticleIdList></Reference><Reference><Citation>Zhao, C., Liao, Y., Rahaman, A. &amp; Kumar, V. Towards Understanding the Relationship Between ER Stress and Unfolded Protein Response in Amyotrophic Lateral Sclerosis. <i>Front Aging Neurosci.</i><b>14</b>, 892518 (2022).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.3389/fnagi.2022.892518</ArticleId><ArticleId IdType=\"pmc\">PMC9248913</ArticleId><ArticleId IdType=\"pubmed\">35783140</ArticleId></ArticleIdList></Reference><Reference><Citation>Hetz, C. &amp; Saxena, S. ER stress and the unfolded protein response in neurodegeneration. <i>Nat. Rev. Neurol.</i><b>13</b>, 477&#x2013;491 (2017).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1038/nrneurol.2017.99</ArticleId><ArticleId IdType=\"pubmed\">28731040</ArticleId></ArticleIdList></Reference><Reference><Citation>Ma, Y. &amp; Hendershot, L. M. The role of the unfolded protein response in tumour development: friend or foe? <i>Nat. Rev. Cancer</i><b>4</b>, 966&#x2013;977 (2004).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1038/nrc1505</ArticleId><ArticleId IdType=\"pubmed\">15573118</ArticleId></ArticleIdList></Reference><Reference><Citation>Wang, M. &amp; Kaufman, R. J. The impact of the endoplasmic reticulum protein-folding environment on cancer development. <i>Nat. Rev. Cancer</i><b>14</b>, 581&#x2013;597 (2014).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1038/nrc3800</ArticleId><ArticleId IdType=\"pubmed\">25145482</ArticleId></ArticleIdList></Reference><Reference><Citation>Hetz, C., Axten, J. M. &amp; Patterson, J. B. Pharmacological targeting of the unfolded protein response for disease intervention. <i>Nat. Chem. Biol.</i><b>15</b>, 764&#x2013;775 (2019).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1038/s41589-019-0326-2</ArticleId><ArticleId IdType=\"pubmed\">31320759</ArticleId></ArticleIdList></Reference><Reference><Citation>Wu, D. et al. Research progress on endoplasmic reticulum homeostasis in kidney diseases. <i>Cell Death Dis. 2023 14:7</i><b>14</b>, 1&#x2013;12 (2023).</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC10374544</ArticleId><ArticleId IdType=\"pubmed\">37500613</ArticleId></ArticleIdList></Reference><Reference><Citation>Fribley, A. M. et al. Complementary cell-based high-throughput screens identify novel modulators of the unfolded protein response. <i>J. Biomol. Screen</i><b>16</b>, 825&#x2013;835 (2011).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1177/1087057111414893</ArticleId><ArticleId IdType=\"pmc\">PMC3374590</ArticleId><ArticleId IdType=\"pubmed\">21844328</ArticleId></ArticleIdList></Reference><Reference><Citation>Grandjean, J. M. D. et al. Pharmacologic IRE1/XBP1s activation confers targeted ER proteostasis reprogramming. <i>Nat. Chem. Biol.</i><b>16</b>, 1052&#x2013;1061 (2020).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1038/s41589-020-0584-z</ArticleId><ArticleId IdType=\"pmc\">PMC7502540</ArticleId><ArticleId IdType=\"pubmed\">32690944</ArticleId></ArticleIdList></Reference><Reference><Citation>Yan, W. et al. Auranofin targets UBA1 and enhances UBA1 activity by facilitating ubiquitin trans-thioesterification to E2 ubiquitin-conjugating enzymes. <i>Nat. Commun.</i><b>14</b>, 4798 (2023).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1038/s41467-023-40537-x</ArticleId><ArticleId IdType=\"pmc\">PMC10412574</ArticleId><ArticleId IdType=\"pubmed\">37558718</ArticleId></ArticleIdList></Reference><Reference><Citation>Zhong, Y. &amp; Fang, S. Live cell imaging of protein dislocation from the endoplasmic reticulum. <i>J. Biol. Chem.</i><b>287</b>, 28057&#x2013;28066 (2012).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1074/jbc.M112.381798</ArticleId><ArticleId IdType=\"pmc\">PMC3431711</ArticleId><ArticleId IdType=\"pubmed\">22722934</ArticleId></ArticleIdList></Reference><Reference><Citation>Cabantous, S., Terwilliger, T. C. &amp; Waldo, G. S. Protein tagging and detection with engineered self-assembling fragments of green fluorescent protein. <i>Nat. Biotechnol. 2004 23:1</i><b>23</b>, 102&#x2013;107 (2005).</Citation><ArticleIdList><ArticleId IdType=\"pubmed\">15580262</ArticleId></ArticleIdList></Reference><Reference><Citation>Riepe, C. et al. Small-molecule correctors divert CFTR-F508del from ERAD by stabilizing sequential folding states. <i>Mol. Biol. Cell</i><b>35</b>, ar15 (2024).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1091/mbc.E23-08-0336</ArticleId><ArticleId IdType=\"pmc\">PMC10881158</ArticleId><ArticleId IdType=\"pubmed\">38019608</ArticleId></ArticleIdList></Reference><Reference><Citation>Lukacs, G. L. et al. Conformational maturation of CFTR but not its mutant counterpart (&#x394;F508) occurs in the endoplasmic reticulum and requires ATP. <i>EMBO J.</i><b>13</b>, 6076&#x2013;6086 (1994).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1002/j.1460-2075.1994.tb06954.x</ArticleId><ArticleId IdType=\"pmc\">PMC395586</ArticleId><ArticleId IdType=\"pubmed\">7529176</ArticleId></ArticleIdList></Reference><Reference><Citation>Ruan, J. et al. A small-molecule inhibitor and degrader of the RNF5 ubiquitin ligase. <i>Mol. Biol. Cell</i><b>33</b>, ar120 (2022).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1091/mbc.E22-06-0233</ArticleId><ArticleId IdType=\"pmc\">PMC9634977</ArticleId><ArticleId IdType=\"pubmed\">36074076</ArticleId></ArticleIdList></Reference><Reference><Citation>Gentzsch, M. et al. Endocytic trafficking routes of wild type and DeltaF508 cystic fibrosis transmembrane conductance regulator. <i>Mol. Biol. Cell</i><b>15</b>, 2684&#x2013;2696 (2004).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1091/mbc.e04-03-0176</ArticleId><ArticleId IdType=\"pmc\">PMC420093</ArticleId><ArticleId IdType=\"pubmed\">15075371</ArticleId></ArticleIdList></Reference><Reference><Citation>Ye, Y., Meyer, H. H. &amp; Rapoport, T. A. Function of the p97-Ufd1-Npl4 complex in retrotranslocation from the ER to the cytosol: dual recognition of nonubiquitinated polypeptide segments and polyubiquitin chains. <i>J. Cell Biol.</i><b>162</b>, 71&#x2013;84 (2003).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1083/jcb.200302169</ArticleId><ArticleId IdType=\"pmc\">PMC2172719</ArticleId><ArticleId IdType=\"pubmed\">12847084</ArticleId></ArticleIdList></Reference><Reference><Citation>Chou, T. F. et al. Reversible inhibitor of p97, DBeQ, impairs both ubiquitin-dependent and autophagic protein clearance pathways. <i>Proc. Natl. Acad. Sci. USA</i><b>108</b>, 4834&#x2013;4839 (2011).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1073/pnas.1015312108</ArticleId><ArticleId IdType=\"pmc\">PMC3064330</ArticleId><ArticleId IdType=\"pubmed\">21383145</ArticleId></ArticleIdList></Reference><Reference><Citation>Magnaghi, P. et al. Covalent and allosteric inhibitors of the ATPase VCP/p97 induce cancer cell death. <i>Nat. Chem. Biol.</i><b>9</b>, 548&#x2013;559 (2013).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1038/nchembio.1313</ArticleId><ArticleId IdType=\"pubmed\">23892893</ArticleId></ArticleIdList></Reference><Reference><Citation>Li, Z. et al. Design and synthesis of minimalist terminal alkyne-containing diazirine photo-crosslinkers and their incorporation into kinase inhibitors for cell- and tissue-based proteome profiling. <i>Angew. Chem. Int Ed. Engl.</i><b>52</b>, 8551&#x2013;8556 (2013).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1002/anie.201300683</ArticleId><ArticleId IdType=\"pubmed\">23754342</ArticleId></ArticleIdList></Reference><Reference><Citation>Hein, J. E. &amp; Fokin, V. V. Copper-catalyzed azide&#x2013;alkyne cycloaddition (CuAAC) and beyond: new reactivity of copper(i) acetylides. <i>Chem. Soc. Rev.</i><b>39</b>, 1302 (2010).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1039/b904091a</ArticleId><ArticleId IdType=\"pmc\">PMC3073167</ArticleId><ArticleId IdType=\"pubmed\">20309487</ArticleId></ArticleIdList></Reference><Reference><Citation>Rosencrans, W. M., Rajendran, M., Bezrukov, S. M. &amp; Rostovtseva, T. K. VDAC regulation of mitochondrial calcium flux: from channel biophysics to disease. <i>Cell Calcium</i><b>94</b>, 102356 (2021).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1016/j.ceca.2021.102356</ArticleId><ArticleId IdType=\"pmc\">PMC7914209</ArticleId><ArticleId IdType=\"pubmed\">33529977</ArticleId></ArticleIdList></Reference><Reference><Citation>Shoshan-Barmatz, V., Shteinfer-Kuzmine, A. &amp; Verma, A. VDAC1 at the Intersection of cell metabolism, apoptosis, and diseases. <i>Biomolecules</i><b>10</b>, 1&#x2013;40 (2020).</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.3390/biom10111485</ArticleId><ArticleId IdType=\"pmc\">PMC7693975</ArticleId><ArticleId IdType=\"pubmed\">33114780</ArticleId></ArticleIdList></Reference><Reference><Citation>De Pinto, V. et al. Characterization of human VDAC isoforms: a peculiar function for VDAC3? <i>Biochim Biophys. Acta</i><b>1797</b>, 1268&#x2013;1275 (2010).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1016/j.bbabio.2010.01.031</ArticleId><ArticleId IdType=\"pubmed\">20138821</ArticleId></ArticleIdList></Reference><Reference><Citation>Li, M. et al. Structural insights into human EMC and its interaction with VDAC. <i>Aging</i><b>16</b>, 5501&#x2013;5525 (2024).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.18632/aging.205660</ArticleId><ArticleId IdType=\"pmc\">PMC11006472</ArticleId><ArticleId IdType=\"pubmed\">38517390</ArticleId></ArticleIdList></Reference><Reference><Citation>Wei, X. et al. Proteomic screens of SEL1L-HRD1 ER-associated degradation substrates reveal its role in glycosylphosphatidylinositol-anchored protein biogenesis. <i>Nat. Commun.</i><b>15</b>, 659 (2024).</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC10803770</ArticleId><ArticleId IdType=\"pubmed\">38253565</ArticleId></ArticleIdList></Reference><Reference><Citation>Molinari, M. ER-phagy responses in yeast, plants, and mammalian cells and their crosstalk with UPR and ERAD. <i>Dev. Cell</i><b>56</b>, 949&#x2013;966 (2021).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1016/j.devcel.2021.03.005</ArticleId><ArticleId IdType=\"pubmed\">33765438</ArticleId></ArticleIdList></Reference><Reference><Citation>Fasana, E., Fregno, I., Galli, C., Sold&#xe0;, T. &amp; Molinari, M. ER-to-lysosome-associated degradation acts as failsafe mechanism upon ERAD dysfunction. <i>EMBO Rep.</i><b>25</b>, 2773&#x2013;2785 (2024).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1038/s44319-024-00165-y</ArticleId><ArticleId IdType=\"pmc\">PMC11169228</ArticleId><ArticleId IdType=\"pubmed\">38773321</ArticleId></ArticleIdList></Reference><Reference><Citation>Chino, H., Hatta, T., Natsume, T. &amp; Mizushima, N. Intrinsically Disordered Protein TEX264 Mediates ER-phagy. <i>Mol. Cell</i><b>74</b>, 909&#x2013;921.e6 (2019).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1016/j.molcel.2019.03.033</ArticleId><ArticleId IdType=\"pubmed\">31006538</ArticleId></ArticleIdList></Reference><Reference><Citation>Jafari, R. et al. The cellular thermal shift assay for evaluating drug target interactions in cells. <i>Nat. Protoc.</i><b>9</b>, 2100&#x2013;2122 (2014).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1038/nprot.2014.138</ArticleId><ArticleId IdType=\"pubmed\">25101824</ArticleId></ArticleIdList></Reference><Reference><Citation>Molina, D. M. et al. Monitoring drug target engagement in cells and tissues using the cellular thermal shift assay. <i>Science</i><b>341</b>, 84&#x2013;87 (2013).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1126/science.1233606</ArticleId><ArticleId IdType=\"pubmed\">23828940</ArticleId></ArticleIdList></Reference><Reference><Citation>Rostovtseva, T. K. et al. Tubulin binding blocks mitochondrial voltage-dependent anion channel and regulates respiration. <i>Proc. Natl. Acad. Sci. USA</i><b>105</b>, 18746&#x2013;18751 (2008).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1073/pnas.0806303105</ArticleId><ArticleId IdType=\"pmc\">PMC2596221</ArticleId><ArticleId IdType=\"pubmed\">19033201</ArticleId></ArticleIdList></Reference><Reference><Citation>Rosencrans, W. M. et al. Conformational plasticity of mitochondrial VDAC2 controls the kinetics of its interaction with cytosolic proteins. <i>Sci. Adv.</i><b>11</b>, 4410 (2025).</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1126/sciadv.adv4410</ArticleId><ArticleId IdType=\"pmc\">PMC12017312</ArticleId><ArticleId IdType=\"pubmed\">40267181</ArticleId></ArticleIdList></Reference><Reference><Citation>De Kroon, A. I. P. M., Dolis, D., Mayer, A., Lill, R. &amp; De Kruijff, B. Phospholipid composition of highly purified mitochondrial outer membranes of rat liver and Neurospora crassa. Is cardiolipin present in the mitochondrial outer membrane? <i>Biochim Biophys. Acta Biomembr.</i><b>1325</b>, 108&#x2013;116 (1997).</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1016/S0005-2736(96)00240-4</ArticleId><ArticleId IdType=\"pubmed\">9106488</ArticleId></ArticleIdList></Reference><Reference><Citation>Horvath, S. E. &amp; Daum, G. Lipids of mitochondria. <i>Prog. Lipid Res</i><b>52</b>, 590&#x2013;614 (2013).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1016/j.plipres.2013.07.002</ArticleId><ArticleId IdType=\"pubmed\">24007978</ArticleId></ArticleIdList></Reference><Reference><Citation>Eddy, M. T. et al. Lipid dynamics and protein-lipid interactions in 2D crystals formed with the &#x3b2;-barrel integral membrane protein VDAC1. <i>J. Am. Chem. Soc.</i><b>134</b>, 6375&#x2013;6387 (2012).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1021/ja300347v</ArticleId><ArticleId IdType=\"pmc\">PMC3333839</ArticleId><ArticleId IdType=\"pubmed\">22435461</ArticleId></ArticleIdList></Reference><Reference><Citation>Queralt-Mart&#xed;n, M. et al. Assessing the role of residue E73 and lipid headgroup charge in VDAC1 voltage gating. <i>Biochim Biophys. Acta Bioenerg.</i><b>1860</b>, 22&#x2013;29 (2019).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1016/j.bbabio.2018.11.001</ArticleId><ArticleId IdType=\"pmc\">PMC8283775</ArticleId><ArticleId IdType=\"pubmed\">30412693</ArticleId></ArticleIdList></Reference><Reference><Citation>Teijido, O. et al. Acidification asymmetrically affects voltage-dependent anion channel implicating the involvement of salt bridges. <i>J. Biol. Chem.</i><b>289</b>, 23670&#x2013;23682 (2014).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1074/jbc.M114.576314</ArticleId><ArticleId IdType=\"pmc\">PMC4156087</ArticleId><ArticleId IdType=\"pubmed\">24962576</ArticleId></ArticleIdList></Reference><Reference><Citation>Rostovtseva, T. K., Kazemi, N., Weinrich, M. &amp; Bezrukov, S. M. Voltage gating of VDAC is regulated by nonlamellar lipids of mitochondrial membranes. <i>J. Biol. Chem.</i><b>281</b>, 37496&#x2013;37506 (2006).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1074/jbc.M602548200</ArticleId><ArticleId IdType=\"pubmed\">16990283</ArticleId></ArticleIdList></Reference><Reference><Citation>Tan, W. &amp; Colombini, M. VDAC closure increases calcium ion flux. <i>Biochim Biophys. Acta Biomembr.</i><b>1768</b>, 2510&#x2013;2515 (2007).</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1016/j.bbamem.2007.06.002</ArticleId><ArticleId IdType=\"pmc\">PMC2220155</ArticleId><ArticleId IdType=\"pubmed\">17617374</ArticleId></ArticleIdList></Reference><Reference><Citation>Rosencrans, W. M., Aguilella, V. M., Rostovtseva, T. K. &amp; Bezrukov, S. M. &#x3b1;-Synuclein emerges as a potent regulator of VDAC-facilitated calcium transport. <i>Cell Calcium</i><b>95</b>, 102355 (2021).</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC7994190</ArticleId><ArticleId IdType=\"pubmed\">33578201</ArticleId></ArticleIdList></Reference><Reference><Citation>Pittala, S. et al. The VDAC1-based R-Tf-D-LP4 peptide as a potential treatment for diabetes mellitus. <i>Cells</i><b>9</b>, 481 (2020).</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC7072803</ArticleId><ArticleId IdType=\"pubmed\">32093016</ArticleId></ArticleIdList></Reference><Reference><Citation>van Delft, M. F. et al. A small molecule interacts with VDAC2 to block mouse BAK-driven apoptosis. <i>Nat. Chem. Biol.</i><b>15</b>, 1057&#x2013;1066 (2019).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1038/s41589-019-0365-8</ArticleId><ArticleId IdType=\"pubmed\">31591564</ArticleId></ArticleIdList></Reference><Reference><Citation>Callegari, S. et al. Structure of human PINK1 at a mitochondrial TOM-VDAC array. <i>Science (1979)</i><b>17</b>, 2025 (2025).</Citation><ArticleIdList><ArticleId IdType=\"pubmed\">40080546</ArticleId></ArticleIdList></Reference><Reference><Citation>Werley, C. A., Boccardo, S., Rigamonti, A., Hansson, E. M. &amp; Cohen, A. E. Multiplexed optical sensors in arrayed islands of cells for multimodal recordings of cellular physiology. <i>Nat. Commun.</i><b>11</b>, 3881 (2020).</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC7403318</ArticleId><ArticleId IdType=\"pubmed\">32753572</ArticleId></ArticleIdList></Reference><Reference><Citation>Wilting, F. et al. The antiarrhythmic compound efsevin directly modulates voltage-dependent anion channel 2 by binding to its inner wall and enhancing mitochondrial Ca2+ uptake. <i>Br. J. Pharm.</i><b>177</b>, 2947&#x2013;2958 (2020).</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1111/bph.15022</ArticleId><ArticleId IdType=\"pmc\">PMC7279994</ArticleId><ArticleId IdType=\"pubmed\">32059260</ArticleId></ArticleIdList></Reference><Reference><Citation>Shoshan-Barmatz, V., Ben-Hail, D., Admoni, L., Krelin, Y. &amp; Tripathi, S. S. The mitochondrial voltage-dependent anion channel 1 in tumor cells. <i>Biochim Biophys. Acta Biomembr.</i><b>1848</b>, 2547&#x2013;2575 (2015).</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1016/j.bbamem.2014.10.040</ArticleId><ArticleId IdType=\"pubmed\">25448878</ArticleId></ArticleIdList></Reference><Reference><Citation>Arif, T., Shteinfer-Kuzmine, A. &amp; Shoshan-Barmatz, V. Decoding cancer through silencing the mitochondrial gatekeeper VDAC1. <i>Biomolecules</i><b>14</b>, 1304 (2024).</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC11506819</ArticleId><ArticleId IdType=\"pubmed\">39456237</ArticleId></ArticleIdList></Reference><Reference><Citation>Uhlen, M. et al. A pathology atlas of the human cancer transcriptome. <i>Science</i><b>357</b>, eaan2507 (2017).</Citation><ArticleIdList><ArticleId IdType=\"pubmed\">28818916</ArticleId></ArticleIdList></Reference><Reference><Citation>Sj&#xf6;stedt, E. et al. An atlas of the protein-coding genes in the human, pig, and mouse brain. <i>Science</i><b>367</b>, eaay5947 (2020).</Citation><ArticleIdList><ArticleId IdType=\"pubmed\">32139519</ArticleId></ArticleIdList></Reference><Reference><Citation>Atakpa-Adaji, P. &amp; Ivanova, A. IP3R at ER-Mitochondrial Contact Sites: Beyond the IP3R-GRP75-VDAC1 Ca2+ Funnel. <i>Contact (Thousand Oaks)</i><b>6</b>, 10.1177/25152564231181020 (2023).</Citation><ArticleIdList><ArticleId IdType=\"pmc\">PMC10328019</ArticleId><ArticleId IdType=\"pubmed\">37426575</ArticleId></ArticleIdList></Reference><Reference><Citation>Maruyama, T., Kanaji, T., Nakade, S., Kanno, T. &amp; Mikoshiba, K. 2APB, 2-aminoethoxydiphenyl borate, a membrane-penetrable modulator of Ins(1,4,5)P3-induced Ca2+ release. <i>J. Biochem</i><b>122</b>, 498&#x2013;505 (1997).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1093/oxfordjournals.jbchem.a021780</ArticleId><ArticleId IdType=\"pubmed\">9348075</ArticleId></ArticleIdList></Reference><Reference><Citation>Sander, P., Gudermann, T. &amp; Schredelseker, J. A calcium guard in the outer membrane: is VDAC a regulated gatekeeper of mitochondrial calcium uptake? <i>Int J. Mol. Sci.</i><b>22</b>, 1&#x2013;18 (2021).</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.3390/ijms22020946</ArticleId><ArticleId IdType=\"pmc\">PMC7833399</ArticleId><ArticleId IdType=\"pubmed\">33477936</ArticleId></ArticleIdList></Reference><Reference><Citation>Roos, J. et al. STIM1, an essential and conserved component of store-operated Ca2+ channel function. <i>J. Cell Biol.</i><b>169</b>, 435&#x2013;445 (2005).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1083/jcb.200502019</ArticleId><ArticleId IdType=\"pmc\">PMC2171946</ArticleId><ArticleId IdType=\"pubmed\">15866891</ArticleId></ArticleIdList></Reference><Reference><Citation>Zhang, S. L. et al. STIM1 is a Ca2+ sensor that activates CRAC channels and migrates from the Ca2+ store to the plasma membrane. <i>Nature</i><b>437</b>, 902&#x2013;905 (2005).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1038/nature04147</ArticleId><ArticleId IdType=\"pmc\">PMC1618826</ArticleId><ArticleId IdType=\"pubmed\">16208375</ArticleId></ArticleIdList></Reference><Reference><Citation>Tao, D. et al. Sex-partitioning of the Plasmodium falciparum stage V gametocyte proteome provides insight into falciparum-specific cell biology. <i>Mol. Cell Proteom.</i><b>13</b>, 2705&#x2013;2724 (2014).</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1074/mcp.M114.040956</ArticleId><ArticleId IdType=\"pmc\">PMC4188997</ArticleId><ArticleId IdType=\"pubmed\">25056935</ArticleId></ArticleIdList></Reference><Reference><Citation>Subramanian, A. et al. Gene set enrichment analysis: a knowledge-based approach for interpreting genome-wide expression profiles. <i>Proc. Natl. Acad. Sci. USA</i><b>102</b>, 15545&#x2013;15550 (2005).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1073/pnas.0506580102</ArticleId><ArticleId IdType=\"pmc\">PMC1239896</ArticleId><ArticleId IdType=\"pubmed\">16199517</ArticleId></ArticleIdList></Reference><Reference><Citation>Rostovtseva, T. K. et al. &#x3b1;-synuclein shows high affinity interaction with voltage-dependent anion channel, suggesting mechanisms of mitochondrial regulation and toxicity in Parkinson disease. <i>J. Biol. Chem.</i><b>290</b>, 18467&#x2013;18477 (2015).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1074/jbc.M115.641746</ArticleId><ArticleId IdType=\"pmc\">PMC4513106</ArticleId><ArticleId IdType=\"pubmed\">26055708</ArticleId></ArticleIdList></Reference><Reference><Citation>Perez-Riverol, Y. et al. The PRIDE database at 20 years: 2025 update. <i>Nucleic Acids Res</i><b>53</b>, D543&#x2013;D553 (2025).\n</Citation><ArticleIdList><ArticleId IdType=\"doi\">10.1093/nar/gkae1011</ArticleId><ArticleId IdType=\"pmc\">PMC11701690</ArticleId><ArticleId IdType=\"pubmed\">39494541</ArticleId></ArticleIdList></Reference></ReferenceList></PubmedData></PubmedArticle></PubmedArticleSet>",
+  "fetched_at": "2026-01-29T20:00:37.203Z"
+}
