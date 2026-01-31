@@ -1,31 +1,32 @@
 import { authenticate } from '@/middleware/auth';
 import { connectToDatabase } from '@/lib/db';
 import Connection from '@/models/Connection';
+import { getServerSession } from 'next-auth';
+import { authOptions } from '@/lib/auth';
 
 export async function GET(request, { params }) {
   try {
+
+    // Get session using NextAuth
+    const session = await getServerSession(authOptions);
+    
+    if (!session) {
+      return NextResponse.json(
+        { success: false, error: 'Authentication required' },
+        { status: 401 }
+      );
+    }
+
     // Await the params promise
     const { id } = await params;
     await connectToDatabase();
     
-    // Authenticate user
-    const authResult = await new Promise((resolve, reject) => {
-      authenticate(request, {
-        json: (data) => reject(data),
-        status: (code) => ({
-          json: (data) => reject(data)
-        })
-      }, (err) => {
-        if (err) reject(err);
-        else resolve(request.user);
-      });
-    });
     
-    const user = authResult;
+    const user = session.user;
     
     const connection = await Connection.findOne({ 
       _id: id,
-      user: user._id 
+      user: user.id 
     });
     
     if (!connection) {

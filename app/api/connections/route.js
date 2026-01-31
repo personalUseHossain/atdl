@@ -1,25 +1,26 @@
 import { authenticate } from '@/middleware/auth';
 import { connectToDatabase } from '@/lib/db';
 import Connection from '@/models/Connection';
+import { getServerSession } from 'next-auth';
+import { authOptions } from '@/lib/auth';
 
 export async function GET(request) {
   try {
+    
+    // Get session using NextAuth
+    const session = await getServerSession(authOptions);
+    
+    if (!session) {
+      return NextResponse.json(
+        { success: false, error: 'Authentication required' },
+        { status: 401 }
+      );
+    }
+
     await connectToDatabase();
+
     
-    // Authenticate user
-    const authResult = await new Promise((resolve, reject) => {
-      authenticate(request, {
-        json: (data) => reject(data),
-        status: (code) => ({
-          json: (data) => reject(data)
-        })
-      }, (err) => {
-        if (err) reject(err);
-        else resolve(request.user);
-      });
-    });
-    
-    const user = authResult;
+    const user = session.user;
     const { searchParams } = new URL(request.url);
     
     const page = parseInt(searchParams.get('page') || '1');
@@ -32,7 +33,7 @@ export async function GET(request) {
     const sortOrder = searchParams.get('sortOrder') || 'desc';
     
     // Build query
-    const query = { user: user._id };
+    const query = { user: user.id };
     
     if (minStrength > 1) {
       query.strength = { $gte: minStrength };
@@ -70,13 +71,13 @@ export async function GET(request) {
     
     // Get stats
     const stats = {
-      total: await Connection.countDocuments({ user: user._id }),
+      total: await Connection.countDocuments({ user: user.id }),
       averageStrength: await Connection.aggregate([
-        { $match: { user: user._id } },
+        { $match: { user: user.id } },
         { $group: { _id: null, avg: { $avg: '$strength' } } }
       ]).then(result => result[0]?.avg || 0),
       byStrength: await Connection.aggregate([
-        { $match: { user: user._id } },
+        { $match: { user: user.id } },
         { $group: { _id: '$strength', count: { $sum: 1 } } },
         { $sort: { _id: 1 } }
       ])
@@ -105,28 +106,26 @@ export async function GET(request) {
 
 export async function POST(request) {
   try {
+    // Get session using NextAuth
+    const session = await getServerSession(authOptions);
+    
+    if (!session) {
+      return NextResponse.json(
+        { success: false, error: 'Authentication required' },
+        { status: 401 }
+      );
+    }
+
     await connectToDatabase();
     
-    // Authenticate user
-    const authResult = await new Promise((resolve, reject) => {
-      authenticate(request, {
-        json: (data) => reject(data),
-        status: (code) => ({
-          json: (data) => reject(data)
-        })
-      }, (err) => {
-        if (err) reject(err);
-        else resolve(request.user);
-      });
-    });
     
-    const user = authResult;
+    const user = session.user;
     const body = await request.json();
     
     // Create new connection
     const connection = new Connection({
       ...body,
-      user: user._id,
+      user: user.id,
       created_at: new Date(),
       last_updated: new Date()
     });

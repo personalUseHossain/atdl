@@ -1,28 +1,42 @@
-import { authenticate } from '@/middleware/auth';
-import workerManager from '@/worker/MultiUserWorkerManager';
+// app/api/worker/my-workers/route.js - SIMPLER VERSION
+import { getServerSession } from 'next-auth';
+import { authOptions } from '@/lib/auth';
+import { NextResponse } from 'next/server';
+import WorkerInstance from '@/models/WorkerInstance';
+import User from '@/models/User';
+import { connectToDatabase } from '@/lib/db';
 
 export async function GET(request) {
   try {
-    // Authenticate user
-    const authResult = await new Promise((resolve, reject) => {
-      authenticate(request, {
-        json: (data) => reject(data),
-        status: (code) => ({
-          json: (data) => reject(data)
-        })
-      }, (err) => {
-        if (err) reject(err);
-        else resolve(request.user);
-      });
-    });
+    // Get session using NextAuth
+    const session = await getServerSession(authOptions);
     
-    const user = authResult;
+    if (!session) {
+      return NextResponse.json(
+        { success: false, error: 'Authentication required' },
+        { status: 401 }
+      );
+    }
+    
+    await connectToDatabase();
+    
+    // Get user from database
+    const user = await User.findById(session.user.id);
+    if (!user) {
+      return NextResponse.json(
+        { success: false, error: 'User not found' },
+        { status: 404 }
+      );
+    }
+    
+    // Update last active
+    user.stats.lastActive = new Date();
+    await user.save();
+    
     const { searchParams } = new URL(request.url);
     const limit = parseInt(searchParams.get('limit') || '20');
     const page = parseInt(searchParams.get('page') || '1');
     const status = searchParams.get('status');
-    
-    const WorkerInstance = require('@/models/WorkerInstance');
     
     // Build query
     const query = { user: user._id };
@@ -41,7 +55,7 @@ export async function GET(request) {
       .select('-logs')
       .lean();
     
-    return Response.json({
+    return NextResponse.json({
       success: true,
       workers,
       pagination: {
@@ -54,7 +68,7 @@ export async function GET(request) {
     
   } catch (error) {
     console.error('Get my workers error:', error);
-    return Response.json({
+    return NextResponse.json({
       success: false,
       error: error.message
     }, { status: 500 });

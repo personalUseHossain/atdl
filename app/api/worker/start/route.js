@@ -1,22 +1,21 @@
+import { authOptions } from '@/lib/auth';
 import { authenticate } from '@/middleware/auth';
 import workerManager from '@/worker/MultiUserWorkerManager';
+import { getServerSession } from 'next-auth';
 
 export async function POST(request) {
   try {
-    // Authenticate user
-    const authResult = await new Promise((resolve, reject) => {
-      authenticate(request, {
-        json: (data) => reject(data),
-        status: (code) => ({
-          json: (data) => reject(data)
-        })
-      }, (err) => {
-        if (err) reject(err);
-        else resolve(request.user);
-      });
-    });
+    // Get session using NextAuth
+    const session = await getServerSession(authOptions);
     
-    const user = authResult;
+    if (!session) {
+      return NextResponse.json(
+        { success: false, error: 'Authentication required' },
+        { status: 401 }
+      );
+    }
+    
+    const user = session.user;
     const body = await request.json();
     const { query, maxPapers } = body;
     
@@ -28,7 +27,7 @@ export async function POST(request) {
     
     // Start processing for this user
     const result = await workerManager.startProcessing(
-      user._id,
+      user.id,
       query || user.preferences.defaultSearchQuery,
       maxPapers || user.preferences.defaultMaxPapers,
       metadata

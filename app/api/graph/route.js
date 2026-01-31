@@ -1,25 +1,26 @@
 import { authenticate } from '@/middleware/auth';
 import { connectToDatabase } from '@/lib/db';
 import KnowledgeGraph from '@/models/KnowledgeGraph';
+import { getServerSession } from 'next-auth';
+import { authOptions } from '@/lib/auth';
 
 export async function GET(request) {
   try {
+
+    // Get session using NextAuth
+    const session = await getServerSession(authOptions);
+    
+    if (!session) {
+      return NextResponse.json(
+        { success: false, error: 'Authentication required' },
+        { status: 401 }
+      );
+    }
+
     await connectToDatabase();
+  
     
-    // Authenticate user
-    const authResult = await new Promise((resolve, reject) => {
-      authenticate(request, {
-        json: (data) => reject(data),
-        status: (code) => ({
-          json: (data) => reject(data)
-        })
-      }, (err) => {
-        if (err) reject(err);
-        else resolve(request.user);
-      });
-    });
-    
-    const user = authResult;
+    const user = session.user;
     const { searchParams } = new URL(request.url);
     const instanceId = searchParams.get('instanceId');
     const graphId = searchParams.get('graphId');
@@ -31,23 +32,23 @@ export async function GET(request) {
     
     // Get graph data based on parameters
     let knowledgeGraph;
-    let query = { user: user._id };
+    let query = { user: user.id };
     
     if (graphId) {
       // Get specific graph by ID
       knowledgeGraph = await KnowledgeGraph.findOne({
         _id: graphId,
-        user: user._id
+        user: user.id
       });
     } else if (instanceId) {
       // Get graph for specific worker instance
       knowledgeGraph = await KnowledgeGraph.findOne({
-        user: user._id,
+        user: user.id,
         workerInstance: instanceId
       }).sort({ createdAt: -1 });
     } else {
       // Get latest graph
-      knowledgeGraph = await KnowledgeGraph.findOne({ user: user._id })
+      knowledgeGraph = await KnowledgeGraph.findOne({ user: user.id })
         .sort({ createdAt: -1 });
     }
     
@@ -107,7 +108,7 @@ export async function GET(request) {
         
       case 'history':
         // Get graph history for the user
-        const historyQuery = { user: user._id };
+        const historyQuery = { user: user.id };
         if (instanceId) {
           historyQuery.workerInstance = instanceId;
         }
@@ -165,22 +166,23 @@ export async function GET(request) {
 
 export async function POST(request) {
   try {
+
+    // Get session using NextAuth
+    const session = await getServerSession(authOptions);
+    
+    if (!session) {
+      return NextResponse.json(
+        { success: false, error: 'Authentication required' },
+        { status: 401 }
+      );
+    }
+
+
     await connectToDatabase();
     
-    // Authenticate user
-    const authResult = await new Promise((resolve, reject) => {
-      authenticate(request, {
-        json: (data) => reject(data),
-        status: (code) => ({
-          json: (data) => reject(data)
-        })
-      }, (err) => {
-        if (err) reject(err);
-        else resolve(request.user);
-      });
-    });
+
     
-    const user = authResult;
+    const user = session.user;
     const data = await request.json();
     
     // Validate required fields
@@ -200,7 +202,7 @@ export async function POST(request) {
     
     // Create new graph
     const knowledgeGraph = new KnowledgeGraph({
-      user: user._id,
+      user: user.id,
       workerInstance: data.workerInstance,
       nodes: data.nodes,
       edges: data.edges,
@@ -236,20 +238,18 @@ export async function POST(request) {
 
 export async function PUT(request) {
   try {
+    // Get session using NextAuth
+    const session = await getServerSession(authOptions);
+    
+    if (!session) {
+      return NextResponse.json(
+        { success: false, error: 'Authentication required' },
+        { status: 401 }
+      );
+    }
+
     await connectToDatabase();
     
-    // Authenticate user
-    const authResult = await new Promise((resolve, reject) => {
-      authenticate(request, {
-        json: (data) => reject(data),
-        status: (code) => ({
-          json: (data) => reject(data)
-        })
-      }, (err) => {
-        if (err) reject(err);
-        else resolve(request.user);
-      });
-    });
     
     const user = authResult;
     const { searchParams } = new URL(request.url);
@@ -267,7 +267,7 @@ export async function PUT(request) {
     // Find and update graph
     const knowledgeGraph = await KnowledgeGraph.findOne({
       _id: graphId,
-      user: user._id
+      user: user.id
     });
     
     if (!knowledgeGraph) {
@@ -307,20 +307,19 @@ export async function PUT(request) {
 
 export async function DELETE(request) {
   try {
-    await connectToDatabase();
+
+    // Get session using NextAuth
+    const session = await getServerSession(authOptions);
     
-    // Authenticate user
-    const authResult = await new Promise((resolve, reject) => {
-      authenticate(request, {
-        json: (data) => reject(data),
-        status: (code) => ({
-          json: (data) => reject(data)
-        })
-      }, (err) => {
-        if (err) reject(err);
-        else resolve(request.user);
-      });
-    });
+    if (!session) {
+      return NextResponse.json(
+        { success: false, error: 'Authentication required' },
+        { status: 401 }
+      );
+    }
+
+    await connectToDatabase();
+
     
     const user = authResult;
     const { searchParams } = new URL(request.url);
@@ -336,9 +335,9 @@ export async function DELETE(request) {
     
     let query;
     if (graphId) {
-      query = { _id: graphId, user: user._id };
+      query = { _id: graphId, user: user.id };
     } else {
-      query = { workerInstance: instanceId, user: user._id };
+      query = { workerInstance: instanceId, user: user.id };
     }
     
     const result = await KnowledgeGraph.deleteMany(query);
@@ -501,21 +500,20 @@ function getTopEdges(graph, limit = 5) {
 // Additional endpoint for graph analysis
 export async function GET_ANALYSIS(request) {
   try {
+
+    // Get session using NextAuth
+    const session = await getServerSession(authOptions);
+    
+    if (!session) {
+      return NextResponse.json(
+        { success: false, error: 'Authentication required' },
+        { status: 401 }
+      );
+    }
+
+
     await connectToDatabase();
-    
-    // Authenticate user
-    const authResult = await new Promise((resolve, reject) => {
-      authenticate(request, {
-        json: (data) => reject(data),
-        status: (code) => ({
-          json: (data) => reject(data)
-        })
-      }, (err) => {
-        if (err) reject(err);
-        else resolve(request.user);
-      });
-    });
-    
+ 
     const user = authResult;
     const { searchParams } = new URL(request.url);
     const graphId = searchParams.get('graphId');
@@ -524,7 +522,7 @@ export async function GET_ANALYSIS(request) {
     // Find graph
     const knowledgeGraph = await KnowledgeGraph.findOne({
       _id: graphId,
-      user: user._id
+      user: user.id
     });
     
     if (!knowledgeGraph) {

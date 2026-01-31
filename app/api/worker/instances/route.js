@@ -2,25 +2,26 @@ import { authenticate } from '@/middleware/auth';
 import { connectToDatabase } from '@/lib/db';
 import WorkerInstance from '@/models/WorkerInstance';
 import KnowledgeGraph from '@/models/KnowledgeGraph';
+import { getServerSession } from 'next-auth';
+import { authOptions } from '@/lib/auth';
 
 export async function GET(request) {
   try {
+
+    // Get session using NextAuth
+    const session = await getServerSession(authOptions);
+    
+    if (!session) {
+      return NextResponse.json(
+        { success: false, error: 'Authentication required' },
+        { status: 401 }
+      );
+    }
+
     await connectToDatabase();
+  
     
-    // Authenticate user
-    const authResult = await new Promise((resolve, reject) => {
-      authenticate(request, {
-        json: (data) => reject(data),
-        status: (code) => ({
-          json: (data) => reject(data)
-        })
-      }, (err) => {
-        if (err) reject(err);
-        else resolve(request.user);
-      });
-    });
-    
-    const user = authResult;
+    const user = session.user;
     const { searchParams } = new URL(request.url);
     const status = searchParams.get('status');
     const limit = parseInt(searchParams.get('limit') || '50');
@@ -28,7 +29,7 @@ export async function GET(request) {
     const skip = (page - 1) * limit;
     
     // Build query
-    const query = { user: user._id };
+    const query = { user: user.id };
     if (status) {
       query.status = status;
     }
@@ -48,7 +49,7 @@ export async function GET(request) {
       workerInstances.map(async (instance) => {
         // Get the latest graph for this worker instance
         const graph = await KnowledgeGraph.findOne({
-          user: user._id,
+          user: user.id,
           workerInstance: instance._id
         })
         .sort({ createdAt: -1 })
@@ -85,22 +86,21 @@ export async function GET(request) {
 
 export async function DELETE(request) {
   try {
+
+    // Get session using NextAuth
+    const session = await getServerSession(authOptions);
+    
+    if (!session) {
+      return NextResponse.json(
+        { success: false, error: 'Authentication required' },
+        { status: 401 }
+      );
+    }
+
     await connectToDatabase();
     
-    // Authenticate user
-    const authResult = await new Promise((resolve, reject) => {
-      authenticate(request, {
-        json: (data) => reject(data),
-        status: (code) => ({
-          json: (data) => reject(data)
-        })
-      }, (err) => {
-        if (err) reject(err);
-        else resolve(request.user);
-      });
-    });
     
-    const user = authResult;
+    const user = session.user;
     const { id } = await request.json();
     
     if (!id) {
@@ -114,8 +114,8 @@ export async function DELETE(request) {
     const WorkerInstanceModel = require('@/models/WorkerInstance').default;
     const KnowledgeGraph = require('@/models/KnowledgeGraph').default;
     
-    await WorkerInstanceModel.deleteOne({ _id: id, user: user._id });
-    await KnowledgeGraph.deleteMany({ workerInstance: id, user: user._id });
+    await WorkerInstanceModel.deleteOne({ _id: id, user: user.id });
+    await KnowledgeGraph.deleteMany({ workerInstance: id, user: user.id });
     
     return Response.json({
       success: true,

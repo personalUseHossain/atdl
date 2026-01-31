@@ -4,25 +4,27 @@ import Connection from '@/models/Connection';
 import ProcessedPaper from '@/models/ProcessedPaper';
 import WorkerInstance from '@/models/WorkerInstance';
 import KnowledgeGraph from '@/models/KnowledgeGraph';
+import { getServerSession } from 'next-auth';
+import { authOptions } from '@/lib/auth';
 
 export async function GET(request) {
   try {
+
+    // Get session using NextAuth
+    const session = await getServerSession(authOptions);
+    
+    if (!session) {
+      return NextResponse.json(
+        { success: false, error: 'Authentication required' },
+        { status: 401 }
+      );
+    }
+
     await connectToDatabase();
     
-    // Authenticate user
-    const authResult = await new Promise((resolve, reject) => {
-      authenticate(request, {
-        json: (data) => reject(data),
-        status: (code) => ({
-          json: (data) => reject(data)
-        })
-      }, (err) => {
-        if (err) reject(err);
-        else resolve(request.user);
-      });
-    });
     
-    const user = authResult;
+    
+    const user = session.user;
     
     // Get all stats in parallel
     const [
@@ -33,7 +35,7 @@ export async function GET(request) {
     ] = await Promise.all([
       // Connection stats
       Connection.aggregate([
-        { $match: { user: user._id } },
+        { $match: { user: user.id } },
         { 
           $group: {
             _id: null,
@@ -53,7 +55,7 @@ export async function GET(request) {
       
       // Paper stats
       ProcessedPaper.aggregate([
-        { $match: { user: user._id } },
+        { $match: { user: user.id } },
         {
           $group: {
             _id: null,
@@ -74,7 +76,7 @@ export async function GET(request) {
       
       // Worker stats
       WorkerInstance.aggregate([
-        { $match: { user: user._id } },
+        { $match: { user: user.id } },
         {
           $group: {
             _id: '$status',
@@ -84,7 +86,7 @@ export async function GET(request) {
       ]),
       
       // Graph stats
-      KnowledgeGraph.findOne({ user: user._id })
+      KnowledgeGraph.findOne({ user: user.id })
         .sort({ createdAt: -1 })
         .select('stats metadata')
         .lean()
@@ -112,11 +114,11 @@ export async function GET(request) {
       }, {}),
       graph: graphStats?.stats || {},
       recentActivity: {
-        lastWorker: await WorkerInstance.findOne({ user: user._id })
+        lastWorker: await WorkerInstance.findOne({ user: user.id })
           .sort({ createdAt: -1 })
           .select('query status createdAt')
           .lean(),
-        lastConnection: await Connection.findOne({ user: user._id })
+        lastConnection: await Connection.findOne({ user: user.id })
           .sort({ created_at: -1 })
           .select('drug health_issue strength created_at')
           .lean()

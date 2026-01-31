@@ -40,9 +40,7 @@ export default function ConnectionDetailPage() {
     
     try {
       const response = await fetch(`/api/connections/${id}`, {
-        headers: {
-          'Authorization': `Bearer ${token || localStorage.getItem('token')}`
-        }
+       
       });
       
       if (!response.ok) {
@@ -85,17 +83,14 @@ export default function ConnectionDetailPage() {
 
   if (isLoading) {
     return (
-      <ProtectedRoute>
         <div className="min-h-screen flex items-center justify-center">
           <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600"></div>
         </div>
-      </ProtectedRoute>
     );
   }
 
   if (error) {
     return (
-      <ProtectedRoute>
         <div className="space-y-6">
           <div className="flex justify-between items-center">
             <div>
@@ -117,13 +112,11 @@ export default function ConnectionDetailPage() {
             </Link>
           </div>
         </div>
-      </ProtectedRoute>
     );
   }
 
   if (!connection) {
     return (
-      <ProtectedRoute>
         <div className="space-y-6">
           <div className="flex justify-between items-center">
             <div>
@@ -145,12 +138,10 @@ export default function ConnectionDetailPage() {
             </Link>
           </div>
         </div>
-      </ProtectedRoute>
     );
   }
 
   return (
-    <ProtectedRoute>
       <div className="space-y-6">
         {/* Header */}
         <div className="flex justify-between items-center">
@@ -388,6 +379,5 @@ export default function ConnectionDetailPage() {
           </div>
         </div>
       </div>
-    </ProtectedRoute>
   );
 }

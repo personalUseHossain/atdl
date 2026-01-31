@@ -1,57 +1,43 @@
-import { connectToDatabase } from '@/lib/db';
+// app/api/auth/register/route.js
+import { NextResponse } from 'next/server';
 import User from '@/models/User';
-import { generateToken } from '@/middleware/auth';
-import bcrypt from 'bcrypt';
+import { connectToDatabase } from '@/lib/db';
 
-export async function POST(request) {
+export async function POST(req) {
   try {
     await connectToDatabase();
     
-    const { email, name, password } = await request.json();
-    
+    const { name, email, password } = await req.json();
+
     // Check if user already exists
     const existingUser = await User.findOne({ email });
     if (existingUser) {
-      return Response.json({
-        success: false,
-        error: 'User already exists'
+      return NextResponse.json({ 
+        error: 'User already exists with this email' 
       }, { status: 400 });
     }
     
-    // Hash password
-    const hashedPassword = await bcrypt.hash(password, 10);
-    
-    // Create user
-    const user = new User({
-      email,
+    // Create new user
+    const user = await User.create({
       name,
-      password: hashedPassword,
-      workspace: {
-        name: `${name}'s Workspace`,
-        description: 'Default workspace'
-      }
+      email,
+      password
     });
     
-    await user.save();
-    
-    // Generate token
-    const token = generateToken(user);
-    
-    // Remove password from response
-    const userResponse = user.toObject();
-    delete userResponse.password;
-    
-    return Response.json({
+    return NextResponse.json({ 
       success: true,
-      user: userResponse,
-      token
-    });
+      message: 'User created successfully', 
+      user: {
+        id: user._id.toString(),
+        name: user.name,
+        email: user.email
+      }
+    }, { status: 201 });
     
   } catch (error) {
-    console.error('Registration error:', error);
-    return Response.json({
-      success: false,
-      error: error.message
+    console.error('Signup error:', error);
+    return NextResponse.json({ 
+      error: error.message || 'Internal server error' 
     }, { status: 500 });
   }
 }

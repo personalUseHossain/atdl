@@ -9,18 +9,12 @@ import {
   ChevronLeft, 
   ChevronRight,
   ExternalLink,
-  BarChart3,
   Download,
   Eye,
   EyeOff,
-  Database,
-  TrendingUp,
-  Activity,
-  Users,
-  Hash
 } from 'lucide-react';
 import Link from 'next/link';
-import ProtectedRoute from '../components/ProtectedRoute';
+import { signOut } from 'next-auth/react';
 
 export default function ConnectionsPage() {
   const { user, token } = useAuth();
@@ -58,15 +52,13 @@ export default function ConnectionsPage() {
       });
 
       const response = await fetch(`/api/connections?${params}`, {
-        headers: {
-          'Authorization': `Bearer ${token || localStorage.getItem('token')}`
-        }
+        
       });
       
       if (!response.ok) {
         if (response.status === 401) {
           // Token expired, redirect to login
-          localStorage.removeItem('token');
+          await signOut()
           window.location.href = '/login';
           return;
         }
@@ -93,9 +85,7 @@ export default function ConnectionsPage() {
     
     try {
       const response = await fetch('/api/connections/filter-options', {
-        headers: {
-          'Authorization': `Bearer ${token || localStorage.getItem('token')}`
-        }
+       
       });
       
       if (response.ok) {
@@ -116,9 +106,7 @@ export default function ConnectionsPage() {
     
     try {
       const response = await fetch('/api/user/stats', {
-        headers: {
-          'Authorization': `Bearer ${token || localStorage.getItem('token')}`
-        }
+       
       });
       
       if (response.ok) {
@@ -137,9 +125,7 @@ export default function ConnectionsPage() {
   const exportConnections = async () => {
     try {
       const response = await fetch('/api/connections/export', {
-        headers: {
-          'Authorization': `Bearer ${token || localStorage.getItem('token')}`
-        }
+        
       });
       
       if (response.ok) {
@@ -222,7 +208,6 @@ export default function ConnectionsPage() {
   };
 
   return (
-    <ProtectedRoute>
       <div className="space-y-6">
         {/* Header */}
         <div className="flex justify-between items-center">
@@ -259,78 +244,6 @@ export default function ConnectionsPage() {
           </div>
         </div>
 
-        {/* Stats Summary */}
-        {/* {stats && (
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-            <div className="bg-white overflow-hidden shadow rounded-lg">
-              <div className="p-5">
-                <div className="flex items-center">
-                  <div className="flex-shrink-0">
-                    <Database className="h-6 w-6 text-blue-600" />
-                  </div>
-                  <div className="ml-5 w-0 flex-1">
-                    <dl>
-                      <dt className="text-sm font-medium text-gray-500 truncate">Total Connections</dt>
-                      <dd className="text-lg font-medium text-gray-900">{stats.total}</dd>
-                    </dl>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-white overflow-hidden shadow rounded-lg">
-              <div className="p-5">
-                <div className="flex items-center">
-                  <div className="flex-shrink-0">
-                    <TrendingUp className="h-6 w-6 text-green-600" />
-                  </div>
-                  <div className="ml-5 w-0 flex-1">
-                    <dl>
-                      <dt className="text-sm font-medium text-gray-500 truncate">Avg Strength</dt>
-                      <dd className="text-lg font-medium text-gray-900">
-                        {typeof stats.avgStrength === 'number' ? stats.avgStrength.toFixed(2) : '0.00'}/5
-                      </dd>
-                    </dl>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-white overflow-hidden shadow rounded-lg">
-              <div className="p-5">
-                <div className="flex items-center">
-                  <div className="flex-shrink-0">
-                    <Activity className="h-6 w-6 text-purple-600" />
-                  </div>
-                  <div className="ml-5 w-0 flex-1">
-                    <dl>
-                      <dt className="text-sm font-medium text-gray-500 truncate">Max Strength</dt>
-                      <dd className="text-lg font-medium text-gray-900">{stats.maxStrength || 0}/5</dd>
-                    </dl>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-white overflow-hidden shadow rounded-lg">
-              <div className="p-5">
-                <div className="flex items-center">
-                  <div className="flex-shrink-0">
-                    <Hash className="h-6 w-6 text-yellow-600" />
-                  </div>
-                  <div className="ml-5 w-0 flex-1">
-                    <dl>
-                      <dt className="text-sm font-medium text-gray-500 truncate">By Strength</dt>
-                      <dd className="text-lg font-medium text-gray-900">
-                        {stats.byStrength?.length || 0} levels
-                      </dd>
-                    </dl>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        )} */}
 
         {/* Filters - Collapsible */}
         {showFilters && (
@@ -826,6 +739,5 @@ export default function ConnectionsPage() {
           )}
         </div>
       </div>
-    </ProtectedRoute>
   );
 }

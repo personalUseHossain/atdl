@@ -1,54 +1,46 @@
-import { connectToDatabase } from '@/lib/db';
+// app/api/auth/login/route.js
+import { NextResponse } from 'next/server';
+import dbConnect from '@/lib/mongodb';
 import User from '@/models/User';
-import { generateToken } from '@/middleware/auth';
-import bcrypt from 'bcrypt';
 
 export async function POST(request) {
   try {
-    await connectToDatabase();
+    await dbConnect();
     
     const { email, password } = await request.json();
     
-    // Find user
-    const user = await User.findOne({ email });
+    // Check if user exists
+    const user = await User.findOne({ email }).select('+password');
     if (!user) {
-      return Response.json({
-        success: false,
-        error: 'Invalid credentials'
-      }, { status: 401 });
+      return NextResponse.json(
+        { error: 'No user found with this email' },
+        { status: 401 }
+      );
     }
     
     // Check password
-    const isValidPassword = await bcrypt.compare(password, user.password);
-    if (!isValidPassword) {
-      return Response.json({
-        success: false,
-        error: 'Invalid credentials'
-      }, { status: 401 });
+    const isPasswordValid = await user.comparePassword(password);
+    if (!isPasswordValid) {
+      return NextResponse.json(
+        { error: 'Invalid password' },
+        { status: 401 }
+      );
     }
     
-    // Generate token
-    const token = generateToken(user);
+    // Return user object without password
+    const userWithoutPassword = {
+      id: user._id.toString(),
+      email: user.email,
+      name: user.name,
+      emailVerified: user.emailVerified
+    };
     
-    // Update last active
-    user.stats.lastActive = new Date();
-    await user.save();
-    
-    // Remove password from response
-    const userResponse = user.toObject();
-    delete userResponse.password;
-    
-    return Response.json({
-      success: true,
-      user: userResponse,
-      token
-    });
-    
+    return NextResponse.json(userWithoutPassword);
   } catch (error) {
     console.error('Login error:', error);
-    return Response.json({
-      success: false,
-      error: error.message
-    }, { status: 500 });
+    return NextResponse.json(
+      { error: 'Internal server error' },
+      { status: 500 }
+    );
   }
 }

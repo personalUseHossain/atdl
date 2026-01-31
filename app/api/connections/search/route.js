@@ -1,25 +1,26 @@
 import { authenticate } from '@/middleware/auth';
 import { connectToDatabase } from '@/lib/db';
 import Connection from '@/models/Connection';
+import { getServerSession } from 'next-auth';
+import { authOptions } from '@/lib/auth';
 
 export async function GET(request) {
   try {
+
+    // Get session using NextAuth
+    const session = await getServerSession(authOptions);
+    
+    if (!session) {
+      return NextResponse.json(
+        { success: false, error: 'Authentication required' },
+        { status: 401 }
+      );
+    }
+
     await connectToDatabase();
+
     
-    // Authenticate user
-    const authResult = await new Promise((resolve, reject) => {
-      authenticate(request, {
-        json: (data) => reject(data),
-        status: (code) => ({
-          json: (data) => reject(data)
-        })
-      }, (err) => {
-        if (err) reject(err);
-        else resolve(request.user);
-      });
-    });
-    
-    const user = authResult;
+    const user = session.user;
     const { searchParams } = new URL(request.url);
     const query = searchParams.get('q') || '';
     const limit = parseInt(searchParams.get('limit') || '10');
@@ -34,7 +35,7 @@ export async function GET(request) {
     // Search using text index
     const results = await Connection.find(
       { 
-        user: user._id,
+        user: user.id,
         $text: { $search: query }
       },
       { score: { $meta: 'textScore' } }
@@ -46,7 +47,7 @@ export async function GET(request) {
     // If text search doesn't yield results, try regex
     if (results.length === 0) {
       const regexResults = await Connection.find({
-        user: user._id,
+        user: user.id,
         $or: [
           { drug: { $regex: query, $options: 'i' } },
           { health_issue: { $regex: query, $options: 'i' } },

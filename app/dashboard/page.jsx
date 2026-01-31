@@ -49,9 +49,6 @@ export default function Dashboard() {
       if (!sessionId) {
         // Get latest worker
         const response = await fetch('/api/worker/my-workers?limit=1', {
-          headers: {
-            'authorization': "Bearer " + localStorage.getItem("token")
-          }
         });
         const data = await response.json();
         if (data.success && data.workers.length > 0) {
@@ -61,9 +58,6 @@ export default function Dashboard() {
       
       if (sessionId) {
         const response = await fetch(`/api/worker/status/${sessionId}`, {
-          headers: {
-            'authorization': "Bearer " + localStorage.getItem("token")
-          }
         });
         const data = await response.json();
         if (data.success) {
@@ -80,9 +74,6 @@ export default function Dashboard() {
   const fetchActiveWorkers = async () => {
     try {
       const response = await fetch('/api/worker/my-workers?status=running&limit=10', {
-        headers: {
-            'authorization': "Bearer " + localStorage.getItem("token")
-          }
       });
       const data = await response.json();
       if (data.success) {
@@ -97,9 +88,6 @@ export default function Dashboard() {
   const fetchUserStats = async () => {
     try {
       const response = await fetch('/api/user/stats', {
-        headers: {
-            'authorization': "Bearer " + localStorage.getItem("token")
-          }
       });
       const data = await response.json();
       if (data.success) {
@@ -119,9 +107,6 @@ export default function Dashboard() {
       
       if (sessionId) {
         const response = await fetch(`/api/worker/status/${sessionId}`, {
-          headers: {
-            'authorization': "Bearer " + localStorage.getItem("token")
-          }
         });
         const data = await response.json();
         if (data.success) {
@@ -143,10 +128,7 @@ export default function Dashboard() {
     try {
       const response = await fetch('/api/worker/start', {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'Authorization': `Bearer ${localStorage.getItem('token')}`
-        },
+        
         body: JSON.stringify({
           query: searchQuery || user.preferences?.defaultSearchQuery || "(drug OR compound OR supplement OR treatment) AND (aging OR longevity OR healthspan OR lifespan) AND (human OR clinical OR trial)",
           maxPapers: parseInt(maxPapers) || user.preferences?.defaultMaxPapers || 5
@@ -180,9 +162,7 @@ export default function Dashboard() {
       if (sessionId) {
         const response = await fetch(`/api/worker/stop/${sessionId}`, {
           method: 'POST',
-          headers: {
-            'Authorization': `Bearer ${localStorage.getItem('token')}`
-          }
+          
         });
 
         const data = await response.json();
@@ -213,9 +193,7 @@ export default function Dashboard() {
       try {
         const response = await fetch(`/api/cache?type=${type}`, {
           method: 'DELETE',
-          headers: {
-            'Authorization': `Bearer ${localStorage.getItem('token')}`
-          }
+          
         });
         const data = await response.json();
         if (data.success) {
@@ -321,10 +299,9 @@ export default function Dashboard() {
   };
 
   return (
-    <ProtectedRoute>
-      <div className="space-y-6">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-8">
         {/* Header with User Info */}
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-center mb-4">
           <div>
             <h1 className="text-3xl font-bold text-gray-900">Dashboard</h1>
             <p className="mt-1 text-sm text-gray-600">
@@ -582,58 +559,170 @@ export default function Dashboard() {
           )}
         </div>
 
-        {/* Cache Stats & Actions */}
-        <div className="bg-white shadow rounded-lg p-6">
-          <div className="flex justify-between items-center mb-4">
-            <h3 className="text-lg font-medium text-gray-900">Cache & Data Management</h3>
-            <div className="flex space-x-2">
-              <button
-                onClick={() => clearCache('papers')}
-                className="px-3 py-1 text-sm bg-yellow-100 hover:bg-yellow-200 text-yellow-800 rounded-md font-medium transition-colors"
-              >
-                Clear Papers Cache
-              </button>
-              <button
-                onClick={() => clearCache('pmc')}
-                className="px-3 py-1 text-sm bg-orange-100 hover:bg-orange-200 text-orange-800 rounded-md font-medium transition-colors"
-              >
-                Clear Full Text Cache
-              </button>
-              <button
-                onClick={() => clearCache('all')}
-                className="px-3 py-1 text-sm bg-red-100 hover:bg-red-200 text-red-800 rounded-md font-medium transition-colors"
-              >
-                Clear All Cache
-              </button>
-            </div>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-            <div className="bg-blue-50 p-4 rounded-lg">
-              <div className="text-2xl font-bold text-blue-700">{userStats?.cache?.papers_cached || 0}</div>
-              <div className="text-sm text-blue-600">Papers Cached</div>
-            </div>
-            <div className="bg-green-50 p-4 rounded-lg">
-              <div className="text-2xl font-bold text-green-700">{userStats?.cache?.full_text_cached || 0}</div>
-              <div className="text-sm text-green-600">Full Texts Cached</div>
-            </div>
-            <div className="bg-purple-50 p-4 rounded-lg">
-              <div className="text-2xl font-bold text-purple-700">
-                {userStats?.papers?.total || 0}
-              </div>
-              <div className="text-sm text-purple-600">Papers Processed</div>
-            </div>
-            <div className="bg-gray-50 p-4 rounded-lg">
-              <div className="text-2xl font-bold text-gray-700">
-                {workerStatus ? (
-                  <span className={`${getStatusColor(workerStatus.status).split(' ')[0]}`}>
-                    {workerStatus.progress || 0}%
-                  </span>
-                ) : '0%'}
-              </div>
-              <div className="text-sm text-gray-600">Current Progress</div>
-            </div>
+        {/* Connection stats */}
+        <div className="bg-white border border-gray-200 rounded-lg p-6">
+  <div className="flex justify-between items-center mb-6">
+    <div>
+      <h3 className="text-lg font-semibold text-gray-900">System Overview</h3>
+      <p className="text-sm text-gray-500 mt-1">Current research metrics and cache status</p>
+    </div>
+    <div className="text-xs text-gray-500">
+      Updated just now
+    </div>
+  </div>
+  
+  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+    {/* Papers Cached */}
+    <div className="border border-gray-200 rounded-lg p-4 hover:border-gray-300 transition-colors">
+      <div className="flex items-start justify-between">
+        <div>
+          <p className="text-sm font-medium text-gray-500 mb-1">Papers Cached</p>
+          <div className="flex items-baseline">
+            <span className="text-2xl font-semibold text-gray-900">
+              {userStats?.cache?.papers_cached || 0}
+            </span>
+            <span className="ml-2 text-xs text-gray-500">entries</span>
           </div>
         </div>
+        <div className="h-8 w-8 bg-gray-100 rounded flex items-center justify-center">
+          <svg className="h-4 w-4 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+          </svg>
+        </div>
+      </div>
+      <div className="mt-3 text-xs text-gray-500">
+        Scientific papers stored locally
+      </div>
+    </div>
+
+    {/* Full Texts Cached */}
+    <div className="border border-gray-200 rounded-lg p-4 hover:border-gray-300 transition-colors">
+      <div className="flex items-start justify-between">
+        <div>
+          <p className="text-sm font-medium text-gray-500 mb-1">Full Texts</p>
+          <div className="flex items-baseline">
+            <span className="text-2xl font-semibold text-gray-900">
+              {userStats?.cache?.full_text_cached || 0}
+            </span>
+            <span className="ml-2 text-xs text-gray-500">articles</span>
+          </div>
+        </div>
+        <div className="h-8 w-8 bg-gray-100 rounded flex items-center justify-center">
+          <svg className="h-4 w-4 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+          </svg>
+        </div>
+      </div>
+      <div className="mt-3 text-xs text-gray-500">
+        Complete articles with full text analysis
+      </div>
+    </div>
+
+    {/* Papers Processed */}
+    <div className="border border-gray-200 rounded-lg p-4 hover:border-gray-300 transition-colors">
+      <div className="flex items-start justify-between">
+        <div>
+          <p className="text-sm font-medium text-gray-500 mb-1">Papers Processed</p>
+          <div className="flex items-baseline">
+            <span className="text-2xl font-semibold text-gray-900">
+              {userStats?.papers?.total || 0}
+            </span>
+            <span className="ml-2 text-xs text-gray-500">total</span>
+          </div>
+        </div>
+        <div className="h-8 w-8 bg-gray-100 rounded flex items-center justify-center">
+          <svg className="h-4 w-4 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+          </svg>
+        </div>
+      </div>
+      <div className="mt-3 text-xs text-gray-500">
+        Analyzed for connections and insights
+      </div>
+    </div>
+
+    {/* Current Progress */}
+    <div className={`border rounded-lg p-4 hover:border-gray-300 transition-colors ${
+      workerStatus?.status === 'running' 
+        ? 'border-blue-200 bg-blue-50' 
+        : 'border-gray-200'
+    }`}>
+      <div className="flex items-start justify-between">
+        <div>
+          <p className="text-sm font-medium text-gray-500 mb-1">Current Progress</p>
+          <div className="flex items-baseline">
+            <span className={`text-2xl font-semibold ${
+              workerStatus?.status === 'running' 
+                ? 'text-blue-700' 
+                : 'text-gray-900'
+            }`}>
+              {workerStatus?.progress || 0}%
+            </span>
+            <span className="ml-2 text-xs text-gray-500 capitalize">
+              {workerStatus?.status || 'idle'}
+            </span>
+          </div>
+        </div>
+        <div className={`h-8 w-8 rounded flex items-center justify-center ${
+          workerStatus?.status === 'running' 
+            ? 'bg-blue-100' 
+            : 'bg-gray-100'
+        }`}>
+          {workerStatus?.status === 'running' ? (
+            <div className="h-3 w-3 bg-blue-600 rounded-full animate-pulse"></div>
+          ) : workerStatus?.status === 'completed' ? (
+            <svg className="h-4 w-4 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+            </svg>
+          ) : (
+            <svg className="h-4 w-4 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          )}
+        </div>
+      </div>
+      <div className="mt-3">
+        <div className="w-full bg-gray-200 rounded-full h-1.5">
+          <div 
+            className={`h-1.5 rounded-full transition-all duration-300 ${
+              workerStatus?.status === 'running' ? 'bg-blue-600' :
+              workerStatus?.status === 'completed' ? 'bg-green-600' :
+              workerStatus?.status === 'error' ? 'bg-red-600' :
+              'bg-gray-400'
+            }`}
+            style={{ width: `${workerStatus?.progress || 0}%` }}
+          ></div>
+        </div>
+        <div className="mt-2 text-xs text-gray-500">
+          {workerStatus?.currentStep || 'Ready to process'}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {/* Connection Stats (if you want to add them) */}
+  {userStats?.connections?.total > 0 && (
+    <div className="mt-6 pt-6 border-t border-gray-200">
+      <h4 className="text-sm font-medium text-gray-900 mb-3">Connection Insights</h4>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="border border-gray-200 rounded p-3">
+          <p className="text-xs text-gray-500">Total Connections</p>
+          <p className="text-lg font-semibold text-gray-900">{userStats.connections.total}</p>
+        </div>
+        <div className="border border-gray-200 rounded p-3">
+          <p className="text-xs text-gray-500">Avg. Strength</p>
+          <p className="text-lg font-semibold text-gray-900">
+            {parseFloat(userStats.connections.avgStrength).toFixed(1)}
+          </p>
+        </div>
+        <div className="border border-gray-200 rounded p-3">
+          <p className="text-xs text-gray-500">Max Strength</p>
+          <p className="text-lg font-semibold text-gray-900">{userStats.connections.maxStrength}</p>
+        </div>
+      </div>
+    </div>
+  )}
+</div>
 
         {/* Recent Activity */}
         {userStats?.recentActivity && (
@@ -736,6 +825,5 @@ export default function Dashboard() {
           </div>
         </div>
       </div>
-    </ProtectedRoute>
   );
 }

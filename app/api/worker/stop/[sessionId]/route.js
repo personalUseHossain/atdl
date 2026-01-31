@@ -1,31 +1,30 @@
+import { authOptions } from '@/lib/auth';
 import { authenticate } from '@/middleware/auth';
 import workerManager from '@/worker/MultiUserWorkerManager';
+import { getServerSession } from 'next-auth';
 
 export async function POST(request, { params }) {
   try {
     // Await the params promise
     const { sessionId } = await params;
     
-    // Authenticate user
-    const authResult = await new Promise((resolve, reject) => {
-      authenticate(request, {
-        json: (data) => reject(data),
-        status: (code) => ({
-          json: (data) => reject(data)
-        })
-      }, (err) => {
-        if (err) reject(err);
-        else resolve(request.user);
-      });
-    });
+    // Get session using NextAuth
+    const session = await getServerSession(authOptions);
     
-    const user = authResult;
+    if (!session) {
+      return NextResponse.json(
+        { success: false, error: 'Authentication required' },
+        { status: 401 }
+      );
+    }
+    
+    const user = session.user;
     
     // Verify user owns this worker
     const WorkerInstance = require('@/models/WorkerInstance');
     const worker = await WorkerInstance.findOne({ 
       sessionId, 
-      user: user._id 
+      user: user.id 
     });
     
     if (!worker) {

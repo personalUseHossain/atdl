@@ -127,11 +127,8 @@ export default function KnowledgeGraphPage() {
   const loadWorkerInstances = async () => {
     setIsLoadingInstances(true);
     try {
-      const token = localStorage.getItem("token");
       const response = await fetch('/api/worker/instances', {
-        headers: {
-          "authorization": token
-        }
+        
       });
       const data = await response.json();
       
@@ -166,11 +163,8 @@ export default function KnowledgeGraphPage() {
     setIsLoading(true);
     setError(null);
     try {
-      const token = localStorage.getItem("token");
       const response = await fetch(`/api/graph?instanceId=${instanceId}`, {
-        headers: {
-          "authorization": token
-        }
+        
       });
       const data = await response.json();
       
@@ -253,13 +247,9 @@ export default function KnowledgeGraphPage() {
     
     setIsDeleting(true);
     try {
-      const token = localStorage.getItem("token");
       const response = await fetch('/api/worker/instances', {
         method: 'DELETE',
-        headers: { 
-          'Content-Type': 'application/json',
-          "authorization": token
-        },
+        
         body: JSON.stringify({ id: instanceId })
       });
       
