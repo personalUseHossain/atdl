@@ -1,11 +1,11 @@
 // app/api/auth/login/route.js
 import { NextResponse } from 'next/server';
-import dbConnect from '@/lib/mongodb';
 import User from '@/models/User';
+import { connectToDatabase } from '@/lib/db';
 
 export async function POST(request) {
   try {
-    await dbConnect();
+    await connectToDatabase();
     
     const { email, password } = await request.json();
     
